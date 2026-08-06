@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Visual Studio
+.vs/
+
+# VS Code
+.vscode/
+
+# Excel temporary files
+~$*.xlsx
