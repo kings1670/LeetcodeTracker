@@ -2,8 +2,8 @@ name: Daily LeetCode Tracker
 
 on:
   schedule:
-    # Runs every day at 6:15 PM UTC = 11:45 PM IST
-    - cron: '15 18 * * *'
+    # Runs every day at 6:15 PM UTC = 10:55 PM IST
+    - cron: '25 17 * * *'
 
   workflow_dispatch:
 
