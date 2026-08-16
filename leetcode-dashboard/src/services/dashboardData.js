@@ -238,3 +238,70 @@ export function getDayPerformanceSnapshot(data, dateStr, className = "All Classe
         students: classStudents
     };
 }
+
+let cachedActivityData = null;
+
+export async function fetchActivityAnalysis() {
+    if (cachedActivityData) {
+        return cachedActivityData;
+    }
+
+    try {
+        const baseUrl = import.meta.env.BASE_URL || "/";
+        const dataUrl = `${baseUrl.endsWith("/") ? baseUrl : baseUrl + "/"}data/activity-analysis.json`;
+        const response = await fetch(dataUrl, {
+            cache: "no-cache",
+            headers: {
+                "Accept": "application/json"
+            }
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const data = await response.json();
+        cachedActivityData = data;
+        return data;
+    } catch (error) {
+        console.warn("[dashboardData] Failed to load /data/activity-analysis.json.", error);
+        return null;
+    }
+}
+
+let cachedLatestSubmissions = null;
+let cachedProblemCache = null;
+
+export async function fetchLatestSubmissions() {
+    if (cachedLatestSubmissions) return cachedLatestSubmissions;
+    try {
+        const baseUrl = import.meta.env.BASE_URL || "/";
+        const dataUrl = `${baseUrl.endsWith("/") ? baseUrl : baseUrl + "/"}data/latest-submissions.json`;
+        const response = await fetch(dataUrl, { cache: "no-cache", headers: { "Accept": "application/json" } });
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const data = await response.json();
+        cachedLatestSubmissions = data;
+        return data;
+    } catch (error) {
+        console.warn("[dashboardData] Failed to load latest-submissions.json", error);
+        return null;
+    }
+}
+
+export async function fetchProblemCache() {
+    if (cachedProblemCache) return cachedProblemCache;
+    try {
+        const baseUrl = import.meta.env.BASE_URL || "/";
+        const dataUrl = `${baseUrl.endsWith("/") ? baseUrl : baseUrl + "/"}data/problem-cache.json`;
+        const response = await fetch(dataUrl, { cache: "no-cache", headers: { "Accept": "application/json" } });
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const data = await response.json();
+        cachedProblemCache = data;
+        return data;
+    } catch (error) {
+        console.warn("[dashboardData] Failed to load problem-cache.json", error);
+        return null;
+    }
+}
+
+

@@ -7,12 +7,14 @@
   ],
   "summary": {
     "totalStudents": 123,
-    "activeStudents": 117,
-    "totalProblemsSolved": 13260,
-    "solvedToday": 79,
-    "weeklyImprovement": 5910,
+    "activeStudents": 87,
+    "inactiveStudents": 30,
+    "neverActiveStudents": 6,
+    "totalProblemsSolved": 13261,
+    "solvedToday": 80,
+    "weeklyImprovement": 5911,
     "easyTotal": 6225,
-    "mediumTotal": 5673,
+    "mediumTotal": 5674,
     "hardTotal": 1362,
     "avgSolved": 108
   },
@@ -50,7 +52,7 @@
     {
       "date": "2026-08-16",
       "day": "16 Aug",
-      "solved": 13260
+      "solved": 13261
     }
   ],
   "fullHistoryTrend": [
@@ -197,7 +199,7 @@
     {
       "date": "2026-08-16",
       "day": "16 Aug",
-      "solved": 13260
+      "solved": 13261
     }
   ],
   "classDailyTrends": {
@@ -492,7 +494,7 @@
       {
         "date": "2026-08-16",
         "day": "16 Aug",
-        "solved": 10831
+        "solved": 10832
       }
     ]
   },
@@ -511,11 +513,11 @@
     "III CSD A": {
       "totalStudents": 61,
       "activeStudents": 61,
-      "totalProblemsSolved": 10831,
-      "solvedToday": 70,
-      "weeklyImprovement": 4826,
+      "totalProblemsSolved": 10832,
+      "solvedToday": 71,
+      "weeklyImprovement": 4827,
       "easyTotal": 4813,
-      "mediumTotal": 4771,
+      "mediumTotal": 4772,
       "hardTotal": 1247,
       "avgSolved": 178
     }
@@ -1239,10 +1241,10 @@
       "department": "III CSD A",
       "leetcodeUsername": "BrindhaP26",
       "easy": 67,
-      "medium": 61,
+      "medium": 62,
       "hard": 18,
-      "totalSolved": 146,
-      "improvement": 1,
+      "totalSolved": 147,
+      "improvement": 2,
       "streak": 6,
       "lastActive": "Today",
       "status": "Active"
@@ -41553,9 +41555,9 @@
       "date": "2026-08-16",
       "dateFormatted": "16 Aug",
       "summary": {
-        "totalSolved": 13260,
+        "totalSolved": 13261,
         "easyTotal": 6225,
-        "mediumTotal": 5673,
+        "mediumTotal": 5674,
         "hardTotal": 1362,
         "activeStudents": 117,
         "improvedCount": 28,
@@ -41574,9 +41576,9 @@
           "declined": 0
         },
         "III CSD A": {
-          "total": 10831,
+          "total": 10832,
           "easy": 4813,
-          "medium": 4771,
+          "medium": 4772,
           "hard": 1247,
           "active": 61,
           "improved": 24,
@@ -41997,10 +41999,10 @@
           "name": "P.Brindha",
           "department": "III CSD A",
           "easy": 67,
-          "medium": 61,
+          "medium": 62,
           "hard": 18,
-          "totalSolved": 146,
-          "improvement": 1,
+          "totalSolved": 147,
+          "improvement": 2,
           "rank": 38
         },
         {
@@ -42940,5 +42942,3568 @@
         }
       ]
     }
+  },
+  "inactiveStudents": [
+    {
+      "rollNumber": "310625150009",
+      "name": "Gokul J",
+      "username": "gokul_jayakumar",
+      "department": "II CSD A",
+      "totalSolved": 0,
+      "lastActiveDate": "Never",
+      "daysSinceLastActivity": null,
+      "inactivityType": "NEVER_ACTIVE"
+    },
+    {
+      "rollNumber": "310625150014",
+      "name": "Harsha G G",
+      "username": "GFjou375Qz",
+      "department": "II CSD A",
+      "totalSolved": 0,
+      "lastActiveDate": "Never",
+      "daysSinceLastActivity": null,
+      "inactivityType": "NEVER_ACTIVE"
+    },
+    {
+      "rollNumber": "310625150030",
+      "name": "Naveen S",
+      "username": "onboarding",
+      "department": "II CSD A",
+      "totalSolved": 0,
+      "lastActiveDate": "Never",
+      "daysSinceLastActivity": null,
+      "inactivityType": "NEVER_ACTIVE"
+    },
+    {
+      "rollNumber": "310625150038",
+      "name": "Ragav Raj R",
+      "username": "soulreaper_110_",
+      "department": "II CSD A",
+      "totalSolved": 0,
+      "lastActiveDate": "Never",
+      "daysSinceLastActivity": null,
+      "inactivityType": "NEVER_ACTIVE"
+    },
+    {
+      "rollNumber": "310625150040",
+      "name": "Rohitraj R C",
+      "username": "problemset",
+      "department": "II CSD A",
+      "totalSolved": 0,
+      "lastActiveDate": "Never",
+      "daysSinceLastActivity": null,
+      "inactivityType": "NEVER_ACTIVE"
+    },
+    {
+      "rollNumber": "310625150058",
+      "name": "Vidjaykhumaar V",
+      "username": "VidjayKhumaarV",
+      "department": "II CSD A",
+      "totalSolved": 0,
+      "lastActiveDate": "Never",
+      "daysSinceLastActivity": null,
+      "inactivityType": "NEVER_ACTIVE"
+    },
+    {
+      "rollNumber": "310625150003",
+      "name": "Aravindhan A",
+      "username": "Aravindhan_2007",
+      "department": "II CSD A",
+      "totalSolved": 2,
+      "lastActiveDate": "2026-08-04",
+      "daysSinceLastActivity": 12,
+      "inactivityType": "INACTIVE_RECENT"
+    },
+    {
+      "rollNumber": "310625150005",
+      "name": "Bharanidharan P",
+      "username": "F0zbS7LgPy",
+      "department": "II CSD A",
+      "totalSolved": 2,
+      "lastActiveDate": "2026-07-14",
+      "daysSinceLastActivity": 33,
+      "inactivityType": "INACTIVE_LONG_TERM"
+    },
+    {
+      "rollNumber": "310625150060",
+      "name": "Vishal Vedanth M P",
+      "username": "orrBi7Z7jN",
+      "department": "II CSD A",
+      "totalSolved": 3,
+      "lastActiveDate": "2026-07-28",
+      "daysSinceLastActivity": 19,
+      "inactivityType": "INACTIVE_LONG_TERM"
+    },
+    {
+      "rollNumber": "310625150010",
+      "name": "Guruprasath S",
+      "username": "Guruprasath2008",
+      "department": "II CSD A",
+      "totalSolved": 4,
+      "lastActiveDate": "2026-07-28",
+      "daysSinceLastActivity": 19,
+      "inactivityType": "INACTIVE_LONG_TERM"
+    },
+    {
+      "rollNumber": "310625150045",
+      "name": "Sanjaysaran R",
+      "username": "Sanjaysrn",
+      "department": "II CSD A",
+      "totalSolved": 4,
+      "lastActiveDate": "2026-07-21",
+      "daysSinceLastActivity": 26,
+      "inactivityType": "INACTIVE_LONG_TERM"
+    },
+    {
+      "rollNumber": "310625150006",
+      "name": "Bharath Rikkesh R G",
+      "username": "Bharath_Rikkesh",
+      "department": "II CSD A",
+      "totalSolved": 5,
+      "lastActiveDate": "2026-07-20",
+      "daysSinceLastActivity": 27,
+      "inactivityType": "INACTIVE_LONG_TERM"
+    },
+    {
+      "rollNumber": "310625150034",
+      "name": "Padman M",
+      "username": "padman2007",
+      "department": "II CSD A",
+      "totalSolved": 5,
+      "lastActiveDate": "2026-07-16",
+      "daysSinceLastActivity": 31,
+      "inactivityType": "INACTIVE_LONG_TERM"
+    },
+    {
+      "rollNumber": "310624150013",
+      "name": "Dhenuka Sabareeswaran",
+      "username": "Dhenuka06",
+      "department": "III CSD A",
+      "totalSolved": 7,
+      "lastActiveDate": "2026-07-29",
+      "daysSinceLastActivity": 18,
+      "inactivityType": "INACTIVE_LONG_TERM"
+    },
+    {
+      "rollNumber": "310625150062",
+      "name": "Yokesh S D",
+      "username": "Yokeshyoki23",
+      "department": "II CSD A",
+      "totalSolved": 8,
+      "lastActiveDate": "2026-08-04",
+      "daysSinceLastActivity": 12,
+      "inactivityType": "INACTIVE_RECENT"
+    },
+    {
+      "rollNumber": "310625150039",
+      "name": "Rajapriyan S",
+      "username": "Rajapriyan-2007",
+      "department": "II CSD A",
+      "totalSolved": 10,
+      "lastActiveDate": "2026-08-04",
+      "daysSinceLastActivity": 12,
+      "inactivityType": "INACTIVE_RECENT"
+    },
+    {
+      "rollNumber": "310625150022",
+      "name": "Jonathan Roshan D",
+      "username": "Jonathanr_dev",
+      "department": "II CSD A",
+      "totalSolved": 12,
+      "lastActiveDate": "2026-07-14",
+      "daysSinceLastActivity": 33,
+      "inactivityType": "INACTIVE_LONG_TERM"
+    },
+    {
+      "rollNumber": "310625150026",
+      "name": "Maga Shree V M",
+      "username": "MAGASHREE-26",
+      "department": "II CSD A",
+      "totalSolved": 13,
+      "lastActiveDate": "2026-07-14",
+      "daysSinceLastActivity": 33,
+      "inactivityType": "INACTIVE_LONG_TERM"
+    },
+    {
+      "rollNumber": "310625150054",
+      "name": "Sushmitha T",
+      "username": "Sushmitha2008",
+      "department": "II CSD A",
+      "totalSolved": 17,
+      "lastActiveDate": "2026-08-04",
+      "daysSinceLastActivity": 12,
+      "inactivityType": "INACTIVE_RECENT"
+    },
+    {
+      "rollNumber": "310624150055",
+      "name": "Vigneshwar P",
+      "username": "vigneshwar20",
+      "department": "III CSD A",
+      "totalSolved": 18,
+      "lastActiveDate": "2026-07-31",
+      "daysSinceLastActivity": 16,
+      "inactivityType": "INACTIVE_LONG_TERM"
+    },
+    {
+      "rollNumber": "310625150042",
+      "name": "Saicharan T K S",
+      "username": "sai_0511",
+      "department": "II CSD A",
+      "totalSolved": 18,
+      "lastActiveDate": "2026-07-14",
+      "daysSinceLastActivity": 33,
+      "inactivityType": "INACTIVE_LONG_TERM"
+    },
+    {
+      "rollNumber": "310624150011",
+      "name": "Clarus Maria Sharadh.S",
+      "username": "clarus310624150011",
+      "department": "III CSD A",
+      "totalSolved": 21,
+      "lastActiveDate": "2026-07-14",
+      "daysSinceLastActivity": 33,
+      "inactivityType": "INACTIVE_LONG_TERM"
+    },
+    {
+      "rollNumber": "310625150032",
+      "name": "Nikhil Siva Sai Y S",
+      "username": "niki141628",
+      "department": "II CSD A",
+      "totalSolved": 25,
+      "lastActiveDate": "2026-08-08",
+      "daysSinceLastActivity": 8,
+      "inactivityType": "INACTIVE_RECENT"
+    },
+    {
+      "rollNumber": "310625150024",
+      "name": "Krishanth K B",
+      "username": "krishanth26",
+      "department": "II CSD A",
+      "totalSolved": 29,
+      "lastActiveDate": "2026-08-03",
+      "daysSinceLastActivity": 13,
+      "inactivityType": "INACTIVE_RECENT"
+    },
+    {
+      "rollNumber": "310625150057",
+      "name": "Versha Reddy P",
+      "username": "VERSHAREDDY",
+      "department": "II CSD A",
+      "totalSolved": 38,
+      "lastActiveDate": "2026-07-29",
+      "daysSinceLastActivity": 18,
+      "inactivityType": "INACTIVE_LONG_TERM"
+    },
+    {
+      "rollNumber": "310625150007",
+      "name": "Bhuvana Pradishna D",
+      "username": "bhuvana_pradishna_d",
+      "department": "II CSD A",
+      "totalSolved": 46,
+      "lastActiveDate": "2026-08-07",
+      "daysSinceLastActivity": 9,
+      "inactivityType": "INACTIVE_RECENT"
+    },
+    {
+      "rollNumber": "310625150050",
+      "name": "Shradha Singh",
+      "username": "shradha8",
+      "department": "II CSD A",
+      "totalSolved": 51,
+      "lastActiveDate": "2026-08-04",
+      "daysSinceLastActivity": 12,
+      "inactivityType": "INACTIVE_RECENT"
+    },
+    {
+      "rollNumber": "310624150040",
+      "name": "Santhosh Raj.S",
+      "username": "santhoshhh123",
+      "department": "III CSD A",
+      "totalSolved": 61,
+      "lastActiveDate": "2026-08-01",
+      "daysSinceLastActivity": 15,
+      "inactivityType": "INACTIVE_LONG_TERM"
+    },
+    {
+      "rollNumber": "310625150048",
+      "name": "Shankari K Bhatt",
+      "username": "Shankarikbhatt",
+      "department": "II CSD A",
+      "totalSolved": 70,
+      "lastActiveDate": "2026-07-21",
+      "daysSinceLastActivity": 26,
+      "inactivityType": "INACTIVE_LONG_TERM"
+    },
+    {
+      "rollNumber": "310625150059",
+      "name": "Vijayalakshmi V",
+      "username": "__Vijayalakshmi_",
+      "department": "II CSD A",
+      "totalSolved": 81,
+      "lastActiveDate": "2026-08-04",
+      "daysSinceLastActivity": 12,
+      "inactivityType": "INACTIVE_RECENT"
+    },
+    {
+      "rollNumber": "310625150056",
+      "name": "Vasundra M S",
+      "username": "Vasundra_MS",
+      "department": "II CSD A",
+      "totalSolved": 87,
+      "lastActiveDate": "2026-08-04",
+      "daysSinceLastActivity": 12,
+      "inactivityType": "INACTIVE_RECENT"
+    },
+    {
+      "rollNumber": "310625150036",
+      "name": "Priyanka L",
+      "username": "priyankaleetcode14",
+      "department": "II CSD A",
+      "totalSolved": 88,
+      "lastActiveDate": "2026-08-04",
+      "daysSinceLastActivity": 12,
+      "inactivityType": "INACTIVE_RECENT"
+    },
+    {
+      "rollNumber": "310624150016",
+      "name": "GOUTHAMG",
+      "username": "gouthamhg",
+      "department": "III CSD A",
+      "totalSolved": 96,
+      "lastActiveDate": "2026-08-05",
+      "daysSinceLastActivity": 11,
+      "inactivityType": "INACTIVE_RECENT"
+    },
+    {
+      "rollNumber": "310624150060",
+      "name": "Yogamaya M",
+      "username": "yoga8",
+      "department": "III CSD A",
+      "totalSolved": 129,
+      "lastActiveDate": "2026-08-08",
+      "daysSinceLastActivity": 8,
+      "inactivityType": "INACTIVE_RECENT"
+    },
+    {
+      "rollNumber": "310624150032",
+      "name": "preethi. S",
+      "username": "preethi231206",
+      "department": "III CSD A",
+      "totalSolved": 161,
+      "lastActiveDate": "2026-08-02",
+      "daysSinceLastActivity": 14,
+      "inactivityType": "INACTIVE_RECENT"
+    },
+    {
+      "rollNumber": "310624150008",
+      "name": "Bharat Raj R",
+      "username": "Bharat_Raj_",
+      "department": "III CSD A",
+      "totalSolved": 175,
+      "lastActiveDate": "2026-08-01",
+      "daysSinceLastActivity": 15,
+      "inactivityType": "INACTIVE_LONG_TERM"
+    }
+  ],
+  "studentDistribution": {
+    "solved0": 95,
+    "solved1": 9,
+    "solved2": 8,
+    "solved3plus": 11,
+    "percentages": {
+      "solved0": 77.24,
+      "solved1": 7.32,
+      "solved2": 6.5,
+      "solved3plus": 8.94
+    }
+  },
+  "yesterdayTopStudents": [
+    {
+      "rollNumber": "310624150028",
+      "name": "NERAIMATHI.K",
+      "username": "Neraimathi1102",
+      "department": "III CSD A",
+      "problemsSolved": 6
+    },
+    {
+      "rollNumber": "310624150031",
+      "name": "Pravin.M",
+      "username": "Pravin06",
+      "department": "III CSD A",
+      "problemsSolved": 6
+    },
+    {
+      "rollNumber": "310624150054",
+      "name": "Vidhya Raj",
+      "username": "Vidhya_0497",
+      "department": "III CSD A",
+      "problemsSolved": 6
+    },
+    {
+      "rollNumber": "310624150048",
+      "name": "K S Tarunika",
+      "username": "tarunika_ks",
+      "department": "III CSD A",
+      "problemsSolved": 5
+    },
+    {
+      "rollNumber": "310625150046",
+      "name": "Sankrisha S",
+      "username": "Sankrisha",
+      "department": "II CSD A",
+      "problemsSolved": 3
+    },
+    {
+      "rollNumber": "310624150043",
+      "name": "Shreya V",
+      "username": "_Shreya_1304",
+      "department": "III CSD A",
+      "problemsSolved": 3
+    },
+    {
+      "rollNumber": "310625150002",
+      "name": "Abisha A",
+      "username": "Abisha_2007",
+      "department": "II CSD A",
+      "problemsSolved": 2
+    },
+    {
+      "rollNumber": "310624150015",
+      "name": "Gautham B",
+      "username": "Gautham76",
+      "department": "III CSD A",
+      "problemsSolved": 2
+    },
+    {
+      "rollNumber": "310624150019",
+      "name": "V.Harikrishnan",
+      "username": "Harikrishnan20060",
+      "department": "III CSD A",
+      "problemsSolved": 2
+    },
+    {
+      "rollNumber": "310624150044",
+      "name": "Srihari Charan.R",
+      "username": "SrihariCharan",
+      "department": "III CSD A",
+      "problemsSolved": 2
+    },
+    {
+      "rollNumber": "310624150045",
+      "name": "Sri Varsha S",
+      "username": "srivarshasenthilkumar",
+      "department": "III CSD A",
+      "problemsSolved": 2
+    },
+    {
+      "rollNumber": "310624150059",
+      "name": "Vishali. M",
+      "username": "vishali2622",
+      "department": "III CSD A",
+      "problemsSolved": 2
+    },
+    {
+      "rollNumber": "310625150043",
+      "name": "Sameera Banu A",
+      "username": "SameeraAkbar",
+      "department": "II CSD A",
+      "problemsSolved": 1
+    },
+    {
+      "rollNumber": "310625150049",
+      "name": "Shanmathi S",
+      "username": "Shanmathi2008",
+      "department": "II CSD A",
+      "problemsSolved": 1
+    },
+    {
+      "rollNumber": "310625150051",
+      "name": "Subhapriyan S",
+      "username": "97QbZSL4Ed",
+      "department": "II CSD A",
+      "problemsSolved": 1
+    },
+    {
+      "rollNumber": "310624150004",
+      "name": "A.Alin Brasen",
+      "username": "alinbrasen08",
+      "department": "III CSD A",
+      "problemsSolved": 1
+    },
+    {
+      "rollNumber": "310624150005",
+      "name": "Anbu mani .A",
+      "username": "anbumani16",
+      "department": "III CSD A",
+      "problemsSolved": 1
+    },
+    {
+      "rollNumber": "310624150006",
+      "name": "SR.Archana",
+      "username": "Archana_official",
+      "department": "III CSD A",
+      "problemsSolved": 1
+    },
+    {
+      "rollNumber": "310624150010",
+      "name": "P.Brindha",
+      "username": "BrindhaP26",
+      "department": "III CSD A",
+      "problemsSolved": 1
+    },
+    {
+      "rollNumber": "310624150027",
+      "name": "S.Naveen kumar",
+      "username": "navdak17",
+      "department": "III CSD A",
+      "problemsSolved": 1
+    },
+    {
+      "rollNumber": "310624150039",
+      "name": "Santhosh Kanna",
+      "username": "santhoshkanna27",
+      "department": "III CSD A",
+      "problemsSolved": 1
+    },
+    {
+      "rollNumber": "310624150041",
+      "name": "Sarikha R.V",
+      "username": "SarikhaRia",
+      "department": "III CSD A",
+      "problemsSolved": 1
+    },
+    {
+      "rollNumber": "310624150046",
+      "name": "Sujith k",
+      "username": "sujith15",
+      "department": "III CSD A",
+      "problemsSolved": 1
+    },
+    {
+      "rollNumber": "310624150049",
+      "name": "Tejaswini A",
+      "username": "Teju_Siva",
+      "department": "III CSD A",
+      "problemsSolved": 1
+    },
+    {
+      "rollNumber": "310624150051",
+      "name": "Uma ribiya .s",
+      "username": "umaribiya",
+      "department": "III CSD A",
+      "problemsSolved": 1
+    }
+  ],
+  "weeklyTopStudents": [
+    {
+      "rollNumber": "310624150003",
+      "name": "Abijith S",
+      "username": "abix4",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 379
+    },
+    {
+      "rollNumber": "310624150028",
+      "name": "NERAIMATHI.K",
+      "username": "Neraimathi1102",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 262
+    },
+    {
+      "rollNumber": "310624150006",
+      "name": "SR.Archana",
+      "username": "Archana_official",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 251
+    },
+    {
+      "rollNumber": "310624150059",
+      "name": "Vishali. M",
+      "username": "vishali2622",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 248
+    },
+    {
+      "rollNumber": "310624150048",
+      "name": "K S Tarunika",
+      "username": "tarunika_ks",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 247
+    },
+    {
+      "rollNumber": "310624150004",
+      "name": "A.Alin Brasen",
+      "username": "alinbrasen08",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 238
+    },
+    {
+      "rollNumber": "310624150005",
+      "name": "Anbu mani .A",
+      "username": "anbumani16",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 232
+    },
+    {
+      "rollNumber": "310624150033",
+      "name": "Priyanka S",
+      "username": "Priyanka_2711",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 223
+    },
+    {
+      "rollNumber": "310624150027",
+      "name": "S.Naveen kumar",
+      "username": "navdak17",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 216
+    },
+    {
+      "rollNumber": "310624150035",
+      "name": "Rohitha M.R",
+      "username": "mPMnu6Ghn8",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 216
+    },
+    {
+      "rollNumber": "310624150052",
+      "name": "Umaadevi P",
+      "username": "Umaadevi",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 201
+    },
+    {
+      "rollNumber": "310624150025",
+      "name": "Krithika R",
+      "username": "Krithika_R2007",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 186
+    },
+    {
+      "rollNumber": "310624150014",
+      "name": "S.Divya Dharshan",
+      "username": "Dharshan_12n",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 150
+    },
+    {
+      "rollNumber": "310624150023",
+      "name": "Jayagokulavarman P P",
+      "username": "Jayagokulavarman02",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 149
+    },
+    {
+      "rollNumber": "310624150020",
+      "name": "N. HEMABOOSHAN",
+      "username": "hemabooshan",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 148
+    },
+    {
+      "rollNumber": "310624150010",
+      "name": "P.Brindha",
+      "username": "BrindhaP26",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 147
+    },
+    {
+      "rollNumber": "310624150001",
+      "name": "Aadhil Hussain .A",
+      "username": "aadhil_hussain786",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 144
+    },
+    {
+      "rollNumber": "310625150043",
+      "name": "Sameera Banu A",
+      "username": "SameeraAkbar",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 139
+    },
+    {
+      "rollNumber": "310624150036",
+      "name": "M.Sandhiya",
+      "username": "Sandhiya240107",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 134
+    },
+    {
+      "rollNumber": "310625150013",
+      "name": "Haritha S P",
+      "username": "123haritha",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 125
+    },
+    {
+      "rollNumber": "310624150057",
+      "name": "Vineeth B",
+      "username": "Vineeth_107",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 124
+    },
+    {
+      "rollNumber": "310624150026",
+      "name": "T.Nadish",
+      "username": "nadishthirukumaran",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 120
+    },
+    {
+      "rollNumber": "310625150053",
+      "name": "Sushanth R",
+      "username": "Sushanth2007",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 113
+    },
+    {
+      "rollNumber": "310624150009",
+      "name": "Bharath S",
+      "username": "bharathsanthoshkumar",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 112
+    },
+    {
+      "rollNumber": "310625150019",
+      "name": "Jaylyn Andrea J",
+      "username": "Jaylynandrea20",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 102
+    },
+    {
+      "rollNumber": "310624150047",
+      "name": "sundareson m v",
+      "username": "sundareson",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 102
+    },
+    {
+      "rollNumber": "310624150037",
+      "name": "S.Sanjana",
+      "username": "Sanjana28_S",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 101
+    },
+    {
+      "rollNumber": "310624150024",
+      "name": "Keerthanaa Shakthi N.K",
+      "username": "keerthanaa05",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 100
+    },
+    {
+      "rollNumber": "310625150002",
+      "name": "Abisha A",
+      "username": "Abisha_2007",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 83
+    },
+    {
+      "rollNumber": "310624150042",
+      "name": "Shamini sree.m",
+      "username": "shaminisree",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 75
+    },
+    {
+      "rollNumber": "310624150056",
+      "name": "vineet rawat s",
+      "username": "VINEETRAWAT",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 72
+    },
+    {
+      "rollNumber": "310625150055",
+      "name": "Tharun Kumar S",
+      "username": "THARUN_K165",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 69
+    },
+    {
+      "rollNumber": "310625150037",
+      "name": "Raagini Ramakrishnan",
+      "username": "Raagini_78",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 59
+    },
+    {
+      "rollNumber": "310625150004",
+      "name": "Arun Varshan I S",
+      "username": "_Arun_Varshan_",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 53
+    },
+    {
+      "rollNumber": "310625150041",
+      "name": "Roshan M",
+      "username": "Roshan_Murugu",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 48
+    },
+    {
+      "rollNumber": "310625150047",
+      "name": "Saravanakumar V",
+      "username": "saravana_tanjiro",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 48
+    },
+    {
+      "rollNumber": "310624150012",
+      "name": "k.Darshita",
+      "username": "darsh__03",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 47
+    },
+    {
+      "rollNumber": "310625150031",
+      "name": "Nevin Derrick J",
+      "username": "Nevin_07",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 45
+    },
+    {
+      "rollNumber": "310625150023",
+      "name": "Kavin S",
+      "username": "kavin57447",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 44
+    },
+    {
+      "rollNumber": "310625150025",
+      "name": "Logesh E",
+      "username": "Logesh_ateec",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 42
+    },
+    {
+      "rollNumber": "310624150054",
+      "name": "Vidhya Raj",
+      "username": "Vidhya_0497",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 37
+    },
+    {
+      "rollNumber": "310625150033",
+      "name": "Nishanth M",
+      "username": "nishanth_2167",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 23
+    },
+    {
+      "rollNumber": "310624150017",
+      "name": "Gowtham B",
+      "username": "gowtham2220",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 20
+    },
+    {
+      "rollNumber": "310625150001",
+      "name": "Aadhithiya Sanjaiy A S",
+      "username": "Aadhithiya_10",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 18
+    },
+    {
+      "rollNumber": "310625150020",
+      "name": "Jeeva N",
+      "username": "6382445422",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 17
+    },
+    {
+      "rollNumber": "310624150039",
+      "name": "Santhosh Kanna",
+      "username": "santhoshkanna27",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 17
+    },
+    {
+      "rollNumber": "310624150002",
+      "name": "Aasif AT",
+      "username": "AasifAT",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 13
+    },
+    {
+      "rollNumber": "310624150031",
+      "name": "Pravin.M",
+      "username": "Pravin06",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 13
+    },
+    {
+      "rollNumber": "310624150015",
+      "name": "Gautham B",
+      "username": "Gautham76",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 12
+    },
+    {
+      "rollNumber": "310625150052",
+      "name": "Sujith P",
+      "username": "sujith334455",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 10
+    },
+    {
+      "rollNumber": "310624150029",
+      "name": "S.Nirmal Kumar",
+      "username": "NirmalkumarS",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 8
+    },
+    {
+      "rollNumber": "310624150044",
+      "name": "Srihari Charan.R",
+      "username": "SrihariCharan",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 8
+    },
+    {
+      "rollNumber": "310625150017",
+      "name": "Irfan Dasthageer J",
+      "username": "irfandj_123",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 7
+    },
+    {
+      "rollNumber": "310624150034",
+      "name": "Rayyan Ahamed S",
+      "username": "rayyan43",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 7
+    },
+    {
+      "rollNumber": "310624150041",
+      "name": "Sarikha R.V",
+      "username": "SarikhaRia",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 7
+    },
+    {
+      "rollNumber": "310625150046",
+      "name": "Sankrisha S",
+      "username": "Sankrisha",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 6
+    },
+    {
+      "rollNumber": "310624150043",
+      "name": "Shreya V",
+      "username": "_Shreya_1304",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 6
+    },
+    {
+      "rollNumber": "310624150046",
+      "name": "Sujith k",
+      "username": "sujith15",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 6
+    },
+    {
+      "rollNumber": "310624150049",
+      "name": "Tejaswini A",
+      "username": "Teju_Siva",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 6
+    },
+    {
+      "rollNumber": "310624150053",
+      "name": "umabharathi. B",
+      "username": "uma-27",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 6
+    },
+    {
+      "rollNumber": "310625150028",
+      "name": "Mohamed Faizul K B",
+      "username": "mohamed_faizul786",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 5
+    },
+    {
+      "rollNumber": "310624150019",
+      "name": "V.Harikrishnan",
+      "username": "Harikrishnan20060",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 5
+    },
+    {
+      "rollNumber": "310624150030",
+      "name": "Pragati GP",
+      "username": "Pragati_GP",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 5
+    },
+    {
+      "rollNumber": "310624150058",
+      "name": "Vishaal. A",
+      "username": "vishaalhardin",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 5
+    },
+    {
+      "rollNumber": "310625150027",
+      "name": "Mahima S",
+      "username": "S_Mahi2307",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 4
+    },
+    {
+      "rollNumber": "310625150051",
+      "name": "Subhapriyan S",
+      "username": "97QbZSL4Ed",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 4
+    },
+    {
+      "rollNumber": "310624150007",
+      "name": "C.A.Asmitha",
+      "username": "Asmitha_05",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 4
+    },
+    {
+      "rollNumber": "310624150045",
+      "name": "Sri Varsha S",
+      "username": "srivarshasenthilkumar",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 4
+    },
+    {
+      "rollNumber": "310625150601",
+      "name": "Kesav Kumar",
+      "username": "sreekesavakumar",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 4
+    },
+    {
+      "rollNumber": "310625150015",
+      "name": "Himagiri P S",
+      "username": "HIMAGIRI2008",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 3
+    },
+    {
+      "rollNumber": "310625150029",
+      "name": "Monishraj D",
+      "username": "monishrajD",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 3
+    },
+    {
+      "rollNumber": "310625150049",
+      "name": "Shanmathi S",
+      "username": "Shanmathi2008",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 3
+    },
+    {
+      "rollNumber": "310624150018",
+      "name": "Hariharan.M",
+      "username": "kfvNBiSlew",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 3
+    },
+    {
+      "rollNumber": "310624150050",
+      "name": "Thiruvengadam D",
+      "username": "thiru_1726",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 3
+    },
+    {
+      "rollNumber": "310625150008",
+      "name": "Deepak E",
+      "username": "edpk2007",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 2
+    },
+    {
+      "rollNumber": "310625150012",
+      "name": "Hariharan K",
+      "username": "HariharannK_leetcode",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 2
+    },
+    {
+      "rollNumber": "310625150016",
+      "name": "Ilamuhil B",
+      "username": "Ilamuhil",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 2
+    },
+    {
+      "rollNumber": "310625150044",
+      "name": "Sandhya S",
+      "username": "Sandhya2007",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 2
+    },
+    {
+      "rollNumber": "310624150022",
+      "name": "Jaisurya P S",
+      "username": "Jaisurya1506",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 2
+    },
+    {
+      "rollNumber": "310624150051",
+      "name": "Uma ribiya .s",
+      "username": "umaribiya",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 2
+    },
+    {
+      "rollNumber": "310625150011",
+      "name": "Hareesh Ram V R",
+      "username": "VRHareshRam",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 1
+    },
+    {
+      "rollNumber": "310625150018",
+      "name": "Ishwarya Lakshmi A",
+      "username": "ishwarya_1809",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 1
+    },
+    {
+      "rollNumber": "310625150021",
+      "name": "Jeevith A U",
+      "username": "jeevith_727",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 1
+    }
+  ],
+  "weeklyImprovement": {
+    "problemsSolved": 5911,
+    "studentsImproved": 83,
+    "studentsActive": 117,
+    "studentsNoImprovement": 40
+  },
+  "topicsAnalysis": {
+    "overall": [
+      {
+        "topic": "Array",
+        "count": 826
+      },
+      {
+        "topic": "String",
+        "count": 475
+      },
+      {
+        "topic": "Math",
+        "count": 384
+      },
+      {
+        "topic": "Hash Table",
+        "count": 330
+      },
+      {
+        "topic": "Two Pointers",
+        "count": 248
+      },
+      {
+        "topic": "Dynamic Programming",
+        "count": 248
+      },
+      {
+        "topic": "Sorting",
+        "count": 228
+      },
+      {
+        "topic": "Database",
+        "count": 142
+      },
+      {
+        "topic": "Binary Search",
+        "count": 141
+      },
+      {
+        "topic": "Linked List",
+        "count": 138
+      },
+      {
+        "topic": "Backtracking",
+        "count": 127
+      },
+      {
+        "topic": "Greedy",
+        "count": 123
+      },
+      {
+        "topic": "Depth-First Search",
+        "count": 120
+      },
+      {
+        "topic": "Recursion",
+        "count": 114
+      },
+      {
+        "topic": "Tree",
+        "count": 110
+      },
+      {
+        "topic": "Binary Tree",
+        "count": 110
+      },
+      {
+        "topic": "Stack",
+        "count": 87
+      },
+      {
+        "topic": "Breadth-First Search",
+        "count": 87
+      },
+      {
+        "topic": "Bit Manipulation",
+        "count": 85
+      },
+      {
+        "topic": "Matrix",
+        "count": 85
+      },
+      {
+        "topic": "Sliding Window",
+        "count": 68
+      },
+      {
+        "topic": "Game Theory",
+        "count": 65
+      },
+      {
+        "topic": "Minimax",
+        "count": 64
+      },
+      {
+        "topic": "Zero-Sum Game",
+        "count": 63
+      },
+      {
+        "topic": "Divide and Conquer",
+        "count": 62
+      },
+      {
+        "topic": "Prefix Sum",
+        "count": 60
+      },
+      {
+        "topic": "Simulation",
+        "count": 55
+      },
+      {
+        "topic": "Counting",
+        "count": 47
+      },
+      {
+        "topic": "Trie",
+        "count": 31
+      },
+      {
+        "topic": "Bracket Sequences",
+        "count": 29
+      },
+      {
+        "topic": "Heap (Priority Queue)",
+        "count": 27
+      },
+      {
+        "topic": "Graph Theory",
+        "count": 25
+      },
+      {
+        "topic": "Number Theory",
+        "count": 24
+      },
+      {
+        "topic": "Monotonic Stack",
+        "count": 22
+      },
+      {
+        "topic": "Binary Search Tree",
+        "count": 21
+      },
+      {
+        "topic": "Design",
+        "count": 21
+      },
+      {
+        "topic": "Nim Game",
+        "count": 20
+      },
+      {
+        "topic": "String Matching",
+        "count": 19
+      },
+      {
+        "topic": "Z Algorithm",
+        "count": 18
+      },
+      {
+        "topic": "Knuth\u2013Morris\u2013Pratt Algorithm",
+        "count": 17
+      },
+      {
+        "topic": "Enumeration",
+        "count": 17
+      },
+      {
+        "topic": "Boyer\u2013Moore String-Search Algorithm",
+        "count": 16
+      },
+      {
+        "topic": "Memoization",
+        "count": 16
+      },
+      {
+        "topic": "Manacher",
+        "count": 15
+      },
+      {
+        "topic": "Interactive",
+        "count": 14
+      },
+      {
+        "topic": "Quicksort",
+        "count": 14
+      },
+      {
+        "topic": "Merge Sort",
+        "count": 13
+      },
+      {
+        "topic": "Newton's Method",
+        "count": 13
+      },
+      {
+        "topic": "Boyer\u2013Moore Majority Vote Algorithm",
+        "count": 13
+      },
+      {
+        "topic": "Counting Sort",
+        "count": 13
+      },
+      {
+        "topic": "Union-Find",
+        "count": 13
+      },
+      {
+        "topic": "Segment Tree",
+        "count": 13
+      },
+      {
+        "topic": "Bubble Sort",
+        "count": 10
+      },
+      {
+        "topic": "Algorithm X",
+        "count": 10
+      },
+      {
+        "topic": "Ordered Set",
+        "count": 10
+      },
+      {
+        "topic": "Bidirectional Search",
+        "count": 9
+      },
+      {
+        "topic": "Geometry",
+        "count": 8
+      },
+      {
+        "topic": "Sprague\u2013Grundy Theorem",
+        "count": 8
+      },
+      {
+        "topic": "Queue",
+        "count": 8
+      },
+      {
+        "topic": "Pigeonhole Principle",
+        "count": 8
+      },
+      {
+        "topic": "Floyd's Cycle Finding Algorithm",
+        "count": 8
+      },
+      {
+        "topic": "Range Minimum/Maximum Query",
+        "count": 8
+      },
+      {
+        "topic": "Bucket Sort",
+        "count": 7
+      },
+      {
+        "topic": "Combinatorics",
+        "count": 7
+      },
+      {
+        "topic": "Tournament Sort",
+        "count": 5
+      },
+      {
+        "topic": "Shell",
+        "count": 5
+      },
+      {
+        "topic": "Quickselect",
+        "count": 5
+      },
+      {
+        "topic": "DP on Trees",
+        "count": 4
+      },
+      {
+        "topic": "Dancing Links",
+        "count": 4
+      },
+      {
+        "topic": "Fermat's Little Theorem",
+        "count": 4
+      },
+      {
+        "topic": "Radix Sort",
+        "count": 4
+      },
+      {
+        "topic": "Euclidean Algorithm",
+        "count": 4
+      },
+      {
+        "topic": "Greatest Common Divisor",
+        "count": 4
+      },
+      {
+        "topic": "Ternary Search",
+        "count": 3
+      },
+      {
+        "topic": "Sweep Line",
+        "count": 3
+      },
+      {
+        "topic": "Monotonic Queue",
+        "count": 3
+      },
+      {
+        "topic": "Topological Sort",
+        "count": 3
+      },
+      {
+        "topic": "Hash Function",
+        "count": 3
+      },
+      {
+        "topic": "Brainteaser",
+        "count": 3
+      },
+      {
+        "topic": "Impartial Game",
+        "count": 3
+      },
+      {
+        "topic": "Doubly-Linked List",
+        "count": 2
+      },
+      {
+        "topic": "Brute-Force Search",
+        "count": 2
+      },
+      {
+        "topic": "Rolling Hash",
+        "count": 2
+      },
+      {
+        "topic": "Data Stream",
+        "count": 2
+      },
+      {
+        "topic": "Timsort",
+        "count": 1
+      },
+      {
+        "topic": "Iterator",
+        "count": 1
+      },
+      {
+        "topic": "Knapsack Problem",
+        "count": 1
+      },
+      {
+        "topic": "Complete Knapsack",
+        "count": 1
+      },
+      {
+        "topic": "Binary Indexed Tree",
+        "count": 1
+      },
+      {
+        "topic": "Directed Acyclic Graph",
+        "count": 1
+      },
+      {
+        "topic": "Primality Test",
+        "count": 1
+      },
+      {
+        "topic": "Sieve Theory",
+        "count": 1
+      },
+      {
+        "topic": "Prime Number Sieve",
+        "count": 1
+      },
+      {
+        "topic": "Randomized",
+        "count": 1
+      },
+      {
+        "topic": "Shortest Path",
+        "count": 1
+      },
+      {
+        "topic": "Bellman\u2013Ford Algorithm",
+        "count": 1
+      },
+      {
+        "topic": "Floyd\u2013Warshall Algorithm",
+        "count": 1
+      },
+      {
+        "topic": "Binary Lifting",
+        "count": 1
+      },
+      {
+        "topic": "Lowest Common Ancestor",
+        "count": 1
+      },
+      {
+        "topic": "Minimum Spanning Tree",
+        "count": 1
+      }
+    ],
+    "byClass": {
+      "II CSD A": [
+        {
+          "topic": "Array",
+          "count": 399
+        },
+        {
+          "topic": "String",
+          "count": 212
+        },
+        {
+          "topic": "Math",
+          "count": 197
+        },
+        {
+          "topic": "Hash Table",
+          "count": 163
+        },
+        {
+          "topic": "Two Pointers",
+          "count": 139
+        },
+        {
+          "topic": "Sorting",
+          "count": 117
+        },
+        {
+          "topic": "Binary Search",
+          "count": 87
+        },
+        {
+          "topic": "Recursion",
+          "count": 70
+        },
+        {
+          "topic": "Linked List",
+          "count": 68
+        },
+        {
+          "topic": "Dynamic Programming",
+          "count": 66
+        },
+        {
+          "topic": "Tree",
+          "count": 41
+        },
+        {
+          "topic": "Depth-First Search",
+          "count": 41
+        },
+        {
+          "topic": "Binary Tree",
+          "count": 41
+        },
+        {
+          "topic": "Greedy",
+          "count": 40
+        },
+        {
+          "topic": "Stack",
+          "count": 38
+        },
+        {
+          "topic": "Backtracking",
+          "count": 38
+        },
+        {
+          "topic": "Bit Manipulation",
+          "count": 35
+        },
+        {
+          "topic": "Simulation",
+          "count": 35
+        },
+        {
+          "topic": "Divide and Conquer",
+          "count": 31
+        },
+        {
+          "topic": "Sliding Window",
+          "count": 28
+        },
+        {
+          "topic": "Matrix",
+          "count": 28
+        },
+        {
+          "topic": "Database",
+          "count": 28
+        },
+        {
+          "topic": "Prefix Sum",
+          "count": 26
+        },
+        {
+          "topic": "Breadth-First Search",
+          "count": 24
+        },
+        {
+          "topic": "Counting",
+          "count": 23
+        },
+        {
+          "topic": "Bracket Sequences",
+          "count": 18
+        },
+        {
+          "topic": "Trie",
+          "count": 16
+        },
+        {
+          "topic": "Newton's Method",
+          "count": 11
+        },
+        {
+          "topic": "Interactive",
+          "count": 11
+        },
+        {
+          "topic": "Heap (Priority Queue)",
+          "count": 10
+        },
+        {
+          "topic": "String Matching",
+          "count": 10
+        },
+        {
+          "topic": "Z Algorithm",
+          "count": 10
+        },
+        {
+          "topic": "Knuth\u2013Morris\u2013Pratt Algorithm",
+          "count": 10
+        },
+        {
+          "topic": "Boyer\u2013Moore Majority Vote Algorithm",
+          "count": 10
+        },
+        {
+          "topic": "Number Theory",
+          "count": 10
+        },
+        {
+          "topic": "Counting Sort",
+          "count": 10
+        },
+        {
+          "topic": "Binary Search Tree",
+          "count": 10
+        },
+        {
+          "topic": "Boyer\u2013Moore String-Search Algorithm",
+          "count": 9
+        },
+        {
+          "topic": "Quicksort",
+          "count": 9
+        },
+        {
+          "topic": "Minimax",
+          "count": 8
+        },
+        {
+          "topic": "Game Theory",
+          "count": 8
+        },
+        {
+          "topic": "Zero-Sum Game",
+          "count": 8
+        },
+        {
+          "topic": "Manacher",
+          "count": 8
+        },
+        {
+          "topic": "Monotonic Stack",
+          "count": 7
+        },
+        {
+          "topic": "Bubble Sort",
+          "count": 7
+        },
+        {
+          "topic": "Memoization",
+          "count": 7
+        },
+        {
+          "topic": "Merge Sort",
+          "count": 5
+        },
+        {
+          "topic": "Graph Theory",
+          "count": 5
+        },
+        {
+          "topic": "Queue",
+          "count": 5
+        },
+        {
+          "topic": "Tournament Sort",
+          "count": 4
+        },
+        {
+          "topic": "Geometry",
+          "count": 4
+        },
+        {
+          "topic": "Design",
+          "count": 4
+        },
+        {
+          "topic": "Ternary Search",
+          "count": 3
+        },
+        {
+          "topic": "Enumeration",
+          "count": 3
+        },
+        {
+          "topic": "Algorithm X",
+          "count": 3
+        },
+        {
+          "topic": "Monotonic Queue",
+          "count": 3
+        },
+        {
+          "topic": "Pigeonhole Principle",
+          "count": 3
+        },
+        {
+          "topic": "Sweep Line",
+          "count": 2
+        },
+        {
+          "topic": "Union-Find",
+          "count": 2
+        },
+        {
+          "topic": "Shell",
+          "count": 2
+        },
+        {
+          "topic": "Floyd's Cycle Finding Algorithm",
+          "count": 2
+        },
+        {
+          "topic": "Quickselect",
+          "count": 2
+        },
+        {
+          "topic": "Range Minimum/Maximum Query",
+          "count": 2
+        },
+        {
+          "topic": "Nim Game",
+          "count": 1
+        },
+        {
+          "topic": "Sprague\u2013Grundy Theorem",
+          "count": 1
+        },
+        {
+          "topic": "Timsort",
+          "count": 1
+        },
+        {
+          "topic": "Iterator",
+          "count": 1
+        },
+        {
+          "topic": "Bucket Sort",
+          "count": 1
+        },
+        {
+          "topic": "Doubly-Linked List",
+          "count": 1
+        },
+        {
+          "topic": "DP on Trees",
+          "count": 1
+        },
+        {
+          "topic": "Knapsack Problem",
+          "count": 1
+        },
+        {
+          "topic": "Complete Knapsack",
+          "count": 1
+        },
+        {
+          "topic": "Combinatorics",
+          "count": 1
+        }
+      ],
+      "III CSD A": [
+        {
+          "topic": "Array",
+          "count": 427
+        },
+        {
+          "topic": "String",
+          "count": 263
+        },
+        {
+          "topic": "Math",
+          "count": 187
+        },
+        {
+          "topic": "Dynamic Programming",
+          "count": 182
+        },
+        {
+          "topic": "Hash Table",
+          "count": 167
+        },
+        {
+          "topic": "Database",
+          "count": 114
+        },
+        {
+          "topic": "Sorting",
+          "count": 111
+        },
+        {
+          "topic": "Two Pointers",
+          "count": 109
+        },
+        {
+          "topic": "Backtracking",
+          "count": 89
+        },
+        {
+          "topic": "Greedy",
+          "count": 83
+        },
+        {
+          "topic": "Depth-First Search",
+          "count": 79
+        },
+        {
+          "topic": "Linked List",
+          "count": 70
+        },
+        {
+          "topic": "Tree",
+          "count": 69
+        },
+        {
+          "topic": "Binary Tree",
+          "count": 69
+        },
+        {
+          "topic": "Breadth-First Search",
+          "count": 63
+        },
+        {
+          "topic": "Matrix",
+          "count": 57
+        },
+        {
+          "topic": "Game Theory",
+          "count": 57
+        },
+        {
+          "topic": "Minimax",
+          "count": 56
+        },
+        {
+          "topic": "Zero-Sum Game",
+          "count": 55
+        },
+        {
+          "topic": "Binary Search",
+          "count": 54
+        },
+        {
+          "topic": "Bit Manipulation",
+          "count": 50
+        },
+        {
+          "topic": "Stack",
+          "count": 49
+        },
+        {
+          "topic": "Recursion",
+          "count": 44
+        },
+        {
+          "topic": "Sliding Window",
+          "count": 40
+        },
+        {
+          "topic": "Prefix Sum",
+          "count": 34
+        },
+        {
+          "topic": "Divide and Conquer",
+          "count": 31
+        },
+        {
+          "topic": "Counting",
+          "count": 24
+        },
+        {
+          "topic": "Graph Theory",
+          "count": 20
+        },
+        {
+          "topic": "Simulation",
+          "count": 20
+        },
+        {
+          "topic": "Nim Game",
+          "count": 19
+        },
+        {
+          "topic": "Heap (Priority Queue)",
+          "count": 17
+        },
+        {
+          "topic": "Design",
+          "count": 17
+        },
+        {
+          "topic": "Trie",
+          "count": 15
+        },
+        {
+          "topic": "Monotonic Stack",
+          "count": 15
+        },
+        {
+          "topic": "Number Theory",
+          "count": 14
+        },
+        {
+          "topic": "Enumeration",
+          "count": 14
+        },
+        {
+          "topic": "Segment Tree",
+          "count": 13
+        },
+        {
+          "topic": "Binary Search Tree",
+          "count": 11
+        },
+        {
+          "topic": "Union-Find",
+          "count": 11
+        },
+        {
+          "topic": "Bracket Sequences",
+          "count": 11
+        },
+        {
+          "topic": "Ordered Set",
+          "count": 10
+        },
+        {
+          "topic": "Memoization",
+          "count": 9
+        },
+        {
+          "topic": "String Matching",
+          "count": 9
+        },
+        {
+          "topic": "Bidirectional Search",
+          "count": 9
+        },
+        {
+          "topic": "Z Algorithm",
+          "count": 8
+        },
+        {
+          "topic": "Merge Sort",
+          "count": 8
+        },
+        {
+          "topic": "Knuth\u2013Morris\u2013Pratt Algorithm",
+          "count": 7
+        },
+        {
+          "topic": "Boyer\u2013Moore String-Search Algorithm",
+          "count": 7
+        },
+        {
+          "topic": "Manacher",
+          "count": 7
+        },
+        {
+          "topic": "Sprague\u2013Grundy Theorem",
+          "count": 7
+        },
+        {
+          "topic": "Algorithm X",
+          "count": 7
+        },
+        {
+          "topic": "Range Minimum/Maximum Query",
+          "count": 6
+        },
+        {
+          "topic": "Combinatorics",
+          "count": 6
+        },
+        {
+          "topic": "Bucket Sort",
+          "count": 6
+        },
+        {
+          "topic": "Floyd's Cycle Finding Algorithm",
+          "count": 6
+        },
+        {
+          "topic": "Quicksort",
+          "count": 5
+        },
+        {
+          "topic": "Pigeonhole Principle",
+          "count": 5
+        },
+        {
+          "topic": "Dancing Links",
+          "count": 4
+        },
+        {
+          "topic": "Fermat's Little Theorem",
+          "count": 4
+        },
+        {
+          "topic": "Radix Sort",
+          "count": 4
+        },
+        {
+          "topic": "Geometry",
+          "count": 4
+        },
+        {
+          "topic": "Euclidean Algorithm",
+          "count": 4
+        },
+        {
+          "topic": "Greatest Common Divisor",
+          "count": 4
+        },
+        {
+          "topic": "Topological Sort",
+          "count": 3
+        },
+        {
+          "topic": "Shell",
+          "count": 3
+        },
+        {
+          "topic": "Counting Sort",
+          "count": 3
+        },
+        {
+          "topic": "Quickselect",
+          "count": 3
+        },
+        {
+          "topic": "Hash Function",
+          "count": 3
+        },
+        {
+          "topic": "DP on Trees",
+          "count": 3
+        },
+        {
+          "topic": "Boyer\u2013Moore Majority Vote Algorithm",
+          "count": 3
+        },
+        {
+          "topic": "Bubble Sort",
+          "count": 3
+        },
+        {
+          "topic": "Brainteaser",
+          "count": 3
+        },
+        {
+          "topic": "Impartial Game",
+          "count": 3
+        },
+        {
+          "topic": "Queue",
+          "count": 3
+        },
+        {
+          "topic": "Interactive",
+          "count": 3
+        },
+        {
+          "topic": "Brute-Force Search",
+          "count": 2
+        },
+        {
+          "topic": "Rolling Hash",
+          "count": 2
+        },
+        {
+          "topic": "Data Stream",
+          "count": 2
+        },
+        {
+          "topic": "Newton's Method",
+          "count": 2
+        },
+        {
+          "topic": "Binary Indexed Tree",
+          "count": 1
+        },
+        {
+          "topic": "Sweep Line",
+          "count": 1
+        },
+        {
+          "topic": "Directed Acyclic Graph",
+          "count": 1
+        },
+        {
+          "topic": "Primality Test",
+          "count": 1
+        },
+        {
+          "topic": "Sieve Theory",
+          "count": 1
+        },
+        {
+          "topic": "Prime Number Sieve",
+          "count": 1
+        },
+        {
+          "topic": "Tournament Sort",
+          "count": 1
+        },
+        {
+          "topic": "Doubly-Linked List",
+          "count": 1
+        },
+        {
+          "topic": "Randomized",
+          "count": 1
+        },
+        {
+          "topic": "Shortest Path",
+          "count": 1
+        },
+        {
+          "topic": "Bellman\u2013Ford Algorithm",
+          "count": 1
+        },
+        {
+          "topic": "Floyd\u2013Warshall Algorithm",
+          "count": 1
+        },
+        {
+          "topic": "Binary Lifting",
+          "count": 1
+        },
+        {
+          "topic": "Lowest Common Ancestor",
+          "count": 1
+        },
+        {
+          "topic": "Minimum Spanning Tree",
+          "count": 1
+        }
+      ]
+    },
+    "byDifficulty": {
+      "Easy": [
+        {
+          "topic": "Array",
+          "count": 329
+        },
+        {
+          "topic": "String",
+          "count": 189
+        },
+        {
+          "topic": "Math",
+          "count": 175
+        },
+        {
+          "topic": "Hash Table",
+          "count": 165
+        },
+        {
+          "topic": "Sorting",
+          "count": 105
+        },
+        {
+          "topic": "Database",
+          "count": 99
+        },
+        {
+          "topic": "Two Pointers",
+          "count": 90
+        },
+        {
+          "topic": "Binary Search",
+          "count": 65
+        },
+        {
+          "topic": "Tree",
+          "count": 65
+        },
+        {
+          "topic": "Binary Tree",
+          "count": 65
+        },
+        {
+          "topic": "Depth-First Search",
+          "count": 58
+        },
+        {
+          "topic": "Stack",
+          "count": 43
+        },
+        {
+          "topic": "Linked List",
+          "count": 41
+        },
+        {
+          "topic": "Bit Manipulation",
+          "count": 39
+        },
+        {
+          "topic": "Simulation",
+          "count": 39
+        },
+        {
+          "topic": "Recursion",
+          "count": 33
+        },
+        {
+          "topic": "Dynamic Programming",
+          "count": 32
+        },
+        {
+          "topic": "Breadth-First Search",
+          "count": 28
+        },
+        {
+          "topic": "Divide and Conquer",
+          "count": 23
+        },
+        {
+          "topic": "Trie",
+          "count": 21
+        },
+        {
+          "topic": "Matrix",
+          "count": 18
+        },
+        {
+          "topic": "Counting",
+          "count": 18
+        },
+        {
+          "topic": "String Matching",
+          "count": 17
+        },
+        {
+          "topic": "Greedy",
+          "count": 17
+        },
+        {
+          "topic": "Z Algorithm",
+          "count": 16
+        },
+        {
+          "topic": "Knuth\u2013Morris\u2013Pratt Algorithm",
+          "count": 16
+        },
+        {
+          "topic": "Sliding Window",
+          "count": 16
+        },
+        {
+          "topic": "Boyer\u2013Moore String-Search Algorithm",
+          "count": 15
+        },
+        {
+          "topic": "Bracket Sequences",
+          "count": 14
+        },
+        {
+          "topic": "Interactive",
+          "count": 14
+        },
+        {
+          "topic": "Enumeration",
+          "count": 14
+        },
+        {
+          "topic": "Prefix Sum",
+          "count": 14
+        },
+        {
+          "topic": "Newton's Method",
+          "count": 13
+        },
+        {
+          "topic": "Memoization",
+          "count": 10
+        },
+        {
+          "topic": "Boyer\u2013Moore Majority Vote Algorithm",
+          "count": 9
+        },
+        {
+          "topic": "Binary Search Tree",
+          "count": 9
+        },
+        {
+          "topic": "Heap (Priority Queue)",
+          "count": 9
+        },
+        {
+          "topic": "Number Theory",
+          "count": 8
+        },
+        {
+          "topic": "Counting Sort",
+          "count": 8
+        },
+        {
+          "topic": "Design",
+          "count": 6
+        },
+        {
+          "topic": "Queue",
+          "count": 4
+        },
+        {
+          "topic": "Monotonic Stack",
+          "count": 3
+        },
+        {
+          "topic": "Floyd's Cycle Finding Algorithm",
+          "count": 3
+        },
+        {
+          "topic": "Shell",
+          "count": 2
+        },
+        {
+          "topic": "Brainteaser",
+          "count": 2
+        },
+        {
+          "topic": "Minimax",
+          "count": 2
+        },
+        {
+          "topic": "Game Theory",
+          "count": 2
+        },
+        {
+          "topic": "Nim Game",
+          "count": 2
+        },
+        {
+          "topic": "Impartial Game",
+          "count": 2
+        },
+        {
+          "topic": "Graph Theory",
+          "count": 1
+        },
+        {
+          "topic": "Bubble Sort",
+          "count": 1
+        },
+        {
+          "topic": "Quicksort",
+          "count": 1
+        },
+        {
+          "topic": "DP on Trees",
+          "count": 1
+        },
+        {
+          "topic": "Geometry",
+          "count": 1
+        },
+        {
+          "topic": "Hash Function",
+          "count": 1
+        },
+        {
+          "topic": "Data Stream",
+          "count": 1
+        },
+        {
+          "topic": "Backtracking",
+          "count": 1
+        }
+      ],
+      "Medium": [
+        {
+          "topic": "Array",
+          "count": 412
+        },
+        {
+          "topic": "String",
+          "count": 206
+        },
+        {
+          "topic": "Math",
+          "count": 164
+        },
+        {
+          "topic": "Two Pointers",
+          "count": 154
+        },
+        {
+          "topic": "Dynamic Programming",
+          "count": 150
+        },
+        {
+          "topic": "Hash Table",
+          "count": 125
+        },
+        {
+          "topic": "Sorting",
+          "count": 120
+        },
+        {
+          "topic": "Backtracking",
+          "count": 100
+        },
+        {
+          "topic": "Linked List",
+          "count": 88
+        },
+        {
+          "topic": "Greedy",
+          "count": 85
+        },
+        {
+          "topic": "Binary Search",
+          "count": 64
+        },
+        {
+          "topic": "Depth-First Search",
+          "count": 59
+        },
+        {
+          "topic": "Recursion",
+          "count": 57
+        },
+        {
+          "topic": "Matrix",
+          "count": 56
+        },
+        {
+          "topic": "Breadth-First Search",
+          "count": 47
+        },
+        {
+          "topic": "Prefix Sum",
+          "count": 44
+        },
+        {
+          "topic": "Sliding Window",
+          "count": 43
+        },
+        {
+          "topic": "Bit Manipulation",
+          "count": 43
+        },
+        {
+          "topic": "Minimax",
+          "count": 43
+        },
+        {
+          "topic": "Game Theory",
+          "count": 43
+        },
+        {
+          "topic": "Zero-Sum Game",
+          "count": 43
+        },
+        {
+          "topic": "Tree",
+          "count": 42
+        },
+        {
+          "topic": "Binary Tree",
+          "count": 42
+        },
+        {
+          "topic": "Database",
+          "count": 34
+        },
+        {
+          "topic": "Stack",
+          "count": 26
+        },
+        {
+          "topic": "Divide and Conquer",
+          "count": 24
+        },
+        {
+          "topic": "Graph Theory",
+          "count": 23
+        },
+        {
+          "topic": "Counting",
+          "count": 23
+        },
+        {
+          "topic": "Manacher",
+          "count": 14
+        },
+        {
+          "topic": "Simulation",
+          "count": 13
+        },
+        {
+          "topic": "Quicksort",
+          "count": 13
+        },
+        {
+          "topic": "Union-Find",
+          "count": 12
+        },
+        {
+          "topic": "Binary Search Tree",
+          "count": 12
+        },
+        {
+          "topic": "Bracket Sequences",
+          "count": 11
+        },
+        {
+          "topic": "Design",
+          "count": 10
+        },
+        {
+          "topic": "Heap (Priority Queue)",
+          "count": 10
+        },
+        {
+          "topic": "Nim Game",
+          "count": 10
+        },
+        {
+          "topic": "Bubble Sort",
+          "count": 9
+        },
+        {
+          "topic": "Pigeonhole Principle",
+          "count": 8
+        },
+        {
+          "topic": "Merge Sort",
+          "count": 8
+        },
+        {
+          "topic": "Bucket Sort",
+          "count": 6
+        },
+        {
+          "topic": "Monotonic Stack",
+          "count": 5
+        },
+        {
+          "topic": "Floyd's Cycle Finding Algorithm",
+          "count": 5
+        },
+        {
+          "topic": "Quickselect",
+          "count": 5
+        },
+        {
+          "topic": "Counting Sort",
+          "count": 5
+        },
+        {
+          "topic": "Trie",
+          "count": 5
+        },
+        {
+          "topic": "Boyer\u2013Moore Majority Vote Algorithm",
+          "count": 4
+        },
+        {
+          "topic": "Number Theory",
+          "count": 4
+        },
+        {
+          "topic": "Radix Sort",
+          "count": 4
+        },
+        {
+          "topic": "Ternary Search",
+          "count": 3
+        },
+        {
+          "topic": "Geometry",
+          "count": 3
+        },
+        {
+          "topic": "Queue",
+          "count": 3
+        },
+        {
+          "topic": "Shell",
+          "count": 3
+        },
+        {
+          "topic": "Topological Sort",
+          "count": 3
+        },
+        {
+          "topic": "Sweep Line",
+          "count": 2
+        },
+        {
+          "topic": "Monotonic Queue",
+          "count": 2
+        },
+        {
+          "topic": "Doubly-Linked List",
+          "count": 2
+        },
+        {
+          "topic": "Memoization",
+          "count": 2
+        },
+        {
+          "topic": "Brute-Force Search",
+          "count": 2
+        },
+        {
+          "topic": "Enumeration",
+          "count": 2
+        },
+        {
+          "topic": "Timsort",
+          "count": 1
+        },
+        {
+          "topic": "Iterator",
+          "count": 1
+        },
+        {
+          "topic": "Knapsack Problem",
+          "count": 1
+        },
+        {
+          "topic": "Complete Knapsack",
+          "count": 1
+        },
+        {
+          "topic": "Directed Acyclic Graph",
+          "count": 1
+        },
+        {
+          "topic": "Primality Test",
+          "count": 1
+        },
+        {
+          "topic": "Sieve Theory",
+          "count": 1
+        },
+        {
+          "topic": "Prime Number Sieve",
+          "count": 1
+        },
+        {
+          "topic": "Data Stream",
+          "count": 1
+        },
+        {
+          "topic": "Combinatorics",
+          "count": 1
+        },
+        {
+          "topic": "Randomized",
+          "count": 1
+        },
+        {
+          "topic": "Rolling Hash",
+          "count": 1
+        },
+        {
+          "topic": "Hash Function",
+          "count": 1
+        },
+        {
+          "topic": "Z Algorithm",
+          "count": 1
+        },
+        {
+          "topic": "Boyer\u2013Moore String-Search Algorithm",
+          "count": 1
+        },
+        {
+          "topic": "Shortest Path",
+          "count": 1
+        },
+        {
+          "topic": "Bellman\u2013Ford Algorithm",
+          "count": 1
+        },
+        {
+          "topic": "Floyd\u2013Warshall Algorithm",
+          "count": 1
+        },
+        {
+          "topic": "Binary Lifting",
+          "count": 1
+        },
+        {
+          "topic": "Lowest Common Ancestor",
+          "count": 1
+        },
+        {
+          "topic": "DP on Trees",
+          "count": 1
+        }
+      ],
+      "Hard": [
+        {
+          "topic": "Array",
+          "count": 85
+        },
+        {
+          "topic": "String",
+          "count": 80
+        },
+        {
+          "topic": "Dynamic Programming",
+          "count": 66
+        },
+        {
+          "topic": "Math",
+          "count": 45
+        },
+        {
+          "topic": "Hash Table",
+          "count": 40
+        },
+        {
+          "topic": "Backtracking",
+          "count": 26
+        },
+        {
+          "topic": "Recursion",
+          "count": 24
+        },
+        {
+          "topic": "Greedy",
+          "count": 21
+        },
+        {
+          "topic": "Game Theory",
+          "count": 20
+        },
+        {
+          "topic": "Zero-Sum Game",
+          "count": 20
+        },
+        {
+          "topic": "Minimax",
+          "count": 19
+        },
+        {
+          "topic": "Stack",
+          "count": 18
+        },
+        {
+          "topic": "Divide and Conquer",
+          "count": 15
+        },
+        {
+          "topic": "Monotonic Stack",
+          "count": 14
+        },
+        {
+          "topic": "Segment Tree",
+          "count": 13
+        },
+        {
+          "topic": "Breadth-First Search",
+          "count": 12
+        },
+        {
+          "topic": "Binary Search",
+          "count": 12
+        },
+        {
+          "topic": "Number Theory",
+          "count": 12
+        },
+        {
+          "topic": "Matrix",
+          "count": 11
+        },
+        {
+          "topic": "Algorithm X",
+          "count": 10
+        },
+        {
+          "topic": "Ordered Set",
+          "count": 10
+        },
+        {
+          "topic": "Linked List",
+          "count": 9
+        },
+        {
+          "topic": "Sliding Window",
+          "count": 9
+        },
+        {
+          "topic": "Bidirectional Search",
+          "count": 9
+        },
+        {
+          "topic": "Database",
+          "count": 9
+        },
+        {
+          "topic": "Heap (Priority Queue)",
+          "count": 8
+        },
+        {
+          "topic": "Nim Game",
+          "count": 8
+        },
+        {
+          "topic": "Sprague\u2013Grundy Theorem",
+          "count": 8
+        },
+        {
+          "topic": "Range Minimum/Maximum Query",
+          "count": 8
+        },
+        {
+          "topic": "Combinatorics",
+          "count": 6
+        },
+        {
+          "topic": "Counting",
+          "count": 6
+        },
+        {
+          "topic": "Merge Sort",
+          "count": 5
+        },
+        {
+          "topic": "Tournament Sort",
+          "count": 5
+        },
+        {
+          "topic": "Trie",
+          "count": 5
+        },
+        {
+          "topic": "Design",
+          "count": 5
+        },
+        {
+          "topic": "Bracket Sequences",
+          "count": 4
+        },
+        {
+          "topic": "Two Pointers",
+          "count": 4
+        },
+        {
+          "topic": "Memoization",
+          "count": 4
+        },
+        {
+          "topic": "Dancing Links",
+          "count": 4
+        },
+        {
+          "topic": "Fermat's Little Theorem",
+          "count": 4
+        },
+        {
+          "topic": "Geometry",
+          "count": 4
+        },
+        {
+          "topic": "Euclidean Algorithm",
+          "count": 4
+        },
+        {
+          "topic": "Greatest Common Divisor",
+          "count": 4
+        },
+        {
+          "topic": "Bit Manipulation",
+          "count": 3
+        },
+        {
+          "topic": "Simulation",
+          "count": 3
+        },
+        {
+          "topic": "Sorting",
+          "count": 3
+        },
+        {
+          "topic": "Tree",
+          "count": 3
+        },
+        {
+          "topic": "Depth-First Search",
+          "count": 3
+        },
+        {
+          "topic": "Binary Tree",
+          "count": 3
+        },
+        {
+          "topic": "String Matching",
+          "count": 2
+        },
+        {
+          "topic": "DP on Trees",
+          "count": 2
+        },
+        {
+          "topic": "Prefix Sum",
+          "count": 2
+        },
+        {
+          "topic": "Queue",
+          "count": 1
+        },
+        {
+          "topic": "Monotonic Queue",
+          "count": 1
+        },
+        {
+          "topic": "Bucket Sort",
+          "count": 1
+        },
+        {
+          "topic": "Binary Indexed Tree",
+          "count": 1
+        },
+        {
+          "topic": "Sweep Line",
+          "count": 1
+        },
+        {
+          "topic": "Rolling Hash",
+          "count": 1
+        },
+        {
+          "topic": "Hash Function",
+          "count": 1
+        },
+        {
+          "topic": "Manacher",
+          "count": 1
+        },
+        {
+          "topic": "Z Algorithm",
+          "count": 1
+        },
+        {
+          "topic": "Knuth\u2013Morris\u2013Pratt Algorithm",
+          "count": 1
+        },
+        {
+          "topic": "Enumeration",
+          "count": 1
+        },
+        {
+          "topic": "Brainteaser",
+          "count": 1
+        },
+        {
+          "topic": "Impartial Game",
+          "count": 1
+        },
+        {
+          "topic": "Union-Find",
+          "count": 1
+        },
+        {
+          "topic": "Graph Theory",
+          "count": 1
+        },
+        {
+          "topic": "Minimum Spanning Tree",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "difficultyAnalysis": {
+    "Easy": 849,
+    "Medium": 830,
+    "Hard": 187,
+    "byTopic": {
+      "Math": {
+        "Easy": 175,
+        "Medium": 164,
+        "Hard": 45
+      },
+      "String": {
+        "Easy": 189,
+        "Medium": 206,
+        "Hard": 80
+      },
+      "Array": {
+        "Easy": 329,
+        "Medium": 412,
+        "Hard": 85
+      },
+      "Binary Search": {
+        "Easy": 65,
+        "Medium": 64,
+        "Hard": 12
+      },
+      "Two Pointers": {
+        "Easy": 90,
+        "Medium": 154,
+        "Hard": 4
+      },
+      "Linked List": {
+        "Easy": 41,
+        "Medium": 88,
+        "Hard": 9
+      },
+      "Recursion": {
+        "Easy": 33,
+        "Medium": 57,
+        "Hard": 24
+      },
+      "Stack": {
+        "Easy": 43,
+        "Medium": 26,
+        "Hard": 18
+      },
+      "Tree": {
+        "Easy": 65,
+        "Medium": 42,
+        "Hard": 3
+      },
+      "Depth-First Search": {
+        "Easy": 58,
+        "Medium": 59,
+        "Hard": 3
+      },
+      "Binary Tree": {
+        "Easy": 65,
+        "Medium": 42,
+        "Hard": 3
+      },
+      "Hash Table": {
+        "Easy": 165,
+        "Medium": 125,
+        "Hard": 40
+      },
+      "Sliding Window": {
+        "Easy": 16,
+        "Medium": 43,
+        "Hard": 9
+      },
+      "Greedy": {
+        "Easy": 17,
+        "Medium": 85,
+        "Hard": 21
+      },
+      "Monotonic Stack": {
+        "Easy": 3,
+        "Medium": 5,
+        "Hard": 14
+      },
+      "Bit Manipulation": {
+        "Easy": 39,
+        "Medium": 43,
+        "Hard": 3
+      },
+      "Divide and Conquer": {
+        "Easy": 23,
+        "Medium": 24,
+        "Hard": 15
+      },
+      "Heap (Priority Queue)": {
+        "Easy": 9,
+        "Medium": 10,
+        "Hard": 8
+      },
+      "Merge Sort": {
+        "Easy": 0,
+        "Medium": 8,
+        "Hard": 5
+      },
+      "Tournament Sort": {
+        "Easy": 0,
+        "Medium": 0,
+        "Hard": 5
+      },
+      "String Matching": {
+        "Easy": 17,
+        "Medium": 0,
+        "Hard": 2
+      },
+      "Z Algorithm": {
+        "Easy": 16,
+        "Medium": 1,
+        "Hard": 1
+      },
+      "Knuth\u2013Morris\u2013Pratt Algorithm": {
+        "Easy": 16,
+        "Medium": 0,
+        "Hard": 1
+      },
+      "Boyer\u2013Moore String-Search Algorithm": {
+        "Easy": 15,
+        "Medium": 1,
+        "Hard": 0
+      },
+      "Dynamic Programming": {
+        "Easy": 32,
+        "Medium": 150,
+        "Hard": 66
+      },
+      "Backtracking": {
+        "Easy": 1,
+        "Medium": 100,
+        "Hard": 26
+      },
+      "Bracket Sequences": {
+        "Easy": 14,
+        "Medium": 11,
+        "Hard": 4
+      },
+      "Trie": {
+        "Easy": 21,
+        "Medium": 5,
+        "Hard": 5
+      },
+      "Simulation": {
+        "Easy": 39,
+        "Medium": 13,
+        "Hard": 3
+      },
+      "Matrix": {
+        "Easy": 18,
+        "Medium": 56,
+        "Hard": 11
+      },
+      "Newton's Method": {
+        "Easy": 13,
+        "Medium": 0,
+        "Hard": 0
+      },
+      "Graph Theory": {
+        "Easy": 1,
+        "Medium": 23,
+        "Hard": 1
+      },
+      "Ternary Search": {
+        "Easy": 0,
+        "Medium": 3,
+        "Hard": 0
+      },
+      "Interactive": {
+        "Easy": 14,
+        "Medium": 0,
+        "Hard": 0
+      },
+      "Sorting": {
+        "Easy": 105,
+        "Medium": 120,
+        "Hard": 3
+      },
+      "Counting": {
+        "Easy": 18,
+        "Medium": 23,
+        "Hard": 6
+      },
+      "Boyer\u2013Moore Majority Vote Algorithm": {
+        "Easy": 9,
+        "Medium": 4,
+        "Hard": 0
+      },
+      "Quicksort": {
+        "Easy": 1,
+        "Medium": 13,
+        "Hard": 0
+      },
+      "Bubble Sort": {
+        "Easy": 1,
+        "Medium": 9,
+        "Hard": 0
+      },
+      "Sweep Line": {
+        "Easy": 0,
+        "Medium": 2,
+        "Hard": 1
+      },
+      "Prefix Sum": {
+        "Easy": 14,
+        "Medium": 44,
+        "Hard": 2
+      },
+      "Enumeration": {
+        "Easy": 14,
+        "Medium": 2,
+        "Hard": 1
+      },
+      "Breadth-First Search": {
+        "Easy": 28,
+        "Medium": 47,
+        "Hard": 12
+      },
+      "Minimax": {
+        "Easy": 2,
+        "Medium": 43,
+        "Hard": 19
+      },
+      "Game Theory": {
+        "Easy": 2,
+        "Medium": 43,
+        "Hard": 20
+      },
+      "Zero-Sum Game": {
+        "Easy": 0,
+        "Medium": 43,
+        "Hard": 20
+      },
+      "Manacher": {
+        "Easy": 0,
+        "Medium": 14,
+        "Hard": 1
+      },
+      "Number Theory": {
+        "Easy": 8,
+        "Medium": 4,
+        "Hard": 12
+      },
+      "Counting Sort": {
+        "Easy": 8,
+        "Medium": 5,
+        "Hard": 0
+      },
+      "Algorithm X": {
+        "Easy": 0,
+        "Medium": 0,
+        "Hard": 10
+      },
+      "Binary Search Tree": {
+        "Easy": 9,
+        "Medium": 12,
+        "Hard": 0
+      },
+      "Geometry": {
+        "Easy": 1,
+        "Medium": 3,
+        "Hard": 4
+      },
+      "Design": {
+        "Easy": 6,
+        "Medium": 10,
+        "Hard": 5
+      },
+      "Database": {
+        "Easy": 99,
+        "Medium": 34,
+        "Hard": 9
+      },
+      "Memoization": {
+        "Easy": 10,
+        "Medium": 2,
+        "Hard": 4
+      },
+      "Nim Game": {
+        "Easy": 2,
+        "Medium": 10,
+        "Hard": 8
+      },
+      "Sprague\u2013Grundy Theorem": {
+        "Easy": 0,
+        "Medium": 0,
+        "Hard": 8
+      },
+      "Queue": {
+        "Easy": 4,
+        "Medium": 3,
+        "Hard": 1
+      },
+      "Monotonic Queue": {
+        "Easy": 0,
+        "Medium": 2,
+        "Hard": 1
+      },
+      "Pigeonhole Principle": {
+        "Easy": 0,
+        "Medium": 8,
+        "Hard": 0
+      },
+      "Timsort": {
+        "Easy": 0,
+        "Medium": 1,
+        "Hard": 0
+      },
+      "Union-Find": {
+        "Easy": 0,
+        "Medium": 12,
+        "Hard": 1
+      },
+      "Shell": {
+        "Easy": 2,
+        "Medium": 3,
+        "Hard": 0
+      },
+      "Iterator": {
+        "Easy": 0,
+        "Medium": 1,
+        "Hard": 0
+      },
+      "Floyd's Cycle Finding Algorithm": {
+        "Easy": 3,
+        "Medium": 5,
+        "Hard": 0
+      },
+      "Bucket Sort": {
+        "Easy": 0,
+        "Medium": 6,
+        "Hard": 1
+      },
+      "Quickselect": {
+        "Easy": 0,
+        "Medium": 5,
+        "Hard": 0
+      },
+      "Doubly-Linked List": {
+        "Easy": 0,
+        "Medium": 2,
+        "Hard": 0
+      },
+      "DP on Trees": {
+        "Easy": 1,
+        "Medium": 1,
+        "Hard": 2
+      },
+      "Knapsack Problem": {
+        "Easy": 0,
+        "Medium": 1,
+        "Hard": 0
+      },
+      "Complete Knapsack": {
+        "Easy": 0,
+        "Medium": 1,
+        "Hard": 0
+      },
+      "Range Minimum/Maximum Query": {
+        "Easy": 0,
+        "Medium": 0,
+        "Hard": 8
+      },
+      "Combinatorics": {
+        "Easy": 0,
+        "Medium": 1,
+        "Hard": 6
+      },
+      "Topological Sort": {
+        "Easy": 0,
+        "Medium": 3,
+        "Hard": 0
+      },
+      "Brute-Force Search": {
+        "Easy": 0,
+        "Medium": 2,
+        "Hard": 0
+      },
+      "Bidirectional Search": {
+        "Easy": 0,
+        "Medium": 0,
+        "Hard": 9
+      },
+      "Ordered Set": {
+        "Easy": 0,
+        "Medium": 0,
+        "Hard": 10
+      },
+      "Binary Indexed Tree": {
+        "Easy": 0,
+        "Medium": 0,
+        "Hard": 1
+      },
+      "Segment Tree": {
+        "Easy": 0,
+        "Medium": 0,
+        "Hard": 13
+      },
+      "Rolling Hash": {
+        "Easy": 0,
+        "Medium": 1,
+        "Hard": 1
+      },
+      "Hash Function": {
+        "Easy": 1,
+        "Medium": 1,
+        "Hard": 1
+      },
+      "Directed Acyclic Graph": {
+        "Easy": 0,
+        "Medium": 1,
+        "Hard": 0
+      },
+      "Primality Test": {
+        "Easy": 0,
+        "Medium": 1,
+        "Hard": 0
+      },
+      "Sieve Theory": {
+        "Easy": 0,
+        "Medium": 1,
+        "Hard": 0
+      },
+      "Prime Number Sieve": {
+        "Easy": 0,
+        "Medium": 1,
+        "Hard": 0
+      },
+      "Dancing Links": {
+        "Easy": 0,
+        "Medium": 0,
+        "Hard": 4
+      },
+      "Fermat's Little Theorem": {
+        "Easy": 0,
+        "Medium": 0,
+        "Hard": 4
+      },
+      "Radix Sort": {
+        "Easy": 0,
+        "Medium": 4,
+        "Hard": 0
+      },
+      "Euclidean Algorithm": {
+        "Easy": 0,
+        "Medium": 0,
+        "Hard": 4
+      },
+      "Greatest Common Divisor": {
+        "Easy": 0,
+        "Medium": 0,
+        "Hard": 4
+      },
+      "Data Stream": {
+        "Easy": 1,
+        "Medium": 1,
+        "Hard": 0
+      },
+      "Brainteaser": {
+        "Easy": 2,
+        "Medium": 0,
+        "Hard": 1
+      },
+      "Impartial Game": {
+        "Easy": 2,
+        "Medium": 0,
+        "Hard": 1
+      },
+      "Randomized": {
+        "Easy": 0,
+        "Medium": 1,
+        "Hard": 0
+      },
+      "Shortest Path": {
+        "Easy": 0,
+        "Medium": 1,
+        "Hard": 0
+      },
+      "Bellman\u2013Ford Algorithm": {
+        "Easy": 0,
+        "Medium": 1,
+        "Hard": 0
+      },
+      "Floyd\u2013Warshall Algorithm": {
+        "Easy": 0,
+        "Medium": 1,
+        "Hard": 0
+      },
+      "Binary Lifting": {
+        "Easy": 0,
+        "Medium": 1,
+        "Hard": 0
+      },
+      "Lowest Common Ancestor": {
+        "Easy": 0,
+        "Medium": 1,
+        "Hard": 0
+      },
+      "Minimum Spanning Tree": {
+        "Easy": 0,
+        "Medium": 0,
+        "Hard": 1
+      }
+    }
+  },
+  "submissionAnalytics": {
+    "totalAcceptedSubmissions": 1898,
+    "studentsWithSubmissionData": 111,
+    "uniqueProblemsSolved": 512,
+    "latestCollectionDate": "2026-08-16"
   }
 }

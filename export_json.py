@@ -3,6 +3,7 @@ import pandas as pd
 import json
 import re
 import os
+import glob
 from datetime import datetime, date, timedelta
 
 INPUT_FILE = os.path.join("input", "students.xlsx")
@@ -14,6 +15,10 @@ DASHBOARD_JSON_PATH = os.path.join("leetcode-dashboard", "public", "data", "leet
 SIBLING_DASHBOARD_JSON_PATH = os.path.normpath(
     os.path.join("..", "leetcode-dashboard", "public", "data", "leetcode-data.json")
 )
+
+DATA_DIR = "data"
+SUBMISSIONS_DIR = os.path.join(DATA_DIR, "submissions")
+CACHE_FILE = os.path.join(DATA_DIR, "problem-cache.json")
 
 def extract_leetcode_username(link):
     if pd.isna(link) or not isinstance(link, str):
@@ -36,6 +41,115 @@ def format_date_display(dt):
     if isinstance(dt, (datetime, date)):
         return dt.strftime('%d %b')
     return str(dt)
+
+def compute_submission_and_topic_analytics():
+    cache = {}
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, "r", encoding="utf-8") as f:
+                cache = json.load(f)
+        except Exception as e:
+            print(f"Warning: Failed to load problem cache in export_json ({e})")
+
+    sub_files = glob.glob(os.path.join(SUBMISSIONS_DIR, "*.json"))
+    
+    total_accepted_submissions = 0
+    students_with_data = set()
+    unique_slugs_solved = set()
+    latest_collection_date = ""
+
+    topic_overall = {}
+    topic_by_class = {}
+    topic_by_diff = {}
+
+    diff_counts = {"Easy": 0, "Medium": 0, "Hard": 0}
+    diff_by_topic = {}
+
+    seen_student_problems = set()
+
+    for sfile in sorted(sub_files):
+        fname = os.path.basename(sfile).replace(".json", "")
+        if fname > latest_collection_date:
+            latest_collection_date = fname
+        try:
+            with open(sfile, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                students = data.get("students", {})
+                for reg, sdata in students.items():
+                    dept = sdata.get("department", "CSD")
+                    subs = sdata.get("recentAcceptedSubmissions", [])
+                    if subs:
+                        students_with_data.add(reg)
+                    for sub in subs:
+                        total_accepted_submissions += 1
+                        tslug = sub.get("titleSlug")
+                        if not tslug:
+                            continue
+                        unique_slugs_solved.add(tslug)
+
+                        # Deduplicate per student per problem slug for topic/difficulty counts
+                        dedup_key = (reg, tslug)
+                        if dedup_key in seen_student_problems:
+                            continue
+                        seen_student_problems.add(dedup_key)
+
+                        q_info = cache.get(tslug, {})
+                        diff = q_info.get("difficulty", "Unknown")
+                        tags = q_info.get("topicTags", [])
+
+                        if diff in diff_counts:
+                            diff_counts[diff] += 1
+
+                        for tag in tags:
+                            topic_overall[tag] = topic_overall.get(tag, 0) + 1
+                            
+                            if dept not in topic_by_class:
+                                topic_by_class[dept] = {}
+                            topic_by_class[dept][tag] = topic_by_class[dept].get(tag, 0) + 1
+
+                            if diff != "Unknown":
+                                if diff not in topic_by_diff:
+                                    topic_by_diff[diff] = {}
+                                topic_by_diff[diff][tag] = topic_by_diff[diff].get(tag, 0) + 1
+
+                                if tag not in diff_by_topic:
+                                    diff_by_topic[tag] = {"Easy": 0, "Medium": 0, "Hard": 0}
+                                if diff in diff_by_topic[tag]:
+                                    diff_by_topic[tag][diff] += 1
+        except Exception as e:
+            print(f"Warning: Failed reading submission file {sfile}: {e}")
+
+    overall_list = [{"topic": k, "count": v} for k, v in sorted(topic_overall.items(), key=lambda x: x[1], reverse=True)]
+    
+    by_class_dict = {}
+    for dept, tdict in topic_by_class.items():
+        by_class_dict[dept] = [{"topic": k, "count": v} for k, v in sorted(tdict.items(), key=lambda x: x[1], reverse=True)]
+
+    by_diff_dict = {}
+    for diff, tdict in topic_by_diff.items():
+        by_diff_dict[diff] = [{"topic": k, "count": v} for k, v in sorted(tdict.items(), key=lambda x: x[1], reverse=True)]
+
+    topics_analysis = {
+        "overall": overall_list,
+        "byClass": by_class_dict,
+        "byDifficulty": by_diff_dict
+    }
+
+    difficulty_analysis = {
+        "Easy": diff_counts.get("Easy", 0),
+        "Medium": diff_counts.get("Medium", 0),
+        "Hard": diff_counts.get("Hard", 0),
+        "byTopic": diff_by_topic
+    }
+
+    submission_analytics = {
+        "totalAcceptedSubmissions": total_accepted_submissions,
+        "studentsWithSubmissionData": len(students_with_data),
+        "uniqueProblemsSolved": len(unique_slugs_solved),
+        "latestCollectionDate": latest_collection_date
+    }
+
+    return topics_analysis, difficulty_analysis, submission_analytics
 
 def run_export():
     if not os.path.exists(INPUT_FILE):
@@ -290,7 +404,7 @@ def run_export():
 
     # 4. Extract Latest Sheet Data & Class Summaries
     latest_date = sorted_dates[-1]
-    latest_sheet_name = unique_dated_sheets[latest_date]
+    prev_date = sorted_dates[-2] if len(sorted_dates) >= 2 else sorted_dates[0]
 
     students_list = []
     total_easy = 0
@@ -302,6 +416,22 @@ def run_export():
     class_student_counts = {}
     class_totals = {}
 
+    # Phase 3 Enhancements: Inactivity, Distribution, Rankings, Weekly Improvement
+    active_students_cnt = 0
+    inactive_recent_cnt = 0
+    inactive_long_cnt = 0
+    never_active_cnt = 0
+    inactive_students_list = []
+
+    sol_dist = {"solved0": 0, "solved1": 0, "solved2": 0, "solved3plus": 0}
+    yesterday_top_list = []
+    weekly_top_list = []
+
+    weekly_improved_students_cnt = 0
+    weekly_active_students_cnt = 0
+    weekly_no_imp_students_cnt = 0
+    total_weekly_problems = 0
+
     for reg_num, history in student_history.items():
         latest_record = history[-1]
         t_solved = latest_record["total"]
@@ -311,6 +441,10 @@ def run_export():
         c_imp = latest_record["imp"]
         dept = latest_record["dept"]
 
+        acc_info = user_map.get(reg_num, {})
+        username = acc_info.get("username", "") or f"user_{reg_num.lower()}"
+        name = acc_info.get("name", "") or f"Student {reg_num}"
+
         total_easy += e_count
         total_medium += m_count
         total_hard += h_count
@@ -318,6 +452,48 @@ def run_export():
 
         if c_imp > 0:
             solved_today += c_imp
+
+        # Distribution (Today / Latest Snapshot)
+        if c_imp == 0:
+            sol_dist["solved0"] += 1
+        elif c_imp == 1:
+            sol_dist["solved1"] += 1
+        elif c_imp == 2:
+            sol_dist["solved2"] += 1
+        else:
+            sol_dist["solved3plus"] += 1
+
+        # Yesterday's Top Students calculation
+        if len(history) >= 2:
+            prev_record = history[-2]
+            prev_imp = prev_record["imp"]
+            if prev_imp > 0:
+                yesterday_top_list.append({
+                    "rollNumber": reg_num,
+                    "name": name,
+                    "username": username,
+                    "department": dept,
+                    "problemsSolved": prev_imp
+                })
+
+        # Weekly improvement for student
+        start_idx = max(0, len(history) - 7)
+        w_imp = history[-1]["total"] - history[start_idx]["total"]
+        if w_imp > 0:
+            weekly_top_list.append({
+                "rollNumber": reg_num,
+                "name": name,
+                "username": username,
+                "department": dept,
+                "weeklyProblemsSolved": w_imp
+            })
+            weekly_improved_students_cnt += 1
+            total_weekly_problems += w_imp
+        else:
+            weekly_no_imp_students_cnt += 1
+
+        if t_solved > 0:
+            weekly_active_students_cnt += 1
 
         # Streak calculation
         streak = 0
@@ -342,11 +518,62 @@ def run_export():
             else:
                 last_active_str = f"{days_ago} days ago"
 
-        acc_info = user_map.get(reg_num, {})
-        username = acc_info.get("username", "") or f"user_{reg_num.lower()}"
-        name = acc_info.get("name", "") or f"Student {reg_num}"
-
         status = "Active" if t_solved > 0 and (c_imp >= 0 or streak > 0) else "Inactive"
+
+        # Inactivity Categorization
+        if t_solved == 0:
+            never_active_cnt += 1
+            inactive_students_list.append({
+                "rollNumber": reg_num,
+                "name": name,
+                "username": username,
+                "department": dept,
+                "totalSolved": 0,
+                "lastActiveDate": "Never",
+                "daysSinceLastActivity": None,
+                "inactivityType": "NEVER_ACTIVE"
+            })
+        else:
+            last_active_d = None
+            prev_t = 0
+            for h in history:
+                if h["total"] > prev_t or h["imp"] > 0:
+                    last_active_d = h["date"]
+                prev_t = h["total"]
+
+            if last_active_d:
+                days_since_act = (latest_date - last_active_d).days
+                last_act_date_str = last_active_d.strftime("%Y-%m-%d")
+            else:
+                days_since_act = (latest_date - history[0]["date"]).days
+                last_act_date_str = history[0]["date"].strftime("%Y-%m-%d")
+
+            if days_since_act <= 7:
+                active_students_cnt += 1
+            elif 7 < days_since_act <= 14:
+                inactive_recent_cnt += 1
+                inactive_students_list.append({
+                    "rollNumber": reg_num,
+                    "name": name,
+                    "username": username,
+                    "department": dept,
+                    "totalSolved": t_solved,
+                    "lastActiveDate": last_act_date_str,
+                    "daysSinceLastActivity": days_since_act,
+                    "inactivityType": "INACTIVE_RECENT"
+                })
+            else:
+                inactive_long_cnt += 1
+                inactive_students_list.append({
+                    "rollNumber": reg_num,
+                    "name": name,
+                    "username": username,
+                    "department": dept,
+                    "totalSolved": t_solved,
+                    "lastActiveDate": last_act_date_str,
+                    "daysSinceLastActivity": days_since_act,
+                    "inactivityType": "INACTIVE_LONG_TERM"
+                })
 
         # Update class totals
         if dept not in class_student_counts:
@@ -367,11 +594,8 @@ def run_export():
         ct["hardTotal"] += h_count
 
         # Class weekly improvement calculation
-        if len(history) >= 2:
-            start_idx = max(0, len(history) - 7)
-            diff = history[-1]["total"] - history[start_idx]["total"]
-            if diff > 0:
-                ct["weeklyImprovement"] += diff
+        if w_imp > 0:
+            ct["weeklyImprovement"] += w_imp
 
         students_list.append({
             "id": reg_num,
@@ -388,6 +612,32 @@ def run_export():
             "lastActive": last_active_str,
             "status": status
         })
+
+    # Sort rankings
+    yesterday_top_list.sort(key=lambda x: x["problemsSolved"], reverse=True)
+    weekly_top_list.sort(key=lambda x: x["weeklyProblemsSolved"], reverse=True)
+    inactive_students_list.sort(key=lambda x: (x["totalSolved"], x["daysSinceLastActivity"] or 9999), reverse=False)
+
+    total_valid_students = len(students_list)
+    student_distribution = {
+        "solved0": sol_dist["solved0"],
+        "solved1": sol_dist["solved1"],
+        "solved2": sol_dist["solved2"],
+        "solved3plus": sol_dist["solved3plus"],
+        "percentages": {
+            "solved0": round((sol_dist["solved0"] / total_valid_students) * 100, 2) if total_valid_students else 0,
+            "solved1": round((sol_dist["solved1"] / total_valid_students) * 100, 2) if total_valid_students else 0,
+            "solved2": round((sol_dist["solved2"] / total_valid_students) * 100, 2) if total_valid_students else 0,
+            "solved3plus": round((sol_dist["solved3plus"] / total_valid_students) * 100, 2) if total_valid_students else 0
+        }
+    }
+
+    weekly_improvement_stats = {
+        "problemsSolved": total_weekly_problems,
+        "studentsImproved": weekly_improved_students_cnt,
+        "studentsActive": weekly_active_students_cnt,
+        "studentsNoImprovement": weekly_no_imp_students_cnt
+    }
 
     # Sort students by totalSolved descending
     students_list.sort(key=lambda x: x["totalSolved"], reverse=True)
@@ -407,25 +657,24 @@ def run_export():
         class_top_performers[c_name] = class_students[:5]
 
     # Weekly improvement for department
-    weekly_improvement = 0
-    for reg_num, history in student_history.items():
-        if len(history) >= 2:
-            start_idx = max(0, len(history) - 7)
-            diff = history[-1]["total"] - history[start_idx]["total"]
-            if diff > 0:
-                weekly_improvement += diff
+    weekly_improvement = total_weekly_problems
 
     # 5. Build Top Performers (Department)
     top_performers = students_list[:5]
 
-    # 6. Build Payload
+    # 6. Compute Submission & Topic Analytics from cached submission data
+    topics_analysis, difficulty_analysis, submission_analytics = compute_submission_and_topic_analytics()
+
+    # 7. Build Payload
     export_payload = {
         "latestDate": latest_date.strftime('%Y-%m-%d'),
         "latestDateFormatted": format_date_display(latest_date),
         "classes": classes_list,
         "summary": {
             "totalStudents": len(students_list),
-            "activeStudents": sum(1 for s in students_list if s["status"] == "Active"),
+            "activeStudents": active_students_cnt,
+            "inactiveStudents": inactive_recent_cnt + inactive_long_cnt,
+            "neverActiveStudents": never_active_cnt,
             "totalProblemsSolved": total_solved,
             "solvedToday": solved_today,
             "weeklyImprovement": weekly_improvement,
@@ -441,10 +690,20 @@ def run_export():
         "classTopPerformers": class_top_performers,
         "students": students_list,
         "topPerformers": top_performers,
-        "dailySnapshots": daily_snapshots
+        "dailySnapshots": daily_snapshots,
+
+        # Phase 3 Analytics Extensions
+        "inactiveStudents": inactive_students_list,
+        "studentDistribution": student_distribution,
+        "yesterdayTopStudents": yesterday_top_list,
+        "weeklyTopStudents": weekly_top_list,
+        "weeklyImprovement": weekly_improvement_stats,
+        "topicsAnalysis": topics_analysis,
+        "difficultyAnalysis": difficulty_analysis,
+        "submissionAnalytics": submission_analytics
     }
 
-    # 7. Write to output files
+    # 8. Write to output files
     os.makedirs(os.path.dirname(OUTPUT_JSON_PATH), exist_ok=True)
     with open(OUTPUT_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(export_payload, f, indent=2)

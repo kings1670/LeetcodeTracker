@@ -17,11 +17,17 @@ import {
     Tooltip,
 } from "recharts";
 
-function ClassPerformancePage({ dashboardData }) {
-    const [selectedClass, setSelectedClass] = useState("All Classes");
+function ClassPerformancePage({ dashboardData, onSelectStudent }) {
+    const [selectedClass, setSelectedClass] = useState("III CSD A");
     const [timeframe, setTimeframe] = useState("7d");
 
     const availableClasses = useMemo(() => getAvailableClasses(dashboardData), [dashboardData]);
+
+    useEffect(() => {
+        if (availableClasses.length > 0 && !availableClasses.includes(selectedClass)) {
+            setSelectedClass(availableClasses[0]);
+        }
+    }, [availableClasses, selectedClass]);
 
     const summary = useMemo(() => {
         return getClassSummary(dashboardData, selectedClass);
@@ -237,7 +243,12 @@ function ClassPerformancePage({ dashboardData }) {
                             const rank = idx + 1;
                             const rankClass = rank === 1 ? "first" : rank === 2 ? "second" : rank === 3 ? "third" : "";
                             return (
-                                <div className="leader-row" key={student.id || idx}>
+                                <div
+                                    className="leader-row"
+                                    key={student.id || idx}
+                                    onClick={() => onSelectStudent && onSelectStudent(student)}
+                                    style={{ cursor: "pointer" }}
+                                >
                                     <span className={`rank ${rankClass}`}>{rank}</span>
                                     <span className="student-name">{student.name}</span>
                                     <span className="roll-cell">{student.rollNumber}</span>

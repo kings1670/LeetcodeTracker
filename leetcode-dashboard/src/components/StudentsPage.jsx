@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect } from "react";
 import { fetchDashboardData } from "../services/dashboardData";
 import "./StudentsPage.css";
 
-function StudentsPage({ dashboardData: initialDashboardData }) {
+function StudentsPage({ dashboardData: initialDashboardData, onSelectStudent }) {
     const [dashboardData, setDashboardData] = useState(initialDashboardData);
     const [loading, setLoading] = useState(!initialDashboardData);
     const [searchTerm, setSearchTerm] = useState("");
@@ -276,7 +276,11 @@ function StudentsPage({ dashboardData: initialDashboardData }) {
                                             : "";
 
                                     return (
-                                        <tr key={student.id || student.rollNumber || index}>
+                                        <tr
+                                            key={student.id || student.rollNumber || index}
+                                            onClick={() => onSelectStudent && onSelectStudent(student)}
+                                            style={{ cursor: "pointer" }}
+                                        >
                                             <td className={`rank-cell ${rankClass}`}>{rank}</td>
                                             <td>
                                                 <div className="student-info-cell">

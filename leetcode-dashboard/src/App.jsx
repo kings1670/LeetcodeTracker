@@ -3,6 +3,9 @@ import "./App.css";
 import StudentsPage from "./components/StudentsPage";
 import PerformanceCalendar from "./components/PerformanceCalendar";
 import ClassPerformancePage from "./components/ClassPerformancePage";
+import AnalyticsPage from "./components/AnalyticsPage";
+import ActivityPatternPage from "./components/ActivityPatternPage";
+import StudentDetailPage from "./components/StudentDetailPage";
 import { fetchDashboardData } from "./services/dashboardData";
 
 import {
@@ -19,6 +22,8 @@ function App() {
     const [activeTab, setActiveTab] = useState("dashboard");
     const [dashboardData, setDashboardData] = useState(null);
     const [loading, setLoading] = useState(true);
+    const [selectedStudent, setSelectedStudent] = useState(null);
+    const [previousTab, setPreviousTab] = useState("students");
 
     useEffect(() => {
         let isMounted = true;
@@ -38,6 +43,17 @@ function App() {
             isMounted = false;
         };
     }, []);
+
+    const handleSelectStudent = (studentObj, fromTab) => {
+        setSelectedStudent(studentObj);
+        setPreviousTab(fromTab || activeTab);
+        setActiveTab("student-detail");
+    };
+
+    const handleBackFromStudentDetail = () => {
+        setActiveTab(previousTab || "students");
+        setSelectedStudent(null);
+    };
 
     const summary = dashboardData?.summary || {};
     const dailyData = dashboardData?.dailyTrend || [];
@@ -81,7 +97,7 @@ function App() {
                     </a>
 
                     <a
-                        className={`nav-item ${activeTab === "students" ? "active" : ""}`}
+                        className={`nav-item ${activeTab === "students" || activeTab === "student-detail" ? "active" : ""}`}
                         href="#"
                         onClick={(e) => {
                             e.preventDefault();
@@ -104,14 +120,33 @@ function App() {
                         Class Performance
                     </a>
 
-                    <a className="nav-item" href="#" onClick={(e) => e.preventDefault()}>
-                        <span>🏆</span>
-                        Leaderboard
+                    <a
+                        className={`nav-item ${activeTab === "analytics" ? "active" : ""}`}
+                        href="#"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            setActiveTab("analytics");
+                        }}
+                    >
+                        <span>📈</span>
+                        Analytics
+                    </a>
+
+                    <a
+                        className={`nav-item ${activeTab === "activity-patterns" ? "active" : ""}`}
+                        href="#"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            setActiveTab("activity-patterns");
+                        }}
+                    >
+                        <span>⚡</span>
+                        Activity Patterns
                     </a>
 
                     <a className="nav-item" href="#" onClick={(e) => e.preventDefault()}>
-                        <span>📈</span>
-                        Analytics
+                        <span>🏆</span>
+                        Leaderboard
                     </a>
 
                     <a className="nav-item" href="#" onClick={(e) => e.preventDefault()}>
@@ -135,9 +170,43 @@ function App() {
 
             {/* Main Content */}
             <main className="main-content">
-                {activeTab === "students" && <StudentsPage dashboardData={dashboardData} />}
+                {activeTab === "students" && (
+                    <StudentsPage
+                        dashboardData={dashboardData}
+                        onSelectStudent={(student) => handleSelectStudent(student, "students")}
+                    />
+                )}
 
-                {activeTab === "class-performance" && <ClassPerformancePage dashboardData={dashboardData} />}
+                {activeTab === "class-performance" && (
+                    <ClassPerformancePage
+                        dashboardData={dashboardData}
+                        onSelectStudent={(student) => handleSelectStudent(student, "class-performance")}
+                    />
+                )}
+
+                {activeTab === "analytics" && (
+                    <AnalyticsPage
+                        data={dashboardData}
+                        onNavigateToTab={setActiveTab}
+                        onSelectStudent={(student) => handleSelectStudent(student, "analytics")}
+                    />
+                )}
+
+                {activeTab === "activity-patterns" && (
+                    <ActivityPatternPage
+                        dashboardData={dashboardData}
+                        onSelectStudent={(student) => handleSelectStudent(student, "activity-patterns")}
+                    />
+                )}
+
+                {activeTab === "student-detail" && selectedStudent && (
+                    <StudentDetailPage
+                        student={selectedStudent}
+                        dashboardData={dashboardData}
+                        previousTab={previousTab}
+                        onBack={handleBackFromStudentDetail}
+                    />
+                )}
 
                 {activeTab === "dashboard" && (
                     <>
