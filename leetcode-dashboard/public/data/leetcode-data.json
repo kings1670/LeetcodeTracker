@@ -10,12 +10,12 @@
     "activeStudents": 87,
     "inactiveStudents": 30,
     "neverActiveStudents": 6,
-    "totalProblemsSolved": 13261,
-    "solvedToday": 80,
-    "weeklyImprovement": 5911,
-    "easyTotal": 6225,
-    "mediumTotal": 5674,
-    "hardTotal": 1362,
+    "totalProblemsSolved": 13268,
+    "solvedToday": 87,
+    "weeklyImprovement": 5918,
+    "easyTotal": 6230,
+    "mediumTotal": 5675,
+    "hardTotal": 1363,
     "avgSolved": 108
   },
   "dailyTrend": [
@@ -52,7 +52,7 @@
     {
       "date": "2026-08-16",
       "day": "16 Aug",
-      "solved": 13261
+      "solved": 13268
     }
   ],
   "fullHistoryTrend": [
@@ -199,7 +199,7 @@
     {
       "date": "2026-08-16",
       "day": "16 Aug",
-      "solved": 13261
+      "solved": 13268
     }
   ],
   "classDailyTrends": {
@@ -494,7 +494,7 @@
       {
         "date": "2026-08-16",
         "day": "16 Aug",
-        "solved": 10832
+        "solved": 10839
       }
     ]
   },
@@ -513,12 +513,12 @@
     "III CSD A": {
       "totalStudents": 61,
       "activeStudents": 61,
-      "totalProblemsSolved": 10832,
-      "solvedToday": 71,
-      "weeklyImprovement": 4827,
-      "easyTotal": 4813,
-      "mediumTotal": 4772,
-      "hardTotal": 1247,
+      "totalProblemsSolved": 10839,
+      "solvedToday": 78,
+      "weeklyImprovement": 4834,
+      "easyTotal": 4818,
+      "mediumTotal": 4773,
+      "hardTotal": 1248,
       "avgSolved": 178
     }
   },
@@ -800,6 +800,21 @@
       "status": "Active"
     },
     {
+      "id": "310624150028",
+      "rollNumber": "310624150028",
+      "name": "NERAIMATHI.K",
+      "department": "III CSD A",
+      "leetcodeUsername": "Neraimathi1102",
+      "easy": 171,
+      "medium": 75,
+      "hard": 20,
+      "totalSolved": 266,
+      "improvement": 4,
+      "streak": 6,
+      "lastActive": "Today",
+      "status": "Active"
+    },
+    {
       "id": "310624150039",
       "rollNumber": "310624150039",
       "name": "Santhosh Kanna",
@@ -812,21 +827,6 @@
       "improvement": 8,
       "streak": 29,
       "lastActive": "Today",
-      "status": "Active"
-    },
-    {
-      "id": "310624150028",
-      "rollNumber": "310624150028",
-      "name": "NERAIMATHI.K",
-      "department": "III CSD A",
-      "leetcodeUsername": "Neraimathi1102",
-      "easy": 168,
-      "medium": 75,
-      "hard": 19,
-      "totalSolved": 262,
-      "improvement": 0,
-      "streak": 6,
-      "lastActive": "Yesterday",
       "status": "Active"
     },
     {
@@ -860,6 +860,21 @@
       "status": "Active"
     },
     {
+      "id": "310624150048",
+      "rollNumber": "310624150048",
+      "name": "K S Tarunika",
+      "department": "III CSD A",
+      "leetcodeUsername": "tarunika_ks",
+      "easy": 148,
+      "medium": 84,
+      "hard": 18,
+      "totalSolved": 250,
+      "improvement": 3,
+      "streak": 6,
+      "lastActive": "Today",
+      "status": "Active"
+    },
+    {
       "id": "310624150059",
       "rollNumber": "310624150059",
       "name": "Vishali. M",
@@ -872,21 +887,6 @@
       "improvement": 2,
       "streak": 6,
       "lastActive": "Today",
-      "status": "Active"
-    },
-    {
-      "id": "310624150048",
-      "rollNumber": "310624150048",
-      "name": "K S Tarunika",
-      "department": "III CSD A",
-      "leetcodeUsername": "tarunika_ks",
-      "easy": 146,
-      "medium": 83,
-      "hard": 18,
-      "totalSolved": 247,
-      "improvement": 0,
-      "streak": 6,
-      "lastActive": "Yesterday",
       "status": "Active"
     },
     {
@@ -41555,13 +41555,13 @@
       "date": "2026-08-16",
       "dateFormatted": "16 Aug",
       "summary": {
-        "totalSolved": 13261,
-        "easyTotal": 6225,
-        "mediumTotal": 5674,
-        "hardTotal": 1362,
+        "totalSolved": 13268,
+        "easyTotal": 6230,
+        "mediumTotal": 5675,
+        "hardTotal": 1363,
         "activeStudents": 117,
-        "improvedCount": 28,
-        "noChangeCount": 95,
+        "improvedCount": 30,
+        "noChangeCount": 93,
         "declinedCount": 0
       },
       "classSummaries": {
@@ -41576,13 +41576,13 @@
           "declined": 0
         },
         "III CSD A": {
-          "total": 10832,
-          "easy": 4813,
-          "medium": 4772,
-          "hard": 1247,
+          "total": 10839,
+          "easy": 4818,
+          "medium": 4773,
+          "hard": 1248,
           "active": 61,
-          "improved": 24,
-          "nochange": 37,
+          "improved": 26,
+          "nochange": 35,
           "declined": 0
         }
       },
@@ -41676,6 +41676,17 @@
           "rank": 8
         },
         {
+          "rollNumber": "310624150028",
+          "name": "NERAIMATHI.K",
+          "department": "III CSD A",
+          "easy": 171,
+          "medium": 75,
+          "hard": 20,
+          "totalSolved": 266,
+          "improvement": 4,
+          "rank": 9
+        },
+        {
           "rollNumber": "310624150039",
           "name": "Santhosh Kanna",
           "department": "III CSD A",
@@ -41684,17 +41695,6 @@
           "hard": 41,
           "totalSolved": 265,
           "improvement": 8,
-          "rank": 9
-        },
-        {
-          "rollNumber": "310624150028",
-          "name": "NERAIMATHI.K",
-          "department": "III CSD A",
-          "easy": 168,
-          "medium": 75,
-          "hard": 19,
-          "totalSolved": 262,
-          "improvement": 0,
           "rank": 10
         },
         {
@@ -41720,6 +41720,17 @@
           "rank": 12
         },
         {
+          "rollNumber": "310624150048",
+          "name": "K S Tarunika",
+          "department": "III CSD A",
+          "easy": 148,
+          "medium": 84,
+          "hard": 18,
+          "totalSolved": 250,
+          "improvement": 3,
+          "rank": 13
+        },
+        {
           "rollNumber": "310624150059",
           "name": "Vishali. M",
           "department": "III CSD A",
@@ -41728,17 +41739,6 @@
           "hard": 33,
           "totalSolved": 248,
           "improvement": 2,
-          "rank": 13
-        },
-        {
-          "rollNumber": "310624150048",
-          "name": "K S Tarunika",
-          "department": "III CSD A",
-          "easy": 146,
-          "medium": 83,
-          "hard": 18,
-          "totalSolved": 247,
-          "improvement": 0,
           "rank": 14
         },
         {
@@ -43306,15 +43306,15 @@
     }
   ],
   "studentDistribution": {
-    "solved0": 95,
+    "solved0": 93,
     "solved1": 9,
     "solved2": 8,
-    "solved3plus": 11,
+    "solved3plus": 13,
     "percentages": {
-      "solved0": 77.24,
+      "solved0": 75.61,
       "solved1": 7.32,
       "solved2": 6.5,
-      "solved3plus": 8.94
+      "solved3plus": 10.57
     }
   },
   "yesterdayTopStudents": [
@@ -43507,7 +43507,7 @@
       "name": "NERAIMATHI.K",
       "username": "Neraimathi1102",
       "department": "III CSD A",
-      "weeklyProblemsSolved": 262
+      "weeklyProblemsSolved": 266
     },
     {
       "rollNumber": "310624150006",
@@ -43517,18 +43517,18 @@
       "weeklyProblemsSolved": 251
     },
     {
+      "rollNumber": "310624150048",
+      "name": "K S Tarunika",
+      "username": "tarunika_ks",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 250
+    },
+    {
       "rollNumber": "310624150059",
       "name": "Vishali. M",
       "username": "vishali2622",
       "department": "III CSD A",
       "weeklyProblemsSolved": 248
-    },
-    {
-      "rollNumber": "310624150048",
-      "name": "K S Tarunika",
-      "username": "tarunika_ks",
-      "department": "III CSD A",
-      "weeklyProblemsSolved": 247
     },
     {
       "rollNumber": "310624150004",
@@ -44078,7 +44078,7 @@
     }
   ],
   "weeklyImprovement": {
-    "problemsSolved": 5911,
+    "problemsSolved": 5918,
     "studentsImproved": 83,
     "studentsActive": 117,
     "studentsNoImprovement": 40
@@ -44087,27 +44087,27 @@
     "overall": [
       {
         "topic": "Array",
-        "count": 826
+        "count": 825
       },
       {
         "topic": "String",
-        "count": 475
+        "count": 476
       },
       {
         "topic": "Math",
-        "count": 384
+        "count": 387
       },
       {
         "topic": "Hash Table",
-        "count": 330
-      },
-      {
-        "topic": "Two Pointers",
-        "count": 248
+        "count": 331
       },
       {
         "topic": "Dynamic Programming",
         "count": 248
+      },
+      {
+        "topic": "Two Pointers",
+        "count": 247
       },
       {
         "topic": "Sorting",
@@ -44115,15 +44115,15 @@
       },
       {
         "topic": "Database",
-        "count": 142
+        "count": 143
       },
       {
         "topic": "Binary Search",
-        "count": 141
+        "count": 138
       },
       {
         "topic": "Linked List",
-        "count": 138
+        "count": 137
       },
       {
         "topic": "Backtracking",
@@ -44135,35 +44135,35 @@
       },
       {
         "topic": "Depth-First Search",
-        "count": 120
+        "count": 119
       },
       {
         "topic": "Recursion",
-        "count": 114
+        "count": 113
       },
       {
         "topic": "Tree",
-        "count": 110
+        "count": 109
       },
       {
         "topic": "Binary Tree",
-        "count": 110
+        "count": 109
       },
       {
         "topic": "Stack",
-        "count": 87
+        "count": 88
       },
       {
         "topic": "Breadth-First Search",
-        "count": 87
-      },
-      {
-        "topic": "Bit Manipulation",
-        "count": 85
+        "count": 86
       },
       {
         "topic": "Matrix",
         "count": 85
+      },
+      {
+        "topic": "Bit Manipulation",
+        "count": 84
       },
       {
         "topic": "Sliding Window",
@@ -44178,12 +44178,12 @@
         "count": 64
       },
       {
-        "topic": "Zero-Sum Game",
+        "topic": "Divide and Conquer",
         "count": 63
       },
       {
-        "topic": "Divide and Conquer",
-        "count": 62
+        "topic": "Zero-Sum Game",
+        "count": 63
       },
       {
         "topic": "Prefix Sum",
@@ -44195,7 +44195,7 @@
       },
       {
         "topic": "Counting",
-        "count": 47
+        "count": 49
       },
       {
         "topic": "Trie",
@@ -44207,15 +44207,15 @@
       },
       {
         "topic": "Heap (Priority Queue)",
+        "count": 28
+      },
+      {
+        "topic": "Number Theory",
         "count": 27
       },
       {
         "topic": "Graph Theory",
         "count": 25
-      },
-      {
-        "topic": "Number Theory",
-        "count": 24
       },
       {
         "topic": "Monotonic Stack",
@@ -44227,7 +44227,7 @@
       },
       {
         "topic": "Design",
-        "count": 21
+        "count": 20
       },
       {
         "topic": "Nim Game",
@@ -44262,16 +44262,16 @@
         "count": 15
       },
       {
+        "topic": "Merge Sort",
+        "count": 14
+      },
+      {
         "topic": "Interactive",
         "count": 14
       },
       {
         "topic": "Quicksort",
         "count": 14
-      },
-      {
-        "topic": "Merge Sort",
-        "count": 13
       },
       {
         "topic": "Newton's Method",
@@ -44322,16 +44322,16 @@
         "count": 8
       },
       {
-        "topic": "Pigeonhole Principle",
+        "topic": "Range Minimum/Maximum Query",
         "count": 8
+      },
+      {
+        "topic": "Pigeonhole Principle",
+        "count": 7
       },
       {
         "topic": "Floyd's Cycle Finding Algorithm",
-        "count": 8
-      },
-      {
-        "topic": "Range Minimum/Maximum Query",
-        "count": 8
+        "count": 7
       },
       {
         "topic": "Bucket Sort",
@@ -44343,7 +44343,15 @@
       },
       {
         "topic": "Tournament Sort",
-        "count": 5
+        "count": 6
+      },
+      {
+        "topic": "Euclidean Algorithm",
+        "count": 6
+      },
+      {
+        "topic": "Greatest Common Divisor",
+        "count": 6
       },
       {
         "topic": "Shell",
@@ -44370,14 +44378,6 @@
         "count": 4
       },
       {
-        "topic": "Euclidean Algorithm",
-        "count": 4
-      },
-      {
-        "topic": "Greatest Common Divisor",
-        "count": 4
-      },
-      {
         "topic": "Ternary Search",
         "count": 3
       },
@@ -44391,10 +44391,6 @@
       },
       {
         "topic": "Topological Sort",
-        "count": 3
-      },
-      {
-        "topic": "Hash Function",
         "count": 3
       },
       {
@@ -44415,6 +44411,10 @@
       },
       {
         "topic": "Rolling Hash",
+        "count": 2
+      },
+      {
+        "topic": "Hash Function",
         "count": 2
       },
       {
@@ -44565,15 +44565,15 @@
           "count": 31
         },
         {
+          "topic": "Database",
+          "count": 29
+        },
+        {
           "topic": "Sliding Window",
           "count": 28
         },
         {
           "topic": "Matrix",
-          "count": 28
-        },
-        {
-          "topic": "Database",
           "count": 28
         },
         {
@@ -44784,15 +44784,15 @@
       "III CSD A": [
         {
           "topic": "Array",
-          "count": 427
+          "count": 426
         },
         {
           "topic": "String",
-          "count": 263
+          "count": 264
         },
         {
           "topic": "Math",
-          "count": 187
+          "count": 190
         },
         {
           "topic": "Dynamic Programming",
@@ -44800,7 +44800,7 @@
         },
         {
           "topic": "Hash Table",
-          "count": 167
+          "count": 168
         },
         {
           "topic": "Database",
@@ -44812,7 +44812,7 @@
         },
         {
           "topic": "Two Pointers",
-          "count": 109
+          "count": 108
         },
         {
           "topic": "Backtracking",
@@ -44824,23 +44824,23 @@
         },
         {
           "topic": "Depth-First Search",
-          "count": 79
+          "count": 78
         },
         {
           "topic": "Linked List",
-          "count": 70
+          "count": 69
         },
         {
           "topic": "Tree",
-          "count": 69
+          "count": 68
         },
         {
           "topic": "Binary Tree",
-          "count": 69
+          "count": 68
         },
         {
           "topic": "Breadth-First Search",
-          "count": 63
+          "count": 62
         },
         {
           "topic": "Matrix",
@@ -44860,19 +44860,19 @@
         },
         {
           "topic": "Binary Search",
-          "count": 54
-        },
-        {
-          "topic": "Bit Manipulation",
-          "count": 50
+          "count": 51
         },
         {
           "topic": "Stack",
+          "count": 50
+        },
+        {
+          "topic": "Bit Manipulation",
           "count": 49
         },
         {
           "topic": "Recursion",
-          "count": 44
+          "count": 43
         },
         {
           "topic": "Sliding Window",
@@ -44884,11 +44884,11 @@
         },
         {
           "topic": "Divide and Conquer",
-          "count": 31
+          "count": 32
         },
         {
           "topic": "Counting",
-          "count": 24
+          "count": 26
         },
         {
           "topic": "Graph Theory",
@@ -44904,11 +44904,15 @@
         },
         {
           "topic": "Heap (Priority Queue)",
+          "count": 18
+        },
+        {
+          "topic": "Number Theory",
           "count": 17
         },
         {
           "topic": "Design",
-          "count": 17
+          "count": 16
         },
         {
           "topic": "Trie",
@@ -44917,10 +44921,6 @@
         {
           "topic": "Monotonic Stack",
           "count": 15
-        },
-        {
-          "topic": "Number Theory",
-          "count": 14
         },
         {
           "topic": "Enumeration",
@@ -44959,11 +44959,11 @@
           "count": 9
         },
         {
-          "topic": "Z Algorithm",
-          "count": 8
+          "topic": "Merge Sort",
+          "count": 9
         },
         {
-          "topic": "Merge Sort",
+          "topic": "Z Algorithm",
           "count": 8
         },
         {
@@ -44999,15 +44999,19 @@
           "count": 6
         },
         {
-          "topic": "Floyd's Cycle Finding Algorithm",
+          "topic": "Euclidean Algorithm",
           "count": 6
         },
         {
-          "topic": "Quicksort",
+          "topic": "Greatest Common Divisor",
+          "count": 6
+        },
+        {
+          "topic": "Floyd's Cycle Finding Algorithm",
           "count": 5
         },
         {
-          "topic": "Pigeonhole Principle",
+          "topic": "Quicksort",
           "count": 5
         },
         {
@@ -45023,15 +45027,11 @@
           "count": 4
         },
         {
+          "topic": "Pigeonhole Principle",
+          "count": 4
+        },
+        {
           "topic": "Geometry",
-          "count": 4
-        },
-        {
-          "topic": "Euclidean Algorithm",
-          "count": 4
-        },
-        {
-          "topic": "Greatest Common Divisor",
           "count": 4
         },
         {
@@ -45048,10 +45048,6 @@
         },
         {
           "topic": "Quickselect",
-          "count": 3
-        },
-        {
-          "topic": "Hash Function",
           "count": 3
         },
         {
@@ -45091,6 +45087,14 @@
           "count": 2
         },
         {
+          "topic": "Hash Function",
+          "count": 2
+        },
+        {
+          "topic": "Tournament Sort",
+          "count": 2
+        },
+        {
           "topic": "Data Stream",
           "count": 2
         },
@@ -45120,10 +45124,6 @@
         },
         {
           "topic": "Prime Number Sieve",
-          "count": 1
-        },
-        {
-          "topic": "Tournament Sort",
           "count": 1
         },
         {
@@ -45164,7 +45164,7 @@
       "Easy": [
         {
           "topic": "Array",
-          "count": 329
+          "count": 331
         },
         {
           "topic": "String",
@@ -45172,11 +45172,11 @@
         },
         {
           "topic": "Math",
-          "count": 175
+          "count": 178
         },
         {
           "topic": "Hash Table",
-          "count": 165
+          "count": 166
         },
         {
           "topic": "Sorting",
@@ -45184,7 +45184,7 @@
         },
         {
           "topic": "Database",
-          "count": 99
+          "count": 98
         },
         {
           "topic": "Two Pointers",
@@ -45196,26 +45196,26 @@
         },
         {
           "topic": "Tree",
-          "count": 65
+          "count": 64
         },
         {
           "topic": "Binary Tree",
-          "count": 65
+          "count": 64
         },
         {
           "topic": "Depth-First Search",
-          "count": 58
+          "count": 57
         },
         {
           "topic": "Stack",
           "count": 43
         },
         {
-          "topic": "Linked List",
-          "count": 41
+          "topic": "Bit Manipulation",
+          "count": 39
         },
         {
-          "topic": "Bit Manipulation",
+          "topic": "Linked List",
           "count": 39
         },
         {
@@ -45224,7 +45224,7 @@
         },
         {
           "topic": "Recursion",
-          "count": 33
+          "count": 32
         },
         {
           "topic": "Dynamic Programming",
@@ -45232,7 +45232,7 @@
         },
         {
           "topic": "Breadth-First Search",
-          "count": 28
+          "count": 27
         },
         {
           "topic": "Divide and Conquer",
@@ -45243,11 +45243,11 @@
           "count": 21
         },
         {
-          "topic": "Matrix",
-          "count": 18
+          "topic": "Counting",
+          "count": 20
         },
         {
-          "topic": "Counting",
+          "topic": "Matrix",
           "count": 18
         },
         {
@@ -45295,6 +45295,10 @@
           "count": 13
         },
         {
+          "topic": "Number Theory",
+          "count": 11
+        },
+        {
           "topic": "Memoization",
           "count": 10
         },
@@ -45311,16 +45315,12 @@
           "count": 9
         },
         {
-          "topic": "Number Theory",
-          "count": 8
-        },
-        {
           "topic": "Counting Sort",
           "count": 8
         },
         {
           "topic": "Design",
-          "count": 6
+          "count": 5
         },
         {
           "topic": "Queue",
@@ -45336,6 +45336,14 @@
         },
         {
           "topic": "Shell",
+          "count": 2
+        },
+        {
+          "topic": "Euclidean Algorithm",
+          "count": 2
+        },
+        {
+          "topic": "Greatest Common Divisor",
           "count": 2
         },
         {
@@ -45379,10 +45387,6 @@
           "count": 1
         },
         {
-          "topic": "Hash Function",
-          "count": 1
-        },
-        {
           "topic": "Data Stream",
           "count": 1
         },
@@ -45394,11 +45398,11 @@
       "Medium": [
         {
           "topic": "Array",
-          "count": 412
+          "count": 409
         },
         {
           "topic": "String",
-          "count": 206
+          "count": 207
         },
         {
           "topic": "Math",
@@ -45406,7 +45410,7 @@
         },
         {
           "topic": "Two Pointers",
-          "count": 154
+          "count": 153
         },
         {
           "topic": "Dynamic Programming",
@@ -45434,7 +45438,7 @@
         },
         {
           "topic": "Binary Search",
-          "count": 64
+          "count": 61
         },
         {
           "topic": "Depth-First Search",
@@ -45461,10 +45465,6 @@
           "count": 43
         },
         {
-          "topic": "Bit Manipulation",
-          "count": 43
-        },
-        {
           "topic": "Minimax",
           "count": 43
         },
@@ -45477,6 +45477,10 @@
           "count": 43
         },
         {
+          "topic": "Bit Manipulation",
+          "count": 42
+        },
+        {
           "topic": "Tree",
           "count": 42
         },
@@ -45486,11 +45490,11 @@
         },
         {
           "topic": "Database",
-          "count": 34
+          "count": 36
         },
         {
           "topic": "Stack",
-          "count": 26
+          "count": 27
         },
         {
           "topic": "Divide and Conquer",
@@ -45545,12 +45549,12 @@
           "count": 9
         },
         {
-          "topic": "Pigeonhole Principle",
+          "topic": "Merge Sort",
           "count": 8
         },
         {
-          "topic": "Merge Sort",
-          "count": 8
+          "topic": "Pigeonhole Principle",
+          "count": 7
         },
         {
           "topic": "Bucket Sort",
@@ -45558,10 +45562,6 @@
         },
         {
           "topic": "Monotonic Stack",
-          "count": 5
-        },
-        {
-          "topic": "Floyd's Cycle Finding Algorithm",
           "count": 5
         },
         {
@@ -45582,6 +45582,10 @@
         },
         {
           "topic": "Number Theory",
+          "count": 4
+        },
+        {
+          "topic": "Floyd's Cycle Finding Algorithm",
           "count": 4
         },
         {
@@ -45768,7 +45772,7 @@
         },
         {
           "topic": "Divide and Conquer",
-          "count": 15
+          "count": 16
         },
         {
           "topic": "Monotonic Stack",
@@ -45795,6 +45799,10 @@
           "count": 11
         },
         {
+          "topic": "Linked List",
+          "count": 10
+        },
+        {
           "topic": "Algorithm X",
           "count": 10
         },
@@ -45803,11 +45811,11 @@
           "count": 10
         },
         {
-          "topic": "Linked List",
+          "topic": "Sliding Window",
           "count": 9
         },
         {
-          "topic": "Sliding Window",
+          "topic": "Heap (Priority Queue)",
           "count": 9
         },
         {
@@ -45817,10 +45825,6 @@
         {
           "topic": "Database",
           "count": 9
-        },
-        {
-          "topic": "Heap (Priority Queue)",
-          "count": 8
         },
         {
           "topic": "Nim Game",
@@ -45835,20 +45839,20 @@
           "count": 8
         },
         {
+          "topic": "Merge Sort",
+          "count": 6
+        },
+        {
+          "topic": "Tournament Sort",
+          "count": 6
+        },
+        {
           "topic": "Combinatorics",
           "count": 6
         },
         {
           "topic": "Counting",
           "count": 6
-        },
-        {
-          "topic": "Merge Sort",
-          "count": 5
-        },
-        {
-          "topic": "Tournament Sort",
-          "count": 5
         },
         {
           "topic": "Trie",
@@ -45994,67 +45998,67 @@
     }
   },
   "difficultyAnalysis": {
-    "Easy": 849,
+    "Easy": 847,
     "Medium": 830,
-    "Hard": 187,
+    "Hard": 188,
     "byTopic": {
       "Math": {
-        "Easy": 175,
+        "Easy": 178,
         "Medium": 164,
         "Hard": 45
       },
       "String": {
         "Easy": 189,
-        "Medium": 206,
+        "Medium": 207,
         "Hard": 80
       },
       "Array": {
-        "Easy": 329,
-        "Medium": 412,
+        "Easy": 331,
+        "Medium": 409,
         "Hard": 85
       },
       "Binary Search": {
         "Easy": 65,
-        "Medium": 64,
+        "Medium": 61,
         "Hard": 12
       },
       "Two Pointers": {
         "Easy": 90,
-        "Medium": 154,
+        "Medium": 153,
         "Hard": 4
       },
       "Linked List": {
-        "Easy": 41,
+        "Easy": 39,
         "Medium": 88,
-        "Hard": 9
+        "Hard": 10
       },
       "Recursion": {
-        "Easy": 33,
+        "Easy": 32,
         "Medium": 57,
         "Hard": 24
       },
       "Stack": {
         "Easy": 43,
-        "Medium": 26,
+        "Medium": 27,
         "Hard": 18
       },
       "Tree": {
-        "Easy": 65,
+        "Easy": 64,
         "Medium": 42,
         "Hard": 3
       },
       "Depth-First Search": {
-        "Easy": 58,
+        "Easy": 57,
         "Medium": 59,
         "Hard": 3
       },
       "Binary Tree": {
-        "Easy": 65,
+        "Easy": 64,
         "Medium": 42,
         "Hard": 3
       },
       "Hash Table": {
-        "Easy": 165,
+        "Easy": 166,
         "Medium": 125,
         "Hard": 40
       },
@@ -46075,28 +46079,28 @@
       },
       "Bit Manipulation": {
         "Easy": 39,
-        "Medium": 43,
+        "Medium": 42,
         "Hard": 3
       },
       "Divide and Conquer": {
         "Easy": 23,
         "Medium": 24,
-        "Hard": 15
+        "Hard": 16
       },
       "Heap (Priority Queue)": {
         "Easy": 9,
         "Medium": 10,
-        "Hard": 8
+        "Hard": 9
       },
       "Merge Sort": {
         "Easy": 0,
         "Medium": 8,
-        "Hard": 5
+        "Hard": 6
       },
       "Tournament Sort": {
         "Easy": 0,
         "Medium": 0,
-        "Hard": 5
+        "Hard": 6
       },
       "String Matching": {
         "Easy": 17,
@@ -46174,7 +46178,7 @@
         "Hard": 3
       },
       "Counting": {
-        "Easy": 18,
+        "Easy": 20,
         "Medium": 23,
         "Hard": 6
       },
@@ -46209,7 +46213,7 @@
         "Hard": 1
       },
       "Breadth-First Search": {
-        "Easy": 28,
+        "Easy": 27,
         "Medium": 47,
         "Hard": 12
       },
@@ -46234,7 +46238,7 @@
         "Hard": 1
       },
       "Number Theory": {
-        "Easy": 8,
+        "Easy": 11,
         "Medium": 4,
         "Hard": 12
       },
@@ -46259,13 +46263,13 @@
         "Hard": 4
       },
       "Design": {
-        "Easy": 6,
+        "Easy": 5,
         "Medium": 10,
         "Hard": 5
       },
       "Database": {
-        "Easy": 99,
-        "Medium": 34,
+        "Easy": 98,
+        "Medium": 36,
         "Hard": 9
       },
       "Memoization": {
@@ -46295,7 +46299,7 @@
       },
       "Pigeonhole Principle": {
         "Easy": 0,
-        "Medium": 8,
+        "Medium": 7,
         "Hard": 0
       },
       "Timsort": {
@@ -46320,7 +46324,7 @@
       },
       "Floyd's Cycle Finding Algorithm": {
         "Easy": 3,
-        "Medium": 5,
+        "Medium": 4,
         "Hard": 0
       },
       "Bucket Sort": {
@@ -46399,7 +46403,7 @@
         "Hard": 1
       },
       "Hash Function": {
-        "Easy": 1,
+        "Easy": 0,
         "Medium": 1,
         "Hard": 1
       },
@@ -46439,12 +46443,12 @@
         "Hard": 0
       },
       "Euclidean Algorithm": {
-        "Easy": 0,
+        "Easy": 2,
         "Medium": 0,
         "Hard": 4
       },
       "Greatest Common Divisor": {
-        "Easy": 0,
+        "Easy": 2,
         "Medium": 0,
         "Hard": 4
       },
@@ -46501,9 +46505,9 @@
     }
   },
   "submissionAnalytics": {
-    "totalAcceptedSubmissions": 1898,
+    "totalAcceptedSubmissions": 1895,
     "studentsWithSubmissionData": 111,
-    "uniqueProblemsSolved": 512,
-    "latestCollectionDate": "2026-08-16"
+    "uniqueProblemsSolved": 515,
+    "latestCollectionDate": "2026-08-17"
   }
 }
