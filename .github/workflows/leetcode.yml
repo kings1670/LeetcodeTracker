@@ -1,17 +1,26 @@
-name: Daily LeetCode Tracker
+name: Daily LeetCode Tracker & Dashboard Deployment
 
 on:
   schedule:
-    # Runs every day at 6:15 PM UTC = 10:55 PM IST
+    # Runs every day at 5:25 PM UTC = 10:55 PM IST
     - cron: '25 17 * * *'
 
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
 
 jobs:
-  update-report:
+  update-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
 
     steps:
@@ -23,23 +32,49 @@ jobs:
         with:
           python-version: '3.14'
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run tracker
+      - name: Run tracker & Export JSON
         run: |
           python main.py
+          python export_json.py
 
-      - name: Commit updated reports
+      - name: Commit updated reports & JSON data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add input/students.xlsx
           git add output/
+          git add leetcode-dashboard/public/data/leetcode-data.json
 
-          git diff --cached --quiet || git commit -m "Daily LeetCode update"
+          git diff --cached --quiet || git commit -m "Daily LeetCode data update"
+          git push || true
 
-          git push
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: leetcode-dashboard/package-lock.json
+
+      - name: Install & Build React Dashboard
+        run: |
+          cd leetcode-dashboard
+          npm ci
+          npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'leetcode-dashboard/dist'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,59 @@
+/* Class Performance Page Styles */
+.class-container {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.class-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.class-header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.class-header p {
+    margin: 5px 0 0;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.class-selector-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    padding: 10px 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.class-selector-box label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #374151;
+}
+
+.class-select-dropdown {
+    border: 1px solid #e5e7eb;
+    padding: 8px 14px;
+    border-radius: 8px;
+    color: #111827;
+    font-weight: 600;
+    font-size: 14px;
+    background: #f9fafb;
+    outline: none;
+    cursor: pointer;
+}
+
+.class-select-dropdown:focus {
+    border-color: #2563eb;
+    background: white;
+}
