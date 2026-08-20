@@ -37,7 +37,11 @@ DATE_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}\.xlsx$")
 def find_latest_output_file() -> tuple[str, str]:
     """
     Scan output/ for files matching YYYY-MM-DD.xlsx and return the path and
-    date string of the most recently written one.
+    date string of the most recently WRITTEN one (by modification time).
+
+    Sorting by mtime rather than filename avoids a date-boundary mismatch:
+    main.py uses UTC date.today() on the runner, but if this script runs
+    after midnight IST the two dates can differ by one day.
 
     Returns:
         (file_path, date_str)  e.g. ('output/2026-08-20.xlsx', '2026-08-20')
@@ -52,14 +56,19 @@ def find_latest_output_file() -> tuple[str, str]:
             candidates.append(path)
 
     if not candidates:
+        actual_files = (
+            os.listdir(OUTPUT_FOLDER) if os.path.exists(OUTPUT_FOLDER) else ["<directory missing>"]
+        )
         raise FileNotFoundError(
             f"ERROR: No dated Excel file found in {OUTPUT_FOLDER}/.\n"
             f"       Files matching YYYY-MM-DD.xlsx are expected.\n"
-            f"       Ensure main.py has run successfully before this script."
+            f"       Ensure main.py has run successfully before this script.\n"
+            f"       Actual files in {OUTPUT_FOLDER}/: {actual_files}"
         )
 
-    # Pick the file with the latest name (lexicographic sort works for YYYY-MM-DD)
-    latest_path = sorted(candidates)[-1]
+    # Sort by modification time — picks up whichever file main.py just wrote,
+    # regardless of whether the UTC date matches the IST date.
+    latest_path = max(candidates, key=lambda p: os.path.getmtime(p))
     date_str = os.path.basename(latest_path).replace(".xlsx", "")
     return latest_path, date_str
 
