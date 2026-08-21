@@ -5520,5 +5520,572 @@
       "Array",
       "Math"
     ]
+  },
+  "kth-smallest-amount-with-single-denomination-combination": {
+    "questionId": "3375",
+    "title": "Kth Smallest Amount With Single Denomination Combination",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Math",
+      "Binary Search",
+      "Bit Manipulation",
+      "Combinatorics",
+      "Number Theory"
+    ]
+  },
+  "longest-increasing-path-in-a-matrix": {
+    "questionId": "329",
+    "title": "Longest Increasing Path in a Matrix",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort",
+      "Memoization",
+      "Matrix",
+      "Directed Acyclic Graph"
+    ]
+  },
+  "populating-next-right-pointers-in-each-node-ii": {
+    "questionId": "117",
+    "title": "Populating Next Right Pointers in Each Node II",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Linked List",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "distribute-elements-into-two-arrays-i": {
+    "questionId": "3347",
+    "title": "Distribute Elements Into Two Arrays I",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Simulation"
+    ]
+  },
+  "keyboard-row": {
+    "questionId": "500",
+    "title": "Keyboard Row",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ]
+  },
+  "number-of-zigzag-arrays-i": {
+    "questionId": "3962",
+    "title": "Number of ZigZag Arrays I",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Dynamic Programming",
+      "Prefix Sum"
+    ]
+  },
+  "number-of-zigzag-arrays-ii": {
+    "questionId": "3964",
+    "title": "Number of ZigZag Arrays II",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Math",
+      "Dynamic Programming"
+    ]
+  },
+  "count-subarrays-with-majority-element-i": {
+    "questionId": "4074",
+    "title": "Count Subarrays With Majority Element I",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Segment Tree",
+      "Merge Sort",
+      "Counting",
+      "Prefix Sum"
+    ]
+  },
+  "number-of-paths-with-max-score": {
+    "questionId": "1234",
+    "title": "Number of Paths with Max Score",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ]
+  },
+  "count-subarrays-with-majority-element-ii": {
+    "questionId": "4075",
+    "title": "Count Subarrays With Majority Element II",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Segment Tree",
+      "Merge Sort",
+      "Prefix Sum"
+    ]
+  },
+  "number-of-substrings-containing-all-three-characters": {
+    "questionId": "1460",
+    "title": "Number of Substrings Containing All Three Characters",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  "find-the-string-with-lcp": {
+    "questionId": "2708",
+    "title": "Find the String with LCP",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "String",
+      "Dynamic Programming",
+      "Greedy",
+      "Union-Find",
+      "Matrix"
+    ]
+  },
+  "matrix-similarity-after-cyclic-shifts": {
+    "questionId": "3215",
+    "title": "Matrix Similarity After Cyclic Shifts",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Math",
+      "Matrix",
+      "Simulation"
+    ]
+  },
+  "sum-of-left-leaves": {
+    "questionId": "404",
+    "title": "Sum of Left Leaves",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "find-if-path-exists-in-graph": {
+    "questionId": "2121",
+    "title": "Find if Path Exists in Graph",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory"
+    ]
+  },
+  "pseudo-palindromic-paths-in-a-binary-tree": {
+    "questionId": "1568",
+    "title": "Pseudo-Palindromic Paths in a Binary Tree",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Bit Manipulation",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "split-and-merge-array-transformation": {
+    "questionId": "3928",
+    "title": "Split and Merge Array Transformation",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Breadth-First Search"
+    ]
+  },
+  "maximize-amount-after-two-days-of-conversions": {
+    "questionId": "3613",
+    "title": "Maximize Amount After Two Days of Conversions",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory"
+    ]
+  },
+  "cousins-in-binary-tree-ii": {
+    "questionId": "2677",
+    "title": "Cousins in Binary Tree II",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "find-the-number-of-winning-players": {
+    "questionId": "3519",
+    "title": "Find the Number of Winning Players",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ]
+  },
+  "sum-of-all-subset-xor-totals": {
+    "questionId": "1993",
+    "title": "Sum of All Subset XOR Totals",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Math",
+      "Backtracking",
+      "Bit Manipulation",
+      "Combinatorics",
+      "Enumeration"
+    ]
+  },
+  "average-of-levels-in-binary-tree": {
+    "questionId": "637",
+    "title": "Average of Levels in Binary Tree",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "minimum-absolute-difference-in-bst": {
+    "questionId": "530",
+    "title": "Minimum Absolute Difference in BST",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
+  "partition-equal-subset-sum": {
+    "questionId": "416",
+    "title": "Partition Equal Subset Sum",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming",
+      "Knapsack Problem",
+      "0-1 Knapsack"
+    ]
+  },
+  "lowest-common-ancestor-of-a-binary-search-tree": {
+    "questionId": "235",
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree",
+      "Binary Lifting",
+      "Lowest Common Ancestor"
+    ]
+  },
+  "largest-integer-with-given-digit-sum": {
+    "questionId": "4353",
+    "title": "Largest Integer With Given Digit Sum",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Math",
+      "Greedy"
+    ]
+  },
+  "valid-number": {
+    "questionId": "65",
+    "title": "Valid Number",
+    "difficulty": "Hard",
+    "topicTags": [
+      "String"
+    ]
+  },
+  "reachable-nodes-in-subdivided-graph": {
+    "questionId": "918",
+    "title": "Reachable Nodes In Subdivided Graph",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Shortest Path",
+      "Dijkstra's Algorithm"
+    ]
+  },
+  "decoded-string-at-index": {
+    "questionId": "916",
+    "title": "Decoded String at Index",
+    "difficulty": "Medium",
+    "topicTags": [
+      "String",
+      "Stack"
+    ]
+  },
+  "profitable-schemes": {
+    "questionId": "911",
+    "title": "Profitable Schemes",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming",
+      "Knapsack Problem",
+      "0-1 Knapsack"
+    ]
+  },
+  "nth-magical-number": {
+    "questionId": "910",
+    "title": "Nth Magical Number",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Math",
+      "Binary Search",
+      "Least Common Multiple",
+      "Inclusion-Exclusion Principle"
+    ]
+  },
+  "middle-of-the-linked-list": {
+    "questionId": "908",
+    "title": "Middle of the Linked List",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Linked List",
+      "Two Pointers"
+    ]
+  },
+  "walking-robot-simulation": {
+    "questionId": "906",
+    "title": "Walking Robot Simulation",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Simulation"
+    ]
+  },
+  "decode-string": {
+    "questionId": "394",
+    "title": "Decode String",
+    "difficulty": "Medium",
+    "topicTags": [
+      "String",
+      "Stack",
+      "Recursion"
+    ]
+  },
+  "kth-largest-element-in-a-stream": {
+    "questionId": "789",
+    "title": "Kth Largest Element in a Stream",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Tree",
+      "Design",
+      "Binary Search Tree",
+      "Heap (Priority Queue)",
+      "Binary Tree",
+      "Data Stream"
+    ]
+  },
+  "min-cost-climbing-stairs": {
+    "questionId": "747",
+    "title": "Min Cost Climbing Stairs",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  "n-th-tribonacci-number": {
+    "questionId": "1236",
+    "title": "N-th Tribonacci Number",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Math",
+      "Dynamic Programming",
+      "Memoization"
+    ]
+  },
+  "bulb-switcher-ii": {
+    "questionId": "672",
+    "title": "Bulb Switcher II",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Math",
+      "Bit Manipulation",
+      "Depth-First Search",
+      "Breadth-First Search"
+    ]
+  },
+  "random-pick-index": {
+    "questionId": "398",
+    "title": "Random Pick Index",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Hash Table",
+      "Math",
+      "Reservoir Sampling",
+      "Randomized"
+    ]
+  },
+  "count-of-range-sum": {
+    "questionId": "327",
+    "title": "Count of Range Sum",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Binary Search",
+      "Divide and Conquer",
+      "Binary Indexed Tree",
+      "Segment Tree",
+      "Merge Sort",
+      "Ordered Set",
+      "Treap"
+    ]
+  },
+  "basic-calculator-ii": {
+    "questionId": "227",
+    "title": "Basic Calculator II",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Math",
+      "String",
+      "Stack"
+    ]
+  },
+  "check-if-it-is-a-good-array": {
+    "questionId": "1372",
+    "title": "Check If It Is a Good Array",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Math",
+      "Number Theory",
+      "Bézout's Lemma",
+      "Euclidean Algorithm",
+      "Greatest Common Divisor",
+      "Extended Euclidean Algorithm"
+    ]
+  },
+  "add-strings": {
+    "questionId": "415",
+    "title": "Add Strings",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Math",
+      "String",
+      "Simulation"
+    ]
+  },
+  "nth-digit": {
+    "questionId": "400",
+    "title": "Nth Digit",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Math",
+      "Binary Search"
+    ]
+  },
+  "sum-of-two-integers": {
+    "questionId": "371",
+    "title": "Sum of Two Integers",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Math",
+      "Bit Manipulation"
+    ]
+  },
+  "find-users-with-high-token-usage": {
+    "questionId": "4195",
+    "title": "Find Users with High Token Usage",
+    "difficulty": "Easy",
+    "topicTags": []
+  },
+  "fix-names-in-a-table": {
+    "questionId": "1811",
+    "title": "Fix Names in a Table",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "average-selling-price": {
+    "questionId": "1390",
+    "title": "Average Selling Price",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "queries-quality-and-percentage": {
+    "questionId": "1338",
+    "title": "Queries Quality and Percentage",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "employees-whose-manager-left-the-company": {
+    "questionId": "2127",
+    "title": "Employees Whose Manager Left the Company",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "employees-with-missing-information": {
+    "questionId": "2110",
+    "title": "Employees With Missing Information",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "rearrange-products-table": {
+    "questionId": "1948",
+    "title": "Rearrange Products Table",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "primary-department-for-each-employee": {
+    "questionId": "1942",
+    "title": "Primary Department for Each Employee",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "binary-watch": {
+    "questionId": "401",
+    "title": "Binary Watch",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Backtracking",
+      "Bit Manipulation"
+    ]
   }
 }
