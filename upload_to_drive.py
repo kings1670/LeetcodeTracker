@@ -14,9 +14,9 @@ Required environment variables:
     GOOGLE_OAUTH_REFRESH_TOKEN   OAuth 2.0 Refresh Token.
     GOOGLE_DRIVE_FOLDER_ID       Google Drive folder ID to upload into.
 
-Optional environment variables:
-    REPORT_DATE                  Date in YYYY-MM-DD format (default: today IST).
-                                 Used to locate the report file.
+Report selection:
+    The script automatically finds the latest
+    Daily_Performance_YYYY-MM-DD.xlsx file in the reports folder.
 
 Usage (local / GitHub Actions):
     export GOOGLE_OAUTH_CLIENT_ID="your-client-id"
@@ -36,7 +36,7 @@ Duplicate protection:
 import os
 import re
 import sys
-from datetime import datetime, timezone, timedelta
+from datetime import datetime
 
 # ---------------------------------------------------------------------------
 # Third-party imports (google-api-python-client, google-auth)
@@ -67,11 +67,6 @@ MIME_XLSX = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 # Helpers
 # ---------------------------------------------------------------------------
 
-def get_ist_date() -> str:
-    """Return today's date in Asia/Kolkata (IST = UTC+5:30) as YYYY-MM-DD."""
-    ist_offset = timedelta(hours=5, minutes=30)
-    now_ist = datetime.now(timezone.utc) + ist_offset
-    return now_ist.strftime("%Y-%m-%d")
 
 
 def sanitize_folder_id(raw_folder_id: str) -> str:
@@ -213,23 +208,65 @@ def main():
 
     folder_id = sanitize_folder_id(raw_folder_id)
 
-    # ------------------------------------------------------------------
-    # 2. Locate daily report file
-    # ------------------------------------------------------------------
-    report_date = os.getenv("REPORT_DATE") or get_ist_date()
-    report_filename = f"Daily_Performance_{report_date}.xlsx"
-    report_path = os.path.join(REPORTS_FOLDER, report_filename)
 
-    print(f"\nLooking for daily report:")
-    print(f"reports/{report_filename}")
+    # ------------------------------------------------------------------
+    # 2. Locate the latest daily performance report
+    # ------------------------------------------------------------------
+    print("\nLooking for the latest daily performance report...")
 
-    if not os.path.exists(report_path):
-        print(f"\nERROR: Daily performance report was not found.")
-        print(f"       Expected: {report_path}")
+    if not os.path.isdir(REPORTS_FOLDER):
+        print(f"\nERROR: Reports folder was not found.")
+        print(f"       Expected folder: {REPORTS_FOLDER}")
         print("       Ensure generate_daily_report.py has run successfully first.")
         sys.exit(1)
 
-    print("\nFound daily report.")
+    # Find all Daily_Performance_YYYY-MM-DD.xlsx files
+    report_files = []
+
+    for filename in os.listdir(REPORTS_FOLDER):
+        match = re.fullmatch(
+            r"Daily_Performance_(\d{4}-\d{2}-\d{2})\.xlsx",
+            filename
+        )
+
+        if match:
+            try:
+                report_date = datetime.strptime(
+                    match.group(1),
+                    "%Y-%m-%d"
+                ).date()
+
+                report_files.append((report_date, filename))
+
+            except ValueError:
+                continue
+
+    if not report_files:
+        print("\nERROR: No daily performance reports were found.")
+        print("       Expected files matching:")
+        print("       reports/Daily_Performance_YYYY-MM-DD.xlsx")
+        print("       Ensure generate_daily_report.py has run successfully first.")
+        sys.exit(1)
+
+    # Select the report with the newest date
+    report_date, report_filename = max(
+        report_files,
+        key=lambda item: item[0]
+    )
+
+    report_path = os.path.join(REPORTS_FOLDER, report_filename)
+
+    print("\nLatest daily performance report found:")
+    print(f"reports/{report_filename}")
+    print(f"Report date: {report_date}")
+
+    if not os.path.exists(report_path):
+        print(f"\nERROR: Selected report does not exist:")
+        print(f"       {report_path}")
+        sys.exit(1)
+
+    print("\nFound latest daily report.")
+
 
     # ------------------------------------------------------------------
     # 3. Authenticate
