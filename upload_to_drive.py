@@ -59,7 +59,7 @@ except ImportError as exc:
 # ---------------------------------------------------------------------------
 REPORTS_FOLDER = "reports"
 # Allow drive.file (minimum scope) and drive scope
-SCOPES = ["https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
+SCOPES = ["https://www.googleapis.com/auth/drive.file"]
 MIME_XLSX = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 
 
