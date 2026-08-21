@@ -14,3 +14,8 @@ venv/
 
 # Excel temporary files
 ~$*.xlsx
+
+# OAuth credentials & tokens
+credentials.json
+client_secret*.json
+token.json

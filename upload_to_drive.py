@@ -1,49 +1,29 @@
 """
 upload_to_drive.py
 
-Uploads the daily performance Excel report to a Google Drive folder.
+Uploads the daily performance Excel report to a Google Drive folder using
+OAuth 2.0 user authentication (with refresh token).
 
 Authentication:
-    Uses a Google Cloud Service Account whose JSON key is passed via the
-    environment variable GOOGLE_SERVICE_ACCOUNT_JSON.  The variable must
-    contain the full JSON string (not a file path).
+    Uses OAuth 2.0 credentials passed via environment variables (GitHub Secrets).
+    Expired access tokens are automatically refreshed non-interactively.
 
 Required environment variables:
-    GOOGLE_SERVICE_ACCOUNT_JSON   Full JSON string of the service-account key.
-    GOOGLE_DRIVE_FOLDER_ID        Google Drive folder ID to upload into.
+    GOOGLE_OAUTH_CLIENT_ID       OAuth 2.0 Client ID.
+    GOOGLE_OAUTH_CLIENT_SECRET   OAuth 2.0 Client Secret.
+    GOOGLE_OAUTH_REFRESH_TOKEN   OAuth 2.0 Refresh Token.
+    GOOGLE_DRIVE_FOLDER_ID       Google Drive folder ID to upload into.
 
 Optional environment variables:
-    REPORT_DATE   Date in YYYY-MM-DD format (default: today IST).
-                  Used to locate the report file.
+    REPORT_DATE                  Date in YYYY-MM-DD format (default: today IST).
+                                 Used to locate the report file.
 
-Usage (local with credentials):
-    export GOOGLE_SERVICE_ACCOUNT_JSON='{ ... json content ... }'
-    export GOOGLE_DRIVE_FOLDER_ID='1AbCdEfGhIjKlMnOpQrStUvWxYz'
+Usage (local / GitHub Actions):
+    export GOOGLE_OAUTH_CLIENT_ID="your-client-id"
+    export GOOGLE_OAUTH_CLIENT_SECRET="your-client-secret"
+    export GOOGLE_OAUTH_REFRESH_TOKEN="your-refresh-token"
+    export GOOGLE_DRIVE_FOLDER_ID="your-folder-id"
     python upload_to_drive.py
-
-Usage (GitHub Actions):
-    Secrets GOOGLE_SERVICE_ACCOUNT_JSON and GOOGLE_DRIVE_FOLDER_ID are passed
-    as environment variables by the workflow step.
-
-Setup instructions (must be performed ONCE manually by the repository owner):
-    1. Go to https://console.cloud.google.com/
-    2. Create a new project (or select an existing one).
-    3. Enable the Google Drive API for the project.
-    4. Navigate to IAM & Admin > Service Accounts.
-    5. Create a new service account.
-    6. Generate a JSON key for the service account and download it.
-    7. Copy the ENTIRE contents of the JSON key file.
-    8. In GitHub: Settings > Secrets and variables > Actions > New repository secret
-       - Name:  GOOGLE_SERVICE_ACCOUNT_JSON
-       - Value: <paste the entire JSON content>
-    9. Create or select the target Google Drive folder.
-   10. Share that folder with the service account's email address
-       (found inside the JSON under "client_email") with Editor permission.
-   11. Copy the folder ID from the Drive URL:
-       https://drive.google.com/drive/folders/<FOLDER_ID>
-   12. In GitHub: Settings > Secrets and variables > Actions > New repository secret
-       - Name:  GOOGLE_DRIVE_FOLDER_ID
-       - Value: <paste the folder ID>
 
 Duplicate protection:
     Before uploading, the script queries the target folder for any existing
@@ -53,10 +33,9 @@ Duplicate protection:
     - If not found, a fresh file is uploaded.
 """
 
-import json
 import os
+import re
 import sys
-import tempfile
 from datetime import datetime, timezone, timedelta
 
 # ---------------------------------------------------------------------------
@@ -65,11 +44,12 @@ from datetime import datetime, timezone, timedelta
 try:
     from googleapiclient.discovery import build
     from googleapiclient.http import MediaFileUpload
-    from google.oauth2 import service_account
+    from google.oauth2.credentials import Credentials
+    import google.auth.transport.requests
 except ImportError as exc:
     print(
         "ERROR: Required Google API libraries are not installed.\n"
-        "       Run:  pip install google-api-python-client google-auth google-auth-httplib2\n"
+        "       Run:  pip install google-api-python-client google-auth google-auth-httplib2 google-auth-oauthlib\n"
         f"       Details: {exc}"
     )
     sys.exit(1)
@@ -78,7 +58,8 @@ except ImportError as exc:
 # Configuration
 # ---------------------------------------------------------------------------
 REPORTS_FOLDER = "reports"
-SCOPES = ["https://www.googleapis.com/auth/drive"]
+# Allow drive.file (minimum scope) and drive scope
+SCOPES = ["https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
 MIME_XLSX = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 
 
@@ -93,25 +74,52 @@ def get_ist_date() -> str:
     return now_ist.strftime("%Y-%m-%d")
 
 
-def load_credentials(service_account_json_str: str):
+def sanitize_folder_id(raw_folder_id: str) -> str:
     """
-    Parse the service-account JSON string and return Google credentials.
-    The temporary file is never written to disk; credentials are built from
-    the parsed dict directly.
+    Validate and extract a clean Google Drive Folder ID.
+    Rejects '.', empty values, and handles raw URLs if passed by mistake.
     """
-    try:
-        info = json.loads(service_account_json_str)
-    except json.JSONDecodeError as exc:
-        print(f"ERROR: GOOGLE_SERVICE_ACCOUNT_JSON is not valid JSON.\n  Details: {exc}")
+    folder_id = raw_folder_id.strip()
+    if not folder_id or folder_id == ".":
+        print(f"ERROR: Invalid GOOGLE_DRIVE_FOLDER_ID: '{folder_id}'")
+        print("       Please provide a valid Google Drive Folder ID.")
         sys.exit(1)
 
+    # Handle full Google Drive URLs like https://drive.google.com/drive/folders/<ID>
+    if "drive.google.com" in folder_id or "folders/" in folder_id:
+        match = re.search(r"folders/([a-zA-Z0-9_-]+)", folder_id)
+        if match:
+            extracted_id = match.group(1)
+            return extracted_id
+        else:
+            print("ERROR: Could not extract folder ID from the provided Google Drive URL.")
+            sys.exit(1)
+
+    return folder_id
+
+
+def load_oauth_credentials(client_id: str, client_secret: str, refresh_token: str) -> Credentials:
+    """
+    Construct OAuth credentials and automatically refresh the access token.
+    Works non-interactively without requiring browser login.
+    """
     try:
-        creds = service_account.Credentials.from_service_account_info(info, scopes=SCOPES)
+        creds = Credentials(
+            token=None,
+            refresh_token=refresh_token,
+            token_uri="https://oauth2.googleapis.com/token",
+            client_id=client_id,
+            client_secret=client_secret,
+            scopes=SCOPES,
+        )
+        request = google.auth.transport.requests.Request()
+        creds.refresh(request)
+        return creds
     except Exception as exc:
-        print(f"ERROR: Google Drive authentication failed.\n  Details: {exc}")
+        print("ERROR: Google Drive OAuth authentication failed.")
+        print("       Unable to refresh access token using the provided refresh token.")
+        print(f"       Details: {exc}")
         sys.exit(1)
-
-    return creds
 
 
 def find_existing_file(service, folder_id: str, filename: str) -> str | None:
@@ -178,17 +186,32 @@ def main():
     # ------------------------------------------------------------------
     # 1. Validate environment variables
     # ------------------------------------------------------------------
-    folder_id = os.getenv("GOOGLE_DRIVE_FOLDER_ID")
-    if not folder_id:
-        print("ERROR: GOOGLE_DRIVE_FOLDER_ID is not configured.")
-        print("       Set it as an environment variable or GitHub Actions secret.")
+    missing_vars = []
+
+    client_id = os.getenv("GOOGLE_OAUTH_CLIENT_ID")
+    if not client_id:
+        missing_vars.append("GOOGLE_OAUTH_CLIENT_ID")
+
+    client_secret = os.getenv("GOOGLE_OAUTH_CLIENT_SECRET")
+    if not client_secret:
+        missing_vars.append("GOOGLE_OAUTH_CLIENT_SECRET")
+
+    refresh_token = os.getenv("GOOGLE_OAUTH_REFRESH_TOKEN")
+    if not refresh_token:
+        missing_vars.append("GOOGLE_OAUTH_REFRESH_TOKEN")
+
+    raw_folder_id = os.getenv("GOOGLE_DRIVE_FOLDER_ID")
+    if not raw_folder_id:
+        missing_vars.append("GOOGLE_DRIVE_FOLDER_ID")
+
+    if missing_vars:
+        print("\nERROR: Required Google Drive OAuth environment variables are missing:")
+        for var in missing_vars:
+            print(f"  - {var}")
+        print("\nPlease configure these as environment variables or GitHub Actions secrets.")
         sys.exit(1)
 
-    sa_json = os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON")
-    if not sa_json:
-        print("ERROR: GOOGLE_SERVICE_ACCOUNT_JSON is not configured.")
-        print("       Set it as an environment variable or GitHub Actions secret.")
-        sys.exit(1)
+    folder_id = sanitize_folder_id(raw_folder_id)
 
     # ------------------------------------------------------------------
     # 2. Locate daily report file
@@ -198,22 +221,21 @@ def main():
     report_path = os.path.join(REPORTS_FOLDER, report_filename)
 
     print(f"\nLooking for daily report:")
-    print(f"  {report_path}")
+    print(f"reports/{report_filename}")
 
     if not os.path.exists(report_path):
         print(f"\nERROR: Daily performance report was not found.")
         print(f"       Expected: {report_path}")
-        print(f"       Ensure generate_daily_report.py has run successfully first.")
+        print("       Ensure generate_daily_report.py has run successfully first.")
         sys.exit(1)
 
-    print(f"\nFound daily report:")
-    print(f"  {report_filename}")
+    print("\nFound daily report.")
 
     # ------------------------------------------------------------------
     # 3. Authenticate
     # ------------------------------------------------------------------
     print("\nAuthenticating with Google Drive...")
-    creds = load_credentials(sa_json)
+    creds = load_oauth_credentials(client_id, client_secret, refresh_token)
 
     try:
         service = build("drive", "v3", credentials=creds, cache_discovery=False)
@@ -221,12 +243,12 @@ def main():
         print(f"ERROR: Unable to create Google Drive service.\n  Details: {exc}")
         sys.exit(1)
 
-    print("  Authentication successful.")
+    print("Authentication successful.")
 
     # ------------------------------------------------------------------
     # 4. Check for existing file (duplicate protection)
     # ------------------------------------------------------------------
-    print(f"\nChecking Google Drive folder for existing file: {report_filename} ...")
+    print("\nChecking Google Drive folder...")
 
     existing_id = find_existing_file(service, folder_id, report_filename)
 
@@ -235,24 +257,21 @@ def main():
     # ------------------------------------------------------------------
     try:
         if existing_id:
-            print(f"  File already exists (ID: {existing_id}). Updating content...")
+            print("\nExisting file found. Updating file...")
             file_id = update_file(service, existing_id, report_path)
-            print(f"\nReport updated successfully.")
         else:
-            print("  No existing file found. Uploading new file...")
+            print("\nNo existing file found. Uploading new file...")
             file_id = upload_file(service, report_path, report_filename, folder_id)
-            print(f"\nReport uploaded successfully.")
-
-        print(f"Google Drive File ID: {file_id}")
 
     except Exception as exc:
         print(f"\nERROR: Unable to upload daily report.")
         print(f"  Details: {exc}")
         sys.exit(1)
 
-    print("\n" + "=" * 60)
-    print("Google Drive upload complete.")
     print("=" * 60)
+    print("Google Drive upload completed successfully")
+    print("=" * 60)
+    print(f"\nFile:\n{report_filename}")
 
 
 if __name__ == "__main__":
