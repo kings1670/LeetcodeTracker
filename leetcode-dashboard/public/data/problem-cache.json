@@ -6480,5 +6480,504 @@
       "Design",
       "Queue"
     ]
+  },
+  "shortest-unsorted-continuous-subarray": {
+    "questionId": "581",
+    "title": "Shortest Unsorted Continuous Subarray",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Two Pointers",
+      "Stack",
+      "Greedy",
+      "Sorting",
+      "Monotonic Stack"
+    ]
+  },
+  "throne-inheritance": {
+    "questionId": "1722",
+    "title": "Throne Inheritance",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Design"
+    ]
+  },
+  "count-days-spent-together": {
+    "questionId": "2496",
+    "title": "Count Days Spent Together",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Math",
+      "String"
+    ]
+  },
+  "longest-increasing-subsequence-ii": {
+    "questionId": "2526",
+    "title": "Longest Increasing Subsequence II",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Divide and Conquer",
+      "Dynamic Programming",
+      "Binary Indexed Tree",
+      "Segment Tree",
+      "Queue",
+      "Monotonic Queue"
+    ]
+  },
+  "divide-intervals-into-minimum-number-of-groups": {
+    "questionId": "2488",
+    "title": "Divide Intervals Into Minimum Number of Groups",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Two Pointers",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Prefix Sum"
+    ]
+  },
+  "optimal-partition-of-string": {
+    "questionId": "2487",
+    "title": "Optimal Partition of String",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Hash Table",
+      "String",
+      "Greedy"
+    ]
+  },
+  "most-frequent-even-element": {
+    "questionId": "2486",
+    "title": "Most Frequent Even Element",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ]
+  },
+  "earliest-finish-time-for-land-and-water-rides-ii": {
+    "questionId": "3967",
+    "title": "Earliest Finish Time for Land and Water Rides II",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Greedy",
+      "Sorting"
+    ]
+  },
+  "stone-game-viii": {
+    "questionId": "2002",
+    "title": "Stone Game VIII",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Minimax",
+      "Prefix Sum",
+      "Game Theory",
+      "Zero-Sum Game"
+    ]
+  },
+  "most-frequent-subtree-sum": {
+    "questionId": "508",
+    "title": "Most Frequent Subtree Sum",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree",
+      "DP on Trees"
+    ]
+  },
+  "frequency-of-the-most-frequent-element": {
+    "questionId": "1966",
+    "title": "Frequency of the Most Frequent Element",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Binary Search",
+      "Greedy",
+      "Sliding Window",
+      "Sorting",
+      "Prefix Sum"
+    ]
+  },
+  "maximum-building-height": {
+    "questionId": "1968",
+    "title": "Maximum Building Height",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Math",
+      "Sorting"
+    ]
+  },
+  "surface-area-of-3d-shapes": {
+    "questionId": "928",
+    "title": "Surface Area of 3D Shapes",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Math",
+      "Geometry",
+      "Matrix"
+    ]
+  },
+  "transpose-matrix": {
+    "questionId": "898",
+    "title": "Transpose Matrix",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
+  },
+  "longest-word-in-dictionary-through-deleting": {
+    "questionId": "524",
+    "title": "Longest Word in Dictionary through Deleting",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Two Pointers",
+      "String",
+      "Sorting"
+    ]
+  },
+  "minimum-number-of-days-to-disconnect-island": {
+    "questionId": "1691",
+    "title": "Minimum Number of Days to Disconnect Island",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Matrix",
+      "Strongly Connected Component",
+      "Articulation Point"
+    ]
+  },
+  "maximum-length-of-subarray-with-positive-product": {
+    "questionId": "1690",
+    "title": "Maximum Length of Subarray With Positive Product",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
+  "probability-of-a-two-boxes-having-the-same-number-of-distinct-balls": {
+    "questionId": "1577",
+    "title": "Probability of a Two Boxes Having The Same Number of Distinct Balls",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Backtracking",
+      "Combinatorics",
+      "Probability and Statistics"
+    ]
+  },
+  "make-two-arrays-equal-by-reversing-subarrays": {
+    "questionId": "1556",
+    "title": "Make Two Arrays Equal by Reversing Subarrays",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ]
+  },
+  "check-if-a-string-contains-all-binary-codes-of-size-k": {
+    "questionId": "1557",
+    "title": "Check If a String Contains All Binary Codes of Size K",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Hash Table",
+      "String",
+      "Bit Manipulation",
+      "Rolling Hash",
+      "Hash Function",
+      "Directed Acyclic Graph"
+    ]
+  },
+  "course-schedule-iv": {
+    "questionId": "1558",
+    "title": "Course Schedule IV",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort"
+    ]
+  },
+  "cherry-pickup-ii": {
+    "questionId": "1559",
+    "title": "Cherry Pickup II",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ]
+  },
+  "subdomain-visit-count": {
+    "questionId": "829",
+    "title": "Subdomain Visit Count",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Counting"
+    ]
+  },
+  "expressive-words": {
+    "questionId": "827",
+    "title": "Expressive Words",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Two Pointers",
+      "String"
+    ]
+  },
+  "soup-servings": {
+    "questionId": "826",
+    "title": "Soup Servings",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Math",
+      "Dynamic Programming",
+      "Probability and Statistics"
+    ]
+  },
+  "max-increase-to-keep-city-skyline": {
+    "questionId": "825",
+    "title": "Max Increase to Keep City Skyline",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Greedy",
+      "Matrix"
+    ]
+  },
+  "number-of-lines-to-write-string": {
+    "questionId": "824",
+    "title": "Number of Lines To Write String",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "String"
+    ]
+  },
+  "split-array-with-same-average": {
+    "questionId": "823",
+    "title": "Split Array With Same Average",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Dynamic Programming",
+      "Bit Manipulation",
+      "Meet in the Middle",
+      "Bitmask"
+    ]
+  },
+  "unique-morse-code-words": {
+    "questionId": "822",
+    "title": "Unique Morse Code Words",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ]
+  },
+  "minimum-swaps-to-make-sequences-increasing": {
+    "questionId": "819",
+    "title": "Minimum Swaps To Make Sequences Increasing",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  "find-eventual-safe-states": {
+    "questionId": "820",
+    "title": "Find Eventual Safe States",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort",
+      "Kosaraju's Algorithm",
+      "Tarjan's SCC Algorithm"
+    ]
+  },
+  "minimum-distance-to-the-target-element": {
+    "questionId": "1975",
+    "title": "Minimum Distance to the Target Element",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array"
+    ]
+  },
+  "minimum-distance-between-three-equal-elements-ii": {
+    "questionId": "4119",
+    "title": "Minimum Distance Between Three Equal Elements II",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  "minimum-distance-between-three-equal-elements-i": {
+    "questionId": "4115",
+    "title": "Minimum Distance Between Three Equal Elements I",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  "xor-after-range-multiplication-queries-i": {
+    "questionId": "3974",
+    "title": "XOR After Range Multiplication Queries I",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Divide and Conquer",
+      "Simulation",
+      "Prefix Sum"
+    ]
+  },
+  "walking-robot-simulation-ii": {
+    "questionId": "2178",
+    "title": "Walking Robot Simulation II",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Design",
+      "Simulation"
+    ]
+  },
+  "robot-return-to-origin": {
+    "questionId": "657",
+    "title": "Robot Return to Origin",
+    "difficulty": "Easy",
+    "topicTags": [
+      "String",
+      "Simulation"
+    ]
+  },
+  "decode-the-slanted-ciphertext": {
+    "questionId": "2197",
+    "title": "Decode the Slanted Ciphertext",
+    "difficulty": "Medium",
+    "topicTags": [
+      "String",
+      "Simulation"
+    ]
+  },
+  "maximum-amount-of-money-robot-can-earn": {
+    "questionId": "3677",
+    "title": "Maximum Amount of Money Robot Can Earn",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ]
+  },
+  "best-time-to-buy-and-sell-stock-with-transaction-fee": {
+    "questionId": "714",
+    "title": "Best Time to Buy and Sell Stock with Transaction Fee",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
+  "longest-common-subsequence": {
+    "questionId": "1250",
+    "title": "Longest Common Subsequence",
+    "difficulty": "Medium",
+    "topicTags": [
+      "String",
+      "Dynamic Programming",
+      "Longest Common Subsequence"
+    ]
+  },
+  "confirmation-rate": {
+    "questionId": "2087",
+    "title": "Confirmation Rate",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "arranging-coins": {
+    "questionId": "441",
+    "title": "Arranging Coins",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Math",
+      "Binary Search"
+    ]
+  },
+  "convert-a-number-to-hexadecimal": {
+    "questionId": "405",
+    "title": "Convert a Number to Hexadecimal",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Math",
+      "String",
+      "Bit Manipulation"
+    ]
+  },
+  "final-prices-with-a-special-discount-in-a-shop": {
+    "questionId": "1570",
+    "title": "Final Prices With a Special Discount in a Shop",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  "paint-house-iii": {
+    "questionId": "1583",
+    "title": "Paint House III",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts": {
+    "questionId": "1575",
+    "title": "Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
   }
 }
