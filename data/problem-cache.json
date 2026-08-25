@@ -6979,5 +6979,306 @@
       "Greedy",
       "Sorting"
     ]
+  },
+  "smallest-missing-multiple-of-k": {
+    "questionId": "4080",
+    "title": "Smallest Missing Multiple of K",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Hash Table"
+    ]
+  },
+  "decompress-run-length-encoded-list": {
+    "questionId": "1241",
+    "title": "Decompress Run-Length Encoded List",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array"
+    ]
+  },
+  "find-words-that-can-be-formed-by-characters": {
+    "questionId": "1112",
+    "title": "Find Words That Can Be Formed by Characters",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Counting"
+    ]
+  },
+  "longest-increasing-subsequence": {
+    "questionId": "300",
+    "title": "Longest Increasing Subsequence",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Longest Increasing Subsequence"
+    ]
+  },
+  "process-string-with-special-operations-ii": {
+    "questionId": "3939",
+    "title": "Process String with Special Operations II",
+    "difficulty": "Hard",
+    "topicTags": [
+      "String",
+      "Simulation"
+    ]
+  },
+  "maximum-walls-destroyed-by-robots": {
+    "questionId": "3982",
+    "title": "Maximum Walls Destroyed by Robots",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Sorting"
+    ]
+  },
+  "power-of-two": {
+    "questionId": "231",
+    "title": "Power of Two",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Math",
+      "Bit Manipulation",
+      "Recursion"
+    ]
+  },
+  "minimum-swaps-to-arrange-a-binary-grid": {
+    "questionId": "1658",
+    "title": "Minimum Swaps to Arrange a Binary Grid",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Greedy",
+      "Matrix"
+    ]
+  },
+  "maximum-profit-in-job-scheduling": {
+    "questionId": "1352",
+    "title": "Maximum Profit in Job Scheduling",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Sorting"
+    ]
+  },
+  "replace-the-substring-for-balanced-string": {
+    "questionId": "1351",
+    "title": "Replace the Substring for Balanced String",
+    "difficulty": "Medium",
+    "topicTags": [
+      "String",
+      "Sliding Window"
+    ]
+  },
+  "reconstruct-a-2-row-binary-matrix": {
+    "questionId": "1379",
+    "title": "Reconstruct a 2-Row Binary Matrix",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Greedy",
+      "Matrix"
+    ]
+  },
+  "words-within-two-edits-of-dictionary": {
+    "questionId": "2550",
+    "title": "Words Within Two Edits of Dictionary",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "String",
+      "Trie"
+    ]
+  },
+  "sum-of-distances": {
+    "questionId": "2721",
+    "title": "Sum of Distances",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ]
+  },
+  "furthest-point-from-origin": {
+    "questionId": "3019",
+    "title": "Furthest Point From Origin",
+    "difficulty": "Easy",
+    "topicTags": [
+      "String",
+      "Counting"
+    ]
+  },
+  "detect-cycles-in-2d-grid": {
+    "questionId": "1663",
+    "title": "Detect Cycles in 2D Grid",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ]
+  },
+  "check-if-there-is-a-valid-path-in-a-grid": {
+    "questionId": "1507",
+    "title": "Check if There is a Valid Path in a Grid",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ]
+  },
+  "minimum-operations-to-make-a-uni-value-grid": {
+    "questionId": "2160",
+    "title": "Minimum Operations to Make a Uni-Value Grid",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Math",
+      "Sorting",
+      "Matrix"
+    ]
+  },
+  "maximum-path-score-in-a-grid": {
+    "questionId": "3986",
+    "title": "Maximum Path Score in a Grid",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ]
+  },
+  "rotate-function": {
+    "questionId": "396",
+    "title": "Rotate Function",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Math",
+      "Dynamic Programming"
+    ]
+  },
+  "insert-into-a-binary-search-tree": {
+    "questionId": "784",
+    "title": "Insert into a Binary Search Tree",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Tree",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
+  "sort-characters-by-frequency": {
+    "questionId": "451",
+    "title": "Sort Characters By Frequency",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Hash Table",
+      "String",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Bucket Sort",
+      "Counting"
+    ]
+  },
+  "minimum-flips-to-make-a-or-b-equal-to-c": {
+    "questionId": "1441",
+    "title": "Minimum Flips to Make a OR b Equal to c",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Bit Manipulation"
+    ]
+  },
+  "find-consistently-improving-employees": {
+    "questionId": "3921",
+    "title": "Find Consistently Improving Employees",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "find-product-recommendation-pairs": {
+    "questionId": "3865",
+    "title": "Find Product Recommendation Pairs",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "dna-pattern-recognition": {
+    "questionId": "3816",
+    "title": "DNA Pattern Recognition ",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "find-drivers-with-improved-fuel-efficiency": {
+    "questionId": "3942",
+    "title": "Find Drivers with Improved Fuel Efficiency",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "seasonal-sales-analysis": {
+    "questionId": "3898",
+    "title": "Seasonal Sales Analysis",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "analyze-subscription-conversion": {
+    "questionId": "3848",
+    "title": "Analyze Subscription Conversion ",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "product-sales-analysis-iii": {
+    "questionId": "1155",
+    "title": "Product Sales Analysis III",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "merge-two-binary-trees": {
+    "questionId": "617",
+    "title": "Merge Two Binary Trees",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "longest-palindrome": {
+    "questionId": "409",
+    "title": "Longest Palindrome",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Hash Table",
+      "String",
+      "Greedy"
+    ]
   }
 }
