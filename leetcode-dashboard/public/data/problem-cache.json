@@ -7280,5 +7280,221 @@
       "String",
       "Greedy"
     ]
+  },
+  "find-missing-and-repeated-values": {
+    "questionId": "3227",
+    "title": "Find Missing and Repeated Values",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Matrix"
+    ]
+  },
+  "top-k-frequent-words": {
+    "questionId": "692",
+    "title": "Top K Frequent Words",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Trie",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Bucket Sort",
+      "Counting"
+    ]
+  },
+  "shortest-and-lexicographically-smallest-beautiful-string": {
+    "questionId": "3150",
+    "title": "Shortest and Lexicographically Smallest Beautiful String",
+    "difficulty": "Medium",
+    "topicTags": [
+      "String",
+      "Sliding Window"
+    ]
+  },
+  "largest-perimeter-triangle": {
+    "questionId": "1018",
+    "title": "Largest Perimeter Triangle",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Math",
+      "Greedy",
+      "Sorting",
+      "Quicksort",
+      "Polygons"
+    ]
+  },
+  "lemonade-change": {
+    "questionId": "890",
+    "title": "Lemonade Change",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Greedy"
+    ]
+  },
+  "maximum-swap": {
+    "questionId": "670",
+    "title": "Maximum Swap",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Math",
+      "Greedy"
+    ]
+  },
+  "integer-replacement": {
+    "questionId": "397",
+    "title": "Integer Replacement",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Dynamic Programming",
+      "Greedy",
+      "Bit Manipulation",
+      "Memoization"
+    ]
+  },
+  "rotated-digits": {
+    "questionId": "804",
+    "title": "Rotated Digits",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Math",
+      "Dynamic Programming"
+    ]
+  },
+  "rotating-the-box": {
+    "questionId": "1972",
+    "title": "Rotating the Box",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Two Pointers",
+      "Matrix"
+    ]
+  },
+  "jump-game-ix": {
+    "questionId": "3981",
+    "title": "Jump Game IX",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  "minimum-jumps-to-reach-end-via-prime-teleportation": {
+    "questionId": "3933",
+    "title": "Minimum Jumps to Reach End via Prime Teleportation",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Breadth-First Search",
+      "Number Theory"
+    ]
+  },
+  "cyclically-rotating-a-grid": {
+    "questionId": "2043",
+    "title": "Cyclically Rotating a Grid",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
+  },
+  "maximum-number-of-jumps-to-reach-the-last-index": {
+    "questionId": "2855",
+    "title": "Maximum Number of Jumps to Reach the Last Index",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  "separate-the-digits-in-an-array": {
+    "questionId": "2639",
+    "title": "Separate the Digits in an Array",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Simulation"
+    ]
+  },
+  "jump-game-v": {
+    "questionId": "1466",
+    "title": "Jump Game V",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming",
+      "Sorting"
+    ]
+  },
+  "buddy-strings": {
+    "questionId": "889",
+    "title": "Buddy Strings",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Hash Table",
+      "String"
+    ]
+  },
+  "find-emotionally-consistent-users": {
+    "questionId": "4208",
+    "title": "Find Emotionally Consistent Users",
+    "difficulty": "Medium",
+    "topicTags": []
+  },
+  "find-golden-hour-customers": {
+    "questionId": "4091",
+    "title": "Find Golden Hour Customers",
+    "difficulty": "Medium",
+    "topicTags": []
+  },
+  "find-overbooked-employees": {
+    "questionId": "3943",
+    "title": "Find Overbooked Employees",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "find-covid-recovery-patients": {
+    "questionId": "3932",
+    "title": "Find COVID Recovery Patients",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "find-zombie-sessions": {
+    "questionId": "4043",
+    "title": "Find Zombie Sessions",
+    "difficulty": "Hard",
+    "topicTags": []
+  },
+  "find-loyal-customers": {
+    "questionId": "4025",
+    "title": "Find Loyal Customers",
+    "difficulty": "Medium",
+    "topicTags": []
+  },
+  "find-books-with-polarized-opinions": {
+    "questionId": "3996",
+    "title": "Find Books with Polarized Opinions",
+    "difficulty": "Medium",
+    "topicTags": []
+  },
+  "find-stores-with-inventory-imbalance": {
+    "questionId": "3971",
+    "title": "Find Stores with Inventory Imbalance",
+    "difficulty": "Medium",
+    "topicTags": []
   }
 }
