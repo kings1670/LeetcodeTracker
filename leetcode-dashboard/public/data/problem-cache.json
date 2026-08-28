@@ -7496,5 +7496,190 @@
     "title": "Find Stores with Inventory Imbalance",
     "difficulty": "Medium",
     "topicTags": []
+  },
+  "lexicographically-smallest-permutation-greater-than-target": {
+    "questionId": "4020",
+    "title": "Lexicographically Smallest Permutation Greater Than Target",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Counting",
+      "Enumeration"
+    ]
+  },
+  "minimum-score-of-a-path-between-two-cities": {
+    "questionId": "2582",
+    "title": "Minimum Score of a Path Between Two Cities",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory"
+    ]
+  },
+  "palindrome-partitioning-iii": {
+    "questionId": "1403",
+    "title": "Palindrome Partitioning III",
+    "difficulty": "Hard",
+    "topicTags": [
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  "count-servers-that-communicate": {
+    "questionId": "1396",
+    "title": "Count Servers that Communicate",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix",
+      "Counting"
+    ]
+  },
+  "minimize-hamming-distance-after-swap-operations": {
+    "questionId": "1840",
+    "title": "Minimize Hamming Distance After Swap Operations",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Depth-First Search",
+      "Union-Find"
+    ]
+  },
+  "two-furthest-houses-with-different-colors": {
+    "questionId": "2199",
+    "title": "Two Furthest Houses With Different Colors",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Greedy"
+    ]
+  },
+  "maximum-distance-between-a-pair-of-values": {
+    "questionId": "1984",
+    "title": "Maximum Distance Between a Pair of Values",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Two Pointers",
+      "Binary Search"
+    ]
+  },
+  "mirror-distance-of-an-integer": {
+    "questionId": "4168",
+    "title": "Mirror Distance of an Integer",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Math"
+    ]
+  },
+  "closest-equal-element-queries": {
+    "questionId": "3750",
+    "title": "Closest Equal Element Queries",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Binary Search"
+    ]
+  },
+  "shortest-distance-to-target-string-in-a-circular-array": {
+    "questionId": "2598",
+    "title": "Shortest Distance to Target String in a Circular Array",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "String"
+    ]
+  },
+  "search-suggestions-system": {
+    "questionId": "1397",
+    "title": "Search Suggestions System",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "String",
+      "Binary Search",
+      "Trie",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  },
+  "number-of-segments-in-a-string": {
+    "questionId": "434",
+    "title": "Number of Segments in a String",
+    "difficulty": "Easy",
+    "topicTags": [
+      "String"
+    ]
+  },
+  "different-ways-to-add-parentheses": {
+    "questionId": "241",
+    "title": "Different Ways to Add Parentheses",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Math",
+      "String",
+      "Dynamic Programming",
+      "Recursion",
+      "Memoization",
+      "Bracket Sequences"
+    ]
+  },
+  "find-users-with-persistent-behavior-patterns": {
+    "questionId": "4227",
+    "title": "Find Users with Persistent Behavior Patterns",
+    "difficulty": "Hard",
+    "topicTags": []
+  },
+  "most-common-course-pairs": {
+    "questionId": "4169",
+    "title": "Most Common Course Pairs",
+    "difficulty": "Hard",
+    "topicTags": []
+  },
+  "find-students-with-study-spiral-pattern": {
+    "questionId": "3961",
+    "title": "Find Students with Study Spiral Pattern",
+    "difficulty": "Hard",
+    "topicTags": []
+  },
+  "first-letter-capitalization-ii": {
+    "questionId": "3711",
+    "title": "First Letter Capitalization II",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "find-category-recommendation-pairs": {
+    "questionId": "3891",
+    "title": "Find Category Recommendation Pairs",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "analyze-organization-hierarchy": {
+    "questionId": "3828",
+    "title": "Analyze Organization Hierarchy",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Database"
+    ]
+  },
+  "odd-and-even-transactions": {
+    "questionId": "3530",
+    "title": "Odd and Even Transactions",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Database"
+    ]
   }
 }
