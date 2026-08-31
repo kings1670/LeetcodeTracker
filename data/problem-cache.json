@@ -8229,5 +8229,243 @@
       "Backtracking",
       "Breadth-First Search"
     ]
+  },
+  "matrix-diagonal-sum": {
+    "questionId": "1677",
+    "title": "Matrix Diagonal Sum",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Matrix"
+    ]
+  },
+  "find-the-minimum-and-maximum-number-of-nodes-between-critical-points": {
+    "questionId": "2182",
+    "title": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Linked List"
+    ]
+  },
+  "maximum-binary-tree": {
+    "questionId": "654",
+    "title": "Maximum Binary Tree",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Divide and Conquer",
+      "Stack",
+      "Tree",
+      "Monotonic Stack",
+      "Binary Tree",
+      "Cartesian Tree"
+    ]
+  },
+  "remove-k-digits": {
+    "questionId": "402",
+    "title": "Remove K Digits",
+    "difficulty": "Medium",
+    "topicTags": [
+      "String",
+      "Stack",
+      "Greedy",
+      "Monotonic Stack"
+    ]
+  },
+  "clear-digits": {
+    "questionId": "3447",
+    "title": "Clear Digits",
+    "difficulty": "Easy",
+    "topicTags": [
+      "String",
+      "Stack",
+      "Simulation"
+    ]
+  },
+  "reverse-prefix-of-word": {
+    "questionId": "2128",
+    "title": "Reverse Prefix of Word",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Two Pointers",
+      "String",
+      "Stack"
+    ]
+  },
+  "minimum-string-length-after-removing-substrings": {
+    "questionId": "2800",
+    "title": "Minimum String Length After Removing Substrings",
+    "difficulty": "Easy",
+    "topicTags": [
+      "String",
+      "Stack",
+      "Simulation"
+    ]
+  },
+  "combination-sum-iv": {
+    "questionId": "377",
+    "title": "Combination Sum IV",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  "all-elements-in-two-binary-search-trees": {
+    "questionId": "1427",
+    "title": "All Elements in Two Binary Search Trees",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Sorting",
+      "Binary Tree"
+    ]
+  },
+  "find-n-unique-integers-sum-up-to-zero": {
+    "questionId": "1426",
+    "title": "Find N Unique Integers Sum up to Zero",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Math"
+    ]
+  },
+  "deepest-leaves-sum": {
+    "questionId": "1254",
+    "title": "Deepest Leaves Sum",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "sum-of-mutated-array-closest-to-target": {
+    "questionId": "1232",
+    "title": "Sum of Mutated Array Closest to Target",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Binary Search",
+      "Sorting"
+    ]
+  },
+  "maximum-candies-you-can-get-from-boxes": {
+    "questionId": "1424",
+    "title": "Maximum Candies You Can Get from Boxes",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Breadth-First Search",
+      "Graph Theory"
+    ]
+  },
+  "longest-repeating-character-replacement": {
+    "questionId": "424",
+    "title": "Longest Repeating Character Replacement",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  "permutation-in-string": {
+    "questionId": "567",
+    "title": "Permutation in String",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Hash Table",
+      "Two Pointers",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  "find-churn-risk-customers": {
+    "questionId": "4103",
+    "title": "Find Churn Risk Customers",
+    "difficulty": "Medium",
+    "topicTags": []
+  },
+  "count-prefix-and-suffix-pairs-i": {
+    "questionId": "3309",
+    "title": "Count Prefix and Suffix Pairs I",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "String",
+      "Trie",
+      "Rolling Hash",
+      "String Matching",
+      "Hash Function"
+    ]
+  },
+  "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence": {
+    "questionId": "1566",
+    "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Two Pointers",
+      "String",
+      "String Matching"
+    ]
+  },
+  "maximum-repeating-substring": {
+    "questionId": "1764",
+    "title": "Maximum Repeating Substring",
+    "difficulty": "Easy",
+    "topicTags": [
+      "String",
+      "Dynamic Programming",
+      "String Matching"
+    ]
+  },
+  "string-matching-in-an-array": {
+    "questionId": "1524",
+    "title": "String Matching in an Array",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "String",
+      "String Matching"
+    ]
+  },
+  "find-all-good-strings": {
+    "questionId": "1513",
+    "title": "Find All Good Strings",
+    "difficulty": "Hard",
+    "topicTags": [
+      "String",
+      "Dynamic Programming",
+      "String Matching"
+    ]
+  },
+  "repeated-string-match": {
+    "questionId": "686",
+    "title": "Repeated String Match",
+    "difficulty": "Medium",
+    "topicTags": [
+      "String",
+      "String Matching",
+      "Z Algorithm",
+      "Knuth–Morris–Pratt Algorithm",
+      "Boyer–Moore String-Search Algorithm"
+    ]
+  },
+  "longest-happy-prefix": {
+    "questionId": "1508",
+    "title": "Longest Happy Prefix",
+    "difficulty": "Hard",
+    "topicTags": [
+      "String",
+      "Rolling Hash",
+      "String Matching",
+      "Hash Function",
+      "Z Algorithm",
+      "Knuth–Morris–Pratt Algorithm"
+    ]
   }
 }
