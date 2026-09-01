@@ -8467,5 +8467,230 @@
       "Z Algorithm",
       "Knuth–Morris–Pratt Algorithm"
     ]
+  },
+  "check-if-the-sentence-is-pangram": {
+    "questionId": "1960",
+    "title": "Check if the Sentence Is Pangram",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Hash Table",
+      "String"
+    ]
+  },
+  "minimum-moves-to-clean-the-classroom": {
+    "questionId": "3870",
+    "title": "Minimum Moves to Clean the Classroom",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Bit Manipulation",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
+  "destination-city": {
+    "questionId": "1547",
+    "title": "Destination City",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ]
+  },
+  "construct-binary-search-tree-from-preorder-traversal": {
+    "questionId": "1050",
+    "title": "Construct Binary Search Tree from Preorder Traversal",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Stack",
+      "Tree",
+      "Binary Search Tree",
+      "Monotonic Stack",
+      "Binary Tree"
+    ]
+  },
+  "maximum-nesting-depth-of-the-parentheses": {
+    "questionId": "1737",
+    "title": "Maximum Nesting Depth of the Parentheses",
+    "difficulty": "Easy",
+    "topicTags": [
+      "String",
+      "Stack",
+      "Bracket Sequences"
+    ]
+  },
+  "escape-the-ghosts": {
+    "questionId": "805",
+    "title": "Escape The Ghosts",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Math"
+    ]
+  },
+  "k-th-smallest-prime-fraction": {
+    "questionId": "802",
+    "title": "K-th Smallest Prime Fraction",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  },
+  "get-watched-videos-by-your-friends": {
+    "questionId": "1436",
+    "title": "Get Watched Videos by Your Friends",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Sorting"
+    ]
+  },
+  "xor-queries-of-a-subarray": {
+    "questionId": "1435",
+    "title": "XOR Queries of a Subarray",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Bit Manipulation",
+      "Prefix Sum"
+    ]
+  },
+  "decrypt-string-from-alphabet-to-integer-mapping": {
+    "questionId": "1434",
+    "title": "Decrypt String from Alphabet to Integer Mapping",
+    "difficulty": "Easy",
+    "topicTags": [
+      "String"
+    ]
+  },
+  "verbal-arithmetic-puzzle": {
+    "questionId": "1429",
+    "title": "Verbal Arithmetic Puzzle",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Math",
+      "String",
+      "Backtracking"
+    ]
+  },
+  "maximum-number-of-vowels-in-a-substring-of-given-length": {
+    "questionId": "1567",
+    "title": "Maximum Number of Vowels in a Substring of Given Length",
+    "difficulty": "Medium",
+    "topicTags": [
+      "String",
+      "Sliding Window"
+    ]
+  },
+  "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold": {
+    "questionId": "1445",
+    "title": "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Sliding Window"
+    ]
+  },
+  "number-of-digit-one": {
+    "questionId": "233",
+    "title": "Number of Digit One",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Math",
+      "Dynamic Programming",
+      "Recursion"
+    ]
+  },
+  "minimum-time-to-revert-word-to-initial-state-ii": {
+    "questionId": "3296",
+    "title": "Minimum Time to Revert Word to Initial State II",
+    "difficulty": "Hard",
+    "topicTags": [
+      "String",
+      "Rolling Hash",
+      "String Matching",
+      "Hash Function"
+    ]
+  },
+  "find-beautiful-indices-in-the-given-array-ii": {
+    "questionId": "3303",
+    "title": "Find Beautiful Indices in the Given Array II",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Two Pointers",
+      "String",
+      "Binary Search",
+      "Rolling Hash",
+      "String Matching",
+      "Hash Function",
+      "Z Algorithm",
+      "Knuth–Morris–Pratt Algorithm",
+      "Boyer–Moore String-Search Algorithm"
+    ]
+  },
+  "find-beautiful-indices-in-the-given-array-i": {
+    "questionId": "3245",
+    "title": "Find Beautiful Indices in the Given Array I",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Two Pointers",
+      "String",
+      "Binary Search",
+      "Rolling Hash",
+      "String Matching",
+      "Hash Function",
+      "Z Algorithm",
+      "Knuth–Morris–Pratt Algorithm",
+      "Boyer–Moore String-Search Algorithm"
+    ]
+  },
+  "match-substring-after-replacement": {
+    "questionId": "2393",
+    "title": "Match Substring After Replacement",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "String Matching"
+    ]
+  },
+  "sum-of-scores-of-built-strings": {
+    "questionId": "2326",
+    "title": "Sum of Scores of Built Strings",
+    "difficulty": "Hard",
+    "topicTags": [
+      "String",
+      "Binary Search",
+      "Rolling Hash",
+      "Suffix Array",
+      "String Matching",
+      "Hash Function",
+      "Z Algorithm",
+      "Knuth–Morris–Pratt Algorithm"
+    ]
+  },
+  "form-array-by-concatenating-subarrays-of-another-array": {
+    "questionId": "1874",
+    "title": "Form Array by Concatenating Subarrays of Another Array",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Two Pointers",
+      "Greedy",
+      "String Matching",
+      "Knuth–Morris–Pratt Algorithm"
+    ]
   }
 }
