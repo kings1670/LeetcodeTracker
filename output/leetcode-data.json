@@ -1,6 +1,6 @@
 {
-  "latestDate": "2026-09-02",
-  "latestDateFormatted": "02 Sep",
+  "latestDate": "2026-09-03",
+  "latestDateFormatted": "03 Sep",
   "classes": [
     "II CSD A",
     "III CSD A"
@@ -10,20 +10,15 @@
     "activeStudents": 64,
     "inactiveStudents": 54,
     "neverActiveStudents": 5,
-    "totalProblemsSolved": 15193,
-    "solvedToday": 80,
-    "weeklyImprovement": 700,
-    "easyTotal": 6986,
-    "mediumTotal": 6535,
-    "hardTotal": 1672,
+    "totalProblemsSolved": 15250,
+    "solvedToday": 57,
+    "weeklyImprovement": 646,
+    "easyTotal": 7007,
+    "mediumTotal": 6567,
+    "hardTotal": 1676,
     "avgSolved": 124
   },
   "dailyTrend": [
-    {
-      "date": "2026-08-26",
-      "day": "26 Aug",
-      "solved": 14493
-    },
     {
       "date": "2026-08-28",
       "day": "28 Aug",
@@ -53,6 +48,11 @@
       "date": "2026-09-02",
       "day": "02 Sep",
       "solved": 15193
+    },
+    {
+      "date": "2026-09-03",
+      "day": "03 Sep",
+      "solved": 15250
     }
   ],
   "fullHistoryTrend": [
@@ -275,6 +275,11 @@
       "date": "2026-09-02",
       "day": "02 Sep",
       "solved": 15193
+    },
+    {
+      "date": "2026-09-03",
+      "day": "03 Sep",
+      "solved": 15250
     }
   ],
   "classDailyTrends": {
@@ -498,6 +503,11 @@
         "date": "2026-09-02",
         "day": "02 Sep",
         "solved": 2708
+      },
+      {
+        "date": "2026-09-03",
+        "day": "03 Sep",
+        "solved": 2738
       }
     ],
     "III CSD A": [
@@ -720,6 +730,11 @@
         "date": "2026-09-02",
         "day": "02 Sep",
         "solved": 12485
+      },
+      {
+        "date": "2026-09-03",
+        "day": "03 Sep",
+        "solved": 12512
       }
     ]
   },
@@ -727,23 +742,23 @@
     "II CSD A": {
       "totalStudents": 62,
       "activeStudents": 57,
-      "totalProblemsSolved": 2708,
-      "solvedToday": 20,
-      "weeklyImprovement": 148,
-      "easyTotal": 1536,
-      "mediumTotal": 1027,
+      "totalProblemsSolved": 2738,
+      "solvedToday": 30,
+      "weeklyImprovement": 162,
+      "easyTotal": 1553,
+      "mediumTotal": 1040,
       "hardTotal": 145,
       "avgSolved": 44
     },
     "III CSD A": {
       "totalStudents": 61,
       "activeStudents": 61,
-      "totalProblemsSolved": 12485,
-      "solvedToday": 60,
-      "weeklyImprovement": 552,
-      "easyTotal": 5450,
-      "mediumTotal": 5508,
-      "hardTotal": 1527,
+      "totalProblemsSolved": 12512,
+      "solvedToday": 27,
+      "weeklyImprovement": 484,
+      "easyTotal": 5454,
+      "mediumTotal": 5527,
+      "hardTotal": 1531,
       "avgSolved": 205
     }
   },
@@ -760,8 +775,8 @@
         "hard": 18,
         "totalSolved": 145,
         "improvement": 0,
-        "streak": 21,
-        "lastActive": "7 days ago",
+        "streak": 22,
+        "lastActive": "8 days ago",
         "status": "Active"
       },
       {
@@ -770,13 +785,13 @@
         "name": "Haritha S P",
         "department": "II CSD A",
         "leetcodeUsername": "123haritha",
-        "easy": 75,
+        "easy": 78,
         "medium": 46,
         "hard": 8,
-        "totalSolved": 129,
-        "improvement": 0,
-        "streak": 21,
-        "lastActive": "Yesterday",
+        "totalSolved": 132,
+        "improvement": 3,
+        "streak": 22,
+        "lastActive": "Today",
         "status": "Active"
       },
       {
@@ -785,12 +800,12 @@
         "name": "Jaylyn Andrea J",
         "department": "II CSD A",
         "leetcodeUsername": "Jaylynandrea20",
-        "easy": 105,
+        "easy": 106,
         "medium": 17,
         "hard": 2,
-        "totalSolved": 124,
-        "improvement": 3,
-        "streak": 21,
+        "totalSolved": 125,
+        "improvement": 1,
+        "streak": 22,
         "lastActive": "Today",
         "status": "Active"
       },
@@ -800,12 +815,12 @@
         "name": "Shanmathi S",
         "department": "II CSD A",
         "leetcodeUsername": "Shanmathi2008",
-        "easy": 83,
+        "easy": 85,
         "medium": 36,
         "hard": 1,
-        "totalSolved": 120,
+        "totalSolved": 122,
         "improvement": 2,
-        "streak": 44,
+        "streak": 45,
         "lastActive": "Today",
         "status": "Active"
       },
@@ -820,8 +835,8 @@
         "hard": 16,
         "totalSolved": 116,
         "improvement": 0,
-        "streak": 44,
-        "lastActive": "Yesterday",
+        "streak": 45,
+        "lastActive": "2 days ago",
         "status": "Active"
       }
     ],
@@ -836,9 +851,9 @@
         "medium": 326,
         "hard": 109,
         "totalSolved": 642,
-        "improvement": 14,
-        "streak": 44,
-        "lastActive": "Today",
+        "improvement": 0,
+        "streak": 45,
+        "lastActive": "Yesterday",
         "status": "Active"
       },
       {
@@ -848,11 +863,11 @@
         "department": "III CSD A",
         "leetcodeUsername": "Vidhya_0497",
         "easy": 224,
-        "medium": 208,
+        "medium": 210,
         "hard": 53,
-        "totalSolved": 485,
-        "improvement": 3,
-        "streak": 44,
+        "totalSolved": 487,
+        "improvement": 2,
+        "streak": 45,
         "lastActive": "Today",
         "status": "Active"
       },
@@ -866,9 +881,9 @@
         "medium": 220,
         "hard": 65,
         "totalSolved": 413,
-        "improvement": 2,
-        "streak": 44,
-        "lastActive": "Today",
+        "improvement": 0,
+        "streak": 45,
+        "lastActive": "Yesterday",
         "status": "Active"
       },
       {
@@ -881,9 +896,9 @@
         "medium": 198,
         "hard": 71,
         "totalSolved": 388,
-        "improvement": 1,
-        "streak": 21,
-        "lastActive": "Today",
+        "improvement": 0,
+        "streak": 22,
+        "lastActive": "Yesterday",
         "status": "Active"
       },
       {
@@ -893,11 +908,11 @@
         "department": "III CSD A",
         "leetcodeUsername": "santhoshkanna27",
         "easy": 131,
-        "medium": 172,
+        "medium": 173,
         "hard": 61,
-        "totalSolved": 364,
+        "totalSolved": 365,
         "improvement": 1,
-        "streak": 44,
+        "streak": 45,
         "lastActive": "Today",
         "status": "Active"
       }
@@ -914,9 +929,9 @@
       "medium": 326,
       "hard": 109,
       "totalSolved": 642,
-      "improvement": 14,
-      "streak": 44,
-      "lastActive": "Today",
+      "improvement": 0,
+      "streak": 45,
+      "lastActive": "Yesterday",
       "status": "Active"
     },
     {
@@ -926,11 +941,11 @@
       "department": "III CSD A",
       "leetcodeUsername": "Vidhya_0497",
       "easy": 224,
-      "medium": 208,
+      "medium": 210,
       "hard": 53,
-      "totalSolved": 485,
-      "improvement": 3,
-      "streak": 44,
+      "totalSolved": 487,
+      "improvement": 2,
+      "streak": 45,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -944,9 +959,9 @@
       "medium": 220,
       "hard": 65,
       "totalSolved": 413,
-      "improvement": 2,
-      "streak": 44,
-      "lastActive": "Today",
+      "improvement": 0,
+      "streak": 45,
+      "lastActive": "Yesterday",
       "status": "Active"
     },
     {
@@ -959,9 +974,9 @@
       "medium": 198,
       "hard": 71,
       "totalSolved": 388,
-      "improvement": 1,
-      "streak": 21,
-      "lastActive": "Today",
+      "improvement": 0,
+      "streak": 22,
+      "lastActive": "Yesterday",
       "status": "Active"
     },
     {
@@ -971,11 +986,11 @@
       "department": "III CSD A",
       "leetcodeUsername": "santhoshkanna27",
       "easy": 131,
-      "medium": 172,
+      "medium": 173,
       "hard": 61,
-      "totalSolved": 364,
+      "totalSolved": 365,
       "improvement": 1,
-      "streak": 44,
+      "streak": 45,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -986,27 +1001,12 @@
       "department": "III CSD A",
       "leetcodeUsername": "umaribiya",
       "easy": 119,
-      "medium": 165,
+      "medium": 166,
       "hard": 58,
-      "totalSolved": 342,
-      "improvement": 0,
-      "streak": 44,
-      "lastActive": "Yesterday",
-      "status": "Active"
-    },
-    {
-      "id": "310624150043",
-      "rollNumber": "310624150043",
-      "name": "Shreya V",
-      "department": "III CSD A",
-      "leetcodeUsername": "_Shreya_1304",
-      "easy": 256,
-      "medium": 65,
-      "hard": 7,
-      "totalSolved": 328,
-      "improvement": 0,
-      "streak": 44,
-      "lastActive": "Yesterday",
+      "totalSolved": 343,
+      "improvement": 1,
+      "streak": 45,
+      "lastActive": "Today",
       "status": "Active"
     },
     {
@@ -1016,11 +1016,26 @@
       "department": "III CSD A",
       "leetcodeUsername": "Neraimathi1102",
       "easy": 202,
-      "medium": 102,
-      "hard": 23,
-      "totalSolved": 327,
+      "medium": 104,
+      "hard": 24,
+      "totalSolved": 330,
       "improvement": 3,
-      "streak": 21,
+      "streak": 22,
+      "lastActive": "Today",
+      "status": "Active"
+    },
+    {
+      "id": "310624150043",
+      "rollNumber": "310624150043",
+      "name": "Shreya V",
+      "department": "III CSD A",
+      "leetcodeUsername": "_Shreya_1304",
+      "easy": 256,
+      "medium": 66,
+      "hard": 7,
+      "totalSolved": 329,
+      "improvement": 1,
+      "streak": 45,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -1034,9 +1049,9 @@
       "medium": 152,
       "hard": 37,
       "totalSolved": 309,
-      "improvement": 1,
-      "streak": 44,
-      "lastActive": "Today",
+      "improvement": 0,
+      "streak": 45,
+      "lastActive": "Yesterday",
       "status": "Active"
     },
     {
@@ -1045,12 +1060,12 @@
       "name": "K S Tarunika",
       "department": "III CSD A",
       "leetcodeUsername": "tarunika_ks",
-      "easy": 170,
+      "easy": 171,
       "medium": 98,
       "hard": 20,
-      "totalSolved": 288,
-      "improvement": 3,
-      "streak": 21,
+      "totalSolved": 289,
+      "improvement": 1,
+      "streak": 22,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -1061,11 +1076,11 @@
       "department": "III CSD A",
       "leetcodeUsername": "Gautham76",
       "easy": 92,
-      "medium": 139,
+      "medium": 140,
       "hard": 56,
-      "totalSolved": 287,
+      "totalSolved": 288,
       "improvement": 1,
-      "streak": 44,
+      "streak": 45,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -1080,8 +1095,8 @@
       "hard": 11,
       "totalSolved": 287,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "4 days ago",
+      "streak": 45,
+      "lastActive": "5 days ago",
       "status": "Active"
     },
     {
@@ -1094,9 +1109,9 @@
       "medium": 27,
       "hard": 2,
       "totalSolved": 280,
-      "improvement": 1,
-      "streak": 21,
-      "lastActive": "Today",
+      "improvement": 0,
+      "streak": 22,
+      "lastActive": "Yesterday",
       "status": "Active"
     },
     {
@@ -1110,8 +1125,8 @@
       "hard": 44,
       "totalSolved": 271,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "Yesterday",
+      "streak": 45,
+      "lastActive": "2 days ago",
       "status": "Active"
     },
     {
@@ -1125,8 +1140,8 @@
       "hard": 33,
       "totalSolved": 269,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "3 days ago",
+      "streak": 22,
+      "lastActive": "4 days ago",
       "status": "Active"
     },
     {
@@ -1136,11 +1151,11 @@
       "department": "III CSD A",
       "leetcodeUsername": "mPMnu6Ghn8",
       "easy": 113,
-      "medium": 117,
+      "medium": 118,
       "hard": 33,
-      "totalSolved": 263,
+      "totalSolved": 264,
       "improvement": 1,
-      "streak": 21,
+      "streak": 22,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -1154,9 +1169,9 @@
       "medium": 133,
       "hard": 41,
       "totalSolved": 260,
-      "improvement": 1,
-      "streak": 21,
-      "lastActive": "Today",
+      "improvement": 0,
+      "streak": 22,
+      "lastActive": "Yesterday",
       "status": "Active"
     },
     {
@@ -1166,11 +1181,11 @@
       "department": "III CSD A",
       "leetcodeUsername": "anbumani16",
       "easy": 120,
-      "medium": 106,
+      "medium": 107,
       "hard": 32,
-      "totalSolved": 258,
+      "totalSolved": 259,
       "improvement": 1,
-      "streak": 21,
+      "streak": 22,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -1184,9 +1199,9 @@
       "medium": 127,
       "hard": 34,
       "totalSolved": 245,
-      "improvement": 3,
-      "streak": 44,
-      "lastActive": "Today",
+      "improvement": 0,
+      "streak": 45,
+      "lastActive": "Yesterday",
       "status": "Active"
     },
     {
@@ -1200,8 +1215,8 @@
       "hard": 26,
       "totalSolved": 244,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "Yesterday",
+      "streak": 22,
+      "lastActive": "2 days ago",
       "status": "Active"
     },
     {
@@ -1214,8 +1229,23 @@
       "medium": 71,
       "hard": 11,
       "totalSolved": 244,
-      "improvement": 1,
-      "streak": 44,
+      "improvement": 0,
+      "streak": 45,
+      "lastActive": "Yesterday",
+      "status": "Active"
+    },
+    {
+      "id": "310624150038",
+      "rollNumber": "310624150038",
+      "name": "V.M.Sanjeev",
+      "department": "III CSD A",
+      "leetcodeUsername": "sanjeev118",
+      "easy": 57,
+      "medium": 129,
+      "hard": 54,
+      "totalSolved": 240,
+      "improvement": 7,
+      "streak": 45,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -1229,23 +1259,8 @@
       "medium": 56,
       "hard": 6,
       "totalSolved": 235,
-      "improvement": 1,
-      "streak": 21,
-      "lastActive": "Today",
-      "status": "Active"
-    },
-    {
-      "id": "310624150038",
-      "rollNumber": "310624150038",
-      "name": "V.M.Sanjeev",
-      "department": "III CSD A",
-      "leetcodeUsername": "sanjeev118",
-      "easy": 55,
-      "medium": 126,
-      "hard": 52,
-      "totalSolved": 233,
       "improvement": 0,
-      "streak": 44,
+      "streak": 22,
       "lastActive": "Yesterday",
       "status": "Active"
     },
@@ -1256,11 +1271,11 @@
       "department": "III CSD A",
       "leetcodeUsername": "sujith15",
       "easy": 83,
-      "medium": 115,
+      "medium": 116,
       "hard": 28,
-      "totalSolved": 226,
+      "totalSolved": 227,
       "improvement": 1,
-      "streak": 44,
+      "streak": 45,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -1275,8 +1290,8 @@
       "hard": 7,
       "totalSolved": 212,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "Yesterday",
+      "streak": 45,
+      "lastActive": "2 days ago",
       "status": "Active"
     },
     {
@@ -1290,8 +1305,8 @@
       "hard": 6,
       "totalSolved": 205,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "8 days ago",
+      "streak": 22,
+      "lastActive": "9 days ago",
       "status": "Active"
     },
     {
@@ -1304,9 +1319,9 @@
       "medium": 76,
       "hard": 14,
       "totalSolved": 197,
-      "improvement": 1,
-      "streak": 44,
-      "lastActive": "Today",
+      "improvement": 0,
+      "streak": 45,
+      "lastActive": "Yesterday",
       "status": "Active"
     },
     {
@@ -1320,8 +1335,8 @@
       "hard": 31,
       "totalSolved": 195,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "3 days ago",
+      "streak": 45,
+      "lastActive": "4 days ago",
       "status": "Active"
     },
     {
@@ -1335,8 +1350,8 @@
       "hard": 15,
       "totalSolved": 192,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "3 days ago",
+      "streak": 22,
+      "lastActive": "4 days ago",
       "status": "Active"
     },
     {
@@ -1346,11 +1361,11 @@
       "department": "III CSD A",
       "leetcodeUsername": "thiru_1726",
       "easy": 126,
-      "medium": 61,
+      "medium": 62,
       "hard": 3,
-      "totalSolved": 190,
+      "totalSolved": 191,
       "improvement": 1,
-      "streak": 44,
+      "streak": 45,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -1365,8 +1380,8 @@
       "hard": 20,
       "totalSolved": 181,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "4 days ago",
+      "streak": 45,
+      "lastActive": "5 days ago",
       "status": "Active"
     },
     {
@@ -1379,8 +1394,23 @@
       "medium": 98,
       "hard": 29,
       "totalSolved": 181,
-      "improvement": 4,
-      "streak": 44,
+      "improvement": 0,
+      "streak": 45,
+      "lastActive": "Yesterday",
+      "status": "Active"
+    },
+    {
+      "id": "310624150034",
+      "rollNumber": "310624150034",
+      "name": "Rayyan Ahamed S",
+      "department": "III CSD A",
+      "leetcodeUsername": "rayyan43",
+      "easy": 62,
+      "medium": 90,
+      "hard": 24,
+      "totalSolved": 176,
+      "improvement": 2,
+      "streak": 45,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -1395,23 +1425,8 @@
       "hard": 23,
       "totalSolved": 176,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "8 days ago",
-      "status": "Active"
-    },
-    {
-      "id": "310624150034",
-      "rollNumber": "310624150034",
-      "name": "Rayyan Ahamed S",
-      "department": "III CSD A",
-      "leetcodeUsername": "rayyan43",
-      "easy": 61,
-      "medium": 89,
-      "hard": 24,
-      "totalSolved": 174,
-      "improvement": 3,
-      "streak": 44,
-      "lastActive": "Today",
+      "streak": 45,
+      "lastActive": "9 days ago",
       "status": "Active"
     },
     {
@@ -1425,8 +1440,8 @@
       "hard": 29,
       "totalSolved": 173,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "Yesterday",
+      "streak": 22,
+      "lastActive": "2 days ago",
       "status": "Active"
     },
     {
@@ -1436,11 +1451,26 @@
       "department": "III CSD A",
       "leetcodeUsername": "Jayagokulavarman02",
       "easy": 58,
-      "medium": 87,
+      "medium": 88,
       "hard": 27,
-      "totalSolved": 172,
+      "totalSolved": 173,
       "improvement": 1,
-      "streak": 21,
+      "streak": 22,
+      "lastActive": "Today",
+      "status": "Active"
+    },
+    {
+      "id": "310624150010",
+      "rollNumber": "310624150010",
+      "name": "P.Brindha",
+      "department": "III CSD A",
+      "leetcodeUsername": "BrindhaP26",
+      "easy": 70,
+      "medium": 75,
+      "hard": 21,
+      "totalSolved": 166,
+      "improvement": 2,
+      "streak": 22,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -1455,23 +1485,8 @@
       "hard": 29,
       "totalSolved": 165,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "8 days ago",
-      "status": "Active"
-    },
-    {
-      "id": "310624150010",
-      "rollNumber": "310624150010",
-      "name": "P.Brindha",
-      "department": "III CSD A",
-      "leetcodeUsername": "BrindhaP26",
-      "easy": 70,
-      "medium": 73,
-      "hard": 21,
-      "totalSolved": 164,
-      "improvement": 0,
-      "streak": 21,
-      "lastActive": "Yesterday",
+      "streak": 45,
+      "lastActive": "9 days ago",
       "status": "Active"
     },
     {
@@ -1485,8 +1500,8 @@
       "hard": 23,
       "totalSolved": 164,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "5 days ago",
+      "streak": 45,
+      "lastActive": "6 days ago",
       "status": "Active"
     },
     {
@@ -1500,8 +1515,8 @@
       "hard": 24,
       "totalSolved": 163,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "8 days ago",
+      "streak": 45,
+      "lastActive": "9 days ago",
       "status": "Active"
     },
     {
@@ -1515,8 +1530,8 @@
       "hard": 18,
       "totalSolved": 156,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "Yesterday",
+      "streak": 22,
+      "lastActive": "2 days ago",
       "status": "Active"
     },
     {
@@ -1530,8 +1545,8 @@
       "hard": 27,
       "totalSolved": 156,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "12 days ago",
+      "streak": 22,
+      "lastActive": "13 days ago",
       "status": "Active"
     },
     {
@@ -1545,8 +1560,8 @@
       "hard": 18,
       "totalSolved": 145,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "7 days ago",
+      "streak": 22,
+      "lastActive": "8 days ago",
       "status": "Active"
     },
     {
@@ -1559,9 +1574,9 @@
       "medium": 74,
       "hard": 25,
       "totalSolved": 145,
-      "improvement": 10,
-      "streak": 21,
-      "lastActive": "Today",
+      "improvement": 0,
+      "streak": 22,
+      "lastActive": "Yesterday",
       "status": "Active"
     },
     {
@@ -1575,8 +1590,8 @@
       "hard": 22,
       "totalSolved": 142,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "8 days ago",
+      "streak": 22,
+      "lastActive": "9 days ago",
       "status": "Active"
     },
     {
@@ -1590,8 +1605,8 @@
       "hard": 13,
       "totalSolved": 141,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "8 days ago",
+      "streak": 22,
+      "lastActive": "9 days ago",
       "status": "Active"
     },
     {
@@ -1602,11 +1617,11 @@
       "leetcodeUsername": "Asmitha_05",
       "easy": 56,
       "medium": 64,
-      "hard": 17,
-      "totalSolved": 137,
-      "improvement": 0,
-      "streak": 44,
-      "lastActive": "Yesterday",
+      "hard": 18,
+      "totalSolved": 138,
+      "improvement": 1,
+      "streak": 45,
+      "lastActive": "Today",
       "status": "Active"
     },
     {
@@ -1620,8 +1635,8 @@
       "hard": 16,
       "totalSolved": 134,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "8 days ago",
+      "streak": 22,
+      "lastActive": "9 days ago",
       "status": "Active"
     },
     {
@@ -1630,13 +1645,13 @@
       "name": "Haritha S P",
       "department": "II CSD A",
       "leetcodeUsername": "123haritha",
-      "easy": 75,
+      "easy": 78,
       "medium": 46,
       "hard": 8,
-      "totalSolved": 129,
-      "improvement": 0,
-      "streak": 21,
-      "lastActive": "Yesterday",
+      "totalSolved": 132,
+      "improvement": 3,
+      "streak": 22,
+      "lastActive": "Today",
       "status": "Active"
     },
     {
@@ -1650,8 +1665,8 @@
       "hard": 15,
       "totalSolved": 127,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "11 days ago",
+      "streak": 22,
+      "lastActive": "12 days ago",
       "status": "Active"
     },
     {
@@ -1660,12 +1675,12 @@
       "name": "Jaylyn Andrea J",
       "department": "II CSD A",
       "leetcodeUsername": "Jaylynandrea20",
-      "easy": 105,
+      "easy": 106,
       "medium": 17,
       "hard": 2,
-      "totalSolved": 124,
-      "improvement": 3,
-      "streak": 21,
+      "totalSolved": 125,
+      "improvement": 1,
+      "streak": 22,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -1675,12 +1690,12 @@
       "name": "Shanmathi S",
       "department": "II CSD A",
       "leetcodeUsername": "Shanmathi2008",
-      "easy": 83,
+      "easy": 85,
       "medium": 36,
       "hard": 1,
-      "totalSolved": 120,
+      "totalSolved": 122,
       "improvement": 2,
-      "streak": 44,
+      "streak": 45,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -1695,8 +1710,8 @@
       "hard": 21,
       "totalSolved": 118,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "11 days ago",
+      "streak": 22,
+      "lastActive": "12 days ago",
       "status": "Active"
     },
     {
@@ -1709,9 +1724,9 @@
       "medium": 59,
       "hard": 27,
       "totalSolved": 118,
-      "improvement": 1,
-      "streak": 44,
-      "lastActive": "Today",
+      "improvement": 0,
+      "streak": 45,
+      "lastActive": "Yesterday",
       "status": "Active"
     },
     {
@@ -1725,8 +1740,8 @@
       "hard": 18,
       "totalSolved": 117,
       "improvement": 0,
-      "streak": 42,
-      "lastActive": "2 days ago",
+      "streak": 43,
+      "lastActive": "3 days ago",
       "status": "Active"
     },
     {
@@ -1740,8 +1755,8 @@
       "hard": 16,
       "totalSolved": 116,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "Yesterday",
+      "streak": 45,
+      "lastActive": "2 days ago",
       "status": "Active"
     },
     {
@@ -1755,8 +1770,8 @@
       "hard": 9,
       "totalSolved": 116,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "8 days ago",
+      "streak": 45,
+      "lastActive": "9 days ago",
       "status": "Active"
     },
     {
@@ -1770,8 +1785,8 @@
       "hard": 22,
       "totalSolved": 114,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "11 days ago",
+      "streak": 22,
+      "lastActive": "12 days ago",
       "status": "Active"
     },
     {
@@ -1785,8 +1800,8 @@
       "hard": 13,
       "totalSolved": 108,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "2 days ago",
+      "streak": 22,
+      "lastActive": "3 days ago",
       "status": "Active"
     },
     {
@@ -1796,11 +1811,11 @@
       "department": "II CSD A",
       "leetcodeUsername": "Sankrisha",
       "easy": 47,
-      "medium": 51,
+      "medium": 54,
       "hard": 4,
-      "totalSolved": 102,
+      "totalSolved": 105,
       "improvement": 3,
-      "streak": 44,
+      "streak": 45,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -1815,8 +1830,8 @@
       "hard": 16,
       "totalSolved": 102,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "11 days ago",
+      "streak": 22,
+      "lastActive": "12 days ago",
       "status": "Active"
     },
     {
@@ -1826,12 +1841,12 @@
       "department": "II CSD A",
       "leetcodeUsername": "Abisha_2007",
       "easy": 38,
-      "medium": 45,
+      "medium": 48,
       "hard": 11,
-      "totalSolved": 94,
-      "improvement": 0,
-      "streak": 21,
-      "lastActive": "3 days ago",
+      "totalSolved": 97,
+      "improvement": 3,
+      "streak": 22,
+      "lastActive": "Today",
       "status": "Active"
     },
     {
@@ -1841,11 +1856,26 @@
       "department": "II CSD A",
       "leetcodeUsername": "HariharannK_leetcode",
       "easy": 65,
-      "medium": 26,
+      "medium": 28,
       "hard": 1,
-      "totalSolved": 92,
+      "totalSolved": 94,
       "improvement": 2,
-      "streak": 44,
+      "streak": 45,
+      "lastActive": "Today",
+      "status": "Active"
+    },
+    {
+      "id": "310625150051",
+      "rollNumber": "310625150051",
+      "name": "Subhapriyan S",
+      "department": "II CSD A",
+      "leetcodeUsername": "97QbZSL4Ed",
+      "easy": 57,
+      "medium": 31,
+      "hard": 3,
+      "totalSolved": 91,
+      "improvement": 2,
+      "streak": 45,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -1860,23 +1890,8 @@
       "hard": 5,
       "totalSolved": 89,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "19 days ago",
-      "status": "Active"
-    },
-    {
-      "id": "310625150051",
-      "rollNumber": "310625150051",
-      "name": "Subhapriyan S",
-      "department": "II CSD A",
-      "leetcodeUsername": "97QbZSL4Ed",
-      "easy": 55,
-      "medium": 31,
-      "hard": 3,
-      "totalSolved": 89,
-      "improvement": 3,
-      "streak": 44,
-      "lastActive": "Today",
+      "streak": 45,
+      "lastActive": "20 days ago",
       "status": "Active"
     },
     {
@@ -1890,8 +1905,8 @@
       "hard": 1,
       "totalSolved": 89,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "3 days ago",
+      "streak": 45,
+      "lastActive": "4 days ago",
       "status": "Active"
     },
     {
@@ -1905,8 +1920,8 @@
       "hard": 0,
       "totalSolved": 88,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "27 days ago",
+      "streak": 45,
+      "lastActive": "28 days ago",
       "status": "Active"
     },
     {
@@ -1920,8 +1935,23 @@
       "hard": 1,
       "totalSolved": 85,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "11 days ago",
+      "streak": 45,
+      "lastActive": "12 days ago",
+      "status": "Active"
+    },
+    {
+      "id": "310625150035",
+      "rollNumber": "310625150035",
+      "name": "Poonguzhali M",
+      "department": "II CSD A",
+      "leetcodeUsername": "poonguzhali_0106",
+      "easy": 49,
+      "medium": 26,
+      "hard": 3,
+      "totalSolved": 78,
+      "improvement": 3,
+      "streak": 45,
+      "lastActive": "Today",
       "status": "Active"
     },
     {
@@ -1930,13 +1960,13 @@
       "name": "Sandhya S",
       "department": "II CSD A",
       "leetcodeUsername": "Sandhya2007",
-      "easy": 44,
+      "easy": 45,
       "medium": 30,
       "hard": 2,
-      "totalSolved": 76,
-      "improvement": 0,
-      "streak": 44,
-      "lastActive": "Yesterday",
+      "totalSolved": 77,
+      "improvement": 1,
+      "streak": 45,
+      "lastActive": "Today",
       "status": "Active"
     },
     {
@@ -1950,23 +1980,8 @@
       "hard": 4,
       "totalSolved": 76,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "8 days ago",
-      "status": "Active"
-    },
-    {
-      "id": "310625150035",
-      "rollNumber": "310625150035",
-      "name": "Poonguzhali M",
-      "department": "II CSD A",
-      "leetcodeUsername": "poonguzhali_0106",
-      "easy": 46,
-      "medium": 26,
-      "hard": 3,
-      "totalSolved": 75,
-      "improvement": 2,
-      "streak": 44,
-      "lastActive": "Today",
+      "streak": 22,
+      "lastActive": "9 days ago",
       "status": "Active"
     },
     {
@@ -1980,8 +1995,23 @@
       "hard": 3,
       "totalSolved": 75,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "10 days ago",
+      "streak": 45,
+      "lastActive": "11 days ago",
+      "status": "Active"
+    },
+    {
+      "id": "310625150031",
+      "rollNumber": "310625150031",
+      "name": "Nevin Derrick J",
+      "department": "II CSD A",
+      "leetcodeUsername": "Nevin_07",
+      "easy": 18,
+      "medium": 52,
+      "hard": 2,
+      "totalSolved": 72,
+      "improvement": 3,
+      "streak": 22,
+      "lastActive": "Today",
       "status": "Active"
     },
     {
@@ -1995,8 +2025,8 @@
       "hard": 1,
       "totalSolved": 71,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "7 days ago",
+      "streak": 45,
+      "lastActive": "8 days ago",
       "status": "Active"
     },
     {
@@ -2010,23 +2040,8 @@
       "hard": 11,
       "totalSolved": 70,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "11 days ago",
-      "status": "Active"
-    },
-    {
-      "id": "310625150031",
-      "rollNumber": "310625150031",
-      "name": "Nevin Derrick J",
-      "department": "II CSD A",
-      "leetcodeUsername": "Nevin_07",
-      "easy": 18,
-      "medium": 49,
-      "hard": 2,
-      "totalSolved": 69,
-      "improvement": 3,
-      "streak": 21,
-      "lastActive": "Today",
+      "streak": 22,
+      "lastActive": "12 days ago",
       "status": "Active"
     },
     {
@@ -2040,8 +2055,8 @@
       "hard": 0,
       "totalSolved": 69,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "20 days ago",
+      "streak": 22,
+      "lastActive": "21 days ago",
       "status": "Active"
     },
     {
@@ -2055,8 +2070,23 @@
       "hard": 1,
       "totalSolved": 65,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "2 days ago",
+      "streak": 22,
+      "lastActive": "3 days ago",
+      "status": "Active"
+    },
+    {
+      "id": "310625150050",
+      "rollNumber": "310625150050",
+      "name": "Shradha Singh",
+      "department": "II CSD A",
+      "leetcodeUsername": "shradha8",
+      "easy": 45,
+      "medium": 19,
+      "hard": 0,
+      "totalSolved": 64,
+      "improvement": 4,
+      "streak": 45,
+      "lastActive": "Today",
       "status": "Active"
     },
     {
@@ -2070,23 +2100,8 @@
       "hard": 5,
       "totalSolved": 62,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "8 days ago",
-      "status": "Active"
-    },
-    {
-      "id": "310625150050",
-      "rollNumber": "310625150050",
-      "name": "Shradha Singh",
-      "department": "II CSD A",
-      "leetcodeUsername": "shradha8",
-      "easy": 42,
-      "medium": 18,
-      "hard": 0,
-      "totalSolved": 60,
-      "improvement": 0,
-      "streak": 44,
-      "lastActive": "Yesterday",
+      "streak": 45,
+      "lastActive": "9 days ago",
       "status": "Active"
     },
     {
@@ -2095,12 +2110,12 @@
       "name": "Roshan M",
       "department": "II CSD A",
       "leetcodeUsername": "Roshan_Murugu",
-      "easy": 44,
+      "easy": 45,
       "medium": 13,
       "hard": 0,
-      "totalSolved": 57,
+      "totalSolved": 58,
       "improvement": 1,
-      "streak": 21,
+      "streak": 22,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -2115,8 +2130,8 @@
       "hard": 1,
       "totalSolved": 53,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "20 days ago",
+      "streak": 22,
+      "lastActive": "21 days ago",
       "status": "Active"
     },
     {
@@ -2130,8 +2145,8 @@
       "hard": 2,
       "totalSolved": 48,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "20 days ago",
+      "streak": 22,
+      "lastActive": "21 days ago",
       "status": "Active"
     },
     {
@@ -2145,8 +2160,8 @@
       "hard": 1,
       "totalSolved": 46,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "24 days ago",
+      "streak": 45,
+      "lastActive": "25 days ago",
       "status": "Active"
     },
     {
@@ -2160,8 +2175,8 @@
       "hard": 2,
       "totalSolved": 44,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "20 days ago",
+      "streak": 22,
+      "lastActive": "21 days ago",
       "status": "Active"
     },
     {
@@ -2174,9 +2189,9 @@
       "medium": 16,
       "hard": 7,
       "totalSolved": 44,
-      "improvement": 1,
-      "streak": 21,
-      "lastActive": "Today",
+      "improvement": 0,
+      "streak": 22,
+      "lastActive": "Yesterday",
       "status": "Active"
     },
     {
@@ -2190,8 +2205,8 @@
       "hard": 4,
       "totalSolved": 43,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "3 days ago",
+      "streak": 45,
+      "lastActive": "4 days ago",
       "status": "Active"
     },
     {
@@ -2205,8 +2220,8 @@
       "hard": 7,
       "totalSolved": 40,
       "improvement": 0,
-      "streak": 39,
-      "lastActive": "9 days ago",
+      "streak": 40,
+      "lastActive": "10 days ago",
       "status": "Active"
     },
     {
@@ -2220,8 +2235,8 @@
       "hard": 1,
       "totalSolved": 35,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "18 days ago",
+      "streak": 45,
+      "lastActive": "19 days ago",
       "status": "Active"
     },
     {
@@ -2235,8 +2250,8 @@
       "hard": 6,
       "totalSolved": 32,
       "improvement": 0,
-      "streak": 32,
-      "lastActive": "11 days ago",
+      "streak": 33,
+      "lastActive": "12 days ago",
       "status": "Active"
     },
     {
@@ -2250,8 +2265,8 @@
       "hard": 4,
       "totalSolved": 29,
       "improvement": 0,
-      "streak": 30,
-      "lastActive": "28 days ago",
+      "streak": 31,
+      "lastActive": "29 days ago",
       "status": "Active"
     },
     {
@@ -2265,8 +2280,8 @@
       "hard": 2,
       "totalSolved": 28,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "9 days ago",
+      "streak": 45,
+      "lastActive": "10 days ago",
       "status": "Active"
     },
     {
@@ -2280,8 +2295,8 @@
       "hard": 2,
       "totalSolved": 23,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "20 days ago",
+      "streak": 22,
+      "lastActive": "21 days ago",
       "status": "Active"
     },
     {
@@ -2295,8 +2310,8 @@
       "hard": 2,
       "totalSolved": 22,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "2 days ago",
+      "streak": 22,
+      "lastActive": "3 days ago",
       "status": "Active"
     },
     {
@@ -2310,8 +2325,8 @@
       "hard": 3,
       "totalSolved": 21,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "44 days ago",
+      "streak": 45,
+      "lastActive": "45 days ago",
       "status": "Active"
     },
     {
@@ -2325,8 +2340,8 @@
       "hard": 0,
       "totalSolved": 19,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "11 days ago",
+      "streak": 45,
+      "lastActive": "12 days ago",
       "status": "Active"
     },
     {
@@ -2340,8 +2355,23 @@
       "hard": 0,
       "totalSolved": 18,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "20 days ago",
+      "streak": 22,
+      "lastActive": "21 days ago",
+      "status": "Active"
+    },
+    {
+      "id": "310625150026",
+      "rollNumber": "310625150026",
+      "name": "Maga Shree V M",
+      "department": "II CSD A",
+      "leetcodeUsername": "MAGASHREE-26",
+      "easy": 7,
+      "medium": 8,
+      "hard": 2,
+      "totalSolved": 17,
+      "improvement": 1,
+      "streak": 45,
+      "lastActive": "Today",
       "status": "Active"
     },
     {
@@ -2355,23 +2385,8 @@
       "hard": 0,
       "totalSolved": 17,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "27 days ago",
-      "status": "Active"
-    },
-    {
-      "id": "310625150026",
-      "rollNumber": "310625150026",
-      "name": "Maga Shree V M",
-      "department": "II CSD A",
-      "leetcodeUsername": "MAGASHREE-26",
-      "easy": 6,
-      "medium": 8,
-      "hard": 2,
-      "totalSolved": 16,
-      "improvement": 0,
-      "streak": 44,
-      "lastActive": "2 days ago",
+      "streak": 45,
+      "lastActive": "28 days ago",
       "status": "Active"
     },
     {
@@ -2385,8 +2400,8 @@
       "hard": 0,
       "totalSolved": 12,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "44 days ago",
+      "streak": 45,
+      "lastActive": "45 days ago",
       "status": "Active"
     },
     {
@@ -2400,8 +2415,8 @@
       "hard": 0,
       "totalSolved": 12,
       "improvement": 0,
-      "streak": 42,
-      "lastActive": "11 days ago",
+      "streak": 43,
+      "lastActive": "12 days ago",
       "status": "Active"
     },
     {
@@ -2415,8 +2430,8 @@
       "hard": 2,
       "totalSolved": 12,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "8 days ago",
+      "streak": 45,
+      "lastActive": "9 days ago",
       "status": "Active"
     },
     {
@@ -2430,8 +2445,8 @@
       "hard": 2,
       "totalSolved": 10,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "20 days ago",
+      "streak": 22,
+      "lastActive": "21 days ago",
       "status": "Active"
     },
     {
@@ -2445,8 +2460,8 @@
       "hard": 0,
       "totalSolved": 8,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "Yesterday",
+      "streak": 22,
+      "lastActive": "2 days ago",
       "status": "Active"
     },
     {
@@ -2460,8 +2475,8 @@
       "hard": 0,
       "totalSolved": 8,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "27 days ago",
+      "streak": 45,
+      "lastActive": "28 days ago",
       "status": "Active"
     },
     {
@@ -2475,8 +2490,8 @@
       "hard": 0,
       "totalSolved": 5,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "41 days ago",
+      "streak": 45,
+      "lastActive": "42 days ago",
       "status": "Active"
     },
     {
@@ -2490,8 +2505,23 @@
       "hard": 1,
       "totalSolved": 5,
       "improvement": 0,
-      "streak": 3,
-      "lastActive": "2 days ago",
+      "streak": 4,
+      "lastActive": "3 days ago",
+      "status": "Active"
+    },
+    {
+      "id": "310625150060",
+      "rollNumber": "310625150060",
+      "name": "Vishal Vedanth M P",
+      "department": "II CSD A",
+      "leetcodeUsername": "orrBi7Z7jN",
+      "easy": 3,
+      "medium": 2,
+      "hard": 0,
+      "totalSolved": 5,
+      "improvement": 1,
+      "streak": 39,
+      "lastActive": "Today",
       "status": "Active"
     },
     {
@@ -2505,8 +2535,8 @@
       "hard": 0,
       "totalSolved": 4,
       "improvement": 0,
-      "streak": 42,
-      "lastActive": "34 days ago",
+      "streak": 43,
+      "lastActive": "35 days ago",
       "status": "Active"
     },
     {
@@ -2520,8 +2550,8 @@
       "hard": 0,
       "totalSolved": 4,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "20 days ago",
+      "streak": 22,
+      "lastActive": "21 days ago",
       "status": "Active"
     },
     {
@@ -2535,23 +2565,8 @@
       "hard": 0,
       "totalSolved": 4,
       "improvement": 0,
-      "streak": 40,
-      "lastActive": "37 days ago",
-      "status": "Active"
-    },
-    {
-      "id": "310625150060",
-      "rollNumber": "310625150060",
-      "name": "Vishal Vedanth M P",
-      "department": "II CSD A",
-      "leetcodeUsername": "orrBi7Z7jN",
-      "easy": 3,
-      "medium": 1,
-      "hard": 0,
-      "totalSolved": 4,
-      "improvement": 0,
-      "streak": 38,
-      "lastActive": "Yesterday",
+      "streak": 41,
+      "lastActive": "38 days ago",
       "status": "Active"
     },
     {
@@ -2565,8 +2580,8 @@
       "hard": 0,
       "totalSolved": 3,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "8 days ago",
+      "streak": 22,
+      "lastActive": "9 days ago",
       "status": "Active"
     },
     {
@@ -2580,8 +2595,8 @@
       "hard": 0,
       "totalSolved": 3,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "20 days ago",
+      "streak": 22,
+      "lastActive": "21 days ago",
       "status": "Active"
     },
     {
@@ -2595,8 +2610,8 @@
       "hard": 1,
       "totalSolved": 3,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "20 days ago",
+      "streak": 22,
+      "lastActive": "21 days ago",
       "status": "Active"
     },
     {
@@ -2610,8 +2625,8 @@
       "hard": 0,
       "totalSolved": 2,
       "improvement": 0,
-      "streak": 39,
-      "lastActive": "27 days ago",
+      "streak": 40,
+      "lastActive": "28 days ago",
       "status": "Active"
     },
     {
@@ -2625,8 +2640,8 @@
       "hard": 0,
       "totalSolved": 2,
       "improvement": 0,
-      "streak": 44,
-      "lastActive": "44 days ago",
+      "streak": 45,
+      "lastActive": "45 days ago",
       "status": "Active"
     },
     {
@@ -2640,8 +2655,8 @@
       "hard": 0,
       "totalSolved": 2,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "20 days ago",
+      "streak": 22,
+      "lastActive": "21 days ago",
       "status": "Active"
     },
     {
@@ -2655,8 +2670,8 @@
       "hard": 0,
       "totalSolved": 1,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "20 days ago",
+      "streak": 22,
+      "lastActive": "21 days ago",
       "status": "Active"
     },
     {
@@ -2670,8 +2685,8 @@
       "hard": 0,
       "totalSolved": 1,
       "improvement": 0,
-      "streak": 21,
-      "lastActive": "20 days ago",
+      "streak": 22,
+      "lastActive": "21 days ago",
       "status": "Active"
     },
     {
@@ -2686,7 +2701,7 @@
       "totalSolved": 0,
       "improvement": 0,
       "streak": 0,
-      "lastActive": "31 days ago",
+      "lastActive": "32 days ago",
       "status": "Inactive"
     },
     {
@@ -2701,7 +2716,7 @@
       "totalSolved": 0,
       "improvement": 0,
       "streak": 0,
-      "lastActive": "44 days ago",
+      "lastActive": "45 days ago",
       "status": "Inactive"
     },
     {
@@ -2716,7 +2731,7 @@
       "totalSolved": 0,
       "improvement": 0,
       "streak": 0,
-      "lastActive": "44 days ago",
+      "lastActive": "45 days ago",
       "status": "Inactive"
     },
     {
@@ -2731,7 +2746,7 @@
       "totalSolved": 0,
       "improvement": 0,
       "streak": 0,
-      "lastActive": "44 days ago",
+      "lastActive": "45 days ago",
       "status": "Inactive"
     },
     {
@@ -2746,7 +2761,7 @@
       "totalSolved": 0,
       "improvement": 0,
       "streak": 0,
-      "lastActive": "44 days ago",
+      "lastActive": "45 days ago",
       "status": "Inactive"
     }
   ],
@@ -2761,9 +2776,9 @@
       "medium": 326,
       "hard": 109,
       "totalSolved": 642,
-      "improvement": 14,
-      "streak": 44,
-      "lastActive": "Today",
+      "improvement": 0,
+      "streak": 45,
+      "lastActive": "Yesterday",
       "status": "Active"
     },
     {
@@ -2773,11 +2788,11 @@
       "department": "III CSD A",
       "leetcodeUsername": "Vidhya_0497",
       "easy": 224,
-      "medium": 208,
+      "medium": 210,
       "hard": 53,
-      "totalSolved": 485,
-      "improvement": 3,
-      "streak": 44,
+      "totalSolved": 487,
+      "improvement": 2,
+      "streak": 45,
       "lastActive": "Today",
       "status": "Active"
     },
@@ -2791,9 +2806,9 @@
       "medium": 220,
       "hard": 65,
       "totalSolved": 413,
-      "improvement": 2,
-      "streak": 44,
-      "lastActive": "Today",
+      "improvement": 0,
+      "streak": 45,
+      "lastActive": "Yesterday",
       "status": "Active"
     },
     {
@@ -2806,9 +2821,9 @@
       "medium": 198,
       "hard": 71,
       "totalSolved": 388,
-      "improvement": 1,
-      "streak": 21,
-      "lastActive": "Today",
+      "improvement": 0,
+      "streak": 22,
+      "lastActive": "Yesterday",
       "status": "Active"
     },
     {
@@ -2818,11 +2833,11 @@
       "department": "III CSD A",
       "leetcodeUsername": "santhoshkanna27",
       "easy": 131,
-      "medium": 172,
+      "medium": 173,
       "hard": 61,
-      "totalSolved": 364,
+      "totalSolved": 365,
       "improvement": 1,
-      "streak": 44,
+      "streak": 45,
       "lastActive": "Today",
       "status": "Active"
     }
@@ -64031,6 +64046,1397 @@
           "rank": 123
         }
       ]
+    },
+    "2026-09-03": {
+      "date": "2026-09-03",
+      "dateFormatted": "03 Sep",
+      "summary": {
+        "totalSolved": 15250,
+        "easyTotal": 7007,
+        "mediumTotal": 6567,
+        "hardTotal": 1676,
+        "activeStudents": 118,
+        "improvedCount": 30,
+        "noChangeCount": 93,
+        "declinedCount": 0
+      },
+      "classSummaries": {
+        "II CSD A": {
+          "total": 2738,
+          "easy": 1553,
+          "medium": 1040,
+          "hard": 145,
+          "active": 57,
+          "improved": 14,
+          "nochange": 48,
+          "declined": 0
+        },
+        "III CSD A": {
+          "total": 12512,
+          "easy": 5454,
+          "medium": 5527,
+          "hard": 1531,
+          "active": 61,
+          "improved": 16,
+          "nochange": 45,
+          "declined": 0
+        }
+      },
+      "students": [
+        {
+          "rollNumber": "310624150029",
+          "name": "S.Nirmal Kumar",
+          "department": "III CSD A",
+          "easy": 207,
+          "medium": 326,
+          "hard": 109,
+          "totalSolved": 642,
+          "improvement": 0,
+          "rank": 1
+        },
+        {
+          "rollNumber": "310624150054",
+          "name": "Vidhya Raj",
+          "department": "III CSD A",
+          "easy": 224,
+          "medium": 210,
+          "hard": 53,
+          "totalSolved": 487,
+          "improvement": 2,
+          "rank": 2
+        },
+        {
+          "rollNumber": "310624150053",
+          "name": "umabharathi. B",
+          "department": "III CSD A",
+          "easy": 128,
+          "medium": 220,
+          "hard": 65,
+          "totalSolved": 413,
+          "improvement": 0,
+          "rank": 3
+        },
+        {
+          "rollNumber": "310624150003",
+          "name": "Abijith S",
+          "department": "III CSD A",
+          "easy": 119,
+          "medium": 198,
+          "hard": 71,
+          "totalSolved": 388,
+          "improvement": 0,
+          "rank": 4
+        },
+        {
+          "rollNumber": "310624150039",
+          "name": "Santhosh Kanna",
+          "department": "III CSD A",
+          "easy": 131,
+          "medium": 173,
+          "hard": 61,
+          "totalSolved": 365,
+          "improvement": 1,
+          "rank": 5
+        },
+        {
+          "rollNumber": "310624150051",
+          "name": "Uma ribiya .s",
+          "department": "III CSD A",
+          "easy": 119,
+          "medium": 166,
+          "hard": 58,
+          "totalSolved": 343,
+          "improvement": 1,
+          "rank": 6
+        },
+        {
+          "rollNumber": "310624150028",
+          "name": "NERAIMATHI.K",
+          "department": "III CSD A",
+          "easy": 202,
+          "medium": 104,
+          "hard": 24,
+          "totalSolved": 330,
+          "improvement": 3,
+          "rank": 7
+        },
+        {
+          "rollNumber": "310624150043",
+          "name": "Shreya V",
+          "department": "III CSD A",
+          "easy": 256,
+          "medium": 66,
+          "hard": 7,
+          "totalSolved": 329,
+          "improvement": 1,
+          "rank": 8
+        },
+        {
+          "rollNumber": "310624150019",
+          "name": "V.Harikrishnan",
+          "department": "III CSD A",
+          "easy": 120,
+          "medium": 152,
+          "hard": 37,
+          "totalSolved": 309,
+          "improvement": 0,
+          "rank": 9
+        },
+        {
+          "rollNumber": "310624150048",
+          "name": "K S Tarunika",
+          "department": "III CSD A",
+          "easy": 171,
+          "medium": 98,
+          "hard": 20,
+          "totalSolved": 289,
+          "improvement": 1,
+          "rank": 10
+        },
+        {
+          "rollNumber": "310624150015",
+          "name": "Gautham B",
+          "department": "III CSD A",
+          "easy": 92,
+          "medium": 140,
+          "hard": 56,
+          "totalSolved": 288,
+          "improvement": 1,
+          "rank": 11
+        },
+        {
+          "rollNumber": "310624150030",
+          "name": "Pragati GP",
+          "department": "III CSD A",
+          "easy": 169,
+          "medium": 107,
+          "hard": 11,
+          "totalSolved": 287,
+          "improvement": 0,
+          "rank": 12
+        },
+        {
+          "rollNumber": "310624150006",
+          "name": "SR.Archana",
+          "department": "III CSD A",
+          "easy": 251,
+          "medium": 27,
+          "hard": 2,
+          "totalSolved": 280,
+          "improvement": 0,
+          "rank": 13
+        },
+        {
+          "rollNumber": "310624150022",
+          "name": "Jaisurya P S",
+          "department": "III CSD A",
+          "easy": 85,
+          "medium": 142,
+          "hard": 44,
+          "totalSolved": 271,
+          "improvement": 0,
+          "rank": 14
+        },
+        {
+          "rollNumber": "310624150059",
+          "name": "Vishali. M",
+          "department": "III CSD A",
+          "easy": 118,
+          "medium": 118,
+          "hard": 33,
+          "totalSolved": 269,
+          "improvement": 0,
+          "rank": 15
+        },
+        {
+          "rollNumber": "310624150035",
+          "name": "Rohitha M.R",
+          "department": "III CSD A",
+          "easy": 113,
+          "medium": 118,
+          "hard": 33,
+          "totalSolved": 264,
+          "improvement": 1,
+          "rank": 16
+        },
+        {
+          "rollNumber": "310624150004",
+          "name": "A.Alin Brasen",
+          "department": "III CSD A",
+          "easy": 86,
+          "medium": 133,
+          "hard": 41,
+          "totalSolved": 260,
+          "improvement": 0,
+          "rank": 17
+        },
+        {
+          "rollNumber": "310624150005",
+          "name": "Anbu mani .A",
+          "department": "III CSD A",
+          "easy": 120,
+          "medium": 107,
+          "hard": 32,
+          "totalSolved": 259,
+          "improvement": 1,
+          "rank": 18
+        },
+        {
+          "rollNumber": "310624150031",
+          "name": "Pravin.M",
+          "department": "III CSD A",
+          "easy": 84,
+          "medium": 127,
+          "hard": 34,
+          "totalSolved": 245,
+          "improvement": 0,
+          "rank": 19
+        },
+        {
+          "rollNumber": "310624150027",
+          "name": "S.Naveen kumar",
+          "department": "III CSD A",
+          "easy": 102,
+          "medium": 116,
+          "hard": 26,
+          "totalSolved": 244,
+          "improvement": 0,
+          "rank": 20
+        },
+        {
+          "rollNumber": "310624150049",
+          "name": "Tejaswini A",
+          "department": "III CSD A",
+          "easy": 162,
+          "medium": 71,
+          "hard": 11,
+          "totalSolved": 244,
+          "improvement": 0,
+          "rank": 21
+        },
+        {
+          "rollNumber": "310624150038",
+          "name": "V.M.Sanjeev",
+          "department": "III CSD A",
+          "easy": 57,
+          "medium": 129,
+          "hard": 54,
+          "totalSolved": 240,
+          "improvement": 7,
+          "rank": 22
+        },
+        {
+          "rollNumber": "310624150033",
+          "name": "Priyanka S",
+          "department": "III CSD A",
+          "easy": 173,
+          "medium": 56,
+          "hard": 6,
+          "totalSolved": 235,
+          "improvement": 0,
+          "rank": 23
+        },
+        {
+          "rollNumber": "310624150046",
+          "name": "Sujith k",
+          "department": "III CSD A",
+          "easy": 83,
+          "medium": 116,
+          "hard": 28,
+          "totalSolved": 227,
+          "improvement": 1,
+          "rank": 24
+        },
+        {
+          "rollNumber": "310624150044",
+          "name": "Srihari Charan.R",
+          "department": "III CSD A",
+          "easy": 113,
+          "medium": 92,
+          "hard": 7,
+          "totalSolved": 212,
+          "improvement": 0,
+          "rank": 25
+        },
+        {
+          "rollNumber": "310624150052",
+          "name": "Umaadevi P",
+          "department": "III CSD A",
+          "easy": 146,
+          "medium": 53,
+          "hard": 6,
+          "totalSolved": 205,
+          "improvement": 0,
+          "rank": 26
+        },
+        {
+          "rollNumber": "310624150041",
+          "name": "Sarikha R.V",
+          "department": "III CSD A",
+          "easy": 107,
+          "medium": 76,
+          "hard": 14,
+          "totalSolved": 197,
+          "improvement": 0,
+          "rank": 27
+        },
+        {
+          "rollNumber": "310624150002",
+          "name": "Aasif AT",
+          "department": "III CSD A",
+          "easy": 65,
+          "medium": 99,
+          "hard": 31,
+          "totalSolved": 195,
+          "improvement": 0,
+          "rank": 28
+        },
+        {
+          "rollNumber": "310624150025",
+          "name": "Krithika R",
+          "department": "III CSD A",
+          "easy": 102,
+          "medium": 75,
+          "hard": 15,
+          "totalSolved": 192,
+          "improvement": 0,
+          "rank": 29
+        },
+        {
+          "rollNumber": "310624150050",
+          "name": "Thiruvengadam D",
+          "department": "III CSD A",
+          "easy": 126,
+          "medium": 62,
+          "hard": 3,
+          "totalSolved": 191,
+          "improvement": 1,
+          "rank": 30
+        },
+        {
+          "rollNumber": "310624150008",
+          "name": "Bharat Raj R",
+          "department": "III CSD A",
+          "easy": 68,
+          "medium": 93,
+          "hard": 20,
+          "totalSolved": 181,
+          "improvement": 0,
+          "rank": 31
+        },
+        {
+          "rollNumber": "310624150017",
+          "name": "Gowtham B",
+          "department": "III CSD A",
+          "easy": 54,
+          "medium": 98,
+          "hard": 29,
+          "totalSolved": 181,
+          "improvement": 0,
+          "rank": 32
+        },
+        {
+          "rollNumber": "310624150034",
+          "name": "Rayyan Ahamed S",
+          "department": "III CSD A",
+          "easy": 62,
+          "medium": 90,
+          "hard": 24,
+          "totalSolved": 176,
+          "improvement": 2,
+          "rank": 33
+        },
+        {
+          "rollNumber": "310625150601",
+          "name": "Kesav Kumar",
+          "department": "III CSD A",
+          "easy": 57,
+          "medium": 96,
+          "hard": 23,
+          "totalSolved": 176,
+          "improvement": 0,
+          "rank": 34
+        },
+        {
+          "rollNumber": "310624150014",
+          "name": "S.Divya Dharshan",
+          "department": "III CSD A",
+          "easy": 54,
+          "medium": 90,
+          "hard": 29,
+          "totalSolved": 173,
+          "improvement": 0,
+          "rank": 35
+        },
+        {
+          "rollNumber": "310624150023",
+          "name": "Jayagokulavarman P P",
+          "department": "III CSD A",
+          "easy": 58,
+          "medium": 88,
+          "hard": 27,
+          "totalSolved": 173,
+          "improvement": 1,
+          "rank": 36
+        },
+        {
+          "rollNumber": "310624150010",
+          "name": "P.Brindha",
+          "department": "III CSD A",
+          "easy": 70,
+          "medium": 75,
+          "hard": 21,
+          "totalSolved": 166,
+          "improvement": 2,
+          "rank": 37
+        },
+        {
+          "rollNumber": "310624150021",
+          "name": "S.iyyappaprabhu",
+          "department": "III CSD A",
+          "easy": 38,
+          "medium": 98,
+          "hard": 29,
+          "totalSolved": 165,
+          "improvement": 0,
+          "rank": 38
+        },
+        {
+          "rollNumber": "310624150060",
+          "name": "Yogamaya M",
+          "department": "III CSD A",
+          "easy": 65,
+          "medium": 76,
+          "hard": 23,
+          "totalSolved": 164,
+          "improvement": 0,
+          "rank": 39
+        },
+        {
+          "rollNumber": "310624150032",
+          "name": "preethi. S",
+          "department": "III CSD A",
+          "easy": 53,
+          "medium": 86,
+          "hard": 24,
+          "totalSolved": 163,
+          "improvement": 0,
+          "rank": 40
+        },
+        {
+          "rollNumber": "310624150001",
+          "name": "Aadhil Hussain .A",
+          "department": "III CSD A",
+          "easy": 67,
+          "medium": 71,
+          "hard": 18,
+          "totalSolved": 156,
+          "improvement": 0,
+          "rank": 41
+        },
+        {
+          "rollNumber": "310624150020",
+          "name": "N. HEMABOOSHAN",
+          "department": "III CSD A",
+          "easy": 53,
+          "medium": 76,
+          "hard": 27,
+          "totalSolved": 156,
+          "improvement": 0,
+          "rank": 42
+        },
+        {
+          "rollNumber": "310625150043",
+          "name": "Sameera Banu A",
+          "department": "II CSD A",
+          "easy": 46,
+          "medium": 81,
+          "hard": 18,
+          "totalSolved": 145,
+          "improvement": 0,
+          "rank": 43
+        },
+        {
+          "rollNumber": "310624150047",
+          "name": "sundareson m v",
+          "department": "III CSD A",
+          "easy": 46,
+          "medium": 74,
+          "hard": 25,
+          "totalSolved": 145,
+          "improvement": 0,
+          "rank": 44
+        },
+        {
+          "rollNumber": "310624150026",
+          "name": "T.Nadish",
+          "department": "III CSD A",
+          "easy": 49,
+          "medium": 71,
+          "hard": 22,
+          "totalSolved": 142,
+          "improvement": 0,
+          "rank": 45
+        },
+        {
+          "rollNumber": "310624150036",
+          "name": "M.Sandhiya",
+          "department": "III CSD A",
+          "easy": 58,
+          "medium": 70,
+          "hard": 13,
+          "totalSolved": 141,
+          "improvement": 0,
+          "rank": 46
+        },
+        {
+          "rollNumber": "310624150007",
+          "name": "C.A.Asmitha",
+          "department": "III CSD A",
+          "easy": 56,
+          "medium": 64,
+          "hard": 18,
+          "totalSolved": 138,
+          "improvement": 1,
+          "rank": 47
+        },
+        {
+          "rollNumber": "310624150037",
+          "name": "S.Sanjana",
+          "department": "III CSD A",
+          "easy": 47,
+          "medium": 71,
+          "hard": 16,
+          "totalSolved": 134,
+          "improvement": 0,
+          "rank": 48
+        },
+        {
+          "rollNumber": "310625150013",
+          "name": "Haritha S P",
+          "department": "II CSD A",
+          "easy": 78,
+          "medium": 46,
+          "hard": 8,
+          "totalSolved": 132,
+          "improvement": 3,
+          "rank": 49
+        },
+        {
+          "rollNumber": "310624150057",
+          "name": "Vineeth B",
+          "department": "III CSD A",
+          "easy": 50,
+          "medium": 62,
+          "hard": 15,
+          "totalSolved": 127,
+          "improvement": 0,
+          "rank": 50
+        },
+        {
+          "rollNumber": "310625150019",
+          "name": "Jaylyn Andrea J",
+          "department": "II CSD A",
+          "easy": 106,
+          "medium": 17,
+          "hard": 2,
+          "totalSolved": 125,
+          "improvement": 1,
+          "rank": 51
+        },
+        {
+          "rollNumber": "310625150049",
+          "name": "Shanmathi S",
+          "department": "II CSD A",
+          "easy": 85,
+          "medium": 36,
+          "hard": 1,
+          "totalSolved": 122,
+          "improvement": 2,
+          "rank": 52
+        },
+        {
+          "rollNumber": "310624150009",
+          "name": "Bharath S",
+          "department": "III CSD A",
+          "easy": 35,
+          "medium": 62,
+          "hard": 21,
+          "totalSolved": 118,
+          "improvement": 0,
+          "rank": 53
+        },
+        {
+          "rollNumber": "310624150058",
+          "name": "Vishaal. A",
+          "department": "III CSD A",
+          "easy": 32,
+          "medium": 59,
+          "hard": 27,
+          "totalSolved": 118,
+          "improvement": 0,
+          "rank": 54
+        },
+        {
+          "rollNumber": "310624150016",
+          "name": "GOUTHAMG",
+          "department": "III CSD A",
+          "easy": 59,
+          "medium": 40,
+          "hard": 18,
+          "totalSolved": 117,
+          "improvement": 0,
+          "rank": 55
+        },
+        {
+          "rollNumber": "310625150017",
+          "name": "Irfan Dasthageer J",
+          "department": "II CSD A",
+          "easy": 37,
+          "medium": 63,
+          "hard": 16,
+          "totalSolved": 116,
+          "improvement": 0,
+          "rank": 56
+        },
+        {
+          "rollNumber": "310624150045",
+          "name": "Sri Varsha S",
+          "department": "III CSD A",
+          "easy": 72,
+          "medium": 35,
+          "hard": 9,
+          "totalSolved": 116,
+          "improvement": 0,
+          "rank": 57
+        },
+        {
+          "rollNumber": "310625150053",
+          "name": "Sushanth R",
+          "department": "II CSD A",
+          "easy": 24,
+          "medium": 68,
+          "hard": 22,
+          "totalSolved": 114,
+          "improvement": 0,
+          "rank": 58
+        },
+        {
+          "rollNumber": "310624150042",
+          "name": "Shamini sree.m",
+          "department": "III CSD A",
+          "easy": 45,
+          "medium": 50,
+          "hard": 13,
+          "totalSolved": 108,
+          "improvement": 0,
+          "rank": 59
+        },
+        {
+          "rollNumber": "310625150046",
+          "name": "Sankrisha S",
+          "department": "II CSD A",
+          "easy": 47,
+          "medium": 54,
+          "hard": 4,
+          "totalSolved": 105,
+          "improvement": 3,
+          "rank": 60
+        },
+        {
+          "rollNumber": "310624150024",
+          "name": "Keerthanaa Shakthi N.K",
+          "department": "III CSD A",
+          "easy": 50,
+          "medium": 36,
+          "hard": 16,
+          "totalSolved": 102,
+          "improvement": 0,
+          "rank": 61
+        },
+        {
+          "rollNumber": "310625150002",
+          "name": "Abisha A",
+          "department": "II CSD A",
+          "easy": 38,
+          "medium": 48,
+          "hard": 11,
+          "totalSolved": 97,
+          "improvement": 3,
+          "rank": 62
+        },
+        {
+          "rollNumber": "310625150012",
+          "name": "Hariharan K",
+          "department": "II CSD A",
+          "easy": 65,
+          "medium": 28,
+          "hard": 1,
+          "totalSolved": 94,
+          "improvement": 2,
+          "rank": 63
+        },
+        {
+          "rollNumber": "310625150051",
+          "name": "Subhapriyan S",
+          "department": "II CSD A",
+          "easy": 57,
+          "medium": 31,
+          "hard": 3,
+          "totalSolved": 91,
+          "improvement": 2,
+          "rank": 64
+        },
+        {
+          "rollNumber": "310625150018",
+          "name": "Ishwarya Lakshmi A",
+          "department": "II CSD A",
+          "easy": 40,
+          "medium": 44,
+          "hard": 5,
+          "totalSolved": 89,
+          "improvement": 0,
+          "rank": 65
+        },
+        {
+          "rollNumber": "310625150056",
+          "name": "Vasundra M S",
+          "department": "II CSD A",
+          "easy": 64,
+          "medium": 24,
+          "hard": 1,
+          "totalSolved": 89,
+          "improvement": 0,
+          "rank": 66
+        },
+        {
+          "rollNumber": "310625150036",
+          "name": "Priyanka L",
+          "department": "II CSD A",
+          "easy": 76,
+          "medium": 12,
+          "hard": 0,
+          "totalSolved": 88,
+          "improvement": 0,
+          "rank": 67
+        },
+        {
+          "rollNumber": "310625150059",
+          "name": "Vijayalakshmi V",
+          "department": "II CSD A",
+          "easy": 61,
+          "medium": 23,
+          "hard": 1,
+          "totalSolved": 85,
+          "improvement": 0,
+          "rank": 68
+        },
+        {
+          "rollNumber": "310625150035",
+          "name": "Poonguzhali M",
+          "department": "II CSD A",
+          "easy": 49,
+          "medium": 26,
+          "hard": 3,
+          "totalSolved": 78,
+          "improvement": 3,
+          "rank": 69
+        },
+        {
+          "rollNumber": "310625150044",
+          "name": "Sandhya S",
+          "department": "II CSD A",
+          "easy": 45,
+          "medium": 30,
+          "hard": 2,
+          "totalSolved": 77,
+          "improvement": 1,
+          "rank": 70
+        },
+        {
+          "rollNumber": "310624150056",
+          "name": "vineet rawat s",
+          "department": "III CSD A",
+          "easy": 56,
+          "medium": 16,
+          "hard": 4,
+          "totalSolved": 76,
+          "improvement": 0,
+          "rank": 71
+        },
+        {
+          "rollNumber": "310625150061",
+          "name": "Vishnu Prasad N",
+          "department": "II CSD A",
+          "easy": 49,
+          "medium": 23,
+          "hard": 3,
+          "totalSolved": 75,
+          "improvement": 0,
+          "rank": 72
+        },
+        {
+          "rollNumber": "310625150031",
+          "name": "Nevin Derrick J",
+          "department": "II CSD A",
+          "easy": 18,
+          "medium": 52,
+          "hard": 2,
+          "totalSolved": 72,
+          "improvement": 3,
+          "rank": 73
+        },
+        {
+          "rollNumber": "310625150048",
+          "name": "Shankari K Bhatt",
+          "department": "II CSD A",
+          "easy": 61,
+          "medium": 9,
+          "hard": 1,
+          "totalSolved": 71,
+          "improvement": 0,
+          "rank": 74
+        },
+        {
+          "rollNumber": "310624150012",
+          "name": "k.Darshita",
+          "department": "III CSD A",
+          "easy": 20,
+          "medium": 39,
+          "hard": 11,
+          "totalSolved": 70,
+          "improvement": 0,
+          "rank": 75
+        },
+        {
+          "rollNumber": "310625150055",
+          "name": "Tharun Kumar S",
+          "department": "II CSD A",
+          "easy": 37,
+          "medium": 32,
+          "hard": 0,
+          "totalSolved": 69,
+          "improvement": 0,
+          "rank": 76
+        },
+        {
+          "rollNumber": "310625150037",
+          "name": "Raagini Ramakrishnan",
+          "department": "II CSD A",
+          "easy": 46,
+          "medium": 18,
+          "hard": 1,
+          "totalSolved": 65,
+          "improvement": 0,
+          "rank": 77
+        },
+        {
+          "rollNumber": "310625150050",
+          "name": "Shradha Singh",
+          "department": "II CSD A",
+          "easy": 45,
+          "medium": 19,
+          "hard": 0,
+          "totalSolved": 64,
+          "improvement": 4,
+          "rank": 78
+        },
+        {
+          "rollNumber": "310624150040",
+          "name": "Santhosh Raj.S",
+          "department": "III CSD A",
+          "easy": 21,
+          "medium": 36,
+          "hard": 5,
+          "totalSolved": 62,
+          "improvement": 0,
+          "rank": 79
+        },
+        {
+          "rollNumber": "310625150041",
+          "name": "Roshan M",
+          "department": "II CSD A",
+          "easy": 45,
+          "medium": 13,
+          "hard": 0,
+          "totalSolved": 58,
+          "improvement": 1,
+          "rank": 80
+        },
+        {
+          "rollNumber": "310625150004",
+          "name": "Arun Varshan I S",
+          "department": "II CSD A",
+          "easy": 34,
+          "medium": 18,
+          "hard": 1,
+          "totalSolved": 53,
+          "improvement": 0,
+          "rank": 81
+        },
+        {
+          "rollNumber": "310625150047",
+          "name": "Saravanakumar V",
+          "department": "II CSD A",
+          "easy": 24,
+          "medium": 22,
+          "hard": 2,
+          "totalSolved": 48,
+          "improvement": 0,
+          "rank": 82
+        },
+        {
+          "rollNumber": "310625150007",
+          "name": "Bhuvana Pradishna D",
+          "department": "II CSD A",
+          "easy": 25,
+          "medium": 20,
+          "hard": 1,
+          "totalSolved": 46,
+          "improvement": 0,
+          "rank": 83
+        },
+        {
+          "rollNumber": "310625150023",
+          "name": "Kavin S",
+          "department": "II CSD A",
+          "easy": 34,
+          "medium": 8,
+          "hard": 2,
+          "totalSolved": 44,
+          "improvement": 0,
+          "rank": 84
+        },
+        {
+          "rollNumber": "310625150025",
+          "name": "Logesh E",
+          "department": "II CSD A",
+          "easy": 21,
+          "medium": 16,
+          "hard": 7,
+          "totalSolved": 44,
+          "improvement": 0,
+          "rank": 85
+        },
+        {
+          "rollNumber": "310625150057",
+          "name": "Versha Reddy P",
+          "department": "II CSD A",
+          "easy": 14,
+          "medium": 25,
+          "hard": 4,
+          "totalSolved": 43,
+          "improvement": 0,
+          "rank": 86
+        },
+        {
+          "rollNumber": "310625150006",
+          "name": "Bharath Rikkesh R G",
+          "department": "II CSD A",
+          "easy": 10,
+          "medium": 23,
+          "hard": 7,
+          "totalSolved": 40,
+          "improvement": 0,
+          "rank": 87
+        },
+        {
+          "rollNumber": "310625150015",
+          "name": "Himagiri P S",
+          "department": "II CSD A",
+          "easy": 23,
+          "medium": 11,
+          "hard": 1,
+          "totalSolved": 35,
+          "improvement": 0,
+          "rank": 88
+        },
+        {
+          "rollNumber": "310624150055",
+          "name": "Vigneshwar P",
+          "department": "III CSD A",
+          "easy": 9,
+          "medium": 17,
+          "hard": 6,
+          "totalSolved": 32,
+          "improvement": 0,
+          "rank": 89
+        },
+        {
+          "rollNumber": "310625150024",
+          "name": "Krishanth K B",
+          "department": "II CSD A",
+          "easy": 9,
+          "medium": 16,
+          "hard": 4,
+          "totalSolved": 29,
+          "improvement": 0,
+          "rank": 90
+        },
+        {
+          "rollNumber": "310625150032",
+          "name": "Nikhil Siva Sai Y S",
+          "department": "II CSD A",
+          "easy": 21,
+          "medium": 5,
+          "hard": 2,
+          "totalSolved": 28,
+          "improvement": 0,
+          "rank": 91
+        },
+        {
+          "rollNumber": "310625150033",
+          "name": "Nishanth M",
+          "department": "II CSD A",
+          "easy": 7,
+          "medium": 14,
+          "hard": 2,
+          "totalSolved": 23,
+          "improvement": 0,
+          "rank": 92
+        },
+        {
+          "rollNumber": "310625150020",
+          "name": "Jeeva N",
+          "department": "II CSD A",
+          "easy": 6,
+          "medium": 14,
+          "hard": 2,
+          "totalSolved": 22,
+          "improvement": 0,
+          "rank": 93
+        },
+        {
+          "rollNumber": "310624150011",
+          "name": "Clarus Maria Sharadh.S",
+          "department": "III CSD A",
+          "easy": 12,
+          "medium": 6,
+          "hard": 3,
+          "totalSolved": 21,
+          "improvement": 0,
+          "rank": 94
+        },
+        {
+          "rollNumber": "310625150042",
+          "name": "Saicharan T K S",
+          "department": "II CSD A",
+          "easy": 14,
+          "medium": 5,
+          "hard": 0,
+          "totalSolved": 19,
+          "improvement": 0,
+          "rank": 95
+        },
+        {
+          "rollNumber": "310625150001",
+          "name": "Aadhithiya Sanjaiy A S",
+          "department": "II CSD A",
+          "easy": 10,
+          "medium": 8,
+          "hard": 0,
+          "totalSolved": 18,
+          "improvement": 0,
+          "rank": 96
+        },
+        {
+          "rollNumber": "310625150026",
+          "name": "Maga Shree V M",
+          "department": "II CSD A",
+          "easy": 7,
+          "medium": 8,
+          "hard": 2,
+          "totalSolved": 17,
+          "improvement": 1,
+          "rank": 97
+        },
+        {
+          "rollNumber": "310625150054",
+          "name": "Sushmitha T",
+          "department": "II CSD A",
+          "easy": 15,
+          "medium": 2,
+          "hard": 0,
+          "totalSolved": 17,
+          "improvement": 0,
+          "rank": 98
+        },
+        {
+          "rollNumber": "310625150022",
+          "name": "Jonathan Roshan D",
+          "department": "II CSD A",
+          "easy": 9,
+          "medium": 3,
+          "hard": 0,
+          "totalSolved": 12,
+          "improvement": 0,
+          "rank": 99
+        },
+        {
+          "rollNumber": "310625150039",
+          "name": "Rajapriyan S",
+          "department": "II CSD A",
+          "easy": 10,
+          "medium": 2,
+          "hard": 0,
+          "totalSolved": 12,
+          "improvement": 0,
+          "rank": 100
+        },
+        {
+          "rollNumber": "310624150013",
+          "name": "Dhenuka Sabareeswaran",
+          "department": "III CSD A",
+          "easy": 5,
+          "medium": 5,
+          "hard": 2,
+          "totalSolved": 12,
+          "improvement": 0,
+          "rank": 101
+        },
+        {
+          "rollNumber": "310625150052",
+          "name": "Sujith P",
+          "department": "II CSD A",
+          "easy": 2,
+          "medium": 6,
+          "hard": 2,
+          "totalSolved": 10,
+          "improvement": 0,
+          "rank": 102
+        },
+        {
+          "rollNumber": "310625150028",
+          "name": "Mohamed Faizul K B",
+          "department": "II CSD A",
+          "easy": 5,
+          "medium": 3,
+          "hard": 0,
+          "totalSolved": 8,
+          "improvement": 0,
+          "rank": 103
+        },
+        {
+          "rollNumber": "310625150062",
+          "name": "Yokesh S D",
+          "department": "II CSD A",
+          "easy": 7,
+          "medium": 1,
+          "hard": 0,
+          "totalSolved": 8,
+          "improvement": 0,
+          "rank": 104
+        },
+        {
+          "rollNumber": "310625150034",
+          "name": "Padman M",
+          "department": "II CSD A",
+          "easy": 5,
+          "medium": 0,
+          "hard": 0,
+          "totalSolved": 5,
+          "improvement": 0,
+          "rank": 105
+        },
+        {
+          "rollNumber": "310625150038",
+          "name": "Ragav Raj R",
+          "department": "II CSD A",
+          "easy": 1,
+          "medium": 3,
+          "hard": 1,
+          "totalSolved": 5,
+          "improvement": 0,
+          "rank": 106
+        },
+        {
+          "rollNumber": "310625150060",
+          "name": "Vishal Vedanth M P",
+          "department": "II CSD A",
+          "easy": 3,
+          "medium": 2,
+          "hard": 0,
+          "totalSolved": 5,
+          "improvement": 1,
+          "rank": 107
+        },
+        {
+          "rollNumber": "310625150010",
+          "name": "Guruprasath S",
+          "department": "II CSD A",
+          "easy": 2,
+          "medium": 2,
+          "hard": 0,
+          "totalSolved": 4,
+          "improvement": 0,
+          "rank": 108
+        },
+        {
+          "rollNumber": "310625150027",
+          "name": "Mahima S",
+          "department": "II CSD A",
+          "easy": 2,
+          "medium": 2,
+          "hard": 0,
+          "totalSolved": 4,
+          "improvement": 0,
+          "rank": 109
+        },
+        {
+          "rollNumber": "310625150045",
+          "name": "Sanjaysaran R",
+          "department": "II CSD A",
+          "easy": 3,
+          "medium": 1,
+          "hard": 0,
+          "totalSolved": 4,
+          "improvement": 0,
+          "rank": 110
+        },
+        {
+          "rollNumber": "310625150016",
+          "name": "Ilamuhil B",
+          "department": "II CSD A",
+          "easy": 1,
+          "medium": 2,
+          "hard": 0,
+          "totalSolved": 3,
+          "improvement": 0,
+          "rank": 111
+        },
+        {
+          "rollNumber": "310625150029",
+          "name": "Monishraj D",
+          "department": "II CSD A",
+          "easy": 3,
+          "medium": 0,
+          "hard": 0,
+          "totalSolved": 3,
+          "improvement": 0,
+          "rank": 112
+        },
+        {
+          "rollNumber": "310624150018",
+          "name": "Hariharan.M",
+          "department": "III CSD A",
+          "easy": 2,
+          "medium": 0,
+          "hard": 1,
+          "totalSolved": 3,
+          "improvement": 0,
+          "rank": 113
+        },
+        {
+          "rollNumber": "310625150003",
+          "name": "Aravindhan A",
+          "department": "II CSD A",
+          "easy": 2,
+          "medium": 0,
+          "hard": 0,
+          "totalSolved": 2,
+          "improvement": 0,
+          "rank": 114
+        },
+        {
+          "rollNumber": "310625150005",
+          "name": "Bharanidharan P",
+          "department": "II CSD A",
+          "easy": 1,
+          "medium": 1,
+          "hard": 0,
+          "totalSolved": 2,
+          "improvement": 0,
+          "rank": 115
+        },
+        {
+          "rollNumber": "310625150008",
+          "name": "Deepak E",
+          "department": "II CSD A",
+          "easy": 2,
+          "medium": 0,
+          "hard": 0,
+          "totalSolved": 2,
+          "improvement": 0,
+          "rank": 116
+        },
+        {
+          "rollNumber": "310625150011",
+          "name": "Hareesh Ram V R",
+          "department": "II CSD A",
+          "easy": 1,
+          "medium": 0,
+          "hard": 0,
+          "totalSolved": 1,
+          "improvement": 0,
+          "rank": 117
+        },
+        {
+          "rollNumber": "310625150021",
+          "name": "Jeevith A U",
+          "department": "II CSD A",
+          "easy": 1,
+          "medium": 0,
+          "hard": 0,
+          "totalSolved": 1,
+          "improvement": 0,
+          "rank": 118
+        },
+        {
+          "rollNumber": "310625150009",
+          "name": "Gokul J",
+          "department": "II CSD A",
+          "easy": 0,
+          "medium": 0,
+          "hard": 0,
+          "totalSolved": 0,
+          "improvement": 0,
+          "rank": 119
+        },
+        {
+          "rollNumber": "310625150014",
+          "name": "Harsha G G",
+          "department": "II CSD A",
+          "easy": 0,
+          "medium": 0,
+          "hard": 0,
+          "totalSolved": 0,
+          "improvement": 0,
+          "rank": 120
+        },
+        {
+          "rollNumber": "310625150030",
+          "name": "Naveen S",
+          "department": "II CSD A",
+          "easy": 0,
+          "medium": 0,
+          "hard": 0,
+          "totalSolved": 0,
+          "improvement": 0,
+          "rank": 121
+        },
+        {
+          "rollNumber": "310625150040",
+          "name": "Rohitraj R C",
+          "department": "II CSD A",
+          "easy": 0,
+          "medium": 0,
+          "hard": 0,
+          "totalSolved": 0,
+          "improvement": 0,
+          "rank": 122
+        },
+        {
+          "rollNumber": "310625150058",
+          "name": "Vidjaykhumaar V",
+          "department": "II CSD A",
+          "easy": 0,
+          "medium": 0,
+          "hard": 0,
+          "totalSolved": 0,
+          "improvement": 0,
+          "rank": 123
+        }
+      ]
     }
   },
   "inactiveStudents": [
@@ -64091,7 +65497,7 @@
       "department": "II CSD A",
       "totalSolved": 1,
       "lastActiveDate": "2026-08-11",
-      "daysSinceLastActivity": 22,
+      "daysSinceLastActivity": 23,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64101,7 +65507,7 @@
       "department": "II CSD A",
       "totalSolved": 1,
       "lastActiveDate": "2026-08-11",
-      "daysSinceLastActivity": 22,
+      "daysSinceLastActivity": 23,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64111,7 +65517,7 @@
       "department": "II CSD A",
       "totalSolved": 2,
       "lastActiveDate": "2026-08-11",
-      "daysSinceLastActivity": 22,
+      "daysSinceLastActivity": 23,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64121,7 +65527,7 @@
       "department": "II CSD A",
       "totalSolved": 2,
       "lastActiveDate": "2026-08-04",
-      "daysSinceLastActivity": 29,
+      "daysSinceLastActivity": 30,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64131,7 +65537,7 @@
       "department": "II CSD A",
       "totalSolved": 2,
       "lastActiveDate": "2026-07-14",
-      "daysSinceLastActivity": 50,
+      "daysSinceLastActivity": 51,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64141,7 +65547,7 @@
       "department": "II CSD A",
       "totalSolved": 3,
       "lastActiveDate": "2026-08-24",
-      "daysSinceLastActivity": 9,
+      "daysSinceLastActivity": 10,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64151,7 +65557,7 @@
       "department": "II CSD A",
       "totalSolved": 3,
       "lastActiveDate": "2026-08-11",
-      "daysSinceLastActivity": 22,
+      "daysSinceLastActivity": 23,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64161,7 +65567,7 @@
       "department": "III CSD A",
       "totalSolved": 3,
       "lastActiveDate": "2026-08-11",
-      "daysSinceLastActivity": 22,
+      "daysSinceLastActivity": 23,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64171,7 +65577,7 @@
       "department": "II CSD A",
       "totalSolved": 4,
       "lastActiveDate": "2026-08-11",
-      "daysSinceLastActivity": 22,
+      "daysSinceLastActivity": 23,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64181,7 +65587,7 @@
       "department": "II CSD A",
       "totalSolved": 4,
       "lastActiveDate": "2026-07-28",
-      "daysSinceLastActivity": 36,
+      "daysSinceLastActivity": 37,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64191,7 +65597,7 @@
       "department": "II CSD A",
       "totalSolved": 4,
       "lastActiveDate": "2026-07-21",
-      "daysSinceLastActivity": 43,
+      "daysSinceLastActivity": 44,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64201,7 +65607,7 @@
       "department": "II CSD A",
       "totalSolved": 5,
       "lastActiveDate": "2026-07-16",
-      "daysSinceLastActivity": 48,
+      "daysSinceLastActivity": 49,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64211,7 +65617,7 @@
       "department": "II CSD A",
       "totalSolved": 8,
       "lastActiveDate": "2026-08-04",
-      "daysSinceLastActivity": 29,
+      "daysSinceLastActivity": 30,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64221,7 +65627,7 @@
       "department": "II CSD A",
       "totalSolved": 10,
       "lastActiveDate": "2026-08-11",
-      "daysSinceLastActivity": 22,
+      "daysSinceLastActivity": 23,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64231,7 +65637,7 @@
       "department": "III CSD A",
       "totalSolved": 12,
       "lastActiveDate": "2026-08-24",
-      "daysSinceLastActivity": 9,
+      "daysSinceLastActivity": 10,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64241,7 +65647,7 @@
       "department": "II CSD A",
       "totalSolved": 12,
       "lastActiveDate": "2026-08-21",
-      "daysSinceLastActivity": 12,
+      "daysSinceLastActivity": 13,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64251,7 +65657,7 @@
       "department": "II CSD A",
       "totalSolved": 12,
       "lastActiveDate": "2026-07-14",
-      "daysSinceLastActivity": 50,
+      "daysSinceLastActivity": 51,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64261,7 +65667,7 @@
       "department": "II CSD A",
       "totalSolved": 17,
       "lastActiveDate": "2026-08-04",
-      "daysSinceLastActivity": 29,
+      "daysSinceLastActivity": 30,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64271,7 +65677,7 @@
       "department": "II CSD A",
       "totalSolved": 18,
       "lastActiveDate": "2026-08-11",
-      "daysSinceLastActivity": 22,
+      "daysSinceLastActivity": 23,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64281,7 +65687,7 @@
       "department": "II CSD A",
       "totalSolved": 19,
       "lastActiveDate": "2026-08-21",
-      "daysSinceLastActivity": 12,
+      "daysSinceLastActivity": 13,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64291,7 +65697,7 @@
       "department": "III CSD A",
       "totalSolved": 21,
       "lastActiveDate": "2026-07-14",
-      "daysSinceLastActivity": 50,
+      "daysSinceLastActivity": 51,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64301,7 +65707,7 @@
       "department": "II CSD A",
       "totalSolved": 23,
       "lastActiveDate": "2026-08-11",
-      "daysSinceLastActivity": 22,
+      "daysSinceLastActivity": 23,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64311,7 +65717,7 @@
       "department": "II CSD A",
       "totalSolved": 28,
       "lastActiveDate": "2026-08-23",
-      "daysSinceLastActivity": 10,
+      "daysSinceLastActivity": 11,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64321,7 +65727,7 @@
       "department": "II CSD A",
       "totalSolved": 29,
       "lastActiveDate": "2026-08-03",
-      "daysSinceLastActivity": 30,
+      "daysSinceLastActivity": 31,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64331,7 +65737,7 @@
       "department": "III CSD A",
       "totalSolved": 32,
       "lastActiveDate": "2026-08-21",
-      "daysSinceLastActivity": 12,
+      "daysSinceLastActivity": 13,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64341,7 +65747,7 @@
       "department": "II CSD A",
       "totalSolved": 35,
       "lastActiveDate": "2026-08-13",
-      "daysSinceLastActivity": 20,
+      "daysSinceLastActivity": 21,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64351,7 +65757,7 @@
       "department": "II CSD A",
       "totalSolved": 40,
       "lastActiveDate": "2026-08-23",
-      "daysSinceLastActivity": 10,
+      "daysSinceLastActivity": 11,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64361,7 +65767,7 @@
       "department": "II CSD A",
       "totalSolved": 44,
       "lastActiveDate": "2026-08-11",
-      "daysSinceLastActivity": 22,
+      "daysSinceLastActivity": 23,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64371,7 +65777,7 @@
       "department": "II CSD A",
       "totalSolved": 46,
       "lastActiveDate": "2026-08-07",
-      "daysSinceLastActivity": 26,
+      "daysSinceLastActivity": 27,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64381,7 +65787,7 @@
       "department": "II CSD A",
       "totalSolved": 48,
       "lastActiveDate": "2026-08-11",
-      "daysSinceLastActivity": 22,
+      "daysSinceLastActivity": 23,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64391,7 +65797,7 @@
       "department": "II CSD A",
       "totalSolved": 53,
       "lastActiveDate": "2026-08-11",
-      "daysSinceLastActivity": 22,
+      "daysSinceLastActivity": 23,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64401,7 +65807,7 @@
       "department": "III CSD A",
       "totalSolved": 62,
       "lastActiveDate": "2026-08-24",
-      "daysSinceLastActivity": 9,
+      "daysSinceLastActivity": 10,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64411,7 +65817,7 @@
       "department": "II CSD A",
       "totalSolved": 69,
       "lastActiveDate": "2026-08-11",
-      "daysSinceLastActivity": 22,
+      "daysSinceLastActivity": 23,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64421,7 +65827,7 @@
       "department": "III CSD A",
       "totalSolved": 70,
       "lastActiveDate": "2026-08-21",
-      "daysSinceLastActivity": 12,
+      "daysSinceLastActivity": 13,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64431,7 +65837,7 @@
       "department": "II CSD A",
       "totalSolved": 71,
       "lastActiveDate": "2026-08-25",
-      "daysSinceLastActivity": 8,
+      "daysSinceLastActivity": 9,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64441,7 +65847,7 @@
       "department": "II CSD A",
       "totalSolved": 75,
       "lastActiveDate": "2026-08-22",
-      "daysSinceLastActivity": 11,
+      "daysSinceLastActivity": 12,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64451,7 +65857,7 @@
       "department": "III CSD A",
       "totalSolved": 76,
       "lastActiveDate": "2026-08-24",
-      "daysSinceLastActivity": 9,
+      "daysSinceLastActivity": 10,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64461,7 +65867,7 @@
       "department": "II CSD A",
       "totalSolved": 85,
       "lastActiveDate": "2026-08-21",
-      "daysSinceLastActivity": 12,
+      "daysSinceLastActivity": 13,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64471,7 +65877,7 @@
       "department": "II CSD A",
       "totalSolved": 88,
       "lastActiveDate": "2026-08-04",
-      "daysSinceLastActivity": 29,
+      "daysSinceLastActivity": 30,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64481,7 +65887,7 @@
       "department": "II CSD A",
       "totalSolved": 89,
       "lastActiveDate": "2026-08-12",
-      "daysSinceLastActivity": 21,
+      "daysSinceLastActivity": 22,
       "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
@@ -64491,7 +65897,7 @@
       "department": "III CSD A",
       "totalSolved": 102,
       "lastActiveDate": "2026-08-21",
-      "daysSinceLastActivity": 12,
+      "daysSinceLastActivity": 13,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64501,7 +65907,7 @@
       "department": "II CSD A",
       "totalSolved": 114,
       "lastActiveDate": "2026-08-21",
-      "daysSinceLastActivity": 12,
+      "daysSinceLastActivity": 13,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64511,7 +65917,7 @@
       "department": "III CSD A",
       "totalSolved": 116,
       "lastActiveDate": "2026-08-24",
-      "daysSinceLastActivity": 9,
+      "daysSinceLastActivity": 10,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64521,7 +65927,7 @@
       "department": "III CSD A",
       "totalSolved": 118,
       "lastActiveDate": "2026-08-21",
-      "daysSinceLastActivity": 12,
+      "daysSinceLastActivity": 13,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64531,7 +65937,7 @@
       "department": "III CSD A",
       "totalSolved": 127,
       "lastActiveDate": "2026-08-21",
-      "daysSinceLastActivity": 12,
+      "daysSinceLastActivity": 13,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64541,7 +65947,7 @@
       "department": "III CSD A",
       "totalSolved": 134,
       "lastActiveDate": "2026-08-24",
-      "daysSinceLastActivity": 9,
+      "daysSinceLastActivity": 10,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64551,7 +65957,7 @@
       "department": "III CSD A",
       "totalSolved": 141,
       "lastActiveDate": "2026-08-24",
-      "daysSinceLastActivity": 9,
+      "daysSinceLastActivity": 10,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64561,7 +65967,7 @@
       "department": "III CSD A",
       "totalSolved": 142,
       "lastActiveDate": "2026-08-24",
-      "daysSinceLastActivity": 9,
+      "daysSinceLastActivity": 10,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64571,7 +65977,7 @@
       "department": "II CSD A",
       "totalSolved": 145,
       "lastActiveDate": "2026-08-25",
-      "daysSinceLastActivity": 8,
+      "daysSinceLastActivity": 9,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64581,8 +65987,8 @@
       "department": "III CSD A",
       "totalSolved": 156,
       "lastActiveDate": "2026-08-19",
-      "daysSinceLastActivity": 14,
-      "inactivityType": "INACTIVE_RECENT"
+      "daysSinceLastActivity": 15,
+      "inactivityType": "INACTIVE_LONG_TERM"
     },
     {
       "rollNumber": "310624150032",
@@ -64591,7 +65997,7 @@
       "department": "III CSD A",
       "totalSolved": 163,
       "lastActiveDate": "2026-08-24",
-      "daysSinceLastActivity": 9,
+      "daysSinceLastActivity": 10,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64601,7 +66007,7 @@
       "department": "III CSD A",
       "totalSolved": 165,
       "lastActiveDate": "2026-08-24",
-      "daysSinceLastActivity": 9,
+      "daysSinceLastActivity": 10,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64611,7 +66017,7 @@
       "department": "III CSD A",
       "totalSolved": 176,
       "lastActiveDate": "2026-08-24",
-      "daysSinceLastActivity": 9,
+      "daysSinceLastActivity": 10,
       "inactivityType": "INACTIVE_RECENT"
     },
     {
@@ -64621,62 +66027,55 @@
       "department": "III CSD A",
       "totalSolved": 205,
       "lastActiveDate": "2026-08-24",
-      "daysSinceLastActivity": 9,
+      "daysSinceLastActivity": 10,
       "inactivityType": "INACTIVE_RECENT"
     }
   ],
   "studentDistribution": {
-    "solved0": 90,
-    "solved1": 17,
-    "solved2": 4,
-    "solved3plus": 12,
+    "solved0": 93,
+    "solved1": 16,
+    "solved2": 6,
+    "solved3plus": 8,
     "percentages": {
-      "solved0": 73.17,
-      "solved1": 13.82,
-      "solved2": 3.25,
-      "solved3plus": 9.76
+      "solved0": 75.61,
+      "solved1": 13.01,
+      "solved2": 4.88,
+      "solved3plus": 6.5
     }
   },
   "yesterdayTopStudents": [
     {
-      "rollNumber": "310624150054",
-      "name": "Vidhya Raj",
-      "username": "Vidhya_0497",
+      "rollNumber": "310624150029",
+      "name": "S.Nirmal Kumar",
+      "username": "NirmalkumarS",
       "department": "III CSD A",
-      "problemsSolved": 7
+      "problemsSolved": 14
     },
     {
-      "rollNumber": "310624150038",
-      "name": "V.M.Sanjeev",
-      "username": "sanjeev118",
+      "rollNumber": "310624150047",
+      "name": "sundareson m v",
+      "username": "sundareson",
       "department": "III CSD A",
-      "problemsSolved": 5
+      "problemsSolved": 10
     },
     {
-      "rollNumber": "310625150017",
-      "name": "Irfan Dasthageer J",
-      "username": "irfandj_123",
+      "rollNumber": "310624150017",
+      "name": "Gowtham B",
+      "username": "gowtham2220",
+      "department": "III CSD A",
+      "problemsSolved": 4
+    },
+    {
+      "rollNumber": "310625150019",
+      "name": "Jaylyn Andrea J",
+      "username": "Jaylynandrea20",
       "department": "II CSD A",
-      "problemsSolved": 4
+      "problemsSolved": 3
     },
     {
-      "rollNumber": "310624150031",
-      "name": "Pravin.M",
-      "username": "Pravin06",
-      "department": "III CSD A",
-      "problemsSolved": 4
-    },
-    {
-      "rollNumber": "310624150049",
-      "name": "Tejaswini A",
-      "username": "Teju_Siva",
-      "department": "III CSD A",
-      "problemsSolved": 4
-    },
-    {
-      "rollNumber": "310625150012",
-      "name": "Hariharan K",
-      "username": "HariharannK_leetcode",
+      "rollNumber": "310625150031",
+      "name": "Nevin Derrick J",
+      "username": "Nevin_07",
       "department": "II CSD A",
       "problemsSolved": 3
     },
@@ -64688,23 +66087,23 @@
       "problemsSolved": 3
     },
     {
-      "rollNumber": "310625150050",
-      "name": "Shradha Singh",
-      "username": "shradha8",
+      "rollNumber": "310625150051",
+      "name": "Subhapriyan S",
+      "username": "97QbZSL4Ed",
       "department": "II CSD A",
-      "problemsSolved": 3
-    },
-    {
-      "rollNumber": "310624150014",
-      "name": "S.Divya Dharshan",
-      "username": "Dharshan_12n",
-      "department": "III CSD A",
       "problemsSolved": 3
     },
     {
       "rollNumber": "310624150028",
       "name": "NERAIMATHI.K",
       "username": "Neraimathi1102",
+      "department": "III CSD A",
+      "problemsSolved": 3
+    },
+    {
+      "rollNumber": "310624150031",
+      "name": "Pravin.M",
+      "username": "Pravin06",
       "department": "III CSD A",
       "problemsSolved": 3
     },
@@ -64716,16 +66115,30 @@
       "problemsSolved": 3
     },
     {
-      "rollNumber": "310624150047",
-      "name": "sundareson m v",
-      "username": "sundareson",
+      "rollNumber": "310624150048",
+      "name": "K S Tarunika",
+      "username": "tarunika_ks",
       "department": "III CSD A",
       "problemsSolved": 3
     },
     {
-      "rollNumber": "310625150013",
-      "name": "Haritha S P",
-      "username": "123haritha",
+      "rollNumber": "310624150054",
+      "name": "Vidhya Raj",
+      "username": "Vidhya_0497",
+      "department": "III CSD A",
+      "problemsSolved": 3
+    },
+    {
+      "rollNumber": "310625150012",
+      "name": "Hariharan K",
+      "username": "HariharannK_leetcode",
+      "department": "II CSD A",
+      "problemsSolved": 2
+    },
+    {
+      "rollNumber": "310625150035",
+      "name": "Poonguzhali M",
+      "username": "poonguzhali_0106",
       "department": "II CSD A",
       "problemsSolved": 2
     },
@@ -64737,58 +66150,16 @@
       "problemsSolved": 2
     },
     {
-      "rollNumber": "310625150051",
-      "name": "Subhapriyan S",
-      "username": "97QbZSL4Ed",
-      "department": "II CSD A",
-      "problemsSolved": 2
-    },
-    {
-      "rollNumber": "310624150022",
-      "name": "Jaisurya P S",
-      "username": "Jaisurya1506",
+      "rollNumber": "310624150053",
+      "name": "umabharathi. B",
+      "username": "uma-27",
       "department": "III CSD A",
       "problemsSolved": 2
     },
     {
-      "rollNumber": "310624150033",
-      "name": "Priyanka S",
-      "username": "Priyanka_2711",
-      "department": "III CSD A",
-      "problemsSolved": 2
-    },
-    {
-      "rollNumber": "310624150043",
-      "name": "Shreya V",
-      "username": "_Shreya_1304",
-      "department": "III CSD A",
-      "problemsSolved": 2
-    },
-    {
-      "rollNumber": "310624150044",
-      "name": "Srihari Charan.R",
-      "username": "SrihariCharan",
-      "department": "III CSD A",
-      "problemsSolved": 2
-    },
-    {
-      "rollNumber": "310624150058",
-      "name": "Vishaal. A",
-      "username": "vishaalhardin",
-      "department": "III CSD A",
-      "problemsSolved": 2
-    },
-    {
-      "rollNumber": "310625150028",
-      "name": "Mohamed Faizul K B",
-      "username": "mohamed_faizul786",
-      "department": "II CSD A",
-      "problemsSolved": 1
-    },
-    {
-      "rollNumber": "310625150035",
-      "name": "Poonguzhali M",
-      "username": "poonguzhali_0106",
+      "rollNumber": "310625150025",
+      "name": "Logesh E",
+      "username": "Logesh_ateec",
       "department": "II CSD A",
       "problemsSolved": 1
     },
@@ -64800,23 +66171,9 @@
       "problemsSolved": 1
     },
     {
-      "rollNumber": "310625150044",
-      "name": "Sandhya S",
-      "username": "Sandhya2007",
-      "department": "II CSD A",
-      "problemsSolved": 1
-    },
-    {
-      "rollNumber": "310625150060",
-      "name": "Vishal Vedanth M P",
-      "username": "orrBi7Z7jN",
-      "department": "II CSD A",
-      "problemsSolved": 1
-    },
-    {
-      "rollNumber": "310624150001",
-      "name": "Aadhil Hussain .A",
-      "username": "aadhil_hussain786",
+      "rollNumber": "310624150003",
+      "name": "Abijith S",
+      "username": "abix4",
       "department": "III CSD A",
       "problemsSolved": 1
     },
@@ -64842,20 +66199,6 @@
       "problemsSolved": 1
     },
     {
-      "rollNumber": "310624150007",
-      "name": "C.A.Asmitha",
-      "username": "Asmitha_05",
-      "department": "III CSD A",
-      "problemsSolved": 1
-    },
-    {
-      "rollNumber": "310624150010",
-      "name": "P.Brindha",
-      "username": "BrindhaP26",
-      "department": "III CSD A",
-      "problemsSolved": 1
-    },
-    {
       "rollNumber": "310624150015",
       "name": "Gautham B",
       "username": "Gautham76",
@@ -64877,16 +66220,9 @@
       "problemsSolved": 1
     },
     {
-      "rollNumber": "310624150027",
-      "name": "S.Naveen kumar",
-      "username": "navdak17",
-      "department": "III CSD A",
-      "problemsSolved": 1
-    },
-    {
-      "rollNumber": "310624150029",
-      "name": "S.Nirmal Kumar",
-      "username": "NirmalkumarS",
+      "rollNumber": "310624150033",
+      "name": "Priyanka S",
+      "username": "Priyanka_2711",
       "department": "III CSD A",
       "problemsSolved": 1
     },
@@ -64901,6 +66237,13 @@
       "rollNumber": "310624150039",
       "name": "Santhosh Kanna",
       "username": "santhoshkanna27",
+      "department": "III CSD A",
+      "problemsSolved": 1
+    },
+    {
+      "rollNumber": "310624150041",
+      "name": "Sarikha R.V",
+      "username": "SarikhaRia",
       "department": "III CSD A",
       "problemsSolved": 1
     },
@@ -64912,6 +66255,13 @@
       "problemsSolved": 1
     },
     {
+      "rollNumber": "310624150049",
+      "name": "Tejaswini A",
+      "username": "Teju_Siva",
+      "department": "III CSD A",
+      "problemsSolved": 1
+    },
+    {
       "rollNumber": "310624150050",
       "name": "Thiruvengadam D",
       "username": "thiru_1726",
@@ -64919,16 +66269,9 @@
       "problemsSolved": 1
     },
     {
-      "rollNumber": "310624150051",
-      "name": "Uma ribiya .s",
-      "username": "umaribiya",
-      "department": "III CSD A",
-      "problemsSolved": 1
-    },
-    {
-      "rollNumber": "310624150053",
-      "name": "umabharathi. B",
-      "username": "uma-27",
+      "rollNumber": "310624150058",
+      "name": "Vishaal. A",
+      "username": "vishaalhardin",
       "department": "III CSD A",
       "problemsSolved": 1
     }
@@ -64939,47 +66282,26 @@
       "name": "Gautham B",
       "username": "Gautham76",
       "department": "III CSD A",
-      "weeklyProblemsSolved": 70
+      "weeklyProblemsSolved": 68
     },
     {
       "rollNumber": "310624150054",
       "name": "Vidhya Raj",
       "username": "Vidhya_0497",
       "department": "III CSD A",
-      "weeklyProblemsSolved": 70
-    },
-    {
-      "rollNumber": "310624150029",
-      "name": "S.Nirmal Kumar",
-      "username": "NirmalkumarS",
-      "department": "III CSD A",
-      "weeklyProblemsSolved": 41
+      "weeklyProblemsSolved": 57
     },
     {
       "rollNumber": "310624150038",
       "name": "V.M.Sanjeev",
       "username": "sanjeev118",
       "department": "III CSD A",
-      "weeklyProblemsSolved": 29
+      "weeklyProblemsSolved": 34
     },
     {
-      "rollNumber": "310624150039",
-      "name": "Santhosh Kanna",
-      "username": "santhoshkanna27",
-      "department": "III CSD A",
-      "weeklyProblemsSolved": 27
-    },
-    {
-      "rollNumber": "310624150047",
-      "name": "sundareson m v",
-      "username": "sundareson",
-      "department": "III CSD A",
-      "weeklyProblemsSolved": 24
-    },
-    {
-      "rollNumber": "310624150028",
-      "name": "NERAIMATHI.K",
-      "username": "Neraimathi1102",
+      "rollNumber": "310624150029",
+      "name": "S.Nirmal Kumar",
+      "username": "NirmalkumarS",
       "department": "III CSD A",
       "weeklyProblemsSolved": 22
     },
@@ -64991,16 +66313,16 @@
       "weeklyProblemsSolved": 21
     },
     {
-      "rollNumber": "310625150019",
-      "name": "Jaylyn Andrea J",
-      "username": "Jaylynandrea20",
-      "department": "II CSD A",
-      "weeklyProblemsSolved": 20
+      "rollNumber": "310624150039",
+      "name": "Santhosh Kanna",
+      "username": "santhoshkanna27",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 21
     },
     {
-      "rollNumber": "310624150031",
-      "name": "Pravin.M",
-      "username": "Pravin06",
+      "rollNumber": "310624150028",
+      "name": "NERAIMATHI.K",
+      "username": "Neraimathi1102",
       "department": "III CSD A",
       "weeklyProblemsSolved": 20
     },
@@ -65012,102 +66334,102 @@
       "weeklyProblemsSolved": 19
     },
     {
+      "rollNumber": "310624150031",
+      "name": "Pravin.M",
+      "username": "Pravin06",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 18
+    },
+    {
+      "rollNumber": "310624150047",
+      "name": "sundareson m v",
+      "username": "sundareson",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 18
+    },
+    {
       "rollNumber": "310625150031",
       "name": "Nevin Derrick J",
       "username": "Nevin_07",
       "department": "II CSD A",
-      "weeklyProblemsSolved": 17
+      "weeklyProblemsSolved": 16
     },
     {
-      "rollNumber": "310624150027",
-      "name": "S.Naveen kumar",
-      "username": "navdak17",
-      "department": "III CSD A",
-      "weeklyProblemsSolved": 13
-    },
-    {
-      "rollNumber": "310624150044",
-      "name": "Srihari Charan.R",
-      "username": "SrihariCharan",
-      "department": "III CSD A",
-      "weeklyProblemsSolved": 13
+      "rollNumber": "310625150019",
+      "name": "Jaylyn Andrea J",
+      "username": "Jaylynandrea20",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 15
     },
     {
       "rollNumber": "310624150048",
       "name": "K S Tarunika",
       "username": "tarunika_ks",
       "department": "III CSD A",
-      "weeklyProblemsSolved": 13
-    },
-    {
-      "rollNumber": "310624150019",
-      "name": "V.Harikrishnan",
-      "username": "Harikrishnan20060",
-      "department": "III CSD A",
-      "weeklyProblemsSolved": 12
+      "weeklyProblemsSolved": 14
     },
     {
       "rollNumber": "310625150051",
       "name": "Subhapriyan S",
       "username": "97QbZSL4Ed",
       "department": "II CSD A",
-      "weeklyProblemsSolved": 11
-    },
-    {
-      "rollNumber": "310624150035",
-      "name": "Rohitha M.R",
-      "username": "mPMnu6Ghn8",
-      "department": "III CSD A",
-      "weeklyProblemsSolved": 11
+      "weeklyProblemsSolved": 13
     },
     {
       "rollNumber": "310625150049",
       "name": "Shanmathi S",
       "username": "Shanmathi2008",
       "department": "II CSD A",
-      "weeklyProblemsSolved": 10
-    },
-    {
-      "rollNumber": "310624150059",
-      "name": "Vishali. M",
-      "username": "vishali2622",
-      "department": "III CSD A",
-      "weeklyProblemsSolved": 10
-    },
-    {
-      "rollNumber": "310624150023",
-      "name": "Jayagokulavarman P P",
-      "username": "Jayagokulavarman02",
-      "department": "III CSD A",
-      "weeklyProblemsSolved": 9
-    },
-    {
-      "rollNumber": "310624150034",
-      "name": "Rayyan Ahamed S",
-      "username": "rayyan43",
-      "department": "III CSD A",
-      "weeklyProblemsSolved": 9
-    },
-    {
-      "rollNumber": "310624150043",
-      "name": "Shreya V",
-      "username": "_Shreya_1304",
-      "department": "III CSD A",
-      "weeklyProblemsSolved": 9
-    },
-    {
-      "rollNumber": "310625150035",
-      "name": "Poonguzhali M",
-      "username": "poonguzhali_0106",
-      "department": "II CSD A",
-      "weeklyProblemsSolved": 8
+      "weeklyProblemsSolved": 12
     },
     {
       "rollNumber": "310625150050",
       "name": "Shradha Singh",
       "username": "shradha8",
       "department": "II CSD A",
-      "weeklyProblemsSolved": 8
+      "weeklyProblemsSolved": 12
+    },
+    {
+      "rollNumber": "310624150044",
+      "name": "Srihari Charan.R",
+      "username": "SrihariCharan",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 12
+    },
+    {
+      "rollNumber": "310625150035",
+      "name": "Poonguzhali M",
+      "username": "poonguzhali_0106",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 11
+    },
+    {
+      "rollNumber": "310624150034",
+      "name": "Rayyan Ahamed S",
+      "username": "rayyan43",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 11
+    },
+    {
+      "rollNumber": "310624150019",
+      "name": "V.Harikrishnan",
+      "username": "Harikrishnan20060",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 10
+    },
+    {
+      "rollNumber": "310625150012",
+      "name": "Hariharan K",
+      "username": "HariharannK_leetcode",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 9
+    },
+    {
+      "rollNumber": "310624150027",
+      "name": "S.Naveen kumar",
+      "username": "navdak17",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 9
     },
     {
       "rollNumber": "310624150014",
@@ -65131,6 +66453,20 @@
       "weeklyProblemsSolved": 8
     },
     {
+      "rollNumber": "310624150035",
+      "name": "Rohitha M.R",
+      "username": "mPMnu6Ghn8",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 8
+    },
+    {
+      "rollNumber": "310624150043",
+      "name": "Shreya V",
+      "username": "_Shreya_1304",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 8
+    },
+    {
       "rollNumber": "310624150053",
       "name": "umabharathi. B",
       "username": "uma-27",
@@ -65145,11 +66481,11 @@
       "weeklyProblemsSolved": 8
     },
     {
-      "rollNumber": "310625150012",
-      "name": "Hariharan K",
-      "username": "HariharannK_leetcode",
-      "department": "II CSD A",
-      "weeklyProblemsSolved": 7
+      "rollNumber": "310624150059",
+      "name": "Vishali. M",
+      "username": "vishali2622",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 8
     },
     {
       "rollNumber": "310624150005",
@@ -65159,16 +66495,16 @@
       "weeklyProblemsSolved": 7
     },
     {
-      "rollNumber": "310624150006",
-      "name": "SR.Archana",
-      "username": "Archana_official",
+      "rollNumber": "310624150010",
+      "name": "P.Brindha",
+      "username": "BrindhaP26",
       "department": "III CSD A",
       "weeklyProblemsSolved": 7
     },
     {
-      "rollNumber": "310624150007",
-      "name": "C.A.Asmitha",
-      "username": "Asmitha_05",
+      "rollNumber": "310624150023",
+      "name": "Jayagokulavarman P P",
+      "username": "Jayagokulavarman02",
       "department": "III CSD A",
       "weeklyProblemsSolved": 7
     },
@@ -65176,6 +66512,13 @@
       "rollNumber": "310624150046",
       "name": "Sujith k",
       "username": "sujith15",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 7
+    },
+    {
+      "rollNumber": "310624150051",
+      "name": "Uma ribiya .s",
+      "username": "umaribiya",
       "department": "III CSD A",
       "weeklyProblemsSolved": 7
     },
@@ -65201,16 +66544,16 @@
       "weeklyProblemsSolved": 6
     },
     {
-      "rollNumber": "310624150004",
-      "name": "A.Alin Brasen",
-      "username": "alinbrasen08",
+      "rollNumber": "310624150006",
+      "name": "SR.Archana",
+      "username": "Archana_official",
       "department": "III CSD A",
       "weeklyProblemsSolved": 6
     },
     {
-      "rollNumber": "310624150010",
-      "name": "P.Brindha",
-      "username": "BrindhaP26",
+      "rollNumber": "310624150007",
+      "name": "C.A.Asmitha",
+      "username": "Asmitha_05",
       "department": "III CSD A",
       "weeklyProblemsSolved": 6
     },
@@ -65229,11 +66572,18 @@
       "weeklyProblemsSolved": 6
     },
     {
-      "rollNumber": "310624150051",
-      "name": "Uma ribiya .s",
-      "username": "umaribiya",
-      "department": "III CSD A",
-      "weeklyProblemsSolved": 6
+      "rollNumber": "310625150002",
+      "name": "Abisha A",
+      "username": "Abisha_2007",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 5
+    },
+    {
+      "rollNumber": "310625150013",
+      "name": "Haritha S P",
+      "username": "123haritha",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 5
     },
     {
       "rollNumber": "310625150020",
@@ -65257,18 +66607,18 @@
       "weeklyProblemsSolved": 5
     },
     {
-      "rollNumber": "310624150033",
-      "name": "Priyanka S",
-      "username": "Priyanka_2711",
+      "rollNumber": "310624150004",
+      "name": "A.Alin Brasen",
+      "username": "alinbrasen08",
       "department": "III CSD A",
       "weeklyProblemsSolved": 5
     },
     {
-      "rollNumber": "310624150060",
-      "name": "Yogamaya M",
-      "username": "yoga8",
-      "department": "III CSD A",
-      "weeklyProblemsSolved": 5
+      "rollNumber": "310625150026",
+      "name": "Maga Shree V M",
+      "username": "MAGASHREE-26",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 4
     },
     {
       "rollNumber": "310624150003",
@@ -65278,18 +66628,11 @@
       "weeklyProblemsSolved": 4
     },
     {
-      "rollNumber": "310624150041",
-      "name": "Sarikha R.V",
-      "username": "SarikhaRia",
+      "rollNumber": "310624150033",
+      "name": "Priyanka S",
+      "username": "Priyanka_2711",
       "department": "III CSD A",
       "weeklyProblemsSolved": 4
-    },
-    {
-      "rollNumber": "310625150026",
-      "name": "Maga Shree V M",
-      "username": "MAGASHREE-26",
-      "department": "II CSD A",
-      "weeklyProblemsSolved": 3
     },
     {
       "rollNumber": "310625150037",
@@ -65306,34 +66649,6 @@
       "weeklyProblemsSolved": 3
     },
     {
-      "rollNumber": "310624150030",
-      "name": "Pragati GP",
-      "username": "Pragati_GP",
-      "department": "III CSD A",
-      "weeklyProblemsSolved": 3
-    },
-    {
-      "rollNumber": "310625150002",
-      "name": "Abisha A",
-      "username": "Abisha_2007",
-      "department": "II CSD A",
-      "weeklyProblemsSolved": 2
-    },
-    {
-      "rollNumber": "310625150013",
-      "name": "Haritha S P",
-      "username": "123haritha",
-      "department": "II CSD A",
-      "weeklyProblemsSolved": 2
-    },
-    {
-      "rollNumber": "310625150025",
-      "name": "Logesh E",
-      "username": "Logesh_ateec",
-      "department": "II CSD A",
-      "weeklyProblemsSolved": 2
-    },
-    {
       "rollNumber": "310625150056",
       "name": "Vasundra M S",
       "username": "Vasundra_MS",
@@ -65341,10 +66656,10 @@
       "weeklyProblemsSolved": 2
     },
     {
-      "rollNumber": "310624150008",
-      "name": "Bharat Raj R",
-      "username": "Bharat_Raj_",
-      "department": "III CSD A",
+      "rollNumber": "310625150060",
+      "name": "Vishal Vedanth M P",
+      "username": "orrBi7Z7jN",
+      "department": "II CSD A",
       "weeklyProblemsSolved": 2
     },
     {
@@ -65355,6 +66670,27 @@
       "weeklyProblemsSolved": 2
     },
     {
+      "rollNumber": "310624150030",
+      "name": "Pragati GP",
+      "username": "Pragati_GP",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 2
+    },
+    {
+      "rollNumber": "310624150041",
+      "name": "Sarikha R.V",
+      "username": "SarikhaRia",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 2
+    },
+    {
+      "rollNumber": "310625150025",
+      "name": "Logesh E",
+      "username": "Logesh_ateec",
+      "department": "II CSD A",
+      "weeklyProblemsSolved": 1
+    },
+    {
       "rollNumber": "310625150028",
       "name": "Mohamed Faizul K B",
       "username": "mohamed_faizul786",
@@ -65362,16 +66698,16 @@
       "weeklyProblemsSolved": 1
     },
     {
-      "rollNumber": "310625150060",
-      "name": "Vishal Vedanth M P",
-      "username": "orrBi7Z7jN",
-      "department": "II CSD A",
-      "weeklyProblemsSolved": 1
-    },
-    {
       "rollNumber": "310624150001",
       "name": "Aadhil Hussain .A",
       "username": "aadhil_hussain786",
+      "department": "III CSD A",
+      "weeklyProblemsSolved": 1
+    },
+    {
+      "rollNumber": "310624150008",
+      "name": "Bharat Raj R",
+      "username": "Bharat_Raj_",
       "department": "III CSD A",
       "weeklyProblemsSolved": 1
     },
@@ -65384,120 +66720,120 @@
     }
   ],
   "weeklyImprovement": {
-    "problemsSolved": 700,
-    "studentsImproved": 64,
+    "problemsSolved": 646,
+    "studentsImproved": 63,
     "studentsActive": 118,
-    "studentsNoImprovement": 59
+    "studentsNoImprovement": 60
   },
   "topicsAnalysis": {
     "overall": [
       {
         "topic": "Array",
-        "count": 1654
+        "count": 1684
       },
       {
         "topic": "String",
-        "count": 873
+        "count": 887
       },
       {
         "topic": "Math",
-        "count": 678
+        "count": 692
       },
       {
         "topic": "Hash Table",
-        "count": 644
+        "count": 649
       },
       {
         "topic": "Dynamic Programming",
-        "count": 491
+        "count": 497
       },
       {
         "topic": "Two Pointers",
-        "count": 449
+        "count": 455
       },
       {
         "topic": "Sorting",
-        "count": 395
+        "count": 400
       },
       {
         "topic": "Tree",
-        "count": 351
+        "count": 356
       },
       {
         "topic": "Binary Tree",
-        "count": 347
+        "count": 352
       },
       {
         "topic": "Depth-First Search",
-        "count": 313
+        "count": 319
       },
       {
         "topic": "Database",
-        "count": 306
-      },
-      {
-        "topic": "Linked List",
-        "count": 277
+        "count": 307
       },
       {
         "topic": "Binary Search",
-        "count": 276
+        "count": 282
+      },
+      {
+        "topic": "Linked List",
+        "count": 278
       },
       {
         "topic": "Greedy",
-        "count": 255
+        "count": 258
       },
       {
         "topic": "Stack",
-        "count": 231
+        "count": 237
       },
       {
         "topic": "Breadth-First Search",
-        "count": 231
+        "count": 235
       },
       {
         "topic": "Matrix",
-        "count": 220
+        "count": 224
       },
       {
         "topic": "Backtracking",
-        "count": 215
+        "count": 219
       },
       {
         "topic": "Bit Manipulation",
-        "count": 202
+        "count": 206
       },
       {
         "topic": "Recursion",
-        "count": 168
+        "count": 169
       },
       {
         "topic": "Divide and Conquer",
-        "count": 152
+        "count": 153
       },
       {
         "topic": "Simulation",
-        "count": 146
-      },
-      {
-        "topic": "Prefix Sum",
-        "count": 113
+        "count": 148
       },
       {
         "topic": "Sliding Window",
-        "count": 112
+        "count": 114
+      },
+      {
+        "topic": "Prefix Sum",
+        "count": 114
       },
       {
         "topic": "Game Theory",
-        "count": 105
+        "count": 106
       },
       {
         "topic": "Heap (Priority Queue)",
-        "count": 94
+        "count": 95
       },
       {
         "topic": "Binary Search Tree",
-        "count": 89
+        "count": 90
       },
       {
         "topic": "Counting",
@@ -65505,7 +66841,7 @@
       },
       {
         "topic": "Minimax",
-        "count": 81
+        "count": 82
       },
       {
         "topic": "Zero-Sum Game",
@@ -65517,7 +66853,7 @@
       },
       {
         "topic": "Bracket Sequences",
-        "count": 69
+        "count": 71
       },
       {
         "topic": "String Matching",
@@ -65525,7 +66861,7 @@
       },
       {
         "topic": "Union-Find",
-        "count": 60
+        "count": 62
       },
       {
         "topic": "Number Theory",
@@ -65537,11 +66873,15 @@
       },
       {
         "topic": "Graph Theory",
-        "count": 53
+        "count": 55
       },
       {
         "topic": "Trie",
-        "count": 52
+        "count": 53
+      },
+      {
+        "topic": "Monotonic Stack",
+        "count": 46
       },
       {
         "topic": "Z Algorithm",
@@ -65550,10 +66890,6 @@
       {
         "topic": "Knuth\u2013Morris\u2013Pratt Algorithm",
         "count": 44
-      },
-      {
-        "topic": "Monotonic Stack",
-        "count": 43
       },
       {
         "topic": "Boyer\u2013Moore String-Search Algorithm",
@@ -65584,15 +66920,19 @@
         "count": 23
       },
       {
+        "topic": "Nim Game",
+        "count": 22
+      },
+      {
         "topic": "Algorithm X",
         "count": 21
       },
       {
-        "topic": "Nim Game",
-        "count": 21
+        "topic": "Interactive",
+        "count": 20
       },
       {
-        "topic": "Interactive",
+        "topic": "Ordered Set",
         "count": 20
       },
       {
@@ -65616,15 +66956,15 @@
         "count": 19
       },
       {
-        "topic": "Ordered Set",
-        "count": 19
-      },
-      {
         "topic": "Newton's Method",
         "count": 18
       },
       {
         "topic": "Manacher",
+        "count": 18
+      },
+      {
+        "topic": "Hash Function",
         "count": 18
       },
       {
@@ -65637,10 +66977,6 @@
       },
       {
         "topic": "Bidirectional Search",
-        "count": 17
-      },
-      {
-        "topic": "Hash Function",
         "count": 17
       },
       {
@@ -65664,6 +67000,10 @@
         "count": 12
       },
       {
+        "topic": "Rolling Hash",
+        "count": 12
+      },
+      {
         "topic": "Tournament Sort",
         "count": 11
       },
@@ -65677,10 +67017,6 @@
       },
       {
         "topic": "DP on Trees",
-        "count": 11
-      },
-      {
-        "topic": "Rolling Hash",
         "count": 11
       },
       {
@@ -65712,6 +67048,14 @@
         "count": 6
       },
       {
+        "topic": "Brainteaser",
+        "count": 6
+      },
+      {
+        "topic": "Impartial Game",
+        "count": 6
+      },
+      {
         "topic": "Randomized",
         "count": 6
       },
@@ -65733,14 +67077,6 @@
       },
       {
         "topic": "Fermat's Little Theorem",
-        "count": 5
-      },
-      {
-        "topic": "Brainteaser",
-        "count": 5
-      },
-      {
-        "topic": "Impartial Game",
         "count": 5
       },
       {
@@ -65808,6 +67144,14 @@
         "count": 2
       },
       {
+        "topic": "Cartesian Tree",
+        "count": 2
+      },
+      {
+        "topic": "Suffix Array",
+        "count": 2
+      },
+      {
         "topic": "Timsort",
         "count": 1
       },
@@ -65872,11 +67216,11 @@
         "count": 1
       },
       {
-        "topic": "Cartesian Tree",
+        "topic": "Suffix Automaton",
         "count": 1
       },
       {
-        "topic": "Suffix Array",
+        "topic": "Suffix Tree",
         "count": 1
       }
     ],
@@ -65884,39 +67228,39 @@
       "II CSD A": [
         {
           "topic": "Array",
-          "count": 554
+          "count": 567
         },
         {
           "topic": "String",
-          "count": 286
+          "count": 295
         },
         {
           "topic": "Math",
-          "count": 248
+          "count": 251
         },
         {
           "topic": "Hash Table",
-          "count": 212
+          "count": 215
         },
         {
           "topic": "Two Pointers",
-          "count": 190
+          "count": 196
         },
         {
           "topic": "Sorting",
-          "count": 141
+          "count": 145
         },
         {
           "topic": "Binary Search",
-          "count": 113
+          "count": 118
         },
         {
           "topic": "Dynamic Programming",
-          "count": 111
+          "count": 115
         },
         {
           "topic": "Linked List",
-          "count": 100
+          "count": 101
         },
         {
           "topic": "Recursion",
@@ -65924,39 +67268,39 @@
         },
         {
           "topic": "Stack",
-          "count": 72
+          "count": 75
         },
         {
           "topic": "Tree",
-          "count": 71
+          "count": 75
         },
         {
           "topic": "Binary Tree",
-          "count": 70
+          "count": 74
         },
         {
           "topic": "Depth-First Search",
-          "count": 65
+          "count": 69
         },
         {
           "topic": "Backtracking",
-          "count": 61
+          "count": 64
         },
         {
           "topic": "Matrix",
-          "count": 56
+          "count": 59
         },
         {
           "topic": "Simulation",
-          "count": 55
+          "count": 57
         },
         {
           "topic": "Greedy",
-          "count": 52
+          "count": 53
         },
         {
           "topic": "Bit Manipulation",
-          "count": 50
+          "count": 52
         },
         {
           "topic": "Divide and Conquer",
@@ -65964,23 +67308,23 @@
         },
         {
           "topic": "Breadth-First Search",
-          "count": 39
+          "count": 41
         },
         {
           "topic": "Sliding Window",
-          "count": 32
+          "count": 33
         },
         {
           "topic": "Database",
-          "count": 31
+          "count": 32
+        },
+        {
+          "topic": "Bracket Sequences",
+          "count": 30
         },
         {
           "topic": "Counting",
           "count": 30
-        },
-        {
-          "topic": "Bracket Sequences",
-          "count": 28
         },
         {
           "topic": "Prefix Sum",
@@ -65992,7 +67336,7 @@
         },
         {
           "topic": "Binary Search Tree",
-          "count": 18
+          "count": 19
         },
         {
           "topic": "Monotonic Stack",
@@ -66000,7 +67344,7 @@
         },
         {
           "topic": "Heap (Priority Queue)",
-          "count": 15
+          "count": 16
         },
         {
           "topic": "Number Theory",
@@ -66059,15 +67403,15 @@
           "count": 10
         },
         {
-          "topic": "Tournament Sort",
-          "count": 8
-        },
-        {
           "topic": "Minimax",
-          "count": 8
+          "count": 9
         },
         {
           "topic": "Game Theory",
+          "count": 9
+        },
+        {
+          "topic": "Tournament Sort",
           "count": 8
         },
         {
@@ -66139,6 +67483,10 @@
           "count": 2
         },
         {
+          "topic": "Nim Game",
+          "count": 2
+        },
+        {
           "topic": "Shell",
           "count": 2
         },
@@ -66153,10 +67501,6 @@
         {
           "topic": "Greatest Common Divisor",
           "count": 2
-        },
-        {
-          "topic": "Nim Game",
-          "count": 1
         },
         {
           "topic": "Sprague\u2013Grundy Theorem",
@@ -66225,36 +67569,44 @@
         {
           "topic": "Radix Sort",
           "count": 1
+        },
+        {
+          "topic": "Brainteaser",
+          "count": 1
+        },
+        {
+          "topic": "Impartial Game",
+          "count": 1
         }
       ],
       "III CSD A": [
         {
           "topic": "Array",
-          "count": 1100
+          "count": 1117
         },
         {
           "topic": "String",
-          "count": 587
-        },
-        {
-          "topic": "Hash Table",
-          "count": 432
+          "count": 592
         },
         {
           "topic": "Math",
-          "count": 430
+          "count": 441
+        },
+        {
+          "topic": "Hash Table",
+          "count": 434
         },
         {
           "topic": "Dynamic Programming",
-          "count": 380
+          "count": 382
         },
         {
           "topic": "Tree",
-          "count": 280
+          "count": 281
         },
         {
           "topic": "Binary Tree",
-          "count": 277
+          "count": 278
         },
         {
           "topic": "Database",
@@ -66266,19 +67618,19 @@
         },
         {
           "topic": "Sorting",
-          "count": 254
+          "count": 255
         },
         {
           "topic": "Depth-First Search",
-          "count": 248
+          "count": 250
         },
         {
           "topic": "Greedy",
-          "count": 203
+          "count": 205
         },
         {
           "topic": "Breadth-First Search",
-          "count": 192
+          "count": 194
         },
         {
           "topic": "Linked List",
@@ -66286,27 +67638,27 @@
         },
         {
           "topic": "Matrix",
-          "count": 164
+          "count": 165
         },
         {
           "topic": "Binary Search",
-          "count": 163
+          "count": 164
         },
         {
           "topic": "Stack",
-          "count": 159
+          "count": 162
         },
         {
           "topic": "Backtracking",
-          "count": 154
+          "count": 155
         },
         {
           "topic": "Bit Manipulation",
-          "count": 152
+          "count": 154
         },
         {
           "topic": "Divide and Conquer",
-          "count": 102
+          "count": 103
         },
         {
           "topic": "Game Theory",
@@ -66318,15 +67670,15 @@
         },
         {
           "topic": "Prefix Sum",
-          "count": 85
+          "count": 86
         },
         {
           "topic": "Recursion",
-          "count": 83
+          "count": 84
         },
         {
           "topic": "Sliding Window",
-          "count": 80
+          "count": 81
         },
         {
           "topic": "Heap (Priority Queue)",
@@ -66354,7 +67706,7 @@
         },
         {
           "topic": "Union-Find",
-          "count": 54
+          "count": 56
         },
         {
           "topic": "String Matching",
@@ -66366,7 +67718,7 @@
         },
         {
           "topic": "Graph Theory",
-          "count": 46
+          "count": 48
         },
         {
           "topic": "Number Theory",
@@ -66378,7 +67730,7 @@
         },
         {
           "topic": "Trie",
-          "count": 32
+          "count": 33
         },
         {
           "topic": "Z Algorithm",
@@ -66389,12 +67741,12 @@
           "count": 31
         },
         {
-          "topic": "Combinatorics",
-          "count": 28
+          "topic": "Monotonic Stack",
+          "count": 30
         },
         {
-          "topic": "Monotonic Stack",
-          "count": 27
+          "topic": "Combinatorics",
+          "count": 28
         },
         {
           "topic": "Memoization",
@@ -66422,14 +67774,14 @@
         },
         {
           "topic": "Ordered Set",
+          "count": 19
+        },
+        {
+          "topic": "Hash Function",
           "count": 18
         },
         {
           "topic": "Bidirectional Search",
-          "count": 17
-        },
-        {
-          "topic": "Hash Function",
           "count": 17
         },
         {
@@ -66461,12 +67813,12 @@
           "count": 13
         },
         {
-          "topic": "Queue",
+          "topic": "Rolling Hash",
           "count": 12
         },
         {
-          "topic": "Rolling Hash",
-          "count": 11
+          "topic": "Queue",
+          "count": 12
         },
         {
           "topic": "Quicksort",
@@ -66633,6 +67985,10 @@
           "count": 2
         },
         {
+          "topic": "Suffix Array",
+          "count": 2
+        },
+        {
           "topic": "Bellman\u2013Ford Algorithm",
           "count": 1
         },
@@ -66701,7 +68057,15 @@
           "count": 1
         },
         {
-          "topic": "Suffix Array",
+          "topic": "Cartesian Tree",
+          "count": 1
+        },
+        {
+          "topic": "Suffix Automaton",
+          "count": 1
+        },
+        {
+          "topic": "Suffix Tree",
           "count": 1
         }
       ]
@@ -66710,63 +68074,63 @@
       "Easy": [
         {
           "topic": "Array",
-          "count": 595
+          "count": 603
         },
         {
           "topic": "String",
-          "count": 346
+          "count": 354
         },
         {
           "topic": "Math",
-          "count": 301
+          "count": 304
         },
         {
           "topic": "Hash Table",
-          "count": 270
+          "count": 273
         },
         {
           "topic": "Database",
-          "count": 197
+          "count": 198
         },
         {
           "topic": "Tree",
-          "count": 192
+          "count": 195
         },
         {
           "topic": "Binary Tree",
-          "count": 192
+          "count": 195
         },
         {
           "topic": "Two Pointers",
-          "count": 178
+          "count": 182
         },
         {
           "topic": "Sorting",
-          "count": 166
+          "count": 169
         },
         {
           "topic": "Depth-First Search",
-          "count": 157
+          "count": 160
         },
         {
           "topic": "Stack",
-          "count": 121
+          "count": 124
         },
         {
           "topic": "Binary Search",
-          "count": 95
+          "count": 98
         },
         {
           "topic": "Simulation",
-          "count": 92
+          "count": 93
         },
         {
           "topic": "Breadth-First Search",
-          "count": 78
+          "count": 80
         },
         {
           "topic": "Bit Manipulation",
-          "count": 74
+          "count": 75
         },
         {
           "topic": "Linked List",
@@ -66774,10 +68138,14 @@
         },
         {
           "topic": "Dynamic Programming",
-          "count": 61
+          "count": 64
         },
         {
           "topic": "Recursion",
+          "count": 50
+        },
+        {
+          "topic": "Heap (Priority Queue)",
           "count": 50
         },
         {
@@ -66785,16 +68153,12 @@
           "count": 49
         },
         {
-          "topic": "Heap (Priority Queue)",
-          "count": 49
+          "topic": "Bracket Sequences",
+          "count": 42
         },
         {
           "topic": "Binary Search Tree",
           "count": 41
-        },
-        {
-          "topic": "Bracket Sequences",
-          "count": 40
         },
         {
           "topic": "Divide and Conquer",
@@ -66802,7 +68166,7 @@
         },
         {
           "topic": "Matrix",
-          "count": 37
+          "count": 38
         },
         {
           "topic": "Z Algorithm",
@@ -66909,6 +68273,26 @@
           "count": 4
         },
         {
+          "topic": "Brainteaser",
+          "count": 4
+        },
+        {
+          "topic": "Minimax",
+          "count": 4
+        },
+        {
+          "topic": "Game Theory",
+          "count": 4
+        },
+        {
+          "topic": "Nim Game",
+          "count": 4
+        },
+        {
+          "topic": "Impartial Game",
+          "count": 4
+        },
+        {
           "topic": "Graph Theory",
           "count": 3
         },
@@ -66918,26 +68302,6 @@
         },
         {
           "topic": "Geometry",
-          "count": 3
-        },
-        {
-          "topic": "Brainteaser",
-          "count": 3
-        },
-        {
-          "topic": "Minimax",
-          "count": 3
-        },
-        {
-          "topic": "Game Theory",
-          "count": 3
-        },
-        {
-          "topic": "Nim Game",
-          "count": 3
-        },
-        {
-          "topic": "Impartial Game",
           "count": 3
         },
         {
@@ -66964,71 +68328,71 @@
       "Medium": [
         {
           "topic": "Array",
-          "count": 788
+          "count": 810
         },
         {
           "topic": "String",
-          "count": 368
+          "count": 371
         },
         {
           "topic": "Hash Table",
-          "count": 282
-        },
-        {
-          "topic": "Dynamic Programming",
-          "count": 263
+          "count": 284
         },
         {
           "topic": "Math",
-          "count": 262
+          "count": 273
+        },
+        {
+          "topic": "Dynamic Programming",
+          "count": 264
         },
         {
           "topic": "Two Pointers",
-          "count": 245
+          "count": 247
         },
         {
           "topic": "Sorting",
-          "count": 209
+          "count": 211
         },
         {
           "topic": "Greedy",
-          "count": 186
+          "count": 188
         },
         {
           "topic": "Linked List",
-          "count": 185
+          "count": 186
         },
         {
           "topic": "Backtracking",
-          "count": 155
+          "count": 159
         },
         {
           "topic": "Tree",
-          "count": 149
+          "count": 151
         },
         {
           "topic": "Binary Tree",
-          "count": 146
+          "count": 148
         },
         {
           "topic": "Depth-First Search",
-          "count": 144
+          "count": 146
         },
         {
           "topic": "Matrix",
-          "count": 143
+          "count": 146
         },
         {
           "topic": "Breadth-First Search",
-          "count": 125
+          "count": 126
         },
         {
           "topic": "Binary Search",
-          "count": 114
+          "count": 117
         },
         {
           "topic": "Bit Manipulation",
-          "count": 106
+          "count": 109
         },
         {
           "topic": "Database",
@@ -67036,23 +68400,23 @@
         },
         {
           "topic": "Recursion",
-          "count": 78
+          "count": 79
         },
         {
           "topic": "Sliding Window",
-          "count": 74
+          "count": 76
         },
         {
           "topic": "Stack",
-          "count": 69
+          "count": 72
         },
         {
           "topic": "Prefix Sum",
-          "count": 69
+          "count": 70
         },
         {
           "topic": "Divide and Conquer",
-          "count": 62
+          "count": 63
         },
         {
           "topic": "Game Theory",
@@ -67060,15 +68424,19 @@
         },
         {
           "topic": "Union-Find",
-          "count": 49
+          "count": 50
         },
         {
           "topic": "Binary Search Tree",
-          "count": 47
+          "count": 48
         },
         {
           "topic": "Simulation",
-          "count": 45
+          "count": 46
+        },
+        {
+          "topic": "Graph Theory",
+          "count": 44
         },
         {
           "topic": "Minimax",
@@ -67081,10 +68449,6 @@
         {
           "topic": "Counting",
           "count": 44
-        },
-        {
-          "topic": "Graph Theory",
-          "count": 43
         },
         {
           "topic": "Design",
@@ -67107,6 +68471,10 @@
           "count": 19
         },
         {
+          "topic": "Monotonic Stack",
+          "count": 16
+        },
+        {
           "topic": "Manacher",
           "count": 16
         },
@@ -67121,10 +68489,6 @@
         {
           "topic": "Merge Sort",
           "count": 15
-        },
-        {
-          "topic": "Monotonic Stack",
-          "count": 13
         },
         {
           "topic": "Pigeonhole Principle",
@@ -67275,6 +68639,10 @@
           "count": 2
         },
         {
+          "topic": "Ordered Set",
+          "count": 2
+        },
+        {
           "topic": "DP on Trees",
           "count": 2
         },
@@ -67287,11 +68655,11 @@
           "count": 2
         },
         {
-          "topic": "Timsort",
-          "count": 1
+          "topic": "Cartesian Tree",
+          "count": 2
         },
         {
-          "topic": "Ordered Set",
+          "topic": "Timsort",
           "count": 1
         },
         {
@@ -67337,10 +68705,6 @@
         {
           "topic": "Euler's Theorem",
           "count": 1
-        },
-        {
-          "topic": "Cartesian Tree",
-          "count": 1
         }
       ],
       "Hard": [
@@ -67350,11 +68714,11 @@
         },
         {
           "topic": "Dynamic Programming",
-          "count": 167
+          "count": 169
         },
         {
           "topic": "String",
-          "count": 159
+          "count": 162
         },
         {
           "topic": "Math",
@@ -67385,15 +68749,15 @@
           "count": 41
         },
         {
+          "topic": "Greedy",
+          "count": 41
+        },
+        {
           "topic": "Recursion",
           "count": 40
         },
         {
           "topic": "Matrix",
-          "count": 40
-        },
-        {
-          "topic": "Greedy",
           "count": 40
         },
         {
@@ -67410,7 +68774,7 @@
         },
         {
           "topic": "Breadth-First Search",
-          "count": 28
+          "count": 29
         },
         {
           "topic": "Combinatorics",
@@ -67489,19 +68853,19 @@
           "count": 13
         },
         {
+          "topic": "Depth-First Search",
+          "count": 13
+        },
+        {
           "topic": "Range Minimum/Maximum Query",
           "count": 12
         },
         {
-          "topic": "Depth-First Search",
+          "topic": "Trie",
           "count": 12
         },
         {
           "topic": "Tournament Sort",
-          "count": 11
-        },
-        {
-          "topic": "Trie",
           "count": 11
         },
         {
@@ -67514,6 +68878,10 @@
         },
         {
           "topic": "Tree",
+          "count": 10
+        },
+        {
+          "topic": "Union-Find",
           "count": 10
         },
         {
@@ -67533,10 +68901,6 @@
           "count": 9
         },
         {
-          "topic": "Union-Find",
-          "count": 9
-        },
-        {
           "topic": "Bracket Sequences",
           "count": 8
         },
@@ -67549,6 +68913,10 @@
           "count": 8
         },
         {
+          "topic": "Graph Theory",
+          "count": 8
+        },
+        {
           "topic": "Binary Indexed Tree",
           "count": 7
         },
@@ -67557,16 +68925,12 @@
           "count": 7
         },
         {
-          "topic": "Graph Theory",
+          "topic": "Rolling Hash",
           "count": 7
         },
         {
-          "topic": "Rolling Hash",
-          "count": 6
-        },
-        {
           "topic": "Hash Function",
-          "count": 6
+          "count": 7
         },
         {
           "topic": "DP on Trees",
@@ -67645,6 +69009,10 @@
           "count": 2
         },
         {
+          "topic": "Suffix Array",
+          "count": 2
+        },
+        {
           "topic": "Minimum Spanning Tree",
           "count": 1
         },
@@ -67697,104 +69065,108 @@
           "count": 1
         },
         {
-          "topic": "Suffix Array",
+          "topic": "Suffix Automaton",
+          "count": 1
+        },
+        {
+          "topic": "Suffix Tree",
           "count": 1
         }
       ]
     }
   },
   "difficultyAnalysis": {
-    "Easy": 1589,
-    "Medium": 1649,
-    "Hard": 479,
+    "Easy": 1611,
+    "Medium": 1681,
+    "Hard": 483,
     "byTopic": {
       "Math": {
-        "Easy": 301,
-        "Medium": 262,
+        "Easy": 304,
+        "Medium": 273,
         "Hard": 115
       },
       "String": {
-        "Easy": 346,
-        "Medium": 368,
-        "Hard": 159
+        "Easy": 354,
+        "Medium": 371,
+        "Hard": 162
       },
       "Array": {
-        "Easy": 595,
-        "Medium": 788,
+        "Easy": 603,
+        "Medium": 810,
         "Hard": 271
       },
       "Binary Search": {
-        "Easy": 95,
-        "Medium": 114,
+        "Easy": 98,
+        "Medium": 117,
         "Hard": 67
       },
       "Two Pointers": {
-        "Easy": 178,
-        "Medium": 245,
+        "Easy": 182,
+        "Medium": 247,
         "Hard": 26
       },
       "Linked List": {
         "Easy": 71,
-        "Medium": 185,
+        "Medium": 186,
         "Hard": 21
       },
       "Recursion": {
         "Easy": 50,
-        "Medium": 78,
+        "Medium": 79,
         "Hard": 40
       },
       "Stack": {
-        "Easy": 121,
-        "Medium": 69,
+        "Easy": 124,
+        "Medium": 72,
         "Hard": 41
       },
       "Tree": {
-        "Easy": 192,
-        "Medium": 149,
+        "Easy": 195,
+        "Medium": 151,
         "Hard": 10
       },
       "Depth-First Search": {
-        "Easy": 157,
-        "Medium": 144,
-        "Hard": 12
+        "Easy": 160,
+        "Medium": 146,
+        "Hard": 13
       },
       "Binary Tree": {
-        "Easy": 192,
-        "Medium": 146,
+        "Easy": 195,
+        "Medium": 148,
         "Hard": 9
       },
       "Hash Table": {
-        "Easy": 270,
-        "Medium": 282,
+        "Easy": 273,
+        "Medium": 284,
         "Hard": 92
       },
       "Sliding Window": {
         "Easy": 23,
-        "Medium": 74,
+        "Medium": 76,
         "Hard": 15
       },
       "Greedy": {
         "Easy": 29,
-        "Medium": 186,
-        "Hard": 40
+        "Medium": 188,
+        "Hard": 41
       },
       "Monotonic Stack": {
         "Easy": 4,
-        "Medium": 13,
+        "Medium": 16,
         "Hard": 26
       },
       "Bit Manipulation": {
-        "Easy": 74,
-        "Medium": 106,
+        "Easy": 75,
+        "Medium": 109,
         "Hard": 22
       },
       "Divide and Conquer": {
         "Easy": 40,
-        "Medium": 62,
+        "Medium": 63,
         "Hard": 50
       },
       "Heap (Priority Queue)": {
-        "Easy": 49,
+        "Easy": 50,
         "Medium": 24,
         "Hard": 21
       },
@@ -67829,33 +69201,33 @@
         "Hard": 1
       },
       "Dynamic Programming": {
-        "Easy": 61,
-        "Medium": 263,
-        "Hard": 167
+        "Easy": 64,
+        "Medium": 264,
+        "Hard": 169
       },
       "Backtracking": {
         "Easy": 7,
-        "Medium": 155,
+        "Medium": 159,
         "Hard": 53
       },
       "Bracket Sequences": {
-        "Easy": 40,
+        "Easy": 42,
         "Medium": 21,
         "Hard": 8
       },
       "Trie": {
         "Easy": 25,
         "Medium": 16,
-        "Hard": 11
+        "Hard": 12
       },
       "Simulation": {
-        "Easy": 92,
-        "Medium": 45,
+        "Easy": 93,
+        "Medium": 46,
         "Hard": 9
       },
       "Matrix": {
-        "Easy": 37,
-        "Medium": 143,
+        "Easy": 38,
+        "Medium": 146,
         "Hard": 40
       },
       "Newton's Method": {
@@ -67865,8 +69237,8 @@
       },
       "Graph Theory": {
         "Easy": 3,
-        "Medium": 43,
-        "Hard": 7
+        "Medium": 44,
+        "Hard": 8
       },
       "Ternary Search": {
         "Easy": 0,
@@ -67879,8 +69251,8 @@
         "Hard": 0
       },
       "Sorting": {
-        "Easy": 166,
-        "Medium": 209,
+        "Easy": 169,
+        "Medium": 211,
         "Hard": 20
       },
       "Counting": {
@@ -67910,7 +69282,7 @@
       },
       "Prefix Sum": {
         "Easy": 20,
-        "Medium": 69,
+        "Medium": 70,
         "Hard": 24
       },
       "Enumeration": {
@@ -67919,17 +69291,17 @@
         "Hard": 17
       },
       "Breadth-First Search": {
-        "Easy": 78,
-        "Medium": 125,
-        "Hard": 28
+        "Easy": 80,
+        "Medium": 126,
+        "Hard": 29
       },
       "Minimax": {
-        "Easy": 3,
+        "Easy": 4,
         "Medium": 44,
         "Hard": 34
       },
       "Game Theory": {
-        "Easy": 3,
+        "Easy": 4,
         "Medium": 56,
         "Hard": 46
       },
@@ -67960,7 +69332,7 @@
       },
       "Binary Search Tree": {
         "Easy": 41,
-        "Medium": 47,
+        "Medium": 48,
         "Hard": 1
       },
       "Geometry": {
@@ -67974,7 +69346,7 @@
         "Hard": 9
       },
       "Database": {
-        "Easy": 197,
+        "Easy": 198,
         "Medium": 91,
         "Hard": 18
       },
@@ -67984,7 +69356,7 @@
         "Hard": 11
       },
       "Nim Game": {
-        "Easy": 3,
+        "Easy": 4,
         "Medium": 10,
         "Hard": 8
       },
@@ -68015,8 +69387,8 @@
       },
       "Union-Find": {
         "Easy": 2,
-        "Medium": 49,
-        "Hard": 9
+        "Medium": 50,
+        "Hard": 10
       },
       "Shell": {
         "Easy": 5,
@@ -68075,7 +69447,7 @@
       },
       "Ordered Set": {
         "Easy": 0,
-        "Medium": 1,
+        "Medium": 2,
         "Hard": 18
       },
       "Treap": {
@@ -68121,12 +69493,12 @@
       "Rolling Hash": {
         "Easy": 1,
         "Medium": 4,
-        "Hard": 6
+        "Hard": 7
       },
       "Hash Function": {
         "Easy": 7,
         "Medium": 4,
-        "Hard": 6
+        "Hard": 7
       },
       "Directed Acyclic Graph": {
         "Easy": 0,
@@ -68169,12 +69541,12 @@
         "Hard": 2
       },
       "Brainteaser": {
-        "Easy": 3,
+        "Easy": 4,
         "Medium": 0,
         "Hard": 2
       },
       "Impartial Game": {
-        "Easy": 3,
+        "Easy": 4,
         "Medium": 0,
         "Hard": 2
       },
@@ -68310,10 +69682,20 @@
       },
       "Cartesian Tree": {
         "Easy": 0,
-        "Medium": 1,
+        "Medium": 2,
         "Hard": 0
       },
       "Suffix Array": {
+        "Easy": 0,
+        "Medium": 0,
+        "Hard": 2
+      },
+      "Suffix Automaton": {
+        "Easy": 0,
+        "Medium": 0,
+        "Hard": 1
+      },
+      "Suffix Tree": {
         "Easy": 0,
         "Medium": 0,
         "Hard": 1
@@ -68321,9 +69703,9 @@
     }
   },
   "submissionAnalytics": {
-    "totalAcceptedSubmissions": 28789,
+    "totalAcceptedSubmissions": 30708,
     "studentsWithSubmissionData": 112,
-    "uniqueProblemsSolved": 885,
-    "latestCollectionDate": "2026-09-03"
+    "uniqueProblemsSolved": 899,
+    "latestCollectionDate": "2026-09-04"
   }
 }
