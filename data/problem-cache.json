@@ -9438,5 +9438,100 @@
       "Dynamic Programming",
       "Sorting"
     ]
+  },
+  "count-nodes-equal-to-average-of-subtree": {
+    "questionId": "2347",
+    "title": "Count Nodes Equal to Average of Subtree",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "minimum-absolute-distance-between-mirror-pairs": {
+    "questionId": "4139",
+    "title": "Minimum Absolute Distance Between Mirror Pairs",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Math"
+    ]
+  },
+  "k-th-digit-in-infinite-string": {
+    "questionId": "4331",
+    "title": "K-th Digit in Infinite String",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Math",
+      "Binary Search"
+    ]
+  },
+  "total-score-of-dungeon-runs": {
+    "questionId": "4146",
+    "title": "Total Score of Dungeon Runs",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Binary Search",
+      "Prefix Sum"
+    ]
+  },
+  "minimum-initial-strength-to-defeat-all-monsters": {
+    "questionId": "4349",
+    "title": "Minimum Initial Strength to Defeat All Monsters",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Binary Search",
+      "Greedy",
+      "Prefix Sum"
+    ]
+  },
+  "01-matrix": {
+    "questionId": "542",
+    "title": "01 Matrix",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
+  "max-area-of-island": {
+    "questionId": "695",
+    "title": "Max Area of Island",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ]
+  },
+  "queue-reconstruction-by-height": {
+    "questionId": "406",
+    "title": "Queue Reconstruction by Height",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Binary Indexed Tree",
+      "Segment Tree",
+      "Sorting"
+    ]
+  },
+  "trapping-rain-water-ii": {
+    "questionId": "407",
+    "title": "Trapping Rain Water II",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Breadth-First Search",
+      "Heap (Priority Queue)",
+      "Matrix"
+    ]
   }
 }
