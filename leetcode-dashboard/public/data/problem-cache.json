@@ -10217,5 +10217,187 @@
       "Array",
       "Sliding Window"
     ]
+  },
+  "reverse-degree-of-a-string": {
+    "questionId": "3811",
+    "title": "Reverse Degree of a String",
+    "difficulty": "Easy",
+    "topicTags": [
+      "String",
+      "Simulation"
+    ]
+  },
+  "partition-labels": {
+    "questionId": "768",
+    "title": "Partition Labels",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Hash Table",
+      "Two Pointers",
+      "String",
+      "Greedy"
+    ]
+  },
+  "custom-sort-string": {
+    "questionId": "807",
+    "title": "Custom Sort String",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Hash Table",
+      "String",
+      "Sorting"
+    ]
+  },
+  "maximize-the-distance-between-points-on-a-square": {
+    "questionId": "3781",
+    "title": "Maximize the Distance Between Points on a Square",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Math",
+      "Binary Search",
+      "Geometry",
+      "Sorting"
+    ]
+  },
+  "number-of-submatrices-that-sum-to-target": {
+    "questionId": "1145",
+    "title": "Number of Submatrices That Sum to Target",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Matrix",
+      "Prefix Sum"
+    ]
+  },
+  "moving-stones-until-consecutive": {
+    "questionId": "1103",
+    "title": "Moving Stones Until Consecutive",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Math",
+      "Brainteaser"
+    ]
+  },
+  "previous-permutation-with-one-swap": {
+    "questionId": "1139",
+    "title": "Previous Permutation With One Swap",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Greedy"
+    ]
+  },
+  "uncrossed-lines": {
+    "questionId": "1105",
+    "title": "Uncrossed Lines",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming",
+      "Longest Common Subsequence"
+    ]
+  },
+  "remove-all-adjacent-duplicates-in-string": {
+    "questionId": "1128",
+    "title": "Remove All Adjacent Duplicates In String",
+    "difficulty": "Easy",
+    "topicTags": [
+      "String",
+      "Stack"
+    ]
+  },
+  "angle-between-hands-of-a-clock": {
+    "questionId": "1446",
+    "title": "Angle Between Hands of a Clock",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Math"
+    ]
+  },
+  "single-element-in-a-sorted-array": {
+    "questionId": "540",
+    "title": "Single Element in a Sorted Array",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Binary Search"
+    ]
+  },
+  "total-hamming-distance": {
+    "questionId": "477",
+    "title": "Total Hamming Distance",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Math",
+      "Bit Manipulation"
+    ]
+  },
+  "find-all-duplicates-in-an-array": {
+    "questionId": "442",
+    "title": "Find All Duplicates in an Array",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ]
+  },
+  "split-array-largest-sum": {
+    "questionId": "410",
+    "title": "Split Array Largest Sum",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Greedy",
+      "Prefix Sum"
+    ]
+  },
+  "kth-smallest-element-in-a-sorted-matrix": {
+    "questionId": "378",
+    "title": "Kth Smallest Element in a Sorted Matrix",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Binary Search",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Matrix"
+    ]
+  },
+  "reshape-the-matrix": {
+    "questionId": "566",
+    "title": "Reshape the Matrix",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
+  },
+  "binary-tree-tilt": {
+    "questionId": "563",
+    "title": "Binary Tree Tilt",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree",
+      "DP on Trees"
+    ]
+  },
+  "maximum-depth-of-n-ary-tree": {
+    "questionId": "774",
+    "title": "Maximum Depth of N-ary Tree",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search"
+    ]
   }
 }
