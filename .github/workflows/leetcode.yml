@@ -65,6 +65,13 @@ jobs:
         run: |
           python -c "import json, sys, os; files = ['leetcode-dashboard/public/data/leetcode-data.json', 'leetcode-dashboard/public/data/activity-analysis.json', 'leetcode-dashboard/public/data/latest-submissions.json', 'leetcode-dashboard/public/data/problem-cache.json']; [json.load(open(f, encoding='utf-8')) for f in files if os.path.exists(f)]; print('✓ JSON Data Validation Passed')"
 
+      - name: Step 7.5 - Send Telegram Top Achievers Notification
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python send_telegram_achievers.py
+
       - name: Step 8 - Upload Daily Report to Google Drive
         env:
           GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
