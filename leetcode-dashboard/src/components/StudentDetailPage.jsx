@@ -195,8 +195,17 @@ function StudentDetailPage({ student, dashboardData, previousTab, onBack }) {
                         <span>Department: <strong>{department}</strong></span>
                         {student?.rank && <span>Rank: <strong>#{student.rank}</strong></span>}
                     </div>
+                    {student?.batches && student.batches.length > 0 && (
+                        <div className="banner-batches-row">
+                            <span className="batch-label">Batches:</span>
+                            {student.batches.map((b) => (
+                                <span key={b} className="batch-badge">{b}</span>
+                            ))}
+                        </div>
+                    )}
                 </div>
             </section>
+
 
             {/* Stat Cards Grid */}
             <section className="detail-stats-grid">

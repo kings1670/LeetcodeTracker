@@ -24,6 +24,7 @@ function App() {
     const [loading, setLoading] = useState(true);
     const [selectedStudent, setSelectedStudent] = useState(null);
     const [previousTab, setPreviousTab] = useState("students");
+    const [selectedBatch, setSelectedBatch] = useState("all");
 
     useEffect(() => {
         let isMounted = true;
@@ -55,10 +56,23 @@ function App() {
         setSelectedStudent(null);
     };
 
-    const summary = dashboardData?.summary || {};
-    const dailyData = dashboardData?.dailyTrend || [];
-    const topPerformers = dashboardData?.topPerformers || [];
+    const batches = dashboardData?.batches || [];
+    const isBatchSelected = selectedBatch !== "all" && batches.includes(selectedBatch);
+
+    const summary = isBatchSelected && dashboardData?.batchSummaries?.[selectedBatch]
+        ? dashboardData.batchSummaries[selectedBatch]
+        : (dashboardData?.summary || {});
+
+    const dailyData = isBatchSelected && dashboardData?.batchDailyTrends?.[selectedBatch]
+        ? (dashboardData.batchDailyTrends[selectedBatch] || []).slice(-7)
+        : (dashboardData?.dailyTrend || []);
+
+    const topPerformers = isBatchSelected && dashboardData?.batchTopPerformers?.[selectedBatch]
+        ? (dashboardData.batchTopPerformers[selectedBatch] || [])
+        : (dashboardData?.topPerformers || []);
+
     const latestDateStr = dashboardData?.latestDateFormatted || "Today";
+
 
     const easyTotal = summary.easyTotal || 0;
     const mediumTotal = summary.mediumTotal || 0;
@@ -173,6 +187,8 @@ function App() {
                 {activeTab === "students" && (
                     <StudentsPage
                         dashboardData={dashboardData}
+                        selectedBatch={selectedBatch}
+                        onSelectBatch={setSelectedBatch}
                         onSelectStudent={(student) => handleSelectStudent(student, "students")}
                     />
                 )}
@@ -213,7 +229,7 @@ function App() {
                         {/* Header */}
                         <header className="topbar">
                             <div>
-                                <h1>Dashboard</h1>
+                                <h1>Dashboard{isBatchSelected ? ` — ${selectedBatch}` : ""}</h1>
                                 <p>CSD LeetCode Performance Tracker</p>
                             </div>
 
@@ -242,14 +258,34 @@ function App() {
                                 <p>
                                     Monitor student coding performance, progress and
                                     problem-solving activity.
+                                    {isBatchSelected && <strong> (Viewing: {selectedBatch})</strong>}
                                 </p>
                             </div>
 
-                            <div className="date-box">
-                                <span>Latest Data</span>
-                                <strong>{loading ? "Loading..." : latestDateStr}</strong>
+                            <div className="welcome-controls" style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+                                {batches.length > 0 && (
+                                    <div className="batch-selector-box">
+                                        <select
+                                            id="global-batch-select"
+                                            className="batch-select-dropdown"
+                                            value={selectedBatch}
+                                            onChange={(e) => setSelectedBatch(e.target.value)}
+                                        >
+                                            <option value="all">All Students</option>
+                                            {batches.map((b) => (
+                                                <option key={b} value={b}>{b}</option>
+                                            ))}
+                                        </select>
+                                    </div>
+                                )}
+
+                                <div className="date-box">
+                                    <span>Latest Data</span>
+                                    <strong>{loading ? "Loading..." : latestDateStr}</strong>
+                                </div>
                             </div>
                         </section>
+
 
                         {/* Statistics */}
                         <section className="stats-grid">

@@ -458,3 +458,51 @@ select {
         flex-direction: column;
     }
 }
+
+/* Batch Selector & Badges */
+.batch-select-dropdown {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    background: #ffffff;
+    color: #1e293b;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.batch-select-dropdown:hover,
+.batch-select-dropdown:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.banner-batches-row {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.batch-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #64748b;
+}
+
+.batch-badge {
+    background: #e0e7ff;
+    color: #3730a3;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 12px;
+    border: 1px solid #c7d2fe;
+    display: inline-flex;
+    align-items: center;
+}
+

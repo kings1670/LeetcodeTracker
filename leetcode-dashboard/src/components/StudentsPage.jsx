@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect } from "react";
 import { fetchDashboardData } from "../services/dashboardData";
 import "./StudentsPage.css";
 
-function StudentsPage({ dashboardData: initialDashboardData, onSelectStudent }) {
+function StudentsPage({ dashboardData: initialDashboardData, selectedBatch = "all", onSelectBatch, onSelectStudent }) {
     const [dashboardData, setDashboardData] = useState(initialDashboardData);
     const [loading, setLoading] = useState(!initialDashboardData);
     const [searchTerm, setSearchTerm] = useState("");
@@ -34,11 +34,16 @@ function StudentsPage({ dashboardData: initialDashboardData, onSelectStudent }) 
     const studentsList = dashboardData?.students || [];
     const summary = dashboardData?.summary || {};
 
+    const isBatchSelected = selectedBatch !== "all" && (dashboardData?.batches || []).includes(selectedBatch);
+    const activeBatchSummary = isBatchSelected && dashboardData?.batchSummaries?.[selectedBatch]
+        ? dashboardData.batchSummaries[selectedBatch]
+        : summary;
+
     // Metrics Calculation
-    const totalStudentsCount = summary.totalStudents || studentsList.length;
-    const activeStudentsCount = summary.activeStudents || studentsList.filter(s => s.status === "Active").length;
-    const totalSolvedSum = summary.totalProblemsSolved || studentsList.reduce((acc, curr) => acc + curr.totalSolved, 0);
-    const avgSolved = summary.avgSolved || (totalStudentsCount > 0 ? Math.round(totalSolvedSum / totalStudentsCount) : 0);
+    const totalStudentsCount = activeBatchSummary.totalStudents ?? studentsList.length;
+    const activeStudentsCount = activeBatchSummary.activeStudents ?? studentsList.filter(s => s.status === "Active").length;
+    const totalSolvedSum = activeBatchSummary.totalProblemsSolved ?? studentsList.reduce((acc, curr) => acc + curr.totalSolved, 0);
+    const avgSolved = activeBatchSummary.avgSolved ?? (totalStudentsCount > 0 ? Math.round(totalSolvedSum / totalStudentsCount) : 0);
 
     // Helper for student initials
     const getInitials = (name) => {
@@ -78,7 +83,13 @@ function StudentsPage({ dashboardData: initialDashboardData, onSelectStudent }) 
                     matchesStatus = student.status === "Inactive";
                 }
 
-                return matchesSearch && matchesPerformance && matchesStatus;
+                // Batch Filter
+                let matchesBatch = true;
+                if (isBatchSelected) {
+                    matchesBatch = Array.isArray(student.batches) && student.batches.includes(selectedBatch);
+                }
+
+                return matchesSearch && matchesPerformance && matchesStatus && matchesBatch;
             })
             .sort((a, b) => {
                 let valA = a[sortBy];
@@ -96,7 +107,8 @@ function StudentsPage({ dashboardData: initialDashboardData, onSelectStudent }) 
                 valB = valB || 0;
                 return sortOrder === "asc" ? valA - valB : valB - valA;
             });
-    }, [studentsList, searchTerm, performanceFilter, statusFilter, sortBy, sortOrder]);
+    }, [studentsList, searchTerm, performanceFilter, statusFilter, selectedBatch, isBatchSelected, sortBy, sortOrder]);
+
 
     const handleSortChange = (field) => {
         if (sortBy === field) {
@@ -170,6 +182,23 @@ function StudentsPage({ dashboardData: initialDashboardData, onSelectStudent }) 
                 </div>
 
                 <div className="filters-group">
+                    {(dashboardData?.batches || []).length > 0 && (
+                        <div className="filter-item">
+                            <label htmlFor="batch-filter">Batch:</label>
+                            <select
+                                id="batch-filter"
+                                className="filter-select"
+                                value={selectedBatch}
+                                onChange={(e) => onSelectBatch && onSelectBatch(e.target.value)}
+                            >
+                                <option value="all">All Batches</option>
+                                {(dashboardData?.batches || []).map((b) => (
+                                    <option key={b} value={b}>{b}</option>
+                                ))}
+                            </select>
+                        </div>
+                    )}
+
                     <div className="filter-item">
                         <label htmlFor="perf-filter">Performance:</label>
                         <select
@@ -198,6 +227,7 @@ function StudentsPage({ dashboardData: initialDashboardData, onSelectStudent }) 
                             <option value="inactive">Inactive</option>
                         </select>
                     </div>
+
 
                     <div className="filter-item">
                         <label htmlFor="sort-select">Sort By:</label>

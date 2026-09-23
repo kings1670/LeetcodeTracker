@@ -19,6 +19,8 @@ SIBLING_DASHBOARD_JSON_PATH = os.path.normpath(
 DATA_DIR = "data"
 SUBMISSIONS_DIR = os.path.join(DATA_DIR, "submissions")
 CACHE_FILE = os.path.join(DATA_DIR, "problem-cache.json")
+BATCHES_FILE = os.path.join("input", "student_batches.xlsx")
+
 
 def extract_leetcode_username(link):
     if pd.isna(link) or not isinstance(link, str):
@@ -41,6 +43,83 @@ def format_date_display(dt):
     if isinstance(dt, (datetime, date)):
         return dt.strftime('%d %b')
     return str(dt)
+
+def load_batch_memberships(user_map, batches_file_path=None):
+    if batches_file_path is None:
+        batches_file_path = BATCHES_FILE
+
+    student_batches = {}
+    canonical_batch_names = {}
+    seen_pairs = set()
+
+    if not os.path.exists(batches_file_path):
+        return student_batches, []
+
+    try:
+        wb = openpyxl.load_workbook(batches_file_path, data_only=True)
+        if "Batch Details" not in wb.sheetnames:
+            return student_batches, []
+
+        sheet = wb["Batch Details"]
+        rows = list(sheet.iter_rows(values_only=True))
+        if not rows:
+            return student_batches, []
+
+        headers = [str(h).strip().upper() if h is not None else '' for h in rows[0]]
+        reg_col = -1
+        name_col = -1
+        batch_col = -1
+
+        for idx, h in enumerate(headers):
+            if "REGISTER" in h:
+                reg_col = idx
+            elif "NAME" in h and name_col == -1:
+                name_col = idx
+            elif "BATCH" in h:
+                batch_col = idx
+
+        if reg_col == -1 or batch_col == -1:
+            return student_batches, []
+
+        for row in rows[1:]:
+            if not row or reg_col >= len(row) or row[reg_col] is None or batch_col >= len(row) or row[batch_col] is None:
+                continue
+
+            reg_num = str(row[reg_col]).strip()
+            batch_str = str(row[batch_col]).strip()
+            row_name = str(row[name_col]).strip() if name_col != -1 and name_col < len(row) and row[name_col] is not None else ""
+
+            if not reg_num or not batch_str:
+                continue
+
+            if reg_num not in user_map:
+                print(f"Warning: Unknown Register Number '{reg_num}' in {batches_file_path}. Ignoring batch assignment.")
+                continue
+
+            auth_name = user_map[reg_num].get("name", "")
+            if row_name and auth_name and row_name.lower() != auth_name.lower():
+                print(f"Warning: Student Name mismatch for Register Number '{reg_num}': '{row_name}' vs authoritative '{auth_name}'. Using authoritative name.")
+
+            batch_lower = batch_str.lower()
+            if batch_lower not in canonical_batch_names:
+                canonical_batch_names[batch_lower] = batch_str
+            canonical_name = canonical_batch_names[batch_lower]
+
+            pair_key = (reg_num, batch_lower)
+            if pair_key in seen_pairs:
+                continue
+            seen_pairs.add(pair_key)
+
+            if reg_num not in student_batches:
+                student_batches[reg_num] = []
+            student_batches[reg_num].append(canonical_name)
+
+    except Exception as e:
+        print(f"Warning: Failed loading student batch memberships from {batches_file_path}: {e}")
+
+    batches_list = sorted(list(canonical_batch_names.values()), key=lambda x: x.lower())
+    return student_batches, batches_list
+
 
 def compute_submission_and_topic_analytics():
     cache = {}
@@ -202,7 +281,11 @@ def run_export():
                     "link": link
                 }
 
+    # 1.5 Load Batch Memberships
+    student_batches_map, batches_list = load_batch_memberships(user_map)
+
     # 2. Identify dated sheets
+
     dated_sheets = []
     for s_name in wb.sheetnames:
         d = parse_sheet_date(s_name)
@@ -597,11 +680,13 @@ def run_export():
         if w_imp > 0:
             ct["weeklyImprovement"] += w_imp
 
+        s_batches = student_batches_map.get(reg_num, [])
         students_list.append({
             "id": reg_num,
             "rollNumber": reg_num,
             "name": name,
             "department": dept,
+            "batches": s_batches,
             "leetcodeUsername": username,
             "easy": e_count,
             "medium": m_count,
@@ -662,6 +747,81 @@ def run_export():
     # 5. Build Top Performers (Department)
     top_performers = students_list[:5]
 
+    # 5.5 Build Batch Summaries, Top Performers, and Daily Trends
+    batch_summaries = {}
+    batch_top_performers = {}
+    batch_daily_trends = {}
+
+    student_weekly_imp_map = {}
+    for reg_num, history in student_history.items():
+        start_idx = max(0, len(history) - 7)
+        w_imp = history[-1]["total"] - history[start_idx]["total"]
+        student_weekly_imp_map[reg_num] = max(0, w_imp)
+
+    for b_name in batches_list:
+        b_students = [s for s in students_list if b_name in s.get("batches", [])]
+        b_reg_nums = set(s["rollNumber"] for s in b_students)
+
+        b_total_students = len(b_students)
+        b_active_students = 0
+        for s in b_students:
+            r_num = s["rollNumber"]
+            hist = student_history.get(r_num, [])
+            if hist:
+                last_active_d = None
+                prev_t = 0
+                for h in hist:
+                    if h["total"] > prev_t or h["imp"] > 0:
+                        last_active_d = h["date"]
+                    prev_t = h["total"]
+                if last_active_d:
+                    days_since_act = (latest_date - last_active_d).days
+                else:
+                    days_since_act = (latest_date - hist[0]["date"]).days
+                if days_since_act <= 7:
+                    b_active_students += 1
+
+        b_total_solved = sum(s["totalSolved"] for s in b_students)
+        b_solved_today = sum(s["improvement"] for s in b_students if s["improvement"] > 0)
+        b_easy_total = sum(s["easy"] for s in b_students)
+        b_medium_total = sum(s["medium"] for s in b_students)
+        b_hard_total = sum(s["hard"] for s in b_students)
+        b_avg_solved = round(b_total_solved / b_total_students) if b_total_students > 0 else 0
+        b_weekly_imp = sum(student_weekly_imp_map.get(s["rollNumber"], 0) for s in b_students)
+
+        batch_summaries[b_name] = {
+            "totalStudents": b_total_students,
+            "activeStudents": b_active_students,
+            "totalProblemsSolved": b_total_solved,
+            "solvedToday": b_solved_today,
+            "weeklyImprovement": b_weekly_imp,
+            "easyTotal": b_easy_total,
+            "mediumTotal": b_medium_total,
+            "hardTotal": b_hard_total,
+            "avgSolved": b_avg_solved
+        }
+
+        b_top = sorted(b_students, key=lambda x: x["totalSolved"], reverse=True)[:5]
+        batch_top_performers[b_name] = b_top
+
+        b_trend = []
+        for d in sorted_dates:
+            date_str = d.strftime('%Y-%m-%d')
+            date_fmt = format_date_display(d)
+            d_solved = 0
+            for reg in b_reg_nums:
+                hist = student_history.get(reg, [])
+                for h in hist:
+                    if h["date"] == d:
+                        d_solved += h["total"]
+                        break
+            b_trend.append({
+                "date": date_str,
+                "day": date_fmt,
+                "solved": d_solved
+            })
+        batch_daily_trends[b_name] = b_trend
+
     # 6. Compute Submission & Topic Analytics from cached submission data
     topics_analysis, difficulty_analysis, submission_analytics = compute_submission_and_topic_analytics()
 
@@ -670,6 +830,10 @@ def run_export():
         "latestDate": latest_date.strftime('%Y-%m-%d'),
         "latestDateFormatted": format_date_display(latest_date),
         "classes": classes_list,
+        "batches": batches_list,
+        "batchSummaries": batch_summaries,
+        "batchTopPerformers": batch_top_performers,
+        "batchDailyTrends": batch_daily_trends,
         "summary": {
             "totalStudents": len(students_list),
             "activeStudents": active_students_cnt,
