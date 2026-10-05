@@ -11469,5 +11469,195 @@
       "Hash Table",
       "Pigeonhole Principle"
     ]
+  },
+  "score-of-parentheses": {
+    "questionId": "886",
+    "title": "Score of Parentheses",
+    "difficulty": "Medium",
+    "topicTags": [
+      "String",
+      "Stack",
+      "Bracket Sequences"
+    ]
+  },
+  "snakes-and-ladders": {
+    "questionId": "945",
+    "title": "Snakes and Ladders",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
+  "construct-quad-tree": {
+    "questionId": "772",
+    "title": "Construct Quad Tree",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Divide and Conquer",
+      "Tree",
+      "Matrix"
+    ]
+  },
+  "minimum-time-to-type-word-using-special-typewriter": {
+    "questionId": "2088",
+    "title": "Minimum Time to Type Word Using Special Typewriter",
+    "difficulty": "Easy",
+    "topicTags": [
+      "String",
+      "Greedy"
+    ]
+  },
+  "number-of-ways-to-separate-numbers": {
+    "questionId": "2091",
+    "title": "Number of Ways to Separate Numbers",
+    "difficulty": "Hard",
+    "topicTags": [
+      "String",
+      "Dynamic Programming",
+      "Prefix Sum"
+    ]
+  },
+  "number-of-ways-to-arrive-at-destination": {
+    "questionId": "2090",
+    "title": "Number of Ways to Arrive at Destination",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Dynamic Programming",
+      "Graph Theory",
+      "Topological Sort",
+      "Shortest Path",
+      "Dijkstra's Algorithm"
+    ]
+  },
+  "minimum-difference-between-highest-and-lowest-of-k-scores": {
+    "questionId": "2112",
+    "title": "Minimum Difference Between Highest and Lowest of K Scores",
+    "difficulty": "Easy",
+    "topicTags": [
+      "Array",
+      "Sliding Window",
+      "Sorting"
+    ]
+  },
+  "find-the-kth-largest-integer-in-the-array": {
+    "questionId": "2113",
+    "title": "Find the Kth Largest Integer in the Array",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "String",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Quickselect"
+    ]
+  },
+  "minimum-number-of-work-sessions-to-finish-the-tasks": {
+    "questionId": "2114",
+    "title": "Minimum Number of Work Sessions to Finish the Tasks",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming",
+      "Backtracking",
+      "Bit Manipulation",
+      "Bitmask"
+    ]
+  },
+  "number-of-unique-good-subsequences": {
+    "questionId": "2115",
+    "title": "Number of Unique Good Subsequences",
+    "difficulty": "Hard",
+    "topicTags": [
+      "String",
+      "Dynamic Programming"
+    ]
+  },
+  "minimum-edge-toggles-on-a-tree": {
+    "questionId": "4181",
+    "title": "Minimum Edge Toggles on a Tree",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Tree",
+      "Depth-First Search",
+      "Graph Theory",
+      "Topological Sort",
+      "Sorting"
+    ]
+  },
+  "total-sum-of-interaction-cost-in-tree-groups": {
+    "questionId": "4072",
+    "title": "Total Sum of Interaction Cost in Tree Groups",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Tree",
+      "Depth-First Search"
+    ]
+  },
+  "maximum-subgraph-score-in-a-tree": {
+    "questionId": "4151",
+    "title": "Maximum Subgraph Score in a Tree",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming",
+      "Tree",
+      "Depth-First Search"
+    ]
+  },
+  "sum-of-perfect-square-ancestors": {
+    "questionId": "3957",
+    "title": "Sum of Perfect Square Ancestors",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Tree",
+      "Depth-First Search",
+      "Counting",
+      "Number Theory"
+    ]
+  },
+  "kth-smallest-path-xor-sum": {
+    "questionId": "3906",
+    "title": "Kth Smallest Path XOR Sum",
+    "difficulty": "Hard",
+    "topicTags": [
+      "Array",
+      "Tree",
+      "Depth-First Search",
+      "Ordered Set"
+    ]
+  },
+  "counter-ii": {
+    "questionId": "2789",
+    "title": "Counter II",
+    "difficulty": "Easy",
+    "topicTags": []
+  },
+  "delete-nodes-from-linked-list-present-in-array": {
+    "questionId": "3501",
+    "title": "Delete Nodes From Linked List Present in Array",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Hash Table",
+      "Linked List"
+    ]
+  },
+  "insert-greatest-common-divisors-in-linked-list": {
+    "questionId": "2903",
+    "title": "Insert Greatest Common Divisors in Linked List",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Linked List",
+      "Math",
+      "Number Theory"
+    ]
   }
 }
