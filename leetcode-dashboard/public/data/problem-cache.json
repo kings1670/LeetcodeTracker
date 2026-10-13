@@ -12090,5 +12090,40 @@
       "Greedy",
       "Heap (Priority Queue)"
     ]
+  },
+  "maximum-alternating-sum-of-squares": {
+    "questionId": "4078",
+    "title": "Maximum Alternating Sum of Squares",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
+  "all-ancestors-of-a-node-in-a-directed-acyclic-graph": {
+    "questionId": "1431",
+    "title": "All Ancestors of a Node in a Directed Acyclic Graph",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort",
+      "Directed Acyclic Graph"
+    ]
+  },
+  "network-delay-time": {
+    "questionId": "744",
+    "title": "Network Delay Time",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Shortest Path",
+      "Dijkstra's Algorithm"
+    ]
   }
 }
