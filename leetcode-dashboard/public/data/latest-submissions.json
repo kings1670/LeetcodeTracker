@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-21",
-  "collectedAt": "2026-10-21T02:13:13.560398+05:30",
+  "date": "2026-10-22",
+  "collectedAt": "2026-10-22T02:13:08.029440+05:30",
   "students": {
     "310625150001": {
       "username": "Aadhithiya_10",
@@ -939,7 +939,7 @@
       "name": "Bhuvana Pradishna D",
       "department": "II CSD A",
       "streak": 10,
-      "totalActiveDays": 35,
+      "totalActiveDays": 36,
       "calendarCounts": {
         "1780876800": 5,
         "1780963200": 3,
@@ -975,9 +975,19 @@
         "1790899200": 1,
         "1791158400": 1,
         "1792368000": 1,
-        "1792454400": 1
+        "1792454400": 1,
+        "1792540800": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2178271491",
+          "title": "Minimum Operations to Sort a String",
+          "titleSlug": "minimum-operations-to-sort-a-string",
+          "timestamp": 1792608275,
+          "date": "2026-10-22",
+          "time": "00:14:35",
+          "language": "java"
+        },
         {
           "id": "2177356120",
           "title": "4Sum",
@@ -1147,15 +1157,6 @@
           "timestamp": 1790262266,
           "date": "2026-09-24",
           "time": "20:34:26",
-          "language": "java"
-        },
-        {
-          "id": "2151139463",
-          "title": "Minimum Operations to Reduce X to Zero",
-          "titleSlug": "minimum-operations-to-reduce-x-to-zero",
-          "timestamp": 1790182194,
-          "date": "2026-09-23",
-          "time": "22:19:54",
           "language": "java"
         }
       ]
@@ -5802,7 +5803,7 @@
       "name": "Rajapriyan S",
       "department": "II CSD A",
       "streak": 2,
-      "totalActiveDays": 12,
+      "totalActiveDays": 13,
       "calendarCounts": {
         "1783987200": 1,
         "1784160000": 1,
@@ -5815,9 +5816,46 @@
         "1788825600": 7,
         "1788912000": 2,
         "1789084800": 1,
-        "1790467200": 1
+        "1790467200": 1,
+        "1792540800": 9
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2177732671",
+          "title": "Length of Last Word",
+          "titleSlug": "length-of-last-word",
+          "timestamp": 1792568445,
+          "date": "2026-10-21",
+          "time": "13:10:45",
+          "language": "java"
+        },
+        {
+          "id": "2177732132",
+          "title": "Find the Index of the First Occurrence in a String",
+          "titleSlug": "find-the-index-of-the-first-occurrence-in-a-string",
+          "timestamp": 1792568395,
+          "date": "2026-10-21",
+          "time": "13:09:55",
+          "language": "java"
+        },
+        {
+          "id": "2177731211",
+          "title": "Remove Element",
+          "titleSlug": "remove-element",
+          "timestamp": 1792568311,
+          "date": "2026-10-21",
+          "time": "13:08:31",
+          "language": "java"
+        },
+        {
+          "id": "2177730544",
+          "title": "Search Insert Position",
+          "titleSlug": "search-insert-position",
+          "timestamp": 1792568247,
+          "date": "2026-10-21",
+          "time": "13:07:27",
+          "language": "java"
+        },
         {
           "id": "2154636383",
           "title": "Greatest Common Divisor of Strings",
@@ -7911,7 +7949,7 @@
       "name": "Shradha Singh",
       "department": "II CSD A",
       "streak": 12,
-      "totalActiveDays": 77,
+      "totalActiveDays": 78,
       "calendarCounts": {
         "1767312000": 6,
         "1767398400": 8,
@@ -7989,9 +8027,46 @@
         "1789776000": 5,
         "1790640000": 5,
         "1790899200": 12,
-        "1791072000": 7
+        "1791072000": 7,
+        "1792540800": 8
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2177815542",
+          "title": "Find X-Sum of All K-Long Subarrays I",
+          "titleSlug": "find-x-sum-of-all-k-long-subarrays-i",
+          "timestamp": 1792575997,
+          "date": "2026-10-21",
+          "time": "15:16:37",
+          "language": "python"
+        },
+        {
+          "id": "2177814953",
+          "title": "Maximum Product of Two Elements in an Array",
+          "titleSlug": "maximum-product-of-two-elements-in-an-array",
+          "timestamp": 1792575948,
+          "date": "2026-10-21",
+          "time": "15:15:48",
+          "language": "python"
+        },
+        {
+          "id": "2177814399",
+          "title": "Minimum Number Game",
+          "titleSlug": "minimum-number-game",
+          "timestamp": 1792575899,
+          "date": "2026-10-21",
+          "time": "15:14:59",
+          "language": "python"
+        },
+        {
+          "id": "2177813959",
+          "title": "Final Array State After K Multiplication Operations I",
+          "titleSlug": "final-array-state-after-k-multiplication-operations-i",
+          "timestamp": 1792575861,
+          "date": "2026-10-21",
+          "time": "15:14:21",
+          "language": "python"
+        },
         {
           "id": "2161863467",
           "title": "Reverse String Prefix",
@@ -8134,42 +8209,6 @@
           "timestamp": 1789828042,
           "date": "2026-09-19",
           "time": "19:57:22",
-          "language": "python"
-        },
-        {
-          "id": "2146727909",
-          "title": "Double a Number Represented as a Linked List",
-          "titleSlug": "double-a-number-represented-as-a-linked-list",
-          "timestamp": 1789828012,
-          "date": "2026-09-19",
-          "time": "19:56:52",
-          "language": "python"
-        },
-        {
-          "id": "2146727407",
-          "title": "Add Two Numbers II",
-          "titleSlug": "add-two-numbers-ii",
-          "timestamp": 1789827976,
-          "date": "2026-09-19",
-          "time": "19:56:16",
-          "language": "python"
-        },
-        {
-          "id": "2146726860",
-          "title": "Flatten a Multilevel Doubly Linked List",
-          "titleSlug": "flatten-a-multilevel-doubly-linked-list",
-          "timestamp": 1789827936,
-          "date": "2026-09-19",
-          "time": "19:55:36",
-          "language": "python"
-        },
-        {
-          "id": "2146726377",
-          "title": "Copy List with Random Pointer",
-          "titleSlug": "copy-list-with-random-pointer",
-          "timestamp": 1789827902,
-          "date": "2026-09-19",
-          "time": "19:55:02",
           "language": "python"
         }
       ]
@@ -11159,7 +11198,7 @@
       "name": "A.Alin Brasen",
       "department": "III CSD A",
       "streak": 32,
-      "totalActiveDays": 103,
+      "totalActiveDays": 104,
       "calendarCounts": {
         "1769299200": 42,
         "1769385600": 27,
@@ -11263,9 +11302,19 @@
         "1792195200": 1,
         "1792281600": 1,
         "1792368000": 1,
-        "1792454400": 1
+        "1792454400": 1,
+        "1792540800": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2177523289",
+          "title": "Minimum Operations to Sort a String",
+          "titleSlug": "minimum-operations-to-sort-a-string",
+          "timestamp": 1792548713,
+          "date": "2026-10-21",
+          "time": "07:41:53",
+          "language": "java"
+        },
         {
           "id": "2176705304",
           "title": "Sum of Sortable Integers",
@@ -11436,15 +11485,6 @@
           "date": "2026-09-29",
           "time": "20:51:58",
           "language": "java"
-        },
-        {
-          "id": "2154776830",
-          "title": "Reverse Substrings Between Each Pair of Parentheses",
-          "titleSlug": "reverse-substrings-between-each-pair-of-parentheses",
-          "timestamp": 1790498029,
-          "date": "2026-09-27",
-          "time": "14:03:49",
-          "language": "java"
         }
       ]
     },
@@ -11453,7 +11493,7 @@
       "name": "Anbu mani .A",
       "department": "III CSD A",
       "streak": 40,
-      "totalActiveDays": 109,
+      "totalActiveDays": 110,
       "calendarCounts": {
         "1769385600": 21,
         "1769472000": 8,
@@ -11563,9 +11603,28 @@
         "1792108800": 2,
         "1792195200": 1,
         "1792281600": 1,
-        "1792454400": 2
+        "1792454400": 2,
+        "1792540800": 6
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2177724368",
+          "title": "Find Target Indices After Sorting Array",
+          "titleSlug": "find-target-indices-after-sorting-array",
+          "timestamp": 1792567666,
+          "date": "2026-10-21",
+          "time": "12:57:46",
+          "language": "java"
+        },
+        {
+          "id": "2177722458",
+          "title": "Minimum Operations to Sort a String",
+          "titleSlug": "minimum-operations-to-sort-a-string",
+          "timestamp": 1792567494,
+          "date": "2026-10-21",
+          "time": "12:54:54",
+          "language": "java"
+        },
         {
           "id": "2176770350",
           "title": "Sum of Sortable Integers",
@@ -11727,24 +11786,6 @@
           "date": "2026-10-03",
           "time": "08:38:48",
           "language": "java"
-        },
-        {
-          "id": "2160022456",
-          "title": "Generate Parentheses",
-          "titleSlug": "generate-parentheses",
-          "timestamp": 1790935575,
-          "date": "2026-10-02",
-          "time": "15:36:15",
-          "language": "java"
-        },
-        {
-          "id": "2158716271",
-          "title": "Valid Parentheses",
-          "titleSlug": "valid-parentheses",
-          "timestamp": 1790823187,
-          "date": "2026-10-01",
-          "time": "08:23:07",
-          "language": "java"
         }
       ]
     },
@@ -11752,8 +11793,8 @@
       "username": "Asmitha_05",
       "name": "C.A.Asmitha",
       "department": "III CSD A",
-      "streak": 17,
-      "totalActiveDays": 94,
+      "streak": 18,
+      "totalActiveDays": 95,
       "calendarCounts": {
         "1770336000": 1,
         "1770768000": 3,
@@ -11848,9 +11889,19 @@
         "1792195200": 1,
         "1792281600": 3,
         "1792368000": 3,
-        "1792454400": 1
+        "1792454400": 1,
+        "1792540800": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2178276526",
+          "title": "Word Break",
+          "titleSlug": "word-break",
+          "timestamp": 1792608672,
+          "date": "2026-10-22",
+          "time": "00:21:12",
+          "language": "java"
+        },
         {
           "id": "2177344116",
           "title": "Evaluate Reverse Polish Notation",
@@ -12021,15 +12072,6 @@
           "date": "2026-10-11",
           "time": "23:41:54",
           "language": "java"
-        },
-        {
-          "id": "2169559854",
-          "title": "Best Time to Buy and Sell Stock III",
-          "titleSlug": "best-time-to-buy-and-sell-stock-iii",
-          "timestamp": 1791742269,
-          "date": "2026-10-11",
-          "time": "23:41:09",
-          "language": "java"
         }
       ]
     },
@@ -12038,7 +12080,7 @@
       "name": "Bharat Raj R",
       "department": "III CSD A",
       "streak": 28,
-      "totalActiveDays": 99,
+      "totalActiveDays": 100,
       "calendarCounts": {
         "1769299200": 3,
         "1769385600": 1,
@@ -12138,9 +12180,19 @@
         "1792108800": 3,
         "1792195200": 1,
         "1792281600": 3,
-        "1792454400": 3
+        "1792454400": 3,
+        "1792540800": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2177507019",
+          "title": "Minimum Operations to Sort a String",
+          "titleSlug": "minimum-operations-to-sort-a-string",
+          "timestamp": 1792545708,
+          "date": "2026-10-21",
+          "time": "06:51:48",
+          "language": "java"
+        },
         {
           "id": "2176870862",
           "title": "Sum of Sortable Integers",
@@ -12310,15 +12362,6 @@
           "timestamp": 1791383065,
           "date": "2026-10-07",
           "time": "19:54:25",
-          "language": "java"
-        },
-        {
-          "id": "2165362338",
-          "title": "Minimum Depth of Binary Tree",
-          "titleSlug": "minimum-depth-of-binary-tree",
-          "timestamp": 1791382364,
-          "date": "2026-10-07",
-          "time": "19:42:44",
           "language": "java"
         }
       ]
@@ -12806,12 +12849,22 @@
       "name": "Clarus Maria Sharadh.S",
       "department": "III CSD A",
       "streak": 2,
-      "totalActiveDays": 2,
+      "totalActiveDays": 3,
       "calendarCounts": {
         "1791936000": 6,
-        "1792022400": 27
+        "1792022400": 27,
+        "1792540800": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2177570387",
+          "title": "Minimum Operations to Sort a String",
+          "titleSlug": "minimum-operations-to-sort-a-string",
+          "timestamp": 1792555092,
+          "date": "2026-10-21",
+          "time": "09:28:12",
+          "language": "java"
+        },
         {
           "id": "2173255499",
           "title": "Median of Two Sorted Arrays",
@@ -12981,15 +13034,6 @@
           "timestamp": 1792082546,
           "date": "2026-10-15",
           "time": "22:12:26",
-          "language": "java"
-        },
-        {
-          "id": "2173200444",
-          "title": " Check if There Is a Valid Parentheses String Path",
-          "titleSlug": "check-if-there-is-a-valid-parentheses-string-path",
-          "timestamp": 1792082509,
-          "date": "2026-10-15",
-          "time": "22:11:49",
           "language": "java"
         }
       ]
@@ -13550,7 +13594,7 @@
       "name": "Gautham B",
       "department": "III CSD A",
       "streak": 45,
-      "totalActiveDays": 99,
+      "totalActiveDays": 100,
       "calendarCounts": {
         "1769817600": 24,
         "1770595200": 40,
@@ -13650,9 +13694,19 @@
         "1792022400": 2,
         "1792108800": 1,
         "1792281600": 2,
-        "1792454400": 2
+        "1792454400": 2,
+        "1792540800": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2177643182",
+          "title": "Minimum Operations to Sort a String",
+          "titleSlug": "minimum-operations-to-sort-a-string",
+          "timestamp": 1792561441,
+          "date": "2026-10-21",
+          "time": "11:14:01",
+          "language": "java"
+        },
         {
           "id": "2176914006",
           "title": "Sum of Sortable Integers",
@@ -13822,15 +13876,6 @@
           "timestamp": 1791596319,
           "date": "2026-10-10",
           "time": "07:08:39",
-          "language": "java"
-        },
-        {
-          "id": "2166811923",
-          "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
-          "titleSlug": "insert-delete-getrandom-o1-duplicates-allowed",
-          "timestamp": 1791506200,
-          "date": "2026-10-09",
-          "time": "06:06:40",
           "language": "java"
         }
       ]
@@ -14311,7 +14356,7 @@
       "name": "V.Harikrishnan",
       "department": "III CSD A",
       "streak": 28,
-      "totalActiveDays": 106,
+      "totalActiveDays": 107,
       "calendarCounts": {
         "1770163200": 6,
         "1770249600": 3,
@@ -14418,9 +14463,19 @@
         "1791849600": 4,
         "1791936000": 11,
         "1792108800": 3,
-        "1792281600": 5
+        "1792281600": 5,
+        "1792540800": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2177914771",
+          "title": "Minimum Operations to Sort a String",
+          "titleSlug": "minimum-operations-to-sort-a-string",
+          "timestamp": 1792584636,
+          "date": "2026-10-21",
+          "time": "17:40:36",
+          "language": "c"
+        },
         {
           "id": "2175571277",
           "title": "Bitwise AND of Numbers Range",
@@ -14590,15 +14645,6 @@
           "timestamp": 1791725530,
           "date": "2026-10-11",
           "time": "19:02:10",
-          "language": "java"
-        },
-        {
-          "id": "2169301936",
-          "title": "Sum of Squares of Special Elements ",
-          "titleSlug": "sum-of-squares-of-special-elements",
-          "timestamp": 1791725453,
-          "date": "2026-10-11",
-          "time": "19:00:53",
           "language": "java"
         }
       ]
@@ -15287,8 +15333,8 @@
       "username": "Jayagokulavarman02",
       "name": "Jayagokulavarman P P",
       "department": "III CSD A",
-      "streak": 23,
-      "totalActiveDays": 99,
+      "streak": 24,
+      "totalActiveDays": 100,
       "calendarCounts": {
         "1769385600": 41,
         "1769472000": 16,
@@ -15388,9 +15434,19 @@
         "1792195200": 1,
         "1792281600": 1,
         "1792368000": 1,
-        "1792454400": 1
+        "1792454400": 1,
+        "1792540800": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2177923084",
+          "title": "Minimum Operations to Sort a String",
+          "titleSlug": "minimum-operations-to-sort-a-string",
+          "timestamp": 1792585364,
+          "date": "2026-10-21",
+          "time": "17:52:44",
+          "language": "java"
+        },
         {
           "id": "2177147546",
           "title": "Sum of Sortable Integers",
@@ -15561,15 +15617,6 @@
           "date": "2026-10-07",
           "time": "12:34:57",
           "language": "java"
-        },
-        {
-          "id": "2164227778",
-          "title": "Max Points on a Line",
-          "titleSlug": "max-points-on-a-line",
-          "timestamp": 1791290854,
-          "date": "2026-10-06",
-          "time": "18:17:34",
-          "language": "java"
         }
       ]
     },
@@ -15578,7 +15625,7 @@
       "name": "Keerthanaa Shakthi N.K",
       "department": "III CSD A",
       "streak": 4,
-      "totalActiveDays": 26,
+      "totalActiveDays": 27,
       "calendarCounts": {
         "1773619200": 4,
         "1773705600": 5,
@@ -15605,9 +15652,19 @@
         "1789603200": 1,
         "1789776000": 1,
         "1791504000": 1,
-        "1792454400": 1
+        "1792454400": 1,
+        "1792540800": 2
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2178113268",
+          "title": "Binary Search",
+          "titleSlug": "binary-search",
+          "timestamp": 1792598969,
+          "date": "2026-10-21",
+          "time": "21:39:29",
+          "language": "java"
+        },
         {
           "id": "2177183804",
           "title": "Subarray Sum Equals K",
@@ -15777,15 +15834,6 @@
           "timestamp": 1786038607,
           "date": "2026-08-06",
           "time": "23:20:07",
-          "language": "java"
-        },
-        {
-          "id": "2096811725",
-          "title": "Sort Colors",
-          "titleSlug": "sort-colors",
-          "timestamp": 1786027042,
-          "date": "2026-08-06",
-          "time": "20:07:22",
           "language": "java"
         }
       ]
@@ -15998,7 +16046,7 @@
       "name": "S.Naveen kumar",
       "department": "III CSD A",
       "streak": 12,
-      "totalActiveDays": 89,
+      "totalActiveDays": 90,
       "calendarCounts": {
         "1769990400": 5,
         "1770163200": 29,
@@ -16088,9 +16136,55 @@
         "1791936000": 6,
         "1792022400": 4,
         "1792195200": 4,
-        "1792454400": 8
+        "1792454400": 8,
+        "1792540800": 5
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2178128054",
+          "title": "Network Recovery Pathways",
+          "titleSlug": "network-recovery-pathways",
+          "timestamp": 1792599898,
+          "date": "2026-10-21",
+          "time": "21:54:58",
+          "language": "java"
+        },
+        {
+          "id": "2178120803",
+          "title": "Count Subarrays With Majority Element II",
+          "titleSlug": "count-subarrays-with-majority-element-ii",
+          "timestamp": 1792599451,
+          "date": "2026-10-21",
+          "time": "21:47:31",
+          "language": "java"
+        },
+        {
+          "id": "2178116617",
+          "title": "Find Target Indices After Sorting Array",
+          "titleSlug": "find-target-indices-after-sorting-array",
+          "timestamp": 1792599189,
+          "date": "2026-10-21",
+          "time": "21:43:09",
+          "language": "java"
+        },
+        {
+          "id": "2178115796",
+          "title": "Number of Ways to Reorder Array to Get Same BST",
+          "titleSlug": "number-of-ways-to-reorder-array-to-get-same-bst",
+          "timestamp": 1792599135,
+          "date": "2026-10-21",
+          "time": "21:42:15",
+          "language": "java"
+        },
+        {
+          "id": "2178114729",
+          "title": "Minimum Operations to Sort a String",
+          "titleSlug": "minimum-operations-to-sort-a-string",
+          "timestamp": 1792599065,
+          "date": "2026-10-21",
+          "time": "21:41:05",
+          "language": "java"
+        },
         {
           "id": "2177244462",
           "title": "Subsets",
@@ -16225,51 +16319,6 @@
           "date": "2026-10-15",
           "time": "23:13:55",
           "language": "java"
-        },
-        {
-          "id": "2173259645",
-          "title": "Subarrays Distinct Element Sum of Squares I",
-          "titleSlug": "subarrays-distinct-element-sum-of-squares-i",
-          "timestamp": 1792086093,
-          "date": "2026-10-15",
-          "time": "23:11:33",
-          "language": "java"
-        },
-        {
-          "id": "2171851758",
-          "title": "Total Waviness of Numbers in Range I",
-          "titleSlug": "total-waviness-of-numbers-in-range-i",
-          "timestamp": 1791958187,
-          "date": "2026-10-14",
-          "time": "11:39:47",
-          "language": "java"
-        },
-        {
-          "id": "2171850102",
-          "title": "Earliest Finish Time for Land and Water Rides II",
-          "titleSlug": "earliest-finish-time-for-land-and-water-rides-ii",
-          "timestamp": 1791958075,
-          "date": "2026-10-14",
-          "time": "11:37:55",
-          "language": "java"
-        },
-        {
-          "id": "2171849246",
-          "title": "Earliest Finish Time for Land and Water Rides I",
-          "titleSlug": "earliest-finish-time-for-land-and-water-rides-i",
-          "timestamp": 1791958017,
-          "date": "2026-10-14",
-          "time": "11:36:57",
-          "language": "java"
-        },
-        {
-          "id": "2171848544",
-          "title": "Minimum Cost of Buying Candies With Discount",
-          "titleSlug": "minimum-cost-of-buying-candies-with-discount",
-          "timestamp": 1791957969,
-          "date": "2026-10-14",
-          "time": "11:36:09",
-          "language": "java"
         }
       ]
     },
@@ -16278,7 +16327,7 @@
       "name": "NERAIMATHI.K",
       "department": "III CSD A",
       "streak": 28,
-      "totalActiveDays": 114,
+      "totalActiveDays": 115,
       "calendarCounts": {
         "1767225600": 1,
         "1767830400": 1,
@@ -16393,9 +16442,37 @@
         "1792195200": 4,
         "1792281600": 3,
         "1792368000": 3,
-        "1792454400": 1
+        "1792454400": 1,
+        "1792540800": 3
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2177831757",
+          "title": "Longest Uncommon Subsequence II",
+          "titleSlug": "longest-uncommon-subsequence-ii",
+          "timestamp": 1792577393,
+          "date": "2026-10-21",
+          "time": "15:39:53",
+          "language": "java"
+        },
+        {
+          "id": "2177831223",
+          "title": "H-Index",
+          "titleSlug": "h-index",
+          "timestamp": 1792577349,
+          "date": "2026-10-21",
+          "time": "15:39:09",
+          "language": "java"
+        },
+        {
+          "id": "2177830943",
+          "title": "Insertion Sort List",
+          "titleSlug": "insertion-sort-list",
+          "timestamp": 1792577325,
+          "date": "2026-10-21",
+          "time": "15:38:45",
+          "language": "java"
+        },
         {
           "id": "2177356142",
           "title": "Increasing Triplet Subsequence",
@@ -16547,33 +16624,6 @@
           "timestamp": 1792002682,
           "date": "2026-10-15",
           "time": "00:01:22",
-          "language": "java"
-        },
-        {
-          "id": "2172436762",
-          "title": "Shortest Unsorted Continuous Subarray",
-          "titleSlug": "shortest-unsorted-continuous-subarray",
-          "timestamp": 1792002639,
-          "date": "2026-10-15",
-          "time": "00:00:39",
-          "language": "java"
-        },
-        {
-          "id": "2172436193",
-          "title": "Create Maximum Number",
-          "titleSlug": "create-maximum-number",
-          "timestamp": 1792002602,
-          "date": "2026-10-15",
-          "time": "00:00:02",
-          "language": "java"
-        },
-        {
-          "id": "2171293465",
-          "title": "All Ancestors of a Node in a Directed Acyclic Graph",
-          "titleSlug": "all-ancestors-of-a-node-in-a-directed-acyclic-graph",
-          "timestamp": 1791903859,
-          "date": "2026-10-13",
-          "time": "20:34:19",
           "language": "java"
         }
       ]
@@ -18643,7 +18693,7 @@
       "name": "Santhosh Kanna",
       "department": "III CSD A",
       "streak": 62,
-      "totalActiveDays": 113,
+      "totalActiveDays": 114,
       "calendarCounts": {
         "1769299200": 37,
         "1769472000": 1,
@@ -18757,9 +18807,19 @@
         "1792195200": 10,
         "1792281600": 1,
         "1792368000": 1,
-        "1792454400": 2
+        "1792454400": 2,
+        "1792540800": 5
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2178175925",
+          "title": "Minimum Operations to Sort a String",
+          "titleSlug": "minimum-operations-to-sort-a-string",
+          "timestamp": 1792602715,
+          "date": "2026-10-21",
+          "time": "22:41:55",
+          "language": "java"
+        },
         {
           "id": "2177214739",
           "title": "Sum of Sortable Integers",
@@ -18929,15 +18989,6 @@
           "timestamp": 1791736973,
           "date": "2026-10-11",
           "time": "22:12:53",
-          "language": "java"
-        },
-        {
-          "id": "2169470334",
-          "title": "Queue Reconstruction by Height",
-          "titleSlug": "queue-reconstruction-by-height",
-          "timestamp": 1791736948,
-          "date": "2026-10-11",
-          "time": "22:12:28",
           "language": "java"
         }
       ]
@@ -21639,7 +21690,7 @@
       "name": "Thiruvengadam D",
       "department": "III CSD A",
       "streak": 18,
-      "totalActiveDays": 100,
+      "totalActiveDays": 101,
       "calendarCounts": {
         "1767744000": 5,
         "1768089600": 22,
@@ -21740,9 +21791,28 @@
         "1792108800": 10,
         "1792195200": 1,
         "1792281600": 1,
-        "1792454400": 4
+        "1792454400": 4,
+        "1792540800": 2
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2177952279",
+          "title": "Maximum Alternating Sum of Squares",
+          "titleSlug": "maximum-alternating-sum-of-squares",
+          "timestamp": 1792587765,
+          "date": "2026-10-21",
+          "time": "18:32:45",
+          "language": "java"
+        },
+        {
+          "id": "2177943962",
+          "title": "Minimum Operations to Sort a String",
+          "titleSlug": "minimum-operations-to-sort-a-string",
+          "timestamp": 1792587123,
+          "date": "2026-10-21",
+          "time": "18:22:03",
+          "language": "java"
+        },
         {
           "id": "2176887402",
           "title": "Reverse Linked List II",
@@ -21903,24 +21973,6 @@
           "timestamp": 1791307130,
           "date": "2026-10-06",
           "time": "22:48:50",
-          "language": "java"
-        },
-        {
-          "id": "2163397976",
-          "title": "Partition List",
-          "titleSlug": "partition-list",
-          "timestamp": 1791220140,
-          "date": "2026-10-05",
-          "time": "22:39:00",
-          "language": "java"
-        },
-        {
-          "id": "2163248622",
-          "title": "Jump Game",
-          "titleSlug": "jump-game",
-          "timestamp": 1791212390,
-          "date": "2026-10-05",
-          "time": "20:29:50",
           "language": "java"
         }
       ]
@@ -22239,7 +22291,7 @@
       "name": "Vidhya Raj",
       "department": "III CSD A",
       "streak": 60,
-      "totalActiveDays": 135,
+      "totalActiveDays": 136,
       "calendarCounts": {
         "1767830400": 1,
         "1769644800": 1,
@@ -22375,9 +22427,19 @@
         "1792108800": 1,
         "1792281600": 1,
         "1792368000": 1,
-        "1792454400": 1
+        "1792454400": 1,
+        "1792540800": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2177962071",
+          "title": "Minimum Operations to Sort a String",
+          "titleSlug": "minimum-operations-to-sort-a-string",
+          "timestamp": 1792588503,
+          "date": "2026-10-21",
+          "time": "18:45:03",
+          "language": "java"
+        },
         {
           "id": "2177063787",
           "title": "Sum of Sortable Integers",
@@ -22547,15 +22609,6 @@
           "timestamp": 1791118039,
           "date": "2026-10-04",
           "time": "18:17:19",
-          "language": "java"
-        },
-        {
-          "id": "2161096321",
-          "title": "Longest Valid Parentheses",
-          "titleSlug": "longest-valid-parentheses",
-          "timestamp": 1791033674,
-          "date": "2026-10-03",
-          "time": "18:51:14",
           "language": "java"
         }
       ]
