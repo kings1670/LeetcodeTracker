@@ -12604,5 +12604,39 @@
     "title": "Create Grid With Exactly One Path",
     "difficulty": "Easy",
     "topicTags": []
+  },
+  "minimum-xor-path-in-a-grid": {
+    "questionId": "4205",
+    "title": "Minimum XOR Path in a Grid",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "Dynamic Programming",
+      "Bit Manipulation",
+      "Matrix"
+    ]
+  },
+  "satisfiability-of-equality-equations": {
+    "questionId": "1032",
+    "title": "Satisfiability of Equality Equations",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Array",
+      "String",
+      "Union-Find",
+      "Graph Theory"
+    ]
+  },
+  "all-paths-from-source-to-target": {
+    "questionId": "813",
+    "title": "All Paths From Source to Target",
+    "difficulty": "Medium",
+    "topicTags": [
+      "Backtracking",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Directed Acyclic Graph"
+    ]
   }
 }
