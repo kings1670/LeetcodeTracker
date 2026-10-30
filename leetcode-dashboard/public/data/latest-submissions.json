@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-30",
-  "collectedAt": "2026-10-30T03:22:44.690329+05:30",
+  "date": "2026-10-31",
+  "collectedAt": "2026-10-31T03:06:58.130040+05:30",
   "students": {
     "310625150001": {
       "username": "Aadhithiya_10",
@@ -488,7 +488,7 @@
       "name": "Arun Varshan I S",
       "department": "II CSD A",
       "streak": 6,
-      "totalActiveDays": 31,
+      "totalActiveDays": 32,
       "calendarCounts": {
         "1769904000": 2,
         "1780876800": 5,
@@ -520,9 +520,37 @@
         "1789430400": 1,
         "1789516800": 1,
         "1790467200": 1,
-        "1790812800": 3
+        "1790812800": 3,
+        "1793318400": 3
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2185722936",
+          "title": "Count the Number of Vowel Strings in Range",
+          "titleSlug": "count-the-number-of-vowel-strings-in-range",
+          "timestamp": 1793383623,
+          "date": "2026-10-30",
+          "time": "23:37:03",
+          "language": "python"
+        },
+        {
+          "id": "2185720495",
+          "title": "Partition Array According to Given Pivot",
+          "titleSlug": "partition-array-according-to-given-pivot",
+          "timestamp": 1793383448,
+          "date": "2026-10-30",
+          "time": "23:34:08",
+          "language": "python"
+        },
+        {
+          "id": "2185716562",
+          "title": "Add Two Numbers",
+          "titleSlug": "add-two-numbers",
+          "timestamp": 1793383172,
+          "date": "2026-10-30",
+          "time": "23:29:32",
+          "language": "python"
+        },
         {
           "id": "2159379028",
           "title": "Longest Substring Without Repeating Characters",
@@ -674,33 +702,6 @@
           "timestamp": 1783609335,
           "date": "2026-07-09",
           "time": "20:32:15",
-          "language": "python"
-        },
-        {
-          "id": "2058129873",
-          "title": "Peak Index in a Mountain Array",
-          "titleSlug": "peak-index-in-a-mountain-array",
-          "timestamp": 1783347250,
-          "date": "2026-07-06",
-          "time": "19:44:10",
-          "language": "python"
-        },
-        {
-          "id": "2058127405",
-          "title": "First Bad Version",
-          "titleSlug": "first-bad-version",
-          "timestamp": 1783347111,
-          "date": "2026-07-06",
-          "time": "19:41:51",
-          "language": "python"
-        },
-        {
-          "id": "2058112783",
-          "title": "Guess Number Higher or Lower",
-          "titleSlug": "guess-number-higher-or-lower",
-          "timestamp": 1783346298,
-          "date": "2026-07-06",
-          "time": "19:28:18",
           "language": "python"
         }
       ]
@@ -4128,24 +4129,6 @@
           "date": "2026-09-09",
           "time": "09:57:26",
           "language": "cpp"
-        },
-        {
-          "id": "1815669659",
-          "title": "Palindrome Number",
-          "titleSlug": "palindrome-number",
-          "timestamp": 1761803308,
-          "date": "2025-10-30",
-          "time": "11:18:28",
-          "language": "c"
-        },
-        {
-          "id": "1815660938",
-          "title": "Two Sum",
-          "titleSlug": "two-sum",
-          "timestamp": 1761802553,
-          "date": "2025-10-30",
-          "time": "11:05:53",
-          "language": "c"
         }
       ]
     },
@@ -5068,24 +5051,6 @@
           "date": "2026-07-16",
           "time": "10:48:53",
           "language": "c"
-        },
-        {
-          "id": "1815679659",
-          "title": "Longest Common Prefix",
-          "titleSlug": "longest-common-prefix",
-          "timestamp": 1761804152,
-          "date": "2025-10-30",
-          "time": "11:32:32",
-          "language": "c"
-        },
-        {
-          "id": "1815672624",
-          "title": "Two Sum",
-          "titleSlug": "two-sum",
-          "timestamp": 1761803562,
-          "date": "2025-10-30",
-          "time": "11:22:42",
-          "language": "python"
         }
       ]
     },
@@ -11202,7 +11167,7 @@
       "name": "A.Alin Brasen",
       "department": "III CSD A",
       "streak": 32,
-      "totalActiveDays": 112,
+      "totalActiveDays": 113,
       "calendarCounts": {
         "1769299200": 42,
         "1769385600": 27,
@@ -11315,9 +11280,28 @@
         "1792972800": 1,
         "1793059200": 1,
         "1793145600": 1,
-        "1793232000": 1
+        "1793232000": 1,
+        "1793318400": 4
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2185206222",
+          "title": "Basic Calculator",
+          "titleSlug": "basic-calculator",
+          "timestamp": 1793334312,
+          "date": "2026-10-30",
+          "time": "09:55:12",
+          "language": "java"
+        },
+        {
+          "id": "2185168899",
+          "title": "Shortest Path With At Most K Consecutive Identical Characters",
+          "titleSlug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+          "timestamp": 1793329609,
+          "date": "2026-10-30",
+          "time": "08:36:49",
+          "language": "java"
+        },
         {
           "id": "2184376086",
           "title": "Palindromic Path Queries in a Tree",
@@ -11478,24 +11462,6 @@
           "timestamp": 1791608399,
           "date": "2026-10-10",
           "time": "10:29:59",
-          "language": "java"
-        },
-        {
-          "id": "2166861636",
-          "title": "Minimum Insertions to Balance a Parentheses String",
-          "titleSlug": "minimum-insertions-to-balance-a-parentheses-string",
-          "timestamp": 1791514964,
-          "date": "2026-10-09",
-          "time": "08:32:44",
-          "language": "java"
-        },
-        {
-          "id": "2165873674",
-          "title": "Remove Outermost Parentheses",
-          "titleSlug": "remove-outermost-parentheses",
-          "timestamp": 1791429098,
-          "date": "2026-10-08",
-          "time": "08:41:38",
           "language": "java"
         }
       ]
@@ -13620,7 +13586,7 @@
       "name": "Gautham B",
       "department": "III CSD A",
       "streak": 45,
-      "totalActiveDays": 106,
+      "totalActiveDays": 107,
       "calendarCounts": {
         "1769817600": 24,
         "1770595200": 40,
@@ -13727,9 +13693,19 @@
         "1792886400": 1,
         "1792972800": 1,
         "1793145600": 2,
-        "1793232000": 1
+        "1793232000": 1,
+        "1793318400": 2
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2185122522",
+          "title": "Shortest Path With At Most K Consecutive Identical Characters",
+          "titleSlug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+          "timestamp": 1793320236,
+          "date": "2026-10-30",
+          "time": "06:00:36",
+          "language": "java"
+        },
         {
           "id": "2184643115",
           "title": "Palindromic Path Queries in a Tree",
@@ -13899,15 +13875,6 @@
           "timestamp": 1791779326,
           "date": "2026-10-12",
           "time": "09:58:46",
-          "language": "java"
-        },
-        {
-          "id": "2169820508",
-          "title": "Jump Game III",
-          "titleSlug": "jump-game-iii",
-          "timestamp": 1791779184,
-          "date": "2026-10-12",
-          "time": "09:56:24",
           "language": "java"
         }
       ]
@@ -15372,8 +15339,8 @@
       "username": "Jayagokulavarman02",
       "name": "Jayagokulavarman P P",
       "department": "III CSD A",
-      "streak": 32,
-      "totalActiveDays": 108,
+      "streak": 33,
+      "totalActiveDays": 109,
       "calendarCounts": {
         "1769385600": 41,
         "1769472000": 16,
@@ -15482,9 +15449,19 @@
         "1792972800": 1,
         "1793059200": 1,
         "1793145600": 1,
-        "1793232000": 1
+        "1793232000": 1,
+        "1793318400": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2185193776",
+          "title": "Shortest Path With At Most K Consecutive Identical Characters",
+          "titleSlug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+          "timestamp": 1793332950,
+          "date": "2026-10-30",
+          "time": "09:32:30",
+          "language": "java"
+        },
         {
           "id": "2184373522",
           "title": "Palindromic Path Queries in a Tree",
@@ -15654,15 +15631,6 @@
           "timestamp": 1791968438,
           "date": "2026-10-14",
           "time": "14:30:38",
-          "language": "java"
-        },
-        {
-          "id": "2171970328",
-          "title": "Pascal's Triangle II",
-          "titleSlug": "pascals-triangle-ii",
-          "timestamp": 1791968294,
-          "date": "2026-10-14",
-          "time": "14:28:14",
           "language": "java"
         }
       ]
@@ -16093,7 +16061,7 @@
       "name": "S.Naveen kumar",
       "department": "III CSD A",
       "streak": 12,
-      "totalActiveDays": 94,
+      "totalActiveDays": 95,
       "calendarCounts": {
         "1769990400": 5,
         "1770163200": 29,
@@ -16188,9 +16156,19 @@
         "1792627200": 2,
         "1792886400": 5,
         "1792972800": 6,
-        "1793232000": 6
+        "1793232000": 6,
+        "1793318400": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2185303253",
+          "title": "Shortest Path With At Most K Consecutive Identical Characters",
+          "titleSlug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+          "timestamp": 1793343380,
+          "date": "2026-10-30",
+          "time": "12:26:20",
+          "language": "java"
+        },
         {
           "id": "2184770050",
           "title": "Find the Safest Path in a Grid",
@@ -16361,15 +16339,6 @@
           "date": "2026-10-21",
           "time": "21:47:31",
           "language": "java"
-        },
-        {
-          "id": "2178116617",
-          "title": "Find Target Indices After Sorting Array",
-          "titleSlug": "find-target-indices-after-sorting-array",
-          "timestamp": 1792599189,
-          "date": "2026-10-21",
-          "time": "21:43:09",
-          "language": "java"
         }
       ]
     },
@@ -16378,7 +16347,7 @@
       "name": "NERAIMATHI.K",
       "department": "III CSD A",
       "streak": 28,
-      "totalActiveDays": 123,
+      "totalActiveDays": 124,
       "calendarCounts": {
         "1767225600": 1,
         "1767830400": 1,
@@ -16502,9 +16471,19 @@
         "1792972800": 2,
         "1793059200": 3,
         "1793145600": 2,
-        "1793232000": 3
+        "1793232000": 3,
+        "1793318400": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2185673116",
+          "title": "Word Ladder",
+          "titleSlug": "word-ladder",
+          "timestamp": 1793380085,
+          "date": "2026-10-30",
+          "time": "22:38:05",
+          "language": "java"
+        },
         {
           "id": "2184978023",
           "title": "Remove Invalid Parentheses",
@@ -16675,15 +16654,6 @@
           "date": "2026-10-22",
           "time": "23:30:31",
           "language": "java"
-        },
-        {
-          "id": "2179077516",
-          "title": "Range Sum Query 2D - Immutable",
-          "titleSlug": "range-sum-query-2d-immutable",
-          "timestamp": 1792691998,
-          "date": "2026-10-22",
-          "time": "23:29:58",
-          "language": "java"
         }
       ]
     },
@@ -16784,7 +16754,7 @@
       "name": "Pravin.M",
       "department": "III CSD A",
       "streak": 24,
-      "totalActiveDays": 105,
+      "totalActiveDays": 106,
       "calendarCounts": {
         "1767744000": 2,
         "1769299200": 4,
@@ -16890,9 +16860,19 @@
         "1792108800": 5,
         "1792627200": 4,
         "1792713600": 2,
-        "1793145600": 2
+        "1793145600": 2,
+        "1793318400": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2185200145",
+          "title": "Shortest Path With At Most K Consecutive Identical Characters",
+          "titleSlug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+          "timestamp": 1793333656,
+          "date": "2026-10-30",
+          "time": "09:44:16",
+          "language": "java"
+        },
         {
           "id": "2183553497",
           "title": "Create Grid With Exactly One Path",
@@ -17062,15 +17042,6 @@
           "timestamp": 1791523656,
           "date": "2026-10-09",
           "time": "10:57:36",
-          "language": "python3"
-        },
-        {
-          "id": "2165869335",
-          "title": "Remove Outermost Parentheses",
-          "titleSlug": "remove-outermost-parentheses",
-          "timestamp": 1791428587,
-          "date": "2026-10-08",
-          "time": "08:33:07",
           "language": "python3"
         }
       ]
@@ -18755,7 +18726,7 @@
       "name": "Santhosh Kanna",
       "department": "III CSD A",
       "streak": 62,
-      "totalActiveDays": 121,
+      "totalActiveDays": 122,
       "calendarCounts": {
         "1769299200": 37,
         "1769472000": 1,
@@ -18877,9 +18848,28 @@
         "1792886400": 1,
         "1792972800": 1,
         "1793059200": 1,
-        "1793145600": 1
+        "1793145600": 1,
+        "1793318400": 3
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2185672878",
+          "title": "Shortest Path With At Most K Consecutive Identical Characters",
+          "titleSlug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+          "timestamp": 1793380066,
+          "date": "2026-10-30",
+          "time": "22:37:46",
+          "language": "java"
+        },
+        {
+          "id": "2185137037",
+          "title": "Palindromic Path Queries in a Tree",
+          "titleSlug": "palindromic-path-queries-in-a-tree",
+          "timestamp": 1793323643,
+          "date": "2026-10-30",
+          "time": "06:57:23",
+          "language": "java"
+        },
         {
           "id": "2184029177",
           "title": "Minimum XOR Path in a Grid",
@@ -19040,24 +19030,6 @@
           "timestamp": 1792081670,
           "date": "2026-10-15",
           "time": "21:57:50",
-          "language": "java"
-        },
-        {
-          "id": "2173186904",
-          "title": "N-ary Tree Preorder Traversal",
-          "titleSlug": "n-ary-tree-preorder-traversal",
-          "timestamp": 1792081649,
-          "date": "2026-10-15",
-          "time": "21:57:29",
-          "language": "java"
-        },
-        {
-          "id": "2173186519",
-          "title": "Shortest Unsorted Continuous Subarray",
-          "titleSlug": "shortest-unsorted-continuous-subarray",
-          "timestamp": 1792081625,
-          "date": "2026-10-15",
-          "time": "21:57:05",
           "language": "java"
         }
       ]
@@ -21451,7 +21423,7 @@
       "name": "Tejaswini A",
       "department": "III CSD A",
       "streak": 39,
-      "totalActiveDays": 118,
+      "totalActiveDays": 119,
       "calendarCounts": {
         "1767744000": 1,
         "1767830400": 1,
@@ -21570,9 +21542,19 @@
         "1792022400": 1,
         "1792108800": 1,
         "1792195200": 1,
-        "1792368000": 1
+        "1792368000": 1,
+        "1793318400": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2185233866",
+          "title": "Triangle",
+          "titleSlug": "triangle",
+          "timestamp": 1793337033,
+          "date": "2026-10-30",
+          "time": "10:40:33",
+          "language": "java"
+        },
         {
           "id": "2176480058",
           "title": "Bulls and Cows",
@@ -21743,15 +21725,6 @@
           "date": "2026-10-05",
           "time": "10:37:02",
           "language": "java"
-        },
-        {
-          "id": "2162712557",
-          "title": "Insert Greatest Common Divisors in Linked List",
-          "titleSlug": "insert-greatest-common-divisors-in-linked-list",
-          "timestamp": 1791175324,
-          "date": "2026-10-05",
-          "time": "10:12:04",
-          "language": "java"
         }
       ]
     },
@@ -21760,7 +21733,7 @@
       "name": "Thiruvengadam D",
       "department": "III CSD A",
       "streak": 18,
-      "totalActiveDays": 107,
+      "totalActiveDays": 108,
       "calendarCounts": {
         "1767744000": 5,
         "1768089600": 22,
@@ -21868,7 +21841,8 @@
         "1792886400": 1,
         "1792972800": 1,
         "1793059200": 1,
-        "1793232000": 2
+        "1793232000": 2,
+        "1793318400": 1
       },
       "recentAcceptedSubmissions": [
         {
@@ -24142,7 +24116,7 @@
       "name": "Kesav Kumar",
       "department": "III CSD A",
       "streak": 5,
-      "totalActiveDays": 31,
+      "totalActiveDays": 32,
       "calendarCounts": {
         "1769299200": 10,
         "1769904000": 24,
@@ -24174,9 +24148,37 @@
         "1787184000": 6,
         "1787270400": 1,
         "1787529600": 8,
-        "1787961600": 1
+        "1787961600": 1,
+        "1793318400": 9
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2185306820",
+          "title": "Minimum Add to Make Parentheses Valid",
+          "titleSlug": "minimum-add-to-make-parentheses-valid",
+          "timestamp": 1793343723,
+          "date": "2026-10-30",
+          "time": "12:32:03",
+          "language": "java"
+        },
+        {
+          "id": "2185305921",
+          "title": "Valid Parenthesis String",
+          "titleSlug": "valid-parenthesis-string",
+          "timestamp": 1793343632,
+          "date": "2026-10-30",
+          "time": "12:30:32",
+          "language": "java"
+        },
+        {
+          "id": "2185305308",
+          "title": "Valid Parentheses",
+          "titleSlug": "valid-parentheses",
+          "timestamp": 1793343574,
+          "date": "2026-10-30",
+          "time": "12:29:34",
+          "language": "java"
+        },
         {
           "id": "2123404689",
           "title": "Same Tree",
@@ -24329,33 +24331,6 @@
           "date": "2026-08-09",
           "time": "16:36:45",
           "language": "php"
-        },
-        {
-          "id": "2097615777",
-          "title": "Min Stack",
-          "titleSlug": "min-stack",
-          "timestamp": 1786085535,
-          "date": "2026-08-07",
-          "time": "12:22:15",
-          "language": "java"
-        },
-        {
-          "id": "2097615012",
-          "title": "Find Minimum in Rotated Sorted Array II",
-          "titleSlug": "find-minimum-in-rotated-sorted-array-ii",
-          "timestamp": 1786085495,
-          "date": "2026-08-07",
-          "time": "12:21:35",
-          "language": "java"
-        },
-        {
-          "id": "2097614030",
-          "title": "Find Minimum in Rotated Sorted Array",
-          "titleSlug": "find-minimum-in-rotated-sorted-array",
-          "timestamp": 1786085446,
-          "date": "2026-08-07",
-          "time": "12:20:46",
-          "language": "java"
         }
       ]
     }
