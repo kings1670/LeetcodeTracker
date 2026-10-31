@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-31",
-  "collectedAt": "2026-10-31T03:06:58.130040+05:30",
+  "date": "2026-11-01",
+  "collectedAt": "2026-11-01T02:00:17.519255+05:30",
   "students": {
     "310625150001": {
       "username": "Aadhithiya_10",
@@ -488,7 +488,7 @@
       "name": "Arun Varshan I S",
       "department": "II CSD A",
       "streak": 6,
-      "totalActiveDays": 32,
+      "totalActiveDays": 33,
       "calendarCounts": {
         "1769904000": 2,
         "1780876800": 5,
@@ -521,9 +521,55 @@
         "1789516800": 1,
         "1790467200": 1,
         "1790812800": 3,
-        "1793318400": 3
+        "1793318400": 3,
+        "1793404800": 5
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186011177",
+          "title": "Integer to Roman",
+          "titleSlug": "integer-to-roman",
+          "timestamp": 1793430319,
+          "date": "2026-10-31",
+          "time": "12:35:19",
+          "language": "python"
+        },
+        {
+          "id": "2186009522",
+          "title": "String to Integer (atoi)",
+          "titleSlug": "string-to-integer-atoi",
+          "timestamp": 1793430156,
+          "date": "2026-10-31",
+          "time": "12:32:36",
+          "language": "python"
+        },
+        {
+          "id": "2186008767",
+          "title": "Reverse Integer",
+          "titleSlug": "reverse-integer",
+          "timestamp": 1793430081,
+          "date": "2026-10-31",
+          "time": "12:31:21",
+          "language": "python"
+        },
+        {
+          "id": "2186008259",
+          "title": "Zigzag Conversion",
+          "titleSlug": "zigzag-conversion",
+          "timestamp": 1793430031,
+          "date": "2026-10-31",
+          "time": "12:30:31",
+          "language": "python"
+        },
+        {
+          "id": "2186007514",
+          "title": "Longest Palindromic Substring",
+          "titleSlug": "longest-palindromic-substring",
+          "timestamp": 1793429953,
+          "date": "2026-10-31",
+          "time": "12:29:13",
+          "language": "python"
+        },
         {
           "id": "2185722936",
           "title": "Count the Number of Vowel Strings in Range",
@@ -657,51 +703,6 @@
           "timestamp": 1784623029,
           "date": "2026-07-21",
           "time": "14:07:09",
-          "language": "python"
-        },
-        {
-          "id": "2069407879",
-          "title": "Sqrt(x)",
-          "titleSlug": "sqrtx",
-          "timestamp": 1784180636,
-          "date": "2026-07-16",
-          "time": "11:13:56",
-          "language": "python"
-        },
-        {
-          "id": "2061887469",
-          "title": "Score of a String",
-          "titleSlug": "score-of-a-string",
-          "timestamp": 1783610526,
-          "date": "2026-07-09",
-          "time": "20:52:06",
-          "language": "python"
-        },
-        {
-          "id": "2061877196",
-          "title": "Digit Frequency Score",
-          "titleSlug": "digit-frequency-score",
-          "timestamp": 1783609967,
-          "date": "2026-07-09",
-          "time": "20:42:47",
-          "language": "python"
-        },
-        {
-          "id": "2061872014",
-          "title": "Find the Degree of Each Vertex",
-          "titleSlug": "find-the-degree-of-each-vertex",
-          "timestamp": 1783609687,
-          "date": "2026-07-09",
-          "time": "20:38:07",
-          "language": "python"
-        },
-        {
-          "id": "2061865767",
-          "title": "Remove Duplicates from Sorted List",
-          "titleSlug": "remove-duplicates-from-sorted-list",
-          "timestamp": 1783609335,
-          "date": "2026-07-09",
-          "time": "20:32:15",
           "language": "python"
         }
       ]
@@ -1422,7 +1423,7 @@
       "name": "Hariharan K",
       "department": "II CSD A",
       "streak": 22,
-      "totalActiveDays": 70,
+      "totalActiveDays": 71,
       "calendarCounts": {
         "1776297600": 4,
         "1776384000": 2,
@@ -1493,9 +1494,28 @@
         "1789776000": 1,
         "1789862400": 1,
         "1789948800": 1,
-        "1790121600": 1
+        "1790121600": 1,
+        "1793404800": 2
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2185878458",
+          "title": "Custom Sort String",
+          "titleSlug": "custom-sort-string",
+          "timestamp": 1793412901,
+          "date": "2026-10-31",
+          "time": "07:45:01",
+          "language": "java"
+        },
+        {
+          "id": "2185877961",
+          "title": "Palindromic Substrings",
+          "titleSlug": "palindromic-substrings",
+          "timestamp": 1793412764,
+          "date": "2026-10-31",
+          "time": "07:42:44",
+          "language": "java"
+        },
         {
           "id": "2151063383",
           "title": "Longest Palindromic Substring",
@@ -1656,24 +1676,6 @@
           "timestamp": 1788881345,
           "date": "2026-09-08",
           "time": "20:59:05",
-          "language": "java"
-        },
-        {
-          "id": "2134560194",
-          "title": "Water Bottles",
-          "titleSlug": "water-bottles",
-          "timestamp": 1788837926,
-          "date": "2026-09-08",
-          "time": "08:55:26",
-          "language": "cpp"
-        },
-        {
-          "id": "2133927000",
-          "title": "Ransom Note",
-          "titleSlug": "ransom-note",
-          "timestamp": 1788787912,
-          "date": "2026-09-07",
-          "time": "19:01:52",
           "language": "java"
         }
       ]
@@ -1921,7 +1923,7 @@
       "name": "Himagiri P S",
       "department": "II CSD A",
       "streak": 6,
-      "totalActiveDays": 26,
+      "totalActiveDays": 27,
       "calendarCounts": {
         "1780876800": 4,
         "1780963200": 3,
@@ -1948,9 +1950,37 @@
         "1789516800": 1,
         "1790121600": 2,
         "1790726400": 1,
-        "1790812800": 3
+        "1790812800": 3,
+        "1793404800": 3
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186052968",
+          "title": "Number of Provinces",
+          "titleSlug": "number-of-provinces",
+          "timestamp": 1793435245,
+          "date": "2026-10-31",
+          "time": "13:57:25",
+          "language": "java"
+        },
+        {
+          "id": "2186052401",
+          "title": "Number of Islands",
+          "titleSlug": "number-of-islands",
+          "timestamp": 1793435174,
+          "date": "2026-10-31",
+          "time": "13:56:14",
+          "language": "java"
+        },
+        {
+          "id": "2186051895",
+          "title": "Flood Fill",
+          "titleSlug": "flood-fill",
+          "timestamp": 1793435116,
+          "date": "2026-10-31",
+          "time": "13:55:16",
+          "language": "java"
+        },
         {
           "id": "2159521208",
           "title": "Richest Customer Wealth",
@@ -2102,33 +2132,6 @@
           "timestamp": 1785816346,
           "date": "2026-08-04",
           "time": "09:35:46",
-          "language": "java"
-        },
-        {
-          "id": "2092438954",
-          "title": "Find the Index of the First Occurrence in a String",
-          "titleSlug": "find-the-index-of-the-first-occurrence-in-a-string",
-          "timestamp": 1785751038,
-          "date": "2026-08-03",
-          "time": "15:27:18",
-          "language": "java"
-        },
-        {
-          "id": "2090298131",
-          "title": "Roman to Integer",
-          "titleSlug": "roman-to-integer",
-          "timestamp": 1785601580,
-          "date": "2026-08-01",
-          "time": "21:56:20",
-          "language": "java"
-        },
-        {
-          "id": "2088972731",
-          "title": "Reverse Integer",
-          "titleSlug": "reverse-integer",
-          "timestamp": 1785511919,
-          "date": "2026-07-31",
-          "time": "21:01:59",
           "language": "java"
         }
       ]
@@ -3119,121 +3122,194 @@
       "name": "Jonathan Roshan D",
       "department": "II CSD A",
       "streak": 4,
-      "totalActiveDays": 4,
+      "totalActiveDays": 5,
       "calendarCounts": {
         "1780876800": 3,
         "1780963200": 4,
         "1781049600": 3,
-        "1781136000": 3
+        "1781136000": 3,
+        "1793404800": 65
       },
       "recentAcceptedSubmissions": [
         {
-          "id": "2029687703",
-          "title": "Remove Duplicates from Sorted Array",
-          "titleSlug": "remove-duplicates-from-sorted-array",
-          "timestamp": 1781178233,
-          "date": "2026-06-11",
-          "time": "17:13:53",
-          "language": "c"
+          "id": "2186416466",
+          "title": "Jump Game",
+          "titleSlug": "jump-game",
+          "timestamp": 1793470383,
+          "date": "2026-10-31",
+          "time": "23:43:03",
+          "language": "python"
         },
         {
-          "id": "2029686854",
+          "id": "2186416255",
+          "title": "Spiral Matrix",
+          "titleSlug": "spiral-matrix",
+          "timestamp": 1793470368,
+          "date": "2026-10-31",
+          "time": "23:42:48",
+          "language": "python"
+        },
+        {
+          "id": "2186416031",
           "title": "Maximum Subarray",
           "titleSlug": "maximum-subarray",
-          "timestamp": 1781178170,
-          "date": "2026-06-11",
-          "time": "17:12:50",
-          "language": "c"
+          "timestamp": 1793470354,
+          "date": "2026-10-31",
+          "time": "23:42:34",
+          "language": "python"
         },
         {
-          "id": "2029686439",
-          "title": "Merge Sorted Array",
-          "titleSlug": "merge-sorted-array",
-          "timestamp": 1781178140,
-          "date": "2026-06-11",
-          "time": "17:12:20",
-          "language": "c"
+          "id": "2186415833",
+          "title": "N-Queens II",
+          "titleSlug": "n-queens-ii",
+          "timestamp": 1793470340,
+          "date": "2026-10-31",
+          "time": "23:42:20",
+          "language": "python"
         },
         {
-          "id": "2028288735",
-          "title": "Container With Most Water",
-          "titleSlug": "container-with-most-water",
-          "timestamp": 1781073376,
-          "date": "2026-06-10",
-          "time": "12:06:16",
-          "language": "c"
+          "id": "2186415586",
+          "title": "N-Queens",
+          "titleSlug": "n-queens",
+          "timestamp": 1793470322,
+          "date": "2026-10-31",
+          "time": "23:42:02",
+          "language": "python"
         },
         {
-          "id": "2028287299",
-          "title": "Valid Palindrome",
-          "titleSlug": "valid-palindrome",
-          "timestamp": 1781073307,
-          "date": "2026-06-10",
-          "time": "12:05:07",
-          "language": "c"
+          "id": "2186415138",
+          "title": "Group Anagrams",
+          "titleSlug": "group-anagrams",
+          "timestamp": 1793470289,
+          "date": "2026-10-31",
+          "time": "23:41:29",
+          "language": "python"
         },
         {
-          "id": "2028284470",
-          "title": "Two Sum II - Input Array Is Sorted",
-          "titleSlug": "two-sum-ii-input-array-is-sorted",
-          "timestamp": 1781073170,
-          "date": "2026-06-10",
-          "time": "12:02:50",
-          "language": "c"
+          "id": "2186414823",
+          "title": "Rotate Image",
+          "titleSlug": "rotate-image",
+          "timestamp": 1793470267,
+          "date": "2026-10-31",
+          "time": "23:41:07",
+          "language": "python"
         },
         {
-          "id": "2027126933",
-          "title": "Find the Highest Altitude",
-          "titleSlug": "find-the-highest-altitude",
-          "timestamp": 1780985446,
-          "date": "2026-06-09",
-          "time": "11:40:46",
-          "language": "c"
+          "id": "2186414620",
+          "title": "Permutations II",
+          "titleSlug": "permutations-ii",
+          "timestamp": 1793470252,
+          "date": "2026-10-31",
+          "time": "23:40:52",
+          "language": "python"
         },
         {
-          "id": "2027100443",
-          "title": "Range Sum Query - Immutable",
-          "titleSlug": "range-sum-query-immutable",
-          "timestamp": 1780984164,
-          "date": "2026-06-09",
-          "time": "11:19:24",
-          "language": "c"
+          "id": "2186414359",
+          "title": "Permutations",
+          "titleSlug": "permutations",
+          "timestamp": 1793470235,
+          "date": "2026-10-31",
+          "time": "23:40:35",
+          "language": "python"
         },
         {
-          "id": "2027063757",
-          "title": "Find Pivot Index",
-          "titleSlug": "find-pivot-index",
-          "timestamp": 1780982231,
-          "date": "2026-06-09",
-          "time": "10:47:11",
-          "language": "c"
+          "id": "2186414044",
+          "title": "Jump Game II",
+          "titleSlug": "jump-game-ii",
+          "timestamp": 1793470211,
+          "date": "2026-10-31",
+          "time": "23:40:11",
+          "language": "python"
         },
         {
-          "id": "2026020281",
-          "title": "Build Array from Permutation",
-          "titleSlug": "build-array-from-permutation",
-          "timestamp": 1780899751,
-          "date": "2026-06-08",
-          "time": "11:52:31",
-          "language": "c"
+          "id": "2186413671",
+          "title": "Wildcard Matching",
+          "titleSlug": "wildcard-matching",
+          "timestamp": 1793470186,
+          "date": "2026-10-31",
+          "time": "23:39:46",
+          "language": "python"
         },
         {
-          "id": "2026019795",
-          "title": "Concatenation of Array",
-          "titleSlug": "concatenation-of-array",
-          "timestamp": 1780899727,
-          "date": "2026-06-08",
-          "time": "11:52:07",
-          "language": "c"
+          "id": "2186413411",
+          "title": "Multiply Strings",
+          "titleSlug": "multiply-strings",
+          "timestamp": 1793470168,
+          "date": "2026-10-31",
+          "time": "23:39:28",
+          "language": "python"
         },
         {
-          "id": "2026019087",
-          "title": "Running Sum of 1d Array",
-          "titleSlug": "running-sum-of-1d-array",
-          "timestamp": 1780899692,
-          "date": "2026-06-08",
-          "time": "11:51:32",
-          "language": "c"
+          "id": "2186413137",
+          "title": "Trapping Rain Water",
+          "titleSlug": "trapping-rain-water",
+          "timestamp": 1793470147,
+          "date": "2026-10-31",
+          "time": "23:39:07",
+          "language": "python"
+        },
+        {
+          "id": "2186412886",
+          "title": "First Missing Positive",
+          "titleSlug": "first-missing-positive",
+          "timestamp": 1793470128,
+          "date": "2026-10-31",
+          "time": "23:38:48",
+          "language": "python"
+        },
+        {
+          "id": "2186412683",
+          "title": "Combination Sum II",
+          "titleSlug": "combination-sum-ii",
+          "timestamp": 1793470113,
+          "date": "2026-10-31",
+          "time": "23:38:33",
+          "language": "python"
+        },
+        {
+          "id": "2186412468",
+          "title": "Combination Sum",
+          "titleSlug": "combination-sum",
+          "timestamp": 1793470098,
+          "date": "2026-10-31",
+          "time": "23:38:18",
+          "language": "python"
+        },
+        {
+          "id": "2186412252",
+          "title": "Count and Say",
+          "titleSlug": "count-and-say",
+          "timestamp": 1793470081,
+          "date": "2026-10-31",
+          "time": "23:38:01",
+          "language": "python"
+        },
+        {
+          "id": "2186411985",
+          "title": "Sudoku Solver",
+          "titleSlug": "sudoku-solver",
+          "timestamp": 1793470063,
+          "date": "2026-10-31",
+          "time": "23:37:43",
+          "language": "python"
+        },
+        {
+          "id": "2186411796",
+          "title": "Valid Sudoku",
+          "titleSlug": "valid-sudoku",
+          "timestamp": 1793470049,
+          "date": "2026-10-31",
+          "time": "23:37:29",
+          "language": "python"
+        },
+        {
+          "id": "2186410842",
+          "title": "Search Insert Position",
+          "titleSlug": "search-insert-position",
+          "timestamp": 1793469978,
+          "date": "2026-10-31",
+          "time": "23:36:18",
+          "language": "python"
         }
       ]
     },
@@ -4609,7 +4685,7 @@
       "name": "Nikhil Siva Sai Y S",
       "department": "II CSD A",
       "streak": 3,
-      "totalActiveDays": 14,
+      "totalActiveDays": 15,
       "calendarCounts": {
         "1780790400": 1,
         "1781049600": 1,
@@ -4624,9 +4700,55 @@
         "1787443200": 3,
         "1788739200": 4,
         "1788912000": 2,
-        "1791417600": 1
+        "1791417600": 1,
+        "1793404800": 7
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186220867",
+          "title": "Container With Most Water",
+          "titleSlug": "container-with-most-water",
+          "timestamp": 1793454343,
+          "date": "2026-10-31",
+          "time": "19:15:43",
+          "language": "cpp"
+        },
+        {
+          "id": "2186220384",
+          "title": "Regular Expression Matching",
+          "titleSlug": "regular-expression-matching",
+          "timestamp": 1793454301,
+          "date": "2026-10-31",
+          "time": "19:15:01",
+          "language": "cpp"
+        },
+        {
+          "id": "2186219722",
+          "title": "Palindrome Number",
+          "titleSlug": "palindrome-number",
+          "timestamp": 1793454241,
+          "date": "2026-10-31",
+          "time": "19:14:01",
+          "language": "java"
+        },
+        {
+          "id": "2186218994",
+          "title": "String to Integer (atoi)",
+          "titleSlug": "string-to-integer-atoi",
+          "timestamp": 1793454174,
+          "date": "2026-10-31",
+          "time": "19:12:54",
+          "language": "cpp"
+        },
+        {
+          "id": "2186218097",
+          "title": "Reverse Integer",
+          "titleSlug": "reverse-integer",
+          "timestamp": 1793454098,
+          "date": "2026-10-31",
+          "time": "19:11:38",
+          "language": "cpp"
+        },
         {
           "id": "2166300898",
           "title": "Remove Outermost Parentheses",
@@ -4760,51 +4882,6 @@
           "timestamp": 1785166419,
           "date": "2026-07-27",
           "time": "21:03:39",
-          "language": "python"
-        },
-        {
-          "id": "2083561704",
-          "title": "Remove Duplicates from Sorted List",
-          "titleSlug": "remove-duplicates-from-sorted-list",
-          "timestamp": 1785166328,
-          "date": "2026-07-27",
-          "time": "21:02:08",
-          "language": "python"
-        },
-        {
-          "id": "2083559336",
-          "title": "Climbing Stairs",
-          "titleSlug": "climbing-stairs",
-          "timestamp": 1785166223,
-          "date": "2026-07-27",
-          "time": "21:00:23",
-          "language": "python"
-        },
-        {
-          "id": "2083558053",
-          "title": "Sqrt(x)",
-          "titleSlug": "sqrtx",
-          "timestamp": 1785166166,
-          "date": "2026-07-27",
-          "time": "20:59:26",
-          "language": "python"
-        },
-        {
-          "id": "2083556874",
-          "title": "Add Binary",
-          "titleSlug": "add-binary",
-          "timestamp": 1785166113,
-          "date": "2026-07-27",
-          "time": "20:58:33",
-          "language": "python"
-        },
-        {
-          "id": "2083549073",
-          "title": "Plus One",
-          "titleSlug": "plus-one",
-          "timestamp": 1785165765,
-          "date": "2026-07-27",
-          "time": "20:52:45",
           "language": "python"
         }
       ]
@@ -6646,7 +6723,7 @@
       "name": "Sandhya S",
       "department": "II CSD A",
       "streak": 14,
-      "totalActiveDays": 82,
+      "totalActiveDays": 83,
       "calendarCounts": {
         "1767398400": 2,
         "1767484800": 4,
@@ -6729,9 +6806,19 @@
         "1792454400": 1,
         "1792627200": 1,
         "1792800000": 1,
-        "1792886400": 1
+        "1792886400": 1,
+        "1793404800": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186303655",
+          "title": "Regular Expression Matching",
+          "titleSlug": "regular-expression-matching",
+          "timestamp": 1793461805,
+          "date": "2026-10-31",
+          "time": "21:20:05",
+          "language": "python"
+        },
         {
           "id": "2181521299",
           "title": "Subsets",
@@ -6901,15 +6988,6 @@
           "timestamp": 1789107924,
           "date": "2026-09-11",
           "time": "11:55:24",
-          "language": "cpp"
-        },
-        {
-          "id": "2136984963",
-          "title": "Missing Number",
-          "titleSlug": "missing-number",
-          "timestamp": 1789010366,
-          "date": "2026-09-10",
-          "time": "08:49:26",
           "language": "cpp"
         }
       ]
@@ -7915,7 +7993,7 @@
       "name": "Shradha Singh",
       "department": "II CSD A",
       "streak": 12,
-      "totalActiveDays": 78,
+      "totalActiveDays": 79,
       "calendarCounts": {
         "1767312000": 6,
         "1767398400": 8,
@@ -7994,9 +8072,64 @@
         "1790640000": 5,
         "1790899200": 12,
         "1791072000": 7,
-        "1792540800": 8
+        "1792540800": 8,
+        "1793404800": 7
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186215386",
+          "title": "Number of People Aware of a Secret",
+          "titleSlug": "number-of-people-aware-of-a-secret",
+          "timestamp": 1793453850,
+          "date": "2026-10-31",
+          "time": "19:07:30",
+          "language": "python"
+        },
+        {
+          "id": "2186214607",
+          "title": "Jump Game VI",
+          "titleSlug": "jump-game-vi",
+          "timestamp": 1793453781,
+          "date": "2026-10-31",
+          "time": "19:06:21",
+          "language": "python"
+        },
+        {
+          "id": "2186212460",
+          "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+          "titleSlug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+          "timestamp": 1793453578,
+          "date": "2026-10-31",
+          "time": "19:02:58",
+          "language": "python"
+        },
+        {
+          "id": "2186211896",
+          "title": "Reveal Cards In Increasing Order",
+          "titleSlug": "reveal-cards-in-increasing-order",
+          "timestamp": 1793453525,
+          "date": "2026-10-31",
+          "time": "19:02:05",
+          "language": "python"
+        },
+        {
+          "id": "2186211055",
+          "title": "Maximum Sum Circular Subarray",
+          "titleSlug": "maximum-sum-circular-subarray",
+          "timestamp": 1793453447,
+          "date": "2026-10-31",
+          "time": "19:00:47",
+          "language": "python"
+        },
+        {
+          "id": "2186210600",
+          "title": "Dota2 Senate",
+          "titleSlug": "dota2-senate",
+          "timestamp": 1793453405,
+          "date": "2026-10-31",
+          "time": "19:00:05",
+          "language": "python"
+        },
         {
           "id": "2177815542",
           "title": "Find X-Sum of All K-Long Subarrays I",
@@ -8122,60 +8255,6 @@
           "date": "2026-10-02",
           "time": "16:23:13",
           "language": "python"
-        },
-        {
-          "id": "2160056504",
-          "title": "Find Words Containing Character",
-          "titleSlug": "find-words-containing-character",
-          "timestamp": 1790938325,
-          "date": "2026-10-02",
-          "time": "16:22:05",
-          "language": "python"
-        },
-        {
-          "id": "2160055995",
-          "title": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
-          "titleSlug": "partitioning-into-minimum-number-of-deci-binary-numbers",
-          "timestamp": 1790938283,
-          "date": "2026-10-02",
-          "time": "16:21:23",
-          "language": "python"
-        },
-        {
-          "id": "2160054906",
-          "title": "Score of a String",
-          "titleSlug": "score-of-a-string",
-          "timestamp": 1790938199,
-          "date": "2026-10-02",
-          "time": "16:19:59",
-          "language": "python"
-        },
-        {
-          "id": "2157195763",
-          "title": "Final Value of Variable After Performing Operations",
-          "titleSlug": "final-value-of-variable-after-performing-operations",
-          "timestamp": 1790692877,
-          "date": "2026-09-29",
-          "time": "20:11:17",
-          "language": "python"
-        },
-        {
-          "id": "2157195113",
-          "title": "Reverse Degree of a String",
-          "titleSlug": "reverse-degree-of-a-string",
-          "timestamp": 1790692839,
-          "date": "2026-09-29",
-          "time": "20:10:39",
-          "language": "python"
-        },
-        {
-          "id": "2146728319",
-          "title": "Delete the Middle Node of a Linked List",
-          "titleSlug": "delete-the-middle-node-of-a-linked-list",
-          "timestamp": 1789828042,
-          "date": "2026-09-19",
-          "time": "19:57:22",
-          "language": "python"
         }
       ]
     },
@@ -8184,7 +8263,7 @@
       "name": "Subhapriyan S",
       "department": "II CSD A",
       "streak": 15,
-      "totalActiveDays": 90,
+      "totalActiveDays": 91,
       "calendarCounts": {
         "1778803200": 1,
         "1778889600": 1,
@@ -8275,9 +8354,19 @@
         "1792368000": 1,
         "1792454400": 1,
         "1792713600": 2,
-        "1792886400": 1
+        "1792886400": 1,
+        "1793404800": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186121614",
+          "title": "Longest Continuous Increasing Subsequence",
+          "titleSlug": "longest-continuous-increasing-subsequence",
+          "timestamp": 1793443409,
+          "date": "2026-10-31",
+          "time": "16:13:29",
+          "language": "java"
+        },
         {
           "id": "2181135706",
           "title": "Min Cost Climbing Stairs",
@@ -8447,15 +8536,6 @@
           "timestamp": 1790052928,
           "date": "2026-09-22",
           "time": "10:25:28",
-          "language": "java"
-        },
-        {
-          "id": "2148441355",
-          "title": "Remove Duplicates from Sorted List",
-          "titleSlug": "remove-duplicates-from-sorted-list",
-          "timestamp": 1789979673,
-          "date": "2026-09-21",
-          "time": "14:04:33",
           "language": "java"
         }
       ]
@@ -14355,7 +14435,7 @@
       "name": "V.Harikrishnan",
       "department": "III CSD A",
       "streak": 28,
-      "totalActiveDays": 112,
+      "totalActiveDays": 113,
       "calendarCounts": {
         "1770163200": 6,
         "1770249600": 3,
@@ -14468,7 +14548,8 @@
         "1792800000": 3,
         "1792886400": 4,
         "1792972800": 8,
-        "1793232000": 4
+        "1793232000": 4,
+        "1793404800": 4
       },
       "recentAcceptedSubmissions": [
         {
@@ -15339,8 +15420,8 @@
       "username": "Jayagokulavarman02",
       "name": "Jayagokulavarman P P",
       "department": "III CSD A",
-      "streak": 33,
-      "totalActiveDays": 109,
+      "streak": 34,
+      "totalActiveDays": 110,
       "calendarCounts": {
         "1769385600": 41,
         "1769472000": 16,
@@ -15450,9 +15531,19 @@
         "1793059200": 1,
         "1793145600": 1,
         "1793232000": 1,
-        "1793318400": 1
+        "1793318400": 1,
+        "1793404800": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186202076",
+          "title": "Twisted Mirror Path Count",
+          "titleSlug": "twisted-mirror-path-count",
+          "timestamp": 1793452600,
+          "date": "2026-10-31",
+          "time": "18:46:40",
+          "language": "java"
+        },
         {
           "id": "2185193776",
           "title": "Shortest Path With At Most K Consecutive Identical Characters",
@@ -15622,15 +15713,6 @@
           "timestamp": 1791968562,
           "date": "2026-10-14",
           "time": "14:32:42",
-          "language": "java"
-        },
-        {
-          "id": "2171971961",
-          "title": "Triangle",
-          "titleSlug": "triangle",
-          "timestamp": 1791968438,
-          "date": "2026-10-14",
-          "time": "14:30:38",
           "language": "java"
         }
       ]
@@ -16347,7 +16429,7 @@
       "name": "NERAIMATHI.K",
       "department": "III CSD A",
       "streak": 28,
-      "totalActiveDays": 124,
+      "totalActiveDays": 125,
       "calendarCounts": {
         "1767225600": 1,
         "1767830400": 1,
@@ -16472,9 +16554,37 @@
         "1793059200": 3,
         "1793145600": 2,
         "1793232000": 3,
-        "1793318400": 1
+        "1793318400": 1,
+        "1793404800": 4
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186190627",
+          "title": "Maximum Level Sum of a Binary Tree",
+          "titleSlug": "maximum-level-sum-of-a-binary-tree",
+          "timestamp": 1793451473,
+          "date": "2026-10-31",
+          "time": "18:27:53",
+          "language": "java"
+        },
+        {
+          "id": "2186190256",
+          "title": "Smallest Subtree with all the Deepest Nodes",
+          "titleSlug": "smallest-subtree-with-all-the-deepest-nodes",
+          "timestamp": 1793451434,
+          "date": "2026-10-31",
+          "time": "18:27:14",
+          "language": "java"
+        },
+        {
+          "id": "2186189538",
+          "title": "Find Eventual Safe States",
+          "titleSlug": "find-eventual-safe-states",
+          "timestamp": 1793451363,
+          "date": "2026-10-31",
+          "time": "18:26:03",
+          "language": "java"
+        },
         {
           "id": "2185673116",
           "title": "Word Ladder",
@@ -16626,33 +16736,6 @@
           "timestamp": 1792776145,
           "date": "2026-10-23",
           "time": "22:52:25",
-          "language": "java"
-        },
-        {
-          "id": "2179869746",
-          "title": "Best Time to Buy and Sell Stock IV",
-          "titleSlug": "best-time-to-buy-and-sell-stock-iv",
-          "timestamp": 1792776068,
-          "date": "2026-10-23",
-          "time": "22:51:08",
-          "language": "java"
-        },
-        {
-          "id": "2179078573",
-          "title": "Subarray Sums Divisible by K",
-          "titleSlug": "subarray-sums-divisible-by-k",
-          "timestamp": 1792692064,
-          "date": "2026-10-22",
-          "time": "23:31:04",
-          "language": "java"
-        },
-        {
-          "id": "2179078036",
-          "title": "Maximum Sum of 3 Non-Overlapping Subarrays",
-          "titleSlug": "maximum-sum-of-3-non-overlapping-subarrays",
-          "timestamp": 1792692031,
-          "date": "2026-10-22",
-          "time": "23:30:31",
           "language": "java"
         }
       ]
@@ -18726,7 +18809,7 @@
       "name": "Santhosh Kanna",
       "department": "III CSD A",
       "streak": 62,
-      "totalActiveDays": 122,
+      "totalActiveDays": 123,
       "calendarCounts": {
         "1769299200": 37,
         "1769472000": 1,
@@ -18849,9 +18932,19 @@
         "1792972800": 1,
         "1793059200": 1,
         "1793145600": 1,
-        "1793318400": 3
+        "1793318400": 3,
+        "1793404800": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186325570",
+          "title": "Twisted Mirror Path Count",
+          "titleSlug": "twisted-mirror-path-count",
+          "timestamp": 1793463641,
+          "date": "2026-10-31",
+          "time": "21:50:41",
+          "language": "java"
+        },
         {
           "id": "2185672878",
           "title": "Shortest Path With At Most K Consecutive Identical Characters",
@@ -19021,15 +19114,6 @@
           "timestamp": 1792167623,
           "date": "2026-10-16",
           "time": "21:50:23",
-          "language": "java"
-        },
-        {
-          "id": "2173187223",
-          "title": "N-ary Tree Postorder Traversal",
-          "titleSlug": "n-ary-tree-postorder-traversal",
-          "timestamp": 1792081670,
-          "date": "2026-10-15",
-          "time": "21:57:50",
           "language": "java"
         }
       ]
