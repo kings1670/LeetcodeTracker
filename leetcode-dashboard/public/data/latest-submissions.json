@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-01",
-  "collectedAt": "2026-11-01T02:00:17.519255+05:30",
+  "date": "2026-11-02",
+  "collectedAt": "2026-11-02T02:46:21.926823+05:30",
   "students": {
     "310625150001": {
       "username": "Aadhithiya_10",
@@ -712,28 +712,191 @@
       "name": "Bharanidharan P",
       "department": "II CSD A",
       "streak": 1,
-      "totalActiveDays": 1,
+      "totalActiveDays": 2,
       "calendarCounts": {
-        "1783728000": 6
+        "1783728000": 6,
+        "1793491200": 58
       },
       "recentAcceptedSubmissions": [
         {
-          "id": "2064084765",
-          "title": "Add Two Numbers",
-          "titleSlug": "add-two-numbers",
-          "timestamp": 1783788462,
-          "date": "2026-07-11",
-          "time": "22:17:42",
-          "language": "cpp"
+          "id": "2187301674",
+          "title": "Best Time to Buy and Sell Stock",
+          "titleSlug": "best-time-to-buy-and-sell-stock",
+          "timestamp": 1793566395,
+          "date": "2026-11-02",
+          "time": "02:23:15",
+          "language": "python3"
         },
         {
-          "id": "2064080011",
-          "title": "Two Sum",
-          "titleSlug": "two-sum",
-          "timestamp": 1783788187,
-          "date": "2026-07-11",
-          "time": "22:13:07",
-          "language": "javascript"
+          "id": "2187301518",
+          "title": "Triangle",
+          "titleSlug": "triangle",
+          "timestamp": 1793566365,
+          "date": "2026-11-02",
+          "time": "02:22:45",
+          "language": "python3"
+        },
+        {
+          "id": "2187301037",
+          "title": "Pascal's Triangle II",
+          "titleSlug": "pascals-triangle-ii",
+          "timestamp": 1793566279,
+          "date": "2026-11-02",
+          "time": "02:21:19",
+          "language": "python3"
+        },
+        {
+          "id": "2187300828",
+          "title": "Pascal's Triangle",
+          "titleSlug": "pascals-triangle",
+          "timestamp": 1793566247,
+          "date": "2026-11-02",
+          "time": "02:20:47",
+          "language": "python3"
+        },
+        {
+          "id": "2187300648",
+          "title": "Convert Sorted Array to Binary Search Tree",
+          "titleSlug": "convert-sorted-array-to-binary-search-tree",
+          "timestamp": 1793566213,
+          "date": "2026-11-02",
+          "time": "02:20:13",
+          "language": "python3"
+        },
+        {
+          "id": "2187300452",
+          "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+          "titleSlug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+          "timestamp": 1793566179,
+          "date": "2026-11-02",
+          "time": "02:19:39",
+          "language": "python3"
+        },
+        {
+          "id": "2187300264",
+          "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+          "titleSlug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+          "timestamp": 1793566145,
+          "date": "2026-11-02",
+          "time": "02:19:05",
+          "language": "python3"
+        },
+        {
+          "id": "2187300054",
+          "title": "Subsets II",
+          "titleSlug": "subsets-ii",
+          "timestamp": 1793566108,
+          "date": "2026-11-02",
+          "time": "02:18:28",
+          "language": "python3"
+        },
+        {
+          "id": "2187299798",
+          "title": "Merge Sorted Array",
+          "titleSlug": "merge-sorted-array",
+          "timestamp": 1793566066,
+          "date": "2026-11-02",
+          "time": "02:17:46",
+          "language": "python3"
+        },
+        {
+          "id": "2187299622",
+          "title": "Maximal Rectangle",
+          "titleSlug": "maximal-rectangle",
+          "timestamp": 1793566036,
+          "date": "2026-11-02",
+          "time": "02:17:16",
+          "language": "python3"
+        },
+        {
+          "id": "2187299427",
+          "title": "Largest Rectangle in Histogram",
+          "titleSlug": "largest-rectangle-in-histogram",
+          "timestamp": 1793566006,
+          "date": "2026-11-02",
+          "time": "02:16:46",
+          "language": "python3"
+        },
+        {
+          "id": "2187298922",
+          "title": "Search in Rotated Sorted Array II",
+          "titleSlug": "search-in-rotated-sorted-array-ii",
+          "timestamp": 1793565921,
+          "date": "2026-11-02",
+          "time": "02:15:21",
+          "language": "python3"
+        },
+        {
+          "id": "2187298563",
+          "title": "Remove Duplicates from Sorted Array II",
+          "titleSlug": "remove-duplicates-from-sorted-array-ii",
+          "timestamp": 1793565858,
+          "date": "2026-11-02",
+          "time": "02:14:18",
+          "language": "python3"
+        },
+        {
+          "id": "2187298213",
+          "title": "Word Search",
+          "titleSlug": "word-search",
+          "timestamp": 1793565795,
+          "date": "2026-11-02",
+          "time": "02:13:15",
+          "language": "python3"
+        },
+        {
+          "id": "2187259315",
+          "title": "Subsets",
+          "titleSlug": "subsets",
+          "timestamp": 1793560484,
+          "date": "2026-11-02",
+          "time": "00:44:44",
+          "language": "python3"
+        },
+        {
+          "id": "2187259044",
+          "title": "Sort Colors",
+          "titleSlug": "sort-colors",
+          "timestamp": 1793560456,
+          "date": "2026-11-02",
+          "time": "00:44:16",
+          "language": "python3"
+        },
+        {
+          "id": "2187258728",
+          "title": "Search a 2D Matrix",
+          "titleSlug": "search-a-2d-matrix",
+          "timestamp": 1793560423,
+          "date": "2026-11-02",
+          "time": "00:43:43",
+          "language": "python3"
+        },
+        {
+          "id": "2187258378",
+          "title": "Set Matrix Zeroes",
+          "titleSlug": "set-matrix-zeroes",
+          "timestamp": 1793560385,
+          "date": "2026-11-02",
+          "time": "00:43:05",
+          "language": "python3"
+        },
+        {
+          "id": "2187258028",
+          "title": "Text Justification",
+          "titleSlug": "text-justification",
+          "timestamp": 1793560346,
+          "date": "2026-11-02",
+          "time": "00:42:26",
+          "language": "python3"
+        },
+        {
+          "id": "2187257534",
+          "title": "Plus One",
+          "titleSlug": "plus-one",
+          "timestamp": 1793560289,
+          "date": "2026-11-02",
+          "time": "00:41:29",
+          "language": "python3"
         }
       ]
     },
@@ -742,7 +905,7 @@
       "name": "Bharath Rikkesh R G",
       "department": "II CSD A",
       "streak": 3,
-      "totalActiveDays": 8,
+      "totalActiveDays": 9,
       "calendarCounts": {
         "1783555200": 2,
         "1784505600": 8,
@@ -751,9 +914,73 @@
         "1787270400": 17,
         "1787443200": 16,
         "1788825600": 1,
-        "1788912000": 2
+        "1788912000": 2,
+        "1793491200": 12
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2187240397",
+          "title": "Permutations II",
+          "titleSlug": "permutations-ii",
+          "timestamp": 1793558497,
+          "date": "2026-11-02",
+          "time": "00:11:37",
+          "language": "java"
+        },
+        {
+          "id": "2187239814",
+          "title": "Permutations",
+          "titleSlug": "permutations",
+          "timestamp": 1793558444,
+          "date": "2026-11-02",
+          "time": "00:10:44",
+          "language": "java"
+        },
+        {
+          "id": "2187239287",
+          "title": "Jump Game II",
+          "titleSlug": "jump-game-ii",
+          "timestamp": 1793558397,
+          "date": "2026-11-02",
+          "time": "00:09:57",
+          "language": "java"
+        },
+        {
+          "id": "2187238567",
+          "title": "Wildcard Matching",
+          "titleSlug": "wildcard-matching",
+          "timestamp": 1793558327,
+          "date": "2026-11-02",
+          "time": "00:08:47",
+          "language": "java"
+        },
+        {
+          "id": "2187237999",
+          "title": "Multiply Strings",
+          "titleSlug": "multiply-strings",
+          "timestamp": 1793558272,
+          "date": "2026-11-02",
+          "time": "00:07:52",
+          "language": "java"
+        },
+        {
+          "id": "2187237450",
+          "title": "Trapping Rain Water",
+          "titleSlug": "trapping-rain-water",
+          "timestamp": 1793558227,
+          "date": "2026-11-02",
+          "time": "00:07:07",
+          "language": "java"
+        },
+        {
+          "id": "2187236721",
+          "title": "First Missing Positive",
+          "titleSlug": "first-missing-positive",
+          "timestamp": 1793558161,
+          "date": "2026-11-02",
+          "time": "00:06:01",
+          "language": "java"
+        },
         {
           "id": "2136183448",
           "title": "Missing Number",
@@ -869,69 +1096,6 @@
           "timestamp": 1787470134,
           "date": "2026-08-23",
           "time": "12:58:54",
-          "language": "python3"
-        },
-        {
-          "id": "2115181624",
-          "title": "Swap Nodes in Pairs",
-          "titleSlug": "swap-nodes-in-pairs",
-          "timestamp": 1787324844,
-          "date": "2026-08-21",
-          "time": "20:37:24",
-          "language": "python3"
-        },
-        {
-          "id": "2115181384",
-          "title": "Generate Parentheses",
-          "titleSlug": "generate-parentheses",
-          "timestamp": 1787324829,
-          "date": "2026-08-21",
-          "time": "20:37:09",
-          "language": "python3"
-        },
-        {
-          "id": "2115180353",
-          "title": "Merge Two Sorted Lists",
-          "titleSlug": "merge-two-sorted-lists",
-          "timestamp": 1787324765,
-          "date": "2026-08-21",
-          "time": "20:36:05",
-          "language": "python3"
-        },
-        {
-          "id": "2115179226",
-          "title": "Substring with Concatenation of All Words",
-          "titleSlug": "substring-with-concatenation-of-all-words",
-          "timestamp": 1787324696,
-          "date": "2026-08-21",
-          "time": "20:34:56",
-          "language": "python3"
-        },
-        {
-          "id": "2115176248",
-          "title": "Divide Two Integers",
-          "titleSlug": "divide-two-integers",
-          "timestamp": 1787324511,
-          "date": "2026-08-21",
-          "time": "20:31:51",
-          "language": "python3"
-        },
-        {
-          "id": "2115175311",
-          "title": "Find the Index of the First Occurrence in a String",
-          "titleSlug": "find-the-index-of-the-first-occurrence-in-a-string",
-          "timestamp": 1787324451,
-          "date": "2026-08-21",
-          "time": "20:30:51",
-          "language": "python3"
-        },
-        {
-          "id": "2115171825",
-          "title": "Remove Element",
-          "titleSlug": "remove-element",
-          "timestamp": 1787324239,
-          "date": "2026-08-21",
-          "time": "20:27:19",
           "language": "python3"
         }
       ]
@@ -1173,96 +1337,196 @@
       "name": "Deepak E",
       "department": "II CSD A",
       "streak": 2,
-      "totalActiveDays": 6,
+      "totalActiveDays": 7,
       "calendarCounts": {
         "1783987200": 2,
         "1788739200": 2,
         "1788825600": 1,
         "1788998400": 2,
         "1789516800": 1,
-        "1789603200": 2
+        "1789603200": 2,
+        "1793491200": 44
       },
       "recentAcceptedSubmissions": [
         {
-          "id": "2144764703",
-          "title": "Remove Duplicates from Sorted Array",
-          "titleSlug": "remove-duplicates-from-sorted-array",
-          "timestamp": 1789652870,
-          "date": "2026-09-17",
-          "time": "19:17:50",
+          "id": "2187156035",
+          "title": "Sqrt(x)",
+          "titleSlug": "sqrtx",
+          "timestamp": 1793552322,
+          "date": "2026-11-01",
+          "time": "22:28:42",
           "language": "cpp"
         },
         {
-          "id": "2144758524",
-          "title": "Merge Two Sorted Lists",
-          "titleSlug": "merge-two-sorted-lists",
-          "timestamp": 1789652490,
-          "date": "2026-09-17",
-          "time": "19:11:30",
+          "id": "2187155241",
+          "title": "Add Binary",
+          "titleSlug": "add-binary",
+          "timestamp": 1793552265,
+          "date": "2026-11-01",
+          "time": "22:27:45",
           "language": "cpp"
         },
         {
-          "id": "2143959543",
-          "title": "Valid Parentheses",
-          "titleSlug": "valid-parentheses",
-          "timestamp": 1789580617,
-          "date": "2026-09-16",
-          "time": "23:13:37",
+          "id": "2187154511",
+          "title": "Plus One",
+          "titleSlug": "plus-one",
+          "timestamp": 1793552213,
+          "date": "2026-11-01",
+          "time": "22:26:53",
           "language": "cpp"
         },
         {
-          "id": "2136983609",
-          "title": "Missing Number",
-          "titleSlug": "missing-number",
-          "timestamp": 1789010217,
-          "date": "2026-09-10",
-          "time": "08:46:57",
+          "id": "2187153596",
+          "title": "Unique Paths",
+          "titleSlug": "unique-paths",
+          "timestamp": 1793552149,
+          "date": "2026-11-01",
+          "time": "22:25:49",
           "language": "cpp"
         },
         {
-          "id": "2134559554",
-          "title": "Water Bottles",
-          "titleSlug": "water-bottles",
-          "timestamp": 1788837867,
-          "date": "2026-09-08",
-          "time": "08:54:27",
+          "id": "2187152582",
+          "title": "Rotate List",
+          "titleSlug": "rotate-list",
+          "timestamp": 1793552075,
+          "date": "2026-11-01",
+          "time": "22:24:35",
           "language": "cpp"
         },
         {
-          "id": "2134190829",
-          "title": "Longest Common Prefix",
-          "titleSlug": "longest-common-prefix",
-          "timestamp": 1788801200,
-          "date": "2026-09-07",
-          "time": "22:43:20",
-          "language": "python"
+          "id": "2187151546",
+          "title": "Spiral Matrix II",
+          "titleSlug": "spiral-matrix-ii",
+          "timestamp": 1793552000,
+          "date": "2026-11-01",
+          "time": "22:23:20",
+          "language": "cpp"
         },
         {
-          "id": "2134170556",
-          "title": "Roman to Integer",
-          "titleSlug": "roman-to-integer",
-          "timestamp": 1788800334,
-          "date": "2026-09-07",
-          "time": "22:28:54",
-          "language": "python"
+          "id": "2187150589",
+          "title": "Length of Last Word",
+          "titleSlug": "length-of-last-word",
+          "timestamp": 1793551929,
+          "date": "2026-11-01",
+          "time": "22:22:09",
+          "language": "c"
         },
         {
-          "id": "2066803043",
-          "title": "Palindrome Number",
-          "titleSlug": "palindrome-number",
-          "timestamp": 1783999974,
-          "date": "2026-07-14",
-          "time": "09:02:54",
-          "language": "python3"
+          "id": "2187149074",
+          "title": "Insert Interval",
+          "titleSlug": "insert-interval",
+          "timestamp": 1793551817,
+          "date": "2026-11-01",
+          "time": "22:20:17",
+          "language": "cpp"
         },
         {
-          "id": "1822151003",
-          "title": "Two Sum",
-          "titleSlug": "two-sum",
-          "timestamp": 1762408799,
-          "date": "2025-11-06",
-          "time": "11:29:59",
-          "language": "python"
+          "id": "2187147971",
+          "title": "Merge Intervals",
+          "titleSlug": "merge-intervals",
+          "timestamp": 1793551734,
+          "date": "2026-11-01",
+          "time": "22:18:54",
+          "language": "cpp"
+        },
+        {
+          "id": "2187147146",
+          "title": "Jump Game",
+          "titleSlug": "jump-game",
+          "timestamp": 1793551671,
+          "date": "2026-11-01",
+          "time": "22:17:51",
+          "language": "cpp"
+        },
+        {
+          "id": "2187146350",
+          "title": "Spiral Matrix",
+          "titleSlug": "spiral-matrix",
+          "timestamp": 1793551614,
+          "date": "2026-11-01",
+          "time": "22:16:54",
+          "language": "cpp"
+        },
+        {
+          "id": "2187145540",
+          "title": "Maximum Subarray",
+          "titleSlug": "maximum-subarray",
+          "timestamp": 1793551550,
+          "date": "2026-11-01",
+          "time": "22:15:50",
+          "language": "cpp"
+        },
+        {
+          "id": "2187143610",
+          "title": "Group Anagrams",
+          "titleSlug": "group-anagrams",
+          "timestamp": 1793551410,
+          "date": "2026-11-01",
+          "time": "22:13:30",
+          "language": "cpp"
+        },
+        {
+          "id": "2187142712",
+          "title": "Rotate Image",
+          "titleSlug": "rotate-image",
+          "timestamp": 1793551343,
+          "date": "2026-11-01",
+          "time": "22:12:23",
+          "language": "cpp"
+        },
+        {
+          "id": "2187141876",
+          "title": "Permutations II",
+          "titleSlug": "permutations-ii",
+          "timestamp": 1793551283,
+          "date": "2026-11-01",
+          "time": "22:11:23",
+          "language": "cpp"
+        },
+        {
+          "id": "2187141039",
+          "title": "Permutations",
+          "titleSlug": "permutations",
+          "timestamp": 1793551222,
+          "date": "2026-11-01",
+          "time": "22:10:22",
+          "language": "cpp"
+        },
+        {
+          "id": "2187140083",
+          "title": "Jump Game II",
+          "titleSlug": "jump-game-ii",
+          "timestamp": 1793551153,
+          "date": "2026-11-01",
+          "time": "22:09:13",
+          "language": "cpp"
+        },
+        {
+          "id": "2187138977",
+          "title": "Multiply Strings",
+          "titleSlug": "multiply-strings",
+          "timestamp": 1793551070,
+          "date": "2026-11-01",
+          "time": "22:07:50",
+          "language": "cpp"
+        },
+        {
+          "id": "2187138039",
+          "title": "Combination Sum II",
+          "titleSlug": "combination-sum-ii",
+          "timestamp": 1793551004,
+          "date": "2026-11-01",
+          "time": "22:06:44",
+          "language": "cpp"
+        },
+        {
+          "id": "2187136978",
+          "title": "Combination Sum",
+          "titleSlug": "combination-sum",
+          "timestamp": 1793550922,
+          "date": "2026-11-01",
+          "time": "22:05:22",
+          "language": "cpp"
         }
       ]
     },
@@ -1423,7 +1687,7 @@
       "name": "Hariharan K",
       "department": "II CSD A",
       "streak": 22,
-      "totalActiveDays": 71,
+      "totalActiveDays": 72,
       "calendarCounts": {
         "1776297600": 4,
         "1776384000": 2,
@@ -1495,9 +1759,28 @@
         "1789862400": 1,
         "1789948800": 1,
         "1790121600": 1,
-        "1793404800": 2
+        "1793404800": 2,
+        "1793491200": 2
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186694910",
+          "title": "Decode String",
+          "titleSlug": "decode-string",
+          "timestamp": 1793506855,
+          "date": "2026-11-01",
+          "time": "09:50:55",
+          "language": "java"
+        },
+        {
+          "id": "2186694446",
+          "title": "Partition Labels",
+          "titleSlug": "partition-labels",
+          "timestamp": 1793506791,
+          "date": "2026-11-01",
+          "time": "09:49:51",
+          "language": "java"
+        },
         {
           "id": "2185878458",
           "title": "Custom Sort String",
@@ -1659,24 +1942,6 @@
           "date": "2026-09-09",
           "time": "10:00:11",
           "language": "cpp"
-        },
-        {
-          "id": "2135285774",
-          "title": "Word Pattern",
-          "titleSlug": "word-pattern",
-          "timestamp": 1788881415,
-          "date": "2026-09-08",
-          "time": "21:00:15",
-          "language": "java"
-        },
-        {
-          "id": "2135284484",
-          "title": "Isomorphic Strings",
-          "titleSlug": "isomorphic-strings",
-          "timestamp": 1788881345,
-          "date": "2026-09-08",
-          "time": "20:59:05",
-          "language": "java"
         }
       ]
     },
@@ -1923,7 +2188,7 @@
       "name": "Himagiri P S",
       "department": "II CSD A",
       "streak": 6,
-      "totalActiveDays": 27,
+      "totalActiveDays": 28,
       "calendarCounts": {
         "1780876800": 4,
         "1780963200": 3,
@@ -1951,9 +2216,46 @@
         "1790121600": 2,
         "1790726400": 1,
         "1790812800": 3,
-        "1793404800": 3
+        "1793404800": 3,
+        "1793491200": 4
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186749477",
+          "title": "Partition Equal Subset Sum",
+          "titleSlug": "partition-equal-subset-sum",
+          "timestamp": 1793512640,
+          "date": "2026-11-01",
+          "time": "11:27:20",
+          "language": "java"
+        },
+        {
+          "id": "2186748878",
+          "title": "Course Schedule",
+          "titleSlug": "course-schedule",
+          "timestamp": 1793512582,
+          "date": "2026-11-01",
+          "time": "11:26:22",
+          "language": "java"
+        },
+        {
+          "id": "2186748166",
+          "title": "Rotting Oranges",
+          "titleSlug": "rotting-oranges",
+          "timestamp": 1793512518,
+          "date": "2026-11-01",
+          "time": "11:25:18",
+          "language": "java"
+        },
+        {
+          "id": "2186747517",
+          "title": "Max Area of Island",
+          "titleSlug": "max-area-of-island",
+          "timestamp": 1793512459,
+          "date": "2026-11-01",
+          "time": "11:24:19",
+          "language": "java"
+        },
         {
           "id": "2186052968",
           "title": "Number of Provinces",
@@ -2097,42 +2399,6 @@
           "date": "2026-08-10",
           "time": "10:09:28",
           "language": "java"
-        },
-        {
-          "id": "2099443290",
-          "title": "Integer to Roman",
-          "titleSlug": "integer-to-roman",
-          "timestamp": 1786211484,
-          "date": "2026-08-08",
-          "time": "23:21:24",
-          "language": "java"
-        },
-        {
-          "id": "2097776857",
-          "title": "Binary Tree Inorder Traversal",
-          "titleSlug": "binary-tree-inorder-traversal",
-          "timestamp": 1786095690,
-          "date": "2026-08-07",
-          "time": "15:11:30",
-          "language": "java"
-        },
-        {
-          "id": "2095306547",
-          "title": "Same Tree",
-          "titleSlug": "same-tree",
-          "timestamp": 1785933651,
-          "date": "2026-08-05",
-          "time": "18:10:51",
-          "language": "java"
-        },
-        {
-          "id": "2093399612",
-          "title": "Search Insert Position",
-          "titleSlug": "search-insert-position",
-          "timestamp": 1785816346,
-          "date": "2026-08-04",
-          "time": "09:35:46",
-          "language": "java"
         }
       ]
     },
@@ -2141,49 +2407,194 @@
       "name": "Ilamuhil B",
       "department": "II CSD A",
       "streak": 1,
-      "totalActiveDays": 4,
+      "totalActiveDays": 5,
       "calendarCounts": {
         "1784160000": 1,
         "1784592000": 1,
         "1787529600": 1,
-        "1788825600": 2
+        "1788825600": 2,
+        "1793491200": 59
       },
       "recentAcceptedSubmissions": [
         {
-          "id": "2134561233",
-          "title": "Water Bottles",
-          "titleSlug": "water-bottles",
-          "timestamp": 1788838021,
-          "date": "2026-09-08",
-          "time": "08:57:01",
-          "language": "cpp"
+          "id": "2187123407",
+          "title": "Merge Intervals",
+          "titleSlug": "merge-intervals",
+          "timestamp": 1793549876,
+          "date": "2026-11-01",
+          "time": "21:47:56",
+          "language": "python3"
         },
         {
-          "id": "2118263435",
-          "title": "Throne Inheritance",
-          "titleSlug": "throne-inheritance",
-          "timestamp": 1787564392,
-          "date": "2026-08-24",
-          "time": "15:09:52",
-          "language": "cpp"
+          "id": "2187123059",
+          "title": "Jump Game",
+          "titleSlug": "jump-game",
+          "timestamp": 1793549846,
+          "date": "2026-11-01",
+          "time": "21:47:26",
+          "language": "python3"
         },
         {
-          "id": "2075577950",
-          "title": "Pow(x, n)",
-          "titleSlug": "powx-n",
-          "timestamp": 1784624315,
-          "date": "2026-07-21",
-          "time": "14:28:35",
-          "language": "java"
+          "id": "2187122319",
+          "title": "Maximum Subarray",
+          "titleSlug": "maximum-subarray",
+          "timestamp": 1793549789,
+          "date": "2026-11-01",
+          "time": "21:46:29",
+          "language": "python3"
         },
         {
-          "id": "2069380245",
-          "title": "Sqrt(x)",
-          "titleSlug": "sqrtx",
-          "timestamp": 1784179329,
-          "date": "2026-07-16",
-          "time": "10:52:09",
-          "language": "java"
+          "id": "2187120408",
+          "title": "Median of Two Sorted Arrays",
+          "titleSlug": "median-of-two-sorted-arrays",
+          "timestamp": 1793549638,
+          "date": "2026-11-01",
+          "time": "21:43:58",
+          "language": "python3"
+        },
+        {
+          "id": "2187120316",
+          "title": "Longest Palindromic Substring",
+          "titleSlug": "longest-palindromic-substring",
+          "timestamp": 1793549630,
+          "date": "2026-11-01",
+          "time": "21:43:50",
+          "language": "python3"
+        },
+        {
+          "id": "2187119751",
+          "title": "Median of Two Sorted Arrays",
+          "titleSlug": "median-of-two-sorted-arrays",
+          "timestamp": 1793549587,
+          "date": "2026-11-01",
+          "time": "21:43:07",
+          "language": "python3"
+        },
+        {
+          "id": "2187119578",
+          "title": "Zigzag Conversion",
+          "titleSlug": "zigzag-conversion",
+          "timestamp": 1793549573,
+          "date": "2026-11-01",
+          "time": "21:42:53",
+          "language": "python3"
+        },
+        {
+          "id": "2187119201",
+          "title": "Rotate Image",
+          "titleSlug": "rotate-image",
+          "timestamp": 1793549544,
+          "date": "2026-11-01",
+          "time": "21:42:24",
+          "language": "python3"
+        },
+        {
+          "id": "2187118747",
+          "title": "Permutations II",
+          "titleSlug": "permutations-ii",
+          "timestamp": 1793549508,
+          "date": "2026-11-01",
+          "time": "21:41:48",
+          "language": "python3"
+        },
+        {
+          "id": "2187118293",
+          "title": "Permutations",
+          "titleSlug": "permutations",
+          "timestamp": 1793549472,
+          "date": "2026-11-01",
+          "time": "21:41:12",
+          "language": "python3"
+        },
+        {
+          "id": "2187117942",
+          "title": "Jump Game II",
+          "titleSlug": "jump-game-ii",
+          "timestamp": 1793549444,
+          "date": "2026-11-01",
+          "time": "21:40:44",
+          "language": "python3"
+        },
+        {
+          "id": "2187117597",
+          "title": "Wildcard Matching",
+          "titleSlug": "wildcard-matching",
+          "timestamp": 1793549414,
+          "date": "2026-11-01",
+          "time": "21:40:14",
+          "language": "python3"
+        },
+        {
+          "id": "2187117201",
+          "title": "Multiply Strings",
+          "titleSlug": "multiply-strings",
+          "timestamp": 1793549382,
+          "date": "2026-11-01",
+          "time": "21:39:42",
+          "language": "python3"
+        },
+        {
+          "id": "2187116701",
+          "title": "Trapping Rain Water",
+          "titleSlug": "trapping-rain-water",
+          "timestamp": 1793549346,
+          "date": "2026-11-01",
+          "time": "21:39:06",
+          "language": "python3"
+        },
+        {
+          "id": "2187116216",
+          "title": "First Missing Positive",
+          "titleSlug": "first-missing-positive",
+          "timestamp": 1793549306,
+          "date": "2026-11-01",
+          "time": "21:38:26",
+          "language": "python3"
+        },
+        {
+          "id": "2187115868",
+          "title": "Combination Sum II",
+          "titleSlug": "combination-sum-ii",
+          "timestamp": 1793549276,
+          "date": "2026-11-01",
+          "time": "21:37:56",
+          "language": "python3"
+        },
+        {
+          "id": "2187115522",
+          "title": "Combination Sum",
+          "titleSlug": "combination-sum",
+          "timestamp": 1793549246,
+          "date": "2026-11-01",
+          "time": "21:37:26",
+          "language": "python3"
+        },
+        {
+          "id": "2187115073",
+          "title": "Count and Say",
+          "titleSlug": "count-and-say",
+          "timestamp": 1793549211,
+          "date": "2026-11-01",
+          "time": "21:36:51",
+          "language": "python3"
+        },
+        {
+          "id": "2187114286",
+          "title": "Valid Sudoku",
+          "titleSlug": "valid-sudoku",
+          "timestamp": 1793549145,
+          "date": "2026-11-01",
+          "time": "21:35:45",
+          "language": "python3"
+        },
+        {
+          "id": "2187113852",
+          "title": "Search Insert Position",
+          "titleSlug": "search-insert-position",
+          "timestamp": 1793549110,
+          "date": "2026-11-01",
+          "time": "21:35:10",
+          "language": "python3"
         }
       ]
     },
@@ -3534,190 +3945,191 @@
       "name": "Krishanth K B",
       "department": "II CSD A",
       "streak": 1,
-      "totalActiveDays": 1,
+      "totalActiveDays": 2,
       "calendarCounts": {
-        "1785715200": 39
+        "1785715200": 39,
+        "1793491200": 31
       },
       "recentAcceptedSubmissions": [
         {
-          "id": "2092246194",
-          "title": "Divide Two Integers",
-          "titleSlug": "divide-two-integers",
-          "timestamp": 1785740217,
-          "date": "2026-08-03",
-          "time": "12:26:57",
-          "language": "python"
+          "id": "2187120906",
+          "title": "Maximum Value after Insertion",
+          "titleSlug": "maximum-value-after-insertion",
+          "timestamp": 1793549675,
+          "date": "2026-11-01",
+          "time": "21:44:35",
+          "language": "cpp"
         },
         {
-          "id": "2092244811",
-          "title": "Find the Index of the First Occurrence in a String",
-          "titleSlug": "find-the-index-of-the-first-occurrence-in-a-string",
-          "timestamp": 1785740148,
-          "date": "2026-08-03",
-          "time": "12:25:48",
-          "language": "python"
+          "id": "2187120541",
+          "title": "Check if Word Equals Summation of Two Words",
+          "titleSlug": "check-if-word-equals-summation-of-two-words",
+          "timestamp": 1793549648,
+          "date": "2026-11-01",
+          "time": "21:44:08",
+          "language": "cpp"
         },
         {
-          "id": "2092243789",
-          "title": "Remove Element",
-          "titleSlug": "remove-element",
-          "timestamp": 1785740097,
-          "date": "2026-08-03",
-          "time": "12:24:57",
-          "language": "python"
+          "id": "2187119802",
+          "title": "Minimum XOR Sum of Two Arrays",
+          "titleSlug": "minimum-xor-sum-of-two-arrays",
+          "timestamp": 1793549591,
+          "date": "2026-11-01",
+          "time": "21:43:11",
+          "language": "cpp"
         },
         {
-          "id": "2092243096",
-          "title": "Remove Duplicates from Sorted Array",
-          "titleSlug": "remove-duplicates-from-sorted-array",
-          "timestamp": 1785740062,
-          "date": "2026-08-03",
-          "time": "12:24:22",
-          "language": "python"
+          "id": "2187118949",
+          "title": "Get Biggest Three Rhombus Sums in a Grid",
+          "titleSlug": "get-biggest-three-rhombus-sums-in-a-grid",
+          "timestamp": 1793549523,
+          "date": "2026-11-01",
+          "time": "21:42:03",
+          "language": "cpp"
         },
         {
-          "id": "2092242380",
-          "title": "Reverse Nodes in k-Group",
-          "titleSlug": "reverse-nodes-in-k-group",
-          "timestamp": 1785740028,
-          "date": "2026-08-03",
-          "time": "12:23:48",
-          "language": "python"
+          "id": "2187118599",
+          "title": "Minimize Maximum Pair Sum in Array",
+          "titleSlug": "minimize-maximum-pair-sum-in-array",
+          "timestamp": 1793549495,
+          "date": "2026-11-01",
+          "time": "21:41:35",
+          "language": "cpp"
         },
         {
-          "id": "2092241825",
-          "title": "Swap Nodes in Pairs",
-          "titleSlug": "swap-nodes-in-pairs",
-          "timestamp": 1785740000,
-          "date": "2026-08-03",
-          "time": "12:23:20",
-          "language": "python"
+          "id": "2187118203",
+          "title": "Substrings of Size Three with Distinct Characters",
+          "titleSlug": "substrings-of-size-three-with-distinct-characters",
+          "timestamp": 1793549465,
+          "date": "2026-11-01",
+          "time": "21:41:05",
+          "language": "cpp"
         },
         {
-          "id": "2092241224",
-          "title": "Merge k Sorted Lists",
-          "titleSlug": "merge-k-sorted-lists",
-          "timestamp": 1785739971,
-          "date": "2026-08-03",
-          "time": "12:22:51",
-          "language": "python"
+          "id": "2187117566",
+          "title": "Range Sum Query - Mutable",
+          "titleSlug": "range-sum-query-mutable",
+          "timestamp": 1793549411,
+          "date": "2026-11-01",
+          "time": "21:40:11",
+          "language": "cpp"
         },
         {
-          "id": "2092201134",
-          "title": "Generate Parentheses",
-          "titleSlug": "generate-parentheses",
-          "timestamp": 1785738154,
-          "date": "2026-08-03",
-          "time": "11:52:34",
-          "language": "python"
+          "id": "2187116688",
+          "title": "LFU Cache",
+          "titleSlug": "lfu-cache",
+          "timestamp": 1793549345,
+          "date": "2026-11-01",
+          "time": "21:39:05",
+          "language": "cpp"
         },
         {
-          "id": "2092199570",
-          "title": "Merge Two Sorted Lists",
-          "titleSlug": "merge-two-sorted-lists",
-          "timestamp": 1785738086,
-          "date": "2026-08-03",
-          "time": "11:51:26",
-          "language": "python"
+          "id": "2187116149",
+          "title": "Repeated Substring Pattern",
+          "titleSlug": "repeated-substring-pattern",
+          "timestamp": 1793549299,
+          "date": "2026-11-01",
+          "time": "21:38:19",
+          "language": "cpp"
         },
         {
-          "id": "2092198617",
-          "title": "Valid Parentheses",
-          "titleSlug": "valid-parentheses",
-          "timestamp": 1785738046,
-          "date": "2026-08-03",
-          "time": "11:50:46",
-          "language": "python"
+          "id": "2187114973",
+          "title": "Poor Pigs",
+          "titleSlug": "poor-pigs",
+          "timestamp": 1793549202,
+          "date": "2026-11-01",
+          "time": "21:36:42",
+          "language": "cpp"
         },
         {
-          "id": "2092197749",
-          "title": "Remove Nth Node From End of List",
-          "titleSlug": "remove-nth-node-from-end-of-list",
-          "timestamp": 1785738008,
-          "date": "2026-08-03",
-          "time": "11:50:08",
-          "language": "python"
+          "id": "2187114427",
+          "title": "Circular Array Loop",
+          "titleSlug": "circular-array-loop",
+          "timestamp": 1793549157,
+          "date": "2026-11-01",
+          "time": "21:35:57",
+          "language": "cpp"
         },
         {
-          "id": "2092196935",
-          "title": "4Sum",
-          "titleSlug": "4sum",
-          "timestamp": 1785737974,
-          "date": "2026-08-03",
-          "time": "11:49:34",
-          "language": "python"
+          "id": "2187113958",
+          "title": "132 Pattern",
+          "titleSlug": "132-pattern",
+          "timestamp": 1793549118,
+          "date": "2026-11-01",
+          "time": "21:35:18",
+          "language": "cpp"
         },
         {
-          "id": "2092195773",
-          "title": "Letter Combinations of a Phone Number",
-          "titleSlug": "letter-combinations-of-a-phone-number",
-          "timestamp": 1785737925,
-          "date": "2026-08-03",
-          "time": "11:48:45",
-          "language": "python"
+          "id": "2187113579",
+          "title": "Assign Cookies",
+          "titleSlug": "assign-cookies",
+          "timestamp": 1793549090,
+          "date": "2026-11-01",
+          "time": "21:34:50",
+          "language": "cpp"
         },
         {
-          "id": "2092194887",
-          "title": "3Sum Closest",
-          "titleSlug": "3sum-closest",
-          "timestamp": 1785737885,
-          "date": "2026-08-03",
-          "time": "11:48:05",
-          "language": "python"
+          "id": "2187113134",
+          "title": "4Sum II",
+          "titleSlug": "4sum-ii",
+          "timestamp": 1793549055,
+          "date": "2026-11-01",
+          "time": "21:34:15",
+          "language": "cpp"
         },
         {
-          "id": "2092193905",
-          "title": "3Sum",
-          "titleSlug": "3sum",
-          "timestamp": 1785737842,
-          "date": "2026-08-03",
-          "time": "11:47:22",
-          "language": "python"
+          "id": "2187112544",
+          "title": "Minimum Moves to Equal Array Elements",
+          "titleSlug": "minimum-moves-to-equal-array-elements",
+          "timestamp": 1793549006,
+          "date": "2026-11-01",
+          "time": "21:33:26",
+          "language": "cpp"
         },
         {
-          "id": "2092193096",
-          "title": "Longest Common Prefix",
-          "titleSlug": "longest-common-prefix",
-          "timestamp": 1785737804,
-          "date": "2026-08-03",
-          "time": "11:46:44",
-          "language": "python"
+          "id": "2187111800",
+          "title": "Count Special Integers",
+          "titleSlug": "count-special-integers",
+          "timestamp": 1793548949,
+          "date": "2026-11-01",
+          "time": "21:32:29",
+          "language": "cpp"
         },
         {
-          "id": "2092192171",
-          "title": "Roman to Integer",
-          "titleSlug": "roman-to-integer",
-          "timestamp": 1785737763,
-          "date": "2026-08-03",
-          "time": "11:46:03",
-          "language": "python"
+          "id": "2187111100",
+          "title": "Valid Arrangement of Pairs",
+          "titleSlug": "valid-arrangement-of-pairs",
+          "timestamp": 1793548893,
+          "date": "2026-11-01",
+          "time": "21:31:33",
+          "language": "cpp"
         },
         {
-          "id": "2092190993",
-          "title": "Integer to Roman",
-          "titleSlug": "integer-to-roman",
-          "timestamp": 1785737710,
-          "date": "2026-08-03",
-          "time": "11:45:10",
-          "language": "python"
+          "id": "2187110713",
+          "title": "Step-By-Step Directions From a Binary Tree Node to Another",
+          "titleSlug": "step-by-step-directions-from-a-binary-tree-node-to-another",
+          "timestamp": 1793548861,
+          "date": "2026-11-01",
+          "time": "21:31:01",
+          "language": "cpp"
         },
         {
-          "id": "2092190134",
-          "title": "Container With Most Water",
-          "titleSlug": "container-with-most-water",
-          "timestamp": 1785737673,
-          "date": "2026-08-03",
-          "time": "11:44:33",
-          "language": "python"
+          "id": "2187110075",
+          "title": "Minimum Weighted Subgraph With the Required Paths",
+          "titleSlug": "minimum-weighted-subgraph-with-the-required-paths",
+          "timestamp": 1793548811,
+          "date": "2026-11-01",
+          "time": "21:30:11",
+          "language": "cpp"
         },
         {
-          "id": "2092189331",
-          "title": "Regular Expression Matching",
-          "titleSlug": "regular-expression-matching",
-          "timestamp": 1785737638,
-          "date": "2026-08-03",
-          "time": "11:43:58",
-          "language": "python"
+          "id": "2187109723",
+          "title": "Maximize the Topmost Element After K Moves",
+          "titleSlug": "maximize-the-topmost-element-after-k-moves",
+          "timestamp": 1793548778,
+          "date": "2026-11-01",
+          "time": "21:29:38",
+          "language": "cpp"
         }
       ]
     },
@@ -3726,7 +4138,7 @@
       "name": "Logesh E",
       "department": "II CSD A",
       "streak": 13,
-      "totalActiveDays": 37,
+      "totalActiveDays": 38,
       "calendarCounts": {
         "1780790400": 1,
         "1780876800": 5,
@@ -3764,9 +4176,46 @@
         "1788220800": 1,
         "1788307200": 1,
         "1788480000": 1,
-        "1791676800": 1
+        "1791676800": 1,
+        "1793491200": 5
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186779003",
+          "title": "Merge Two Sorted Lists",
+          "titleSlug": "merge-two-sorted-lists",
+          "timestamp": 1793515337,
+          "date": "2026-11-01",
+          "time": "12:12:17",
+          "language": "python3"
+        },
+        {
+          "id": "2186778229",
+          "title": "Valid Parentheses",
+          "titleSlug": "valid-parentheses",
+          "timestamp": 1793515260,
+          "date": "2026-11-01",
+          "time": "12:11:00",
+          "language": "python3"
+        },
+        {
+          "id": "2186777561",
+          "title": "Longest Common Prefix",
+          "titleSlug": "longest-common-prefix",
+          "timestamp": 1793515193,
+          "date": "2026-11-01",
+          "time": "12:09:53",
+          "language": "python3"
+        },
+        {
+          "id": "2186776572",
+          "title": "Roman to Integer",
+          "titleSlug": "roman-to-integer",
+          "timestamp": 1793515098,
+          "date": "2026-11-01",
+          "time": "12:08:18",
+          "language": "python3"
+        },
         {
           "id": "2169455001",
           "title": "Sum of Squares of Special Elements ",
@@ -3909,42 +4358,6 @@
           "timestamp": 1785777296,
           "date": "2026-08-03",
           "time": "22:44:56",
-          "language": "python3"
-        },
-        {
-          "id": "2092968484",
-          "title": "Stone Game III",
-          "titleSlug": "stone-game-iii",
-          "timestamp": 1785776972,
-          "date": "2026-08-03",
-          "time": "22:39:32",
-          "language": "python3"
-        },
-        {
-          "id": "2091637503",
-          "title": "Median of Two Sorted Arrays",
-          "titleSlug": "median-of-two-sorted-arrays",
-          "timestamp": 1785689270,
-          "date": "2026-08-02",
-          "time": "22:17:50",
-          "language": "python3"
-        },
-        {
-          "id": "2091633717",
-          "title": "Stone Game",
-          "titleSlug": "stone-game",
-          "timestamp": 1785689105,
-          "date": "2026-08-02",
-          "time": "22:15:05",
-          "language": "python3"
-        },
-        {
-          "id": "2089622339",
-          "title": "Remove Element",
-          "titleSlug": "remove-element",
-          "timestamp": 1785568325,
-          "date": "2026-08-01",
-          "time": "12:42:05",
           "language": "python3"
         }
       ]
@@ -4361,104 +4774,195 @@
       "name": "Monishraj D",
       "department": "II CSD A",
       "streak": 2,
-      "totalActiveDays": 6,
+      "totalActiveDays": 7,
       "calendarCounts": {
         "1784505600": 2,
         "1784592000": 5,
         "1788825600": 4,
         "1788912000": 4,
         "1789084800": 1,
-        "1789516800": 2
+        "1789516800": 2,
+        "1793491200": 45
       },
       "recentAcceptedSubmissions": [
         {
-          "id": "2143451858",
-          "title": "Median of Two Sorted Arrays",
-          "titleSlug": "median-of-two-sorted-arrays",
-          "timestamp": 1789547076,
-          "date": "2026-09-16",
-          "time": "13:54:36",
+          "id": "2187020284",
+          "title": "Move Zeroes",
+          "titleSlug": "move-zeroes",
+          "timestamp": 1793541065,
+          "date": "2026-11-01",
+          "time": "19:21:05",
           "language": "cpp"
         },
         {
-          "id": "2143449654",
-          "title": "Add Two Numbers",
-          "titleSlug": "add-two-numbers",
-          "timestamp": 1789546896,
-          "date": "2026-09-16",
-          "time": "13:51:36",
+          "id": "2187019894",
+          "title": "First Bad Version",
+          "titleSlug": "first-bad-version",
+          "timestamp": 1793541034,
+          "date": "2026-11-01",
+          "time": "19:20:34",
+          "language": "python3"
+        },
+        {
+          "id": "2187018676",
+          "title": "Palindrome Linked List",
+          "titleSlug": "palindrome-linked-list",
+          "timestamp": 1793540930,
+          "date": "2026-11-01",
+          "time": "19:18:50",
+          "language": "python3"
+        },
+        {
+          "id": "2187018009",
+          "title": "Implement Queue using Stacks",
+          "titleSlug": "implement-queue-using-stacks",
+          "timestamp": 1793540875,
+          "date": "2026-11-01",
+          "time": "19:17:55",
           "language": "cpp"
         },
         {
-          "id": "2138253684",
-          "title": "Valid Parentheses",
-          "titleSlug": "valid-parentheses",
-          "timestamp": 1789108166,
-          "date": "2026-09-11",
-          "time": "11:59:26",
+          "id": "2187017500",
+          "title": "Power of Two",
+          "titleSlug": "power-of-two",
+          "timestamp": 1793540835,
+          "date": "2026-11-01",
+          "time": "19:17:15",
           "language": "cpp"
         },
         {
-          "id": "2136189300",
-          "title": "Missing Number",
-          "titleSlug": "missing-number",
-          "timestamp": 1788948436,
-          "date": "2026-09-09",
-          "time": "15:37:16",
+          "id": "2187016901",
+          "title": "Summary Ranges",
+          "titleSlug": "summary-ranges",
+          "timestamp": 1793540788,
+          "date": "2026-11-01",
+          "time": "19:16:28",
+          "language": "python3"
+        },
+        {
+          "id": "2187014965",
+          "title": "Excel Sheet Column Number",
+          "titleSlug": "excel-sheet-column-number",
+          "timestamp": 1793540625,
+          "date": "2026-11-01",
+          "time": "19:13:45",
           "language": "cpp"
         },
         {
-          "id": "2136185517",
-          "title": "Container With Most Water",
-          "titleSlug": "container-with-most-water",
-          "timestamp": 1788948201,
-          "date": "2026-09-09",
-          "time": "15:33:21",
+          "id": "2187014162",
+          "title": "Majority Element",
+          "titleSlug": "majority-element",
+          "timestamp": 1793540559,
+          "date": "2026-11-01",
+          "time": "19:12:39",
           "language": "cpp"
         },
         {
-          "id": "2136141127",
-          "title": "Fibonacci Number",
-          "titleSlug": "fibonacci-number",
-          "timestamp": 1788945544,
-          "date": "2026-09-09",
-          "time": "14:49:04",
-          "language": "cpp"
-        },
-        {
-          "id": "2134562021",
-          "title": "Water Bottles",
-          "titleSlug": "water-bottles",
-          "timestamp": 1788838097,
-          "date": "2026-09-08",
-          "time": "08:58:17",
-          "language": "cpp"
-        },
-        {
-          "id": "2075220922",
-          "title": "Palindrome Number",
-          "titleSlug": "palindrome-number",
-          "timestamp": 1784603807,
-          "date": "2026-07-21",
-          "time": "08:46:47",
+          "id": "2187012715",
+          "title": "Excel Sheet Column Title",
+          "titleSlug": "excel-sheet-column-title",
+          "timestamp": 1793540432,
+          "date": "2026-11-01",
+          "time": "19:10:32",
           "language": "java"
         },
         {
-          "id": "2075219625",
-          "title": "Shift 2D Grid",
-          "titleSlug": "shift-2d-grid",
-          "timestamp": 1784603675,
-          "date": "2026-07-21",
-          "time": "08:44:35",
+          "id": "2187012360",
+          "title": "Intersection of Two Linked Lists",
+          "titleSlug": "intersection-of-two-linked-lists",
+          "timestamp": 1793540399,
+          "date": "2026-11-01",
+          "time": "19:09:59",
+          "language": "python"
+        },
+        {
+          "id": "2187011277",
+          "title": "Binary Tree Postorder Traversal",
+          "titleSlug": "binary-tree-postorder-traversal",
+          "timestamp": 1793540309,
+          "date": "2026-11-01",
+          "time": "19:08:29",
+          "language": "javascript"
+        },
+        {
+          "id": "2187009792",
+          "title": "Binary Tree Preorder Traversal",
+          "titleSlug": "binary-tree-preorder-traversal",
+          "timestamp": 1793540182,
+          "date": "2026-11-01",
+          "time": "19:06:22",
           "language": "cpp"
         },
         {
-          "id": "2075218414",
-          "title": "Two Sum",
-          "titleSlug": "two-sum",
-          "timestamp": 1784603539,
-          "date": "2026-07-21",
-          "time": "08:42:19",
+          "id": "2187009294",
+          "title": "Linked List Cycle",
+          "titleSlug": "linked-list-cycle",
+          "timestamp": 1793540139,
+          "date": "2026-11-01",
+          "time": "19:05:39",
+          "language": "cpp"
+        },
+        {
+          "id": "2187008538",
+          "title": "Single Number",
+          "titleSlug": "single-number",
+          "timestamp": 1793540072,
+          "date": "2026-11-01",
+          "time": "19:04:32",
+          "language": "java"
+        },
+        {
+          "id": "2187008192",
+          "title": "Valid Palindrome",
+          "titleSlug": "valid-palindrome",
+          "timestamp": 1793540041,
+          "date": "2026-11-01",
+          "time": "19:04:01",
+          "language": "java"
+        },
+        {
+          "id": "2187007642",
+          "title": "Best Time to Buy and Sell Stock",
+          "titleSlug": "best-time-to-buy-and-sell-stock",
+          "timestamp": 1793539994,
+          "date": "2026-11-01",
+          "time": "19:03:14",
+          "language": "cpp"
+        },
+        {
+          "id": "2187007218",
+          "title": "Pascal's Triangle II",
+          "titleSlug": "pascals-triangle-ii",
+          "timestamp": 1793539957,
+          "date": "2026-11-01",
+          "time": "19:02:37",
+          "language": "java"
+        },
+        {
+          "id": "2187006767",
+          "title": "Pascal's Triangle",
+          "titleSlug": "pascals-triangle",
+          "timestamp": 1793539919,
+          "date": "2026-11-01",
+          "time": "19:01:59",
+          "language": "cpp"
+        },
+        {
+          "id": "2187006247",
+          "title": "Path Sum",
+          "titleSlug": "path-sum",
+          "timestamp": 1793539872,
+          "date": "2026-11-01",
+          "time": "19:01:12",
+          "language": "java"
+        },
+        {
+          "id": "2187005703",
+          "title": "Minimum Depth of Binary Tree",
+          "titleSlug": "minimum-depth-of-binary-tree",
+          "timestamp": 1793539826,
+          "date": "2026-11-01",
+          "time": "19:00:26",
           "language": "java"
         }
       ]
@@ -4685,7 +5189,7 @@
       "name": "Nikhil Siva Sai Y S",
       "department": "II CSD A",
       "streak": 3,
-      "totalActiveDays": 15,
+      "totalActiveDays": 16,
       "calendarCounts": {
         "1780790400": 1,
         "1781049600": 1,
@@ -4701,9 +5205,46 @@
         "1788739200": 4,
         "1788912000": 2,
         "1791417600": 1,
-        "1793404800": 7
+        "1793404800": 7,
+        "1793491200": 5
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2187098040",
+          "title": "Remove Nth Node From End of List",
+          "titleSlug": "remove-nth-node-from-end-of-list",
+          "timestamp": 1793547818,
+          "date": "2026-11-01",
+          "time": "21:13:38",
+          "language": "cpp"
+        },
+        {
+          "id": "2187096792",
+          "title": "Letter Combinations of a Phone Number",
+          "titleSlug": "letter-combinations-of-a-phone-number",
+          "timestamp": 1793547714,
+          "date": "2026-11-01",
+          "time": "21:11:54",
+          "language": "cpp"
+        },
+        {
+          "id": "2187095952",
+          "title": "3Sum Closest",
+          "titleSlug": "3sum-closest",
+          "timestamp": 1793547644,
+          "date": "2026-11-01",
+          "time": "21:10:44",
+          "language": "cpp"
+        },
+        {
+          "id": "2187095094",
+          "title": "3Sum",
+          "titleSlug": "3sum",
+          "timestamp": 1793547567,
+          "date": "2026-11-01",
+          "time": "21:09:27",
+          "language": "cpp"
+        },
         {
           "id": "2186220867",
           "title": "Container With Most Water",
@@ -4847,42 +5388,6 @@
           "date": "2026-07-29",
           "time": "18:08:00",
           "language": "cpp"
-        },
-        {
-          "id": "2084097975",
-          "title": "Symmetric Tree",
-          "titleSlug": "symmetric-tree",
-          "timestamp": 1785208025,
-          "date": "2026-07-28",
-          "time": "08:37:05",
-          "language": "java"
-        },
-        {
-          "id": "2084097146",
-          "title": "Same Tree",
-          "titleSlug": "same-tree",
-          "timestamp": 1785207950,
-          "date": "2026-07-28",
-          "time": "08:35:50",
-          "language": "java"
-        },
-        {
-          "id": "2084094804",
-          "title": "Merge Sorted Array",
-          "titleSlug": "merge-sorted-array",
-          "timestamp": 1785207730,
-          "date": "2026-07-28",
-          "time": "08:32:10",
-          "language": "cpp"
-        },
-        {
-          "id": "2083563676",
-          "title": "Binary Tree Inorder Traversal",
-          "titleSlug": "binary-tree-inorder-traversal",
-          "timestamp": 1785166419,
-          "date": "2026-07-27",
-          "time": "21:03:39",
-          "language": "python"
         }
       ]
     },
@@ -5842,7 +6347,7 @@
       "name": "Rajapriyan S",
       "department": "II CSD A",
       "streak": 2,
-      "totalActiveDays": 13,
+      "totalActiveDays": 14,
       "calendarCounts": {
         "1783987200": 1,
         "1784160000": 1,
@@ -5856,179 +6361,189 @@
         "1788912000": 2,
         "1789084800": 1,
         "1790467200": 1,
-        "1792540800": 9
+        "1792540800": 9,
+        "1793491200": 28
       },
       "recentAcceptedSubmissions": [
         {
-          "id": "2177732671",
-          "title": "Length of Last Word",
-          "titleSlug": "length-of-last-word",
-          "timestamp": 1792568445,
-          "date": "2026-10-21",
-          "time": "13:10:45",
+          "id": "2187010734",
+          "title": "Substring with Concatenation of All Words",
+          "titleSlug": "substring-with-concatenation-of-all-words",
+          "timestamp": 1793540260,
+          "date": "2026-11-01",
+          "time": "19:07:40",
           "language": "java"
         },
         {
-          "id": "2177732132",
-          "title": "Find the Index of the First Occurrence in a String",
-          "titleSlug": "find-the-index-of-the-first-occurrence-in-a-string",
-          "timestamp": 1792568395,
-          "date": "2026-10-21",
-          "time": "13:09:55",
+          "id": "2187010371",
+          "title": "Divide Two Integers",
+          "titleSlug": "divide-two-integers",
+          "timestamp": 1793540230,
+          "date": "2026-11-01",
+          "time": "19:07:10",
           "language": "java"
         },
         {
-          "id": "2177731211",
-          "title": "Remove Element",
-          "titleSlug": "remove-element",
-          "timestamp": 1792568311,
-          "date": "2026-10-21",
-          "time": "13:08:31",
+          "id": "2187010007",
+          "title": "Reverse Nodes in k-Group",
+          "titleSlug": "reverse-nodes-in-k-group",
+          "timestamp": 1793540200,
+          "date": "2026-11-01",
+          "time": "19:06:40",
           "language": "java"
         },
         {
-          "id": "2177730544",
-          "title": "Search Insert Position",
-          "titleSlug": "search-insert-position",
-          "timestamp": 1792568247,
-          "date": "2026-10-21",
-          "time": "13:07:27",
+          "id": "2187009686",
+          "title": "Swap Nodes in Pairs",
+          "titleSlug": "swap-nodes-in-pairs",
+          "timestamp": 1793540172,
+          "date": "2026-11-01",
+          "time": "19:06:12",
           "language": "java"
         },
         {
-          "id": "2154636383",
-          "title": "Greatest Common Divisor of Strings",
-          "titleSlug": "greatest-common-divisor-of-strings",
-          "timestamp": 1790486861,
-          "date": "2026-09-27",
-          "time": "10:57:41",
+          "id": "2187009342",
+          "title": "Merge k Sorted Lists",
+          "titleSlug": "merge-k-sorted-lists",
+          "timestamp": 1793540143,
+          "date": "2026-11-01",
+          "time": "19:05:43",
+          "language": "java"
+        },
+        {
+          "id": "2187008970",
+          "title": "Remove Nth Node From End of List",
+          "titleSlug": "remove-nth-node-from-end-of-list",
+          "timestamp": 1793540108,
+          "date": "2026-11-01",
+          "time": "19:05:08",
+          "language": "java"
+        },
+        {
+          "id": "2187008597",
+          "title": "4Sum",
+          "titleSlug": "4sum",
+          "timestamp": 1793540077,
+          "date": "2026-11-01",
+          "time": "19:04:37",
+          "language": "java"
+        },
+        {
+          "id": "2187008343",
+          "title": "Letter Combinations of a Phone Number",
+          "titleSlug": "letter-combinations-of-a-phone-number",
+          "timestamp": 1793540055,
+          "date": "2026-11-01",
+          "time": "19:04:15",
+          "language": "java"
+        },
+        {
+          "id": "2187008018",
+          "title": "3Sum Closest",
+          "titleSlug": "3sum-closest",
+          "timestamp": 1793540026,
+          "date": "2026-11-01",
+          "time": "19:03:46",
+          "language": "java"
+        },
+        {
+          "id": "2187007695",
+          "title": "Integer to Roman",
+          "titleSlug": "integer-to-roman",
+          "timestamp": 1793539997,
+          "date": "2026-11-01",
+          "time": "19:03:17",
+          "language": "java"
+        },
+        {
+          "id": "2187007354",
+          "title": "Container With Most Water",
+          "titleSlug": "container-with-most-water",
+          "timestamp": 1793539968,
+          "date": "2026-11-01",
+          "time": "19:02:48",
+          "language": "java"
+        },
+        {
+          "id": "2187006827",
+          "title": "Regular Expression Matching",
+          "titleSlug": "regular-expression-matching",
+          "timestamp": 1793539924,
+          "date": "2026-11-01",
+          "time": "19:02:04",
+          "language": "java"
+        },
+        {
+          "id": "2187006511",
+          "title": "String to Integer (atoi)",
+          "titleSlug": "string-to-integer-atoi",
+          "timestamp": 1793539895,
+          "date": "2026-11-01",
+          "time": "19:01:35",
+          "language": "java"
+        },
+        {
+          "id": "2187006192",
+          "title": "Median of Two Sorted Arrays",
+          "titleSlug": "median-of-two-sorted-arrays",
+          "timestamp": 1793539868,
+          "date": "2026-11-01",
+          "time": "19:01:08",
+          "language": "java"
+        },
+        {
+          "id": "2187005865",
+          "title": "Zigzag Conversion",
+          "titleSlug": "zigzag-conversion",
+          "timestamp": 1793539839,
+          "date": "2026-11-01",
+          "time": "19:00:39",
+          "language": "java"
+        },
+        {
+          "id": "2187005526",
+          "title": "3Sum",
+          "titleSlug": "3sum",
+          "timestamp": 1793539811,
+          "date": "2026-11-01",
+          "time": "19:00:11",
+          "language": "java"
+        },
+        {
+          "id": "2187005145",
+          "title": "Valid Sudoku",
+          "titleSlug": "valid-sudoku",
+          "timestamp": 1793539776,
+          "date": "2026-11-01",
+          "time": "18:59:36",
+          "language": "java"
+        },
+        {
+          "id": "2186696590",
+          "title": "Longest Palindromic Substring",
+          "titleSlug": "longest-palindromic-substring",
+          "timestamp": 1793507066,
+          "date": "2026-11-01",
+          "time": "09:54:26",
+          "language": "java"
+        },
+        {
+          "id": "2186696243",
+          "title": "Longest Substring Without Repeating Characters",
+          "titleSlug": "longest-substring-without-repeating-characters",
+          "timestamp": 1793507025,
+          "date": "2026-11-01",
+          "time": "09:53:45",
+          "language": "java"
+        },
+        {
+          "id": "2186695830",
+          "title": "Add Two Numbers",
+          "titleSlug": "add-two-numbers",
+          "timestamp": 1793506977,
+          "date": "2026-11-01",
+          "time": "09:52:57",
           "language": "cpp"
-        },
-        {
-          "id": "2135831253",
-          "title": "Fibonacci Number",
-          "titleSlug": "fibonacci-number",
-          "timestamp": 1788927506,
-          "date": "2026-09-09",
-          "time": "09:48:26",
-          "language": "cpp"
-        },
-        {
-          "id": "2134563927",
-          "title": "Water Bottles",
-          "titleSlug": "water-bottles",
-          "timestamp": 1788838272,
-          "date": "2026-09-08",
-          "time": "09:01:12",
-          "language": "cpp"
-        },
-        {
-          "id": "2114611453",
-          "title": "Generate Parentheses",
-          "titleSlug": "generate-parentheses",
-          "timestamp": 1787285703,
-          "date": "2026-08-21",
-          "time": "09:45:03",
-          "language": "java"
-        },
-        {
-          "id": "2114610885",
-          "title": "Merge Two Sorted Lists",
-          "titleSlug": "merge-two-sorted-lists",
-          "timestamp": 1787285664,
-          "date": "2026-08-21",
-          "time": "09:44:24",
-          "language": "java"
-        },
-        {
-          "id": "2093691051",
-          "title": "Merge Strings Alternately",
-          "titleSlug": "merge-strings-alternately",
-          "timestamp": 1785831978,
-          "date": "2026-08-04",
-          "time": "13:56:18",
-          "language": "java"
-        },
-        {
-          "id": "2084094437",
-          "title": "Remove Duplicates from Sorted Array",
-          "titleSlug": "remove-duplicates-from-sorted-array",
-          "timestamp": 1785207695,
-          "date": "2026-07-28",
-          "time": "08:31:35",
-          "language": "java"
-        },
-        {
-          "id": "2084093683",
-          "title": "Valid Parentheses",
-          "titleSlug": "valid-parentheses",
-          "timestamp": 1785207622,
-          "date": "2026-07-28",
-          "time": "08:30:22",
-          "language": "java"
-        },
-        {
-          "id": "2084092590",
-          "title": "Longest Common Prefix",
-          "titleSlug": "longest-common-prefix",
-          "timestamp": 1785207516,
-          "date": "2026-07-28",
-          "time": "08:28:36",
-          "language": "java"
-        },
-        {
-          "id": "2077984434",
-          "title": "Contains Duplicate",
-          "titleSlug": "contains-duplicate",
-          "timestamp": 1784787430,
-          "date": "2026-07-23",
-          "time": "11:47:10",
-          "language": "java"
-        },
-        {
-          "id": "2077938974",
-          "title": "Concatenation of Array",
-          "titleSlug": "concatenation-of-array",
-          "timestamp": 1784785302,
-          "date": "2026-07-23",
-          "time": "11:11:42",
-          "language": "java"
-        },
-        {
-          "id": "2075562432",
-          "title": "Pow(x, n)",
-          "titleSlug": "powx-n",
-          "timestamp": 1784623505,
-          "date": "2026-07-21",
-          "time": "14:15:05",
-          "language": "cpp"
-        },
-        {
-          "id": "2075223973",
-          "title": "Roman to Integer",
-          "titleSlug": "roman-to-integer",
-          "timestamp": 1784604129,
-          "date": "2026-07-21",
-          "time": "08:52:09",
-          "language": "c"
-        },
-        {
-          "id": "2075222890",
-          "title": "Palindrome Number",
-          "titleSlug": "palindrome-number",
-          "timestamp": 1784604015,
-          "date": "2026-07-21",
-          "time": "08:50:15",
-          "language": "c"
-        },
-        {
-          "id": "2069266068",
-          "title": "Two Sum",
-          "titleSlug": "two-sum",
-          "timestamp": 1784172562,
-          "date": "2026-07-16",
-          "time": "08:59:22",
-          "language": "python"
         }
       ]
     },
@@ -6298,7 +6813,7 @@
       "name": "Saicharan T K S",
       "department": "II CSD A",
       "streak": 2,
-      "totalActiveDays": 8,
+      "totalActiveDays": 9,
       "calendarCounts": {
         "1787270400": 3,
         "1788739200": 2,
@@ -6307,187 +6822,188 @@
         "1789516800": 1,
         "1790812800": 4,
         "1790899200": 1,
-        "1793059200": 4
+        "1793059200": 4,
+        "1793491200": 33
       },
       "recentAcceptedSubmissions": [
         {
-          "id": "2182835873",
-          "title": "Max Consecutive Ones",
-          "titleSlug": "max-consecutive-ones",
-          "timestamp": 1793081378,
-          "date": "2026-10-27",
-          "time": "11:39:38",
+          "id": "2187107644",
+          "title": "Customers Who Never Order",
+          "titleSlug": "customers-who-never-order",
+          "timestamp": 1793548611,
+          "date": "2026-11-01",
+          "time": "21:26:51",
+          "language": "mysql"
+        },
+        {
+          "id": "2187107095",
+          "title": "Duplicate Emails",
+          "titleSlug": "duplicate-emails",
+          "timestamp": 1793548567,
+          "date": "2026-11-01",
+          "time": "21:26:07",
+          "language": "mysql"
+        },
+        {
+          "id": "2187106704",
+          "title": "Employees Earning More Than Their Managers",
+          "titleSlug": "employees-earning-more-than-their-managers",
+          "timestamp": 1793548536,
+          "date": "2026-11-01",
+          "time": "21:25:36",
+          "language": "mysql"
+        },
+        {
+          "id": "2187106372",
+          "title": "Combine Two Tables",
+          "titleSlug": "combine-two-tables",
+          "timestamp": 1793548508,
+          "date": "2026-11-01",
+          "time": "21:25:08",
+          "language": "mysql"
+        },
+        {
+          "id": "2187105891",
+          "title": "Excel Sheet Column Number",
+          "titleSlug": "excel-sheet-column-number",
+          "timestamp": 1793548463,
+          "date": "2026-11-01",
+          "time": "21:24:23",
           "language": "python"
         },
         {
-          "id": "2159241647",
-          "title": "Valid Parentheses",
-          "titleSlug": "valid-parentheses",
-          "timestamp": 1790862150,
-          "date": "2026-10-01",
-          "time": "19:12:30",
+          "id": "2187105221",
+          "title": "Sqrt(x)",
+          "titleSlug": "sqrtx",
+          "timestamp": 1793548408,
+          "date": "2026-11-01",
+          "time": "21:23:28",
           "language": "python"
         },
         {
-          "id": "2159240631",
-          "title": "Contains Duplicate II",
-          "titleSlug": "contains-duplicate-ii",
-          "timestamp": 1790862083,
-          "date": "2026-10-01",
-          "time": "19:11:23",
+          "id": "2187103793",
+          "title": "Excel Sheet Column Title",
+          "titleSlug": "excel-sheet-column-title",
+          "timestamp": 1793548294,
+          "date": "2026-11-01",
+          "time": "21:21:34",
           "language": "python"
         },
         {
-          "id": "2159239438",
-          "title": "Merge Sorted Array",
-          "titleSlug": "merge-sorted-array",
-          "timestamp": 1790862002,
-          "date": "2026-10-01",
-          "time": "19:10:02",
+          "id": "2187103308",
+          "title": "Intersection of Two Linked Lists",
+          "titleSlug": "intersection-of-two-linked-lists",
+          "timestamp": 1793548254,
+          "date": "2026-11-01",
+          "time": "21:20:54",
           "language": "python"
         },
         {
-          "id": "2143145270",
-          "title": "Move Zeroes",
-          "titleSlug": "move-zeroes",
-          "timestamp": 1789521344,
-          "date": "2026-09-16",
-          "time": "06:45:44",
+          "id": "2187102342",
+          "title": "Binary Tree Postorder Traversal",
+          "titleSlug": "binary-tree-postorder-traversal",
+          "timestamp": 1793548173,
+          "date": "2026-11-01",
+          "time": "21:19:33",
           "language": "python"
         },
         {
-          "id": "2142651489",
-          "title": "Combination Sum",
-          "titleSlug": "combination-sum",
-          "timestamp": 1789480499,
-          "date": "2026-09-15",
-          "time": "19:24:59",
+          "id": "2187101803",
+          "title": "Binary Tree Preorder Traversal",
+          "titleSlug": "binary-tree-preorder-traversal",
+          "timestamp": 1793548129,
+          "date": "2026-11-01",
+          "time": "21:18:49",
           "language": "python"
         },
         {
-          "id": "2142606549",
-          "title": "Contains Duplicate",
-          "titleSlug": "contains-duplicate",
-          "timestamp": 1789477713,
-          "date": "2026-09-15",
-          "time": "18:38:33",
+          "id": "2187101438",
+          "title": "Linked List Cycle",
+          "titleSlug": "linked-list-cycle",
+          "timestamp": 1793548100,
+          "date": "2026-11-01",
+          "time": "21:18:20",
           "language": "python"
         },
         {
-          "id": "2142602819",
+          "id": "2187101049",
           "title": "Single Number",
           "titleSlug": "single-number",
-          "timestamp": 1789477459,
-          "date": "2026-09-15",
-          "time": "18:34:19",
+          "timestamp": 1793548068,
+          "date": "2026-11-01",
+          "time": "21:17:48",
           "language": "python"
         },
         {
-          "id": "2138248092",
-          "title": "4Sum",
-          "titleSlug": "4sum",
-          "timestamp": 1789107873,
-          "date": "2026-09-11",
-          "time": "11:54:33",
-          "language": "cpp"
-        },
-        {
-          "id": "2133758215",
-          "title": "Water Bottles",
-          "titleSlug": "water-bottles",
-          "timestamp": 1788775808,
-          "date": "2026-09-07",
-          "time": "15:40:08",
-          "language": "cpp"
-        },
-        {
-          "id": "2115101105",
-          "title": "Remove Element",
-          "titleSlug": "remove-element",
-          "timestamp": 1787320002,
-          "date": "2026-08-21",
-          "time": "19:16:42",
+          "id": "2187100893",
+          "title": "Valid Palindrome",
+          "titleSlug": "valid-palindrome",
+          "timestamp": 1793548054,
+          "date": "2026-11-01",
+          "time": "21:17:34",
           "language": "python"
         },
         {
-          "id": "2115094900",
-          "title": "Two Sum",
-          "titleSlug": "two-sum",
-          "timestamp": 1787319614,
-          "date": "2026-08-21",
-          "time": "19:10:14",
-          "language": "python"
-        },
-        {
-          "id": "1823381650",
-          "title": "Balanced Binary Tree",
-          "titleSlug": "balanced-binary-tree",
-          "timestamp": 1762529747,
-          "date": "2025-11-07",
-          "time": "21:05:47",
-          "language": "python"
-        },
-        {
-          "id": "1822467542",
-          "title": "Plus One",
-          "titleSlug": "plus-one",
-          "timestamp": 1762438497,
-          "date": "2025-11-06",
-          "time": "19:44:57",
-          "language": "python"
-        },
-        {
-          "id": "1821553304",
-          "title": "Binary Tree Inorder Traversal",
-          "titleSlug": "binary-tree-inorder-traversal",
-          "timestamp": 1762352412,
-          "date": "2025-11-05",
-          "time": "19:50:12",
-          "language": "python"
-        },
-        {
-          "id": "1820666425",
-          "title": "Search Insert Position",
-          "titleSlug": "search-insert-position",
-          "timestamp": 1762272114,
-          "date": "2025-11-04",
-          "time": "21:31:54",
-          "language": "python"
-        },
-        {
-          "id": "1819668286",
-          "title": "Add Binary",
-          "titleSlug": "add-binary",
-          "timestamp": 1762183127,
-          "date": "2025-11-03",
-          "time": "20:48:47",
-          "language": "python"
-        },
-        {
-          "id": "1818647015",
-          "title": "Roman to Integer",
-          "titleSlug": "roman-to-integer",
-          "timestamp": 1762089889,
-          "date": "2025-11-02",
-          "time": "18:54:49",
-          "language": "python"
-        },
-        {
-          "id": "1817776330",
+          "id": "2187100573",
           "title": "Best Time to Buy and Sell Stock",
           "titleSlug": "best-time-to-buy-and-sell-stock",
-          "timestamp": 1762009486,
-          "date": "2025-11-01",
-          "time": "20:34:46",
+          "timestamp": 1793548026,
+          "date": "2026-11-01",
+          "time": "21:17:06",
           "language": "python"
         },
         {
-          "id": "1816895841",
+          "id": "2187100157",
+          "title": "Pascal's Triangle II",
+          "titleSlug": "pascals-triangle-ii",
+          "timestamp": 1793547993,
+          "date": "2026-11-01",
+          "time": "21:16:33",
+          "language": "python"
+        },
+        {
+          "id": "2187099637",
+          "title": "Pascal's Triangle",
+          "titleSlug": "pascals-triangle",
+          "timestamp": 1793547951,
+          "date": "2026-11-01",
+          "time": "21:15:51",
+          "language": "python"
+        },
+        {
+          "id": "2187099273",
+          "title": "Path Sum",
+          "titleSlug": "path-sum",
+          "timestamp": 1793547921,
+          "date": "2026-11-01",
+          "time": "21:15:21",
+          "language": "python"
+        },
+        {
+          "id": "2187098937",
+          "title": "Minimum Depth of Binary Tree",
+          "titleSlug": "minimum-depth-of-binary-tree",
+          "timestamp": 1793547892,
+          "date": "2026-11-01",
+          "time": "21:14:52",
+          "language": "python"
+        },
+        {
+          "id": "2187098284",
+          "title": "Balanced Binary Tree",
+          "titleSlug": "balanced-binary-tree",
+          "timestamp": 1793547837,
+          "date": "2026-11-01",
+          "time": "21:13:57",
+          "language": "python"
+        },
+        {
+          "id": "2187097848",
           "title": "Convert Sorted Array to Binary Search Tree",
           "titleSlug": "convert-sorted-array-to-binary-search-tree",
-          "timestamp": 1761920046,
-          "date": "2025-10-31",
-          "time": "19:44:06",
+          "timestamp": 1793547802,
+          "date": "2026-11-01",
+          "time": "21:13:22",
           "language": "python"
         }
       ]
@@ -7993,7 +8509,7 @@
       "name": "Shradha Singh",
       "department": "II CSD A",
       "streak": 12,
-      "totalActiveDays": 79,
+      "totalActiveDays": 80,
       "calendarCounts": {
         "1767312000": 6,
         "1767398400": 8,
@@ -8073,9 +8589,82 @@
         "1790899200": 12,
         "1791072000": 7,
         "1792540800": 8,
-        "1793404800": 7
+        "1793404800": 7,
+        "1793491200": 10
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186819942",
+          "title": "Minimum Recolors to Get K Consecutive Black Blocks",
+          "titleSlug": "minimum-recolors-to-get-k-consecutive-black-blocks",
+          "timestamp": 1793519600,
+          "date": "2026-11-01",
+          "time": "13:23:20",
+          "language": "python"
+        },
+        {
+          "id": "2186819574",
+          "title": "Alternating Groups I",
+          "titleSlug": "alternating-groups-i",
+          "timestamp": 1793519559,
+          "date": "2026-11-01",
+          "time": "13:22:39",
+          "language": "python"
+        },
+        {
+          "id": "2186819253",
+          "title": "Count Rotations With Exactly K Equal Adjacent Pairs",
+          "titleSlug": "count-rotations-with-exactly-k-equal-adjacent-pairs",
+          "timestamp": 1793519517,
+          "date": "2026-11-01",
+          "time": "13:21:57",
+          "language": "python"
+        },
+        {
+          "id": "2186818605",
+          "title": "Maximum Strong Pair XOR I",
+          "titleSlug": "maximum-strong-pair-xor-i",
+          "timestamp": 1793519447,
+          "date": "2026-11-01",
+          "time": "13:20:47",
+          "language": "python"
+        },
+        {
+          "id": "2186818336",
+          "title": "Substrings of Size Three with Distinct Characters",
+          "titleSlug": "substrings-of-size-three-with-distinct-characters",
+          "timestamp": 1793519419,
+          "date": "2026-11-01",
+          "time": "13:20:19",
+          "language": "python"
+        },
+        {
+          "id": "2186816257",
+          "title": "Maximum Length Substring With Two Occurrences",
+          "titleSlug": "maximum-length-substring-with-two-occurrences",
+          "timestamp": 1793519190,
+          "date": "2026-11-01",
+          "time": "13:16:30",
+          "language": "python"
+        },
+        {
+          "id": "2186815953",
+          "title": "Count Substrings That Satisfy K-Constraint I",
+          "titleSlug": "count-substrings-that-satisfy-k-constraint-i",
+          "timestamp": 1793519157,
+          "date": "2026-11-01",
+          "time": "13:15:57",
+          "language": "python"
+        },
+        {
+          "id": "2186815397",
+          "title": "Defuse the Bomb",
+          "titleSlug": "defuse-the-bomb",
+          "timestamp": 1793519094,
+          "date": "2026-11-01",
+          "time": "13:14:54",
+          "language": "python"
+        },
         {
           "id": "2186215386",
           "title": "Number of People Aware of a Secret",
@@ -8183,78 +8772,6 @@
           "date": "2026-10-04",
           "time": "13:01:21",
           "language": "python"
-        },
-        {
-          "id": "2161861650",
-          "title": "Time Needed to Buy Tickets",
-          "titleSlug": "time-needed-to-buy-tickets",
-          "timestamp": 1791098976,
-          "date": "2026-10-04",
-          "time": "12:59:36",
-          "language": "python"
-        },
-        {
-          "id": "2161860892",
-          "title": "Number of Recent Calls",
-          "titleSlug": "number-of-recent-calls",
-          "timestamp": 1791098912,
-          "date": "2026-10-04",
-          "time": "12:58:32",
-          "language": "python"
-        },
-        {
-          "id": "2161859221",
-          "title": "Number of Students Unable to Eat Lunch",
-          "titleSlug": "number-of-students-unable-to-eat-lunch",
-          "timestamp": 1791098786,
-          "date": "2026-10-04",
-          "time": "12:56:26",
-          "language": "python"
-        },
-        {
-          "id": "2160059336",
-          "title": "Check If Two String Arrays are Equivalent",
-          "titleSlug": "check-if-two-string-arrays-are-equivalent",
-          "timestamp": 1790938545,
-          "date": "2026-10-02",
-          "time": "16:25:45",
-          "language": "python"
-        },
-        {
-          "id": "2160058933",
-          "title": "Maximum Number of Words Found in Sentences",
-          "titleSlug": "maximum-number-of-words-found-in-sentences",
-          "timestamp": 1790938513,
-          "date": "2026-10-02",
-          "time": "16:25:13",
-          "language": "python"
-        },
-        {
-          "id": "2160058421",
-          "title": "Permutation Difference between Two Strings",
-          "titleSlug": "permutation-difference-between-two-strings",
-          "timestamp": 1790938474,
-          "date": "2026-10-02",
-          "time": "16:24:34",
-          "language": "python"
-        },
-        {
-          "id": "2160057796",
-          "title": "Goal Parser Interpretation",
-          "titleSlug": "goal-parser-interpretation",
-          "timestamp": 1790938425,
-          "date": "2026-10-02",
-          "time": "16:23:45",
-          "language": "python"
-        },
-        {
-          "id": "2160057390",
-          "title": "Find Most Frequent Vowel and Consonant",
-          "titleSlug": "find-most-frequent-vowel-and-consonant",
-          "timestamp": 1790938393,
-          "date": "2026-10-02",
-          "time": "16:23:13",
-          "language": "python"
         }
       ]
     },
@@ -8263,7 +8780,7 @@
       "name": "Subhapriyan S",
       "department": "II CSD A",
       "streak": 15,
-      "totalActiveDays": 91,
+      "totalActiveDays": 92,
       "calendarCounts": {
         "1778803200": 1,
         "1778889600": 1,
@@ -8355,9 +8872,19 @@
         "1792454400": 1,
         "1792713600": 2,
         "1792886400": 1,
-        "1793404800": 1
+        "1793404800": 1,
+        "1793491200": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186756808",
+          "title": "Can Place Flowers",
+          "titleSlug": "can-place-flowers",
+          "timestamp": 1793513312,
+          "date": "2026-11-01",
+          "time": "11:38:32",
+          "language": "java"
+        },
         {
           "id": "2186121614",
           "title": "Longest Continuous Increasing Subsequence",
@@ -8527,15 +9054,6 @@
           "timestamp": 1790053002,
           "date": "2026-09-22",
           "time": "10:26:42",
-          "language": "java"
-        },
-        {
-          "id": "2149320635",
-          "title": "Linked List Cycle",
-          "titleSlug": "linked-list-cycle",
-          "timestamp": 1790052928,
-          "date": "2026-09-22",
-          "time": "10:25:28",
           "language": "java"
         }
       ]
@@ -8858,7 +9376,7 @@
       "name": "Sushmitha T",
       "department": "II CSD A",
       "streak": 2,
-      "totalActiveDays": 8,
+      "totalActiveDays": 9,
       "calendarCounts": {
         "1784160000": 6,
         "1784764800": 1,
@@ -8867,188 +9385,189 @@
         "1785801600": 2,
         "1788825600": 1,
         "1788912000": 1,
-        "1789948800": 3
+        "1789948800": 3,
+        "1793491200": 41
       },
       "recentAcceptedSubmissions": [
         {
-          "id": "2148473299",
-          "title": "4Sum",
-          "titleSlug": "4sum",
-          "timestamp": 1789982036,
-          "date": "2026-09-21",
-          "time": "14:43:56",
+          "id": "2187129370",
+          "title": "Valid Anagram",
+          "titleSlug": "valid-anagram",
+          "timestamp": 1793550346,
+          "date": "2026-11-01",
+          "time": "21:55:46",
           "language": "python"
         },
         {
-          "id": "2148471992",
-          "title": "3Sum",
-          "titleSlug": "3sum",
-          "timestamp": 1789981947,
-          "date": "2026-09-21",
-          "time": "14:42:27",
+          "id": "2187128469",
+          "title": "Isomorphic Strings",
+          "titleSlug": "isomorphic-strings",
+          "timestamp": 1793550275,
+          "date": "2026-11-01",
+          "time": "21:54:35",
           "language": "python"
         },
         {
-          "id": "2148471753",
-          "title": "3Sum Closest",
-          "titleSlug": "3sum-closest",
-          "timestamp": 1789981929,
-          "date": "2026-09-21",
-          "time": "14:42:09",
+          "id": "2187127384",
+          "title": "Excel Sheet Column Number",
+          "titleSlug": "excel-sheet-column-number",
+          "timestamp": 1793550188,
+          "date": "2026-11-01",
+          "time": "21:53:08",
           "language": "python"
         },
         {
-          "id": "2135830276",
-          "title": "Fibonacci Number",
-          "titleSlug": "fibonacci-number",
-          "timestamp": 1788927450,
-          "date": "2026-09-09",
-          "time": "09:47:30",
-          "language": "cpp"
-        },
-        {
-          "id": "2134559422",
-          "title": "Water Bottles",
-          "titleSlug": "water-bottles",
-          "timestamp": 1788837854,
-          "date": "2026-09-08",
-          "time": "08:54:14",
-          "language": "cpp"
-        },
-        {
-          "id": "2093430577",
-          "title": "Merge Two Sorted Lists",
-          "titleSlug": "merge-two-sorted-lists",
-          "timestamp": 1785818006,
-          "date": "2026-08-04",
-          "time": "10:03:26",
-          "language": "java"
-        },
-        {
-          "id": "2092915221",
-          "title": "Longest Substring Without Repeating Characters",
-          "titleSlug": "longest-substring-without-repeating-characters",
-          "timestamp": 1785774992,
-          "date": "2026-08-03",
-          "time": "22:06:32",
-          "language": "java"
-        },
-        {
-          "id": "2092911446",
-          "title": "Add Two Numbers",
-          "titleSlug": "add-two-numbers",
-          "timestamp": 1785774853,
-          "date": "2026-08-03",
-          "time": "22:04:13",
-          "language": "java"
-        },
-        {
-          "id": "2084103626",
-          "title": "Remove Element",
-          "titleSlug": "remove-element",
-          "timestamp": 1785208540,
-          "date": "2026-07-28",
-          "time": "08:45:40",
-          "language": "java"
-        },
-        {
-          "id": "2077984508",
-          "title": "Search Insert Position",
-          "titleSlug": "search-insert-position",
-          "timestamp": 1784787432,
-          "date": "2026-07-23",
-          "time": "11:47:12",
-          "language": "java"
-        },
-        {
-          "id": "2069457964",
-          "title": "Missing Number",
-          "titleSlug": "missing-number",
-          "timestamp": 1784182866,
-          "date": "2026-07-16",
-          "time": "11:51:06",
-          "language": "java"
-        },
-        {
-          "id": "2069406000",
-          "title": "Sqrt(x)",
-          "titleSlug": "sqrtx",
-          "timestamp": 1784180548,
-          "date": "2026-07-16",
-          "time": "11:12:28",
-          "language": "java"
-        },
-        {
-          "id": "2069395171",
-          "title": "Two Sum",
-          "titleSlug": "two-sum",
-          "timestamp": 1784180028,
-          "date": "2026-07-16",
-          "time": "11:03:48",
-          "language": "java"
-        },
-        {
-          "id": "1826582274",
-          "title": "Remove Duplicates from Sorted Array",
-          "titleSlug": "remove-duplicates-from-sorted-array",
-          "timestamp": 1762837183,
-          "date": "2025-11-11",
-          "time": "10:29:43",
+          "id": "2187126444",
+          "title": "Excel Sheet Column Title",
+          "titleSlug": "excel-sheet-column-title",
+          "timestamp": 1793550116,
+          "date": "2026-11-01",
+          "time": "21:51:56",
           "language": "python"
         },
         {
-          "id": "1822250324",
-          "title": "Valid Parentheses",
-          "titleSlug": "valid-parentheses",
-          "timestamp": 1762417814,
-          "date": "2025-11-06",
-          "time": "14:00:14",
-          "language": "c"
+          "id": "2187125373",
+          "title": "Valid Palindrome",
+          "titleSlug": "valid-palindrome",
+          "timestamp": 1793550033,
+          "date": "2026-11-01",
+          "time": "21:50:33",
+          "language": "python"
         },
         {
-          "id": "1822167574",
-          "title": "Climbing Stairs",
-          "titleSlug": "climbing-stairs",
-          "timestamp": 1762410086,
-          "date": "2025-11-06",
-          "time": "11:51:26",
-          "language": "c"
+          "id": "2187123860",
+          "title": "Minimum Window Substring",
+          "titleSlug": "minimum-window-substring",
+          "timestamp": 1793549911,
+          "date": "2026-11-01",
+          "time": "21:48:31",
+          "language": "python"
         },
         {
-          "id": "1822165278",
-          "title": "Fibonacci Number",
-          "titleSlug": "fibonacci-number",
-          "timestamp": 1762409911,
-          "date": "2025-11-06",
-          "time": "11:48:31",
-          "language": "c"
+          "id": "2187122575",
+          "title": "Edit Distance",
+          "titleSlug": "edit-distance",
+          "timestamp": 1793549808,
+          "date": "2026-11-01",
+          "time": "21:46:48",
+          "language": "python"
         },
         {
-          "id": "1822160465",
-          "title": "Repeated Substring Pattern",
-          "titleSlug": "repeated-substring-pattern",
-          "timestamp": 1762409555,
-          "date": "2025-11-06",
-          "time": "11:42:35",
-          "language": "c"
+          "id": "2187121472",
+          "title": "Simplify Path",
+          "titleSlug": "simplify-path",
+          "timestamp": 1793549719,
+          "date": "2026-11-01",
+          "time": "21:45:19",
+          "language": "python"
         },
         {
-          "id": "1822158987",
-          "title": "Find the Index of the First Occurrence in a String",
-          "titleSlug": "find-the-index-of-the-first-occurrence-in-a-string",
-          "timestamp": 1762409441,
-          "date": "2025-11-06",
-          "time": "11:40:41",
-          "language": "c"
+          "id": "2187120522",
+          "title": "Text Justification",
+          "titleSlug": "text-justification",
+          "timestamp": 1793549646,
+          "date": "2026-11-01",
+          "time": "21:44:06",
+          "language": "python"
         },
         {
-          "id": "1822155893",
-          "title": "Longest Common Prefix",
-          "titleSlug": "longest-common-prefix",
-          "timestamp": 1762409192,
-          "date": "2025-11-06",
-          "time": "11:36:32",
-          "language": "c"
+          "id": "2187119717",
+          "title": "Add Binary",
+          "titleSlug": "add-binary",
+          "timestamp": 1793549584,
+          "date": "2026-11-01",
+          "time": "21:43:04",
+          "language": "python"
+        },
+        {
+          "id": "2187117196",
+          "title": "Length of Last Word",
+          "titleSlug": "length-of-last-word",
+          "timestamp": 1793549382,
+          "date": "2026-11-01",
+          "time": "21:39:42",
+          "language": "python"
+        },
+        {
+          "id": "2187116396",
+          "title": "Group Anagrams",
+          "titleSlug": "group-anagrams",
+          "timestamp": 1793549320,
+          "date": "2026-11-01",
+          "time": "21:38:40",
+          "language": "python"
+        },
+        {
+          "id": "2187115385",
+          "title": "Wildcard Matching",
+          "titleSlug": "wildcard-matching",
+          "timestamp": 1793549235,
+          "date": "2026-11-01",
+          "time": "21:37:15",
+          "language": "python"
+        },
+        {
+          "id": "2187114559",
+          "title": "Multiply Strings",
+          "titleSlug": "multiply-strings",
+          "timestamp": 1793549168,
+          "date": "2026-11-01",
+          "time": "21:36:08",
+          "language": "python"
+        },
+        {
+          "id": "2187112826",
+          "title": "Count and Say",
+          "titleSlug": "count-and-say",
+          "timestamp": 1793549029,
+          "date": "2026-11-01",
+          "time": "21:33:49",
+          "language": "python"
+        },
+        {
+          "id": "2187111376",
+          "title": "Longest Valid Parentheses",
+          "titleSlug": "longest-valid-parentheses",
+          "timestamp": 1793548914,
+          "date": "2026-11-01",
+          "time": "21:31:54",
+          "language": "python"
+        },
+        {
+          "id": "2187109646",
+          "title": "Next Permutation",
+          "titleSlug": "next-permutation",
+          "timestamp": 1793548772,
+          "date": "2026-11-01",
+          "time": "21:29:32",
+          "language": "python"
+        },
+        {
+          "id": "2187107656",
+          "title": "Substring with Concatenation of All Words",
+          "titleSlug": "substring-with-concatenation-of-all-words",
+          "timestamp": 1793548612,
+          "date": "2026-11-01",
+          "time": "21:26:52",
+          "language": "python"
+        },
+        {
+          "id": "2187106246",
+          "title": "Divide Two Integers",
+          "titleSlug": "divide-two-integers",
+          "timestamp": 1793548496,
+          "date": "2026-11-01",
+          "time": "21:24:56",
+          "language": "python"
+        },
+        {
+          "id": "2187103783",
+          "title": "Merge k Sorted Lists",
+          "titleSlug": "merge-k-sorted-lists",
+          "timestamp": 1793548293,
+          "date": "2026-11-01",
+          "time": "21:21:33",
+          "language": "python"
         }
       ]
     },
@@ -9520,7 +10039,7 @@
       "name": "Versha Reddy P",
       "department": "II CSD A",
       "streak": 4,
-      "totalActiveDays": 13,
+      "totalActiveDays": 14,
       "calendarCounts": {
         "1781395200": 5,
         "1781568000": 4,
@@ -9534,9 +10053,64 @@
         "1788825600": 1,
         "1788912000": 5,
         "1788998400": 1,
-        "1789084800": 1
+        "1789084800": 1,
+        "1793491200": 6
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2187095425",
+          "title": "Combinations",
+          "titleSlug": "combinations",
+          "timestamp": 1793547597,
+          "date": "2026-11-01",
+          "time": "21:09:57",
+          "language": "python"
+        },
+        {
+          "id": "2187095008",
+          "title": "Minimum Window Substring",
+          "titleSlug": "minimum-window-substring",
+          "timestamp": 1793547560,
+          "date": "2026-11-01",
+          "time": "21:09:20",
+          "language": "python"
+        },
+        {
+          "id": "2187094543",
+          "title": "Sort Colors",
+          "titleSlug": "sort-colors",
+          "timestamp": 1793547517,
+          "date": "2026-11-01",
+          "time": "21:08:37",
+          "language": "python"
+        },
+        {
+          "id": "2187094056",
+          "title": "Search a 2D Matrix",
+          "titleSlug": "search-a-2d-matrix",
+          "timestamp": 1793547472,
+          "date": "2026-11-01",
+          "time": "21:07:52",
+          "language": "python"
+        },
+        {
+          "id": "2187093583",
+          "title": "Set Matrix Zeroes",
+          "titleSlug": "set-matrix-zeroes",
+          "timestamp": 1793547435,
+          "date": "2026-11-01",
+          "time": "21:07:15",
+          "language": "python"
+        },
+        {
+          "id": "2187093077",
+          "title": "Edit Distance",
+          "titleSlug": "edit-distance",
+          "timestamp": 1793547389,
+          "date": "2026-11-01",
+          "time": "21:06:29",
+          "language": "python"
+        },
         {
           "id": "2138253223",
           "title": "Valid Parentheses",
@@ -9662,60 +10236,6 @@
           "date": "2026-07-28",
           "time": "14:51:17",
           "language": "python"
-        },
-        {
-          "id": "2084523127",
-          "title": "Combination Sum",
-          "titleSlug": "combination-sum",
-          "timestamp": 1785230441,
-          "date": "2026-07-28",
-          "time": "14:50:41",
-          "language": "python"
-        },
-        {
-          "id": "2084522371",
-          "title": "Count and Say",
-          "titleSlug": "count-and-say",
-          "timestamp": 1785230408,
-          "date": "2026-07-28",
-          "time": "14:50:08",
-          "language": "python"
-        },
-        {
-          "id": "2084511142",
-          "title": "Substring with Concatenation of All Words",
-          "titleSlug": "substring-with-concatenation-of-all-words",
-          "timestamp": 1785229936,
-          "date": "2026-07-28",
-          "time": "14:42:16",
-          "language": "python"
-        },
-        {
-          "id": "2084510971",
-          "title": "Divide Two Integers",
-          "titleSlug": "divide-two-integers",
-          "timestamp": 1785229929,
-          "date": "2026-07-28",
-          "time": "14:42:09",
-          "language": "python"
-        },
-        {
-          "id": "2067116998",
-          "title": "Substring with Concatenation of All Words",
-          "titleSlug": "substring-with-concatenation-of-all-words",
-          "timestamp": 1784017959,
-          "date": "2026-07-14",
-          "time": "14:02:39",
-          "language": "python"
-        },
-        {
-          "id": "2067115922",
-          "title": "Find the Index of the First Occurrence in a String",
-          "titleSlug": "find-the-index-of-the-first-occurrence-in-a-string",
-          "timestamp": 1784017889,
-          "date": "2026-07-14",
-          "time": "14:01:29",
-          "language": "python"
         }
       ]
     },
@@ -9723,10 +10243,193 @@
       "username": "VidjayKhumaarV",
       "name": "Vidjaykhumaar V",
       "department": "II CSD A",
-      "streak": 0,
-      "totalActiveDays": 0,
-      "calendarCounts": {},
-      "recentAcceptedSubmissions": []
+      "streak": 1,
+      "totalActiveDays": 1,
+      "calendarCounts": {
+        "1793491200": 34
+      },
+      "recentAcceptedSubmissions": [
+        {
+          "id": "2187197665",
+          "title": "Convert Sorted Array to Binary Search Tree",
+          "titleSlug": "convert-sorted-array-to-binary-search-tree",
+          "timestamp": 1793555286,
+          "date": "2026-11-01",
+          "time": "23:18:06",
+          "language": "python3"
+        },
+        {
+          "id": "2187196941",
+          "title": "Maximum Depth of Binary Tree",
+          "titleSlug": "maximum-depth-of-binary-tree",
+          "timestamp": 1793555236,
+          "date": "2026-11-01",
+          "time": "23:17:16",
+          "language": "python3"
+        },
+        {
+          "id": "2187196188",
+          "title": "Symmetric Tree",
+          "titleSlug": "symmetric-tree",
+          "timestamp": 1793555183,
+          "date": "2026-11-01",
+          "time": "23:16:23",
+          "language": "python3"
+        },
+        {
+          "id": "2187195658",
+          "title": "Same Tree",
+          "titleSlug": "same-tree",
+          "timestamp": 1793555146,
+          "date": "2026-11-01",
+          "time": "23:15:46",
+          "language": "python3"
+        },
+        {
+          "id": "2187194716",
+          "title": "Binary Tree Inorder Traversal",
+          "titleSlug": "binary-tree-inorder-traversal",
+          "timestamp": 1793555081,
+          "date": "2026-11-01",
+          "time": "23:14:41",
+          "language": "python3"
+        },
+        {
+          "id": "2187193981",
+          "title": "Merge Sorted Array",
+          "titleSlug": "merge-sorted-array",
+          "timestamp": 1793555030,
+          "date": "2026-11-01",
+          "time": "23:13:50",
+          "language": "python3"
+        },
+        {
+          "id": "2187191163",
+          "title": "Remove Duplicates from Sorted List",
+          "titleSlug": "remove-duplicates-from-sorted-list",
+          "timestamp": 1793554830,
+          "date": "2026-11-01",
+          "time": "23:10:30",
+          "language": "python3"
+        },
+        {
+          "id": "2187190702",
+          "title": "Climbing Stairs",
+          "titleSlug": "climbing-stairs",
+          "timestamp": 1793554795,
+          "date": "2026-11-01",
+          "time": "23:09:55",
+          "language": "python3"
+        },
+        {
+          "id": "2187190034",
+          "title": "Sqrt(x)",
+          "titleSlug": "sqrtx",
+          "timestamp": 1793554751,
+          "date": "2026-11-01",
+          "time": "23:09:11",
+          "language": "python3"
+        },
+        {
+          "id": "2187188169",
+          "title": "Add Binary",
+          "titleSlug": "add-binary",
+          "timestamp": 1793554619,
+          "date": "2026-11-01",
+          "time": "23:06:59",
+          "language": "cpp"
+        },
+        {
+          "id": "2186750395",
+          "title": "Plus One",
+          "titleSlug": "plus-one",
+          "timestamp": 1793512729,
+          "date": "2026-11-01",
+          "time": "11:28:49",
+          "language": "python"
+        },
+        {
+          "id": "2186749974",
+          "title": "Length of Last Word",
+          "titleSlug": "length-of-last-word",
+          "timestamp": 1793512687,
+          "date": "2026-11-01",
+          "time": "11:28:07",
+          "language": "python"
+        },
+        {
+          "id": "2186749403",
+          "title": "Search Insert Position",
+          "titleSlug": "search-insert-position",
+          "timestamp": 1793512632,
+          "date": "2026-11-01",
+          "time": "11:27:12",
+          "language": "python"
+        },
+        {
+          "id": "2186736277",
+          "title": "Longest Common Prefix",
+          "titleSlug": "longest-common-prefix",
+          "timestamp": 1793511390,
+          "date": "2026-11-01",
+          "time": "11:06:30",
+          "language": "python"
+        },
+        {
+          "id": "2186734975",
+          "title": "Roman to Integer",
+          "titleSlug": "roman-to-integer",
+          "timestamp": 1793511259,
+          "date": "2026-11-01",
+          "time": "11:04:19",
+          "language": "python"
+        },
+        {
+          "id": "2186733203",
+          "title": "Find the Index of the First Occurrence in a String",
+          "titleSlug": "find-the-index-of-the-first-occurrence-in-a-string",
+          "timestamp": 1793511087,
+          "date": "2026-11-01",
+          "time": "11:01:27",
+          "language": "python"
+        },
+        {
+          "id": "2186732790",
+          "title": "Remove Element",
+          "titleSlug": "remove-element",
+          "timestamp": 1793511045,
+          "date": "2026-11-01",
+          "time": "11:00:45",
+          "language": "python"
+        },
+        {
+          "id": "2186732413",
+          "title": "Remove Duplicates from Sorted Array",
+          "titleSlug": "remove-duplicates-from-sorted-array",
+          "timestamp": 1793511010,
+          "date": "2026-11-01",
+          "time": "11:00:10",
+          "language": "python"
+        },
+        {
+          "id": "2186731803",
+          "title": "Merge Two Sorted Lists",
+          "titleSlug": "merge-two-sorted-lists",
+          "timestamp": 1793510944,
+          "date": "2026-11-01",
+          "time": "10:59:04",
+          "language": "python"
+        },
+        {
+          "id": "2186731340",
+          "title": "Valid Parentheses",
+          "titleSlug": "valid-parentheses",
+          "timestamp": 1793510897,
+          "date": "2026-11-01",
+          "time": "10:58:17",
+          "language": "python"
+        }
+      ]
     },
     "310625150059": {
       "username": "__Vijayalakshmi_",
@@ -10178,7 +10881,7 @@
       "name": "Vishnu Prasad N",
       "department": "II CSD A",
       "streak": 4,
-      "totalActiveDays": 47,
+      "totalActiveDays": 48,
       "calendarCounts": {
         "1768176000": 1,
         "1769904000": 1,
@@ -10226,9 +10929,19 @@
         "1790553600": 1,
         "1790985600": 1,
         "1792022400": 3,
-        "1792886400": 1
+        "1792886400": 1,
+        "1793491200": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186838721",
+          "title": "Minimum Moves to Equal Array Elements",
+          "titleSlug": "minimum-moves-to-equal-array-elements",
+          "timestamp": 1793521814,
+          "date": "2026-11-01",
+          "time": "14:00:14",
+          "language": "cpp"
+        },
         {
           "id": "2181206987",
           "title": "Number of Closed Islands",
@@ -10399,15 +11112,6 @@
           "date": "2026-07-28",
           "time": "08:42:26",
           "language": "mysql"
-        },
-        {
-          "id": "2084100622",
-          "title": "Number of Unique Subjects Taught by Each Teacher",
-          "titleSlug": "number-of-unique-subjects-taught-by-each-teacher",
-          "timestamp": 1785208262,
-          "date": "2026-07-28",
-          "time": "08:41:02",
-          "language": "mysql"
         }
       ]
     },
@@ -10516,7 +11220,7 @@
       "name": "Aadhil Hussain .A",
       "department": "III CSD A",
       "streak": 6,
-      "totalActiveDays": 56,
+      "totalActiveDays": 57,
       "calendarCounts": {
         "1769558400": 1,
         "1769644800": 5,
@@ -10573,9 +11277,28 @@
         "1790640000": 3,
         "1790899200": 5,
         "1791244800": 2,
-        "1791417600": 4
+        "1791417600": 4,
+        "1793491200": 5
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186815372",
+          "title": "Longest Repeating Character Replacement",
+          "titleSlug": "longest-repeating-character-replacement",
+          "timestamp": 1793519090,
+          "date": "2026-11-01",
+          "time": "13:14:50",
+          "language": "java"
+        },
+        {
+          "id": "2186797425",
+          "title": "Longest Substring Without Repeating Characters",
+          "titleSlug": "longest-substring-without-repeating-characters",
+          "timestamp": 1793517149,
+          "date": "2026-11-01",
+          "time": "12:42:29",
+          "language": "java"
+        },
         {
           "id": "2166429886",
           "title": "Basic Calculator",
@@ -10736,24 +11459,6 @@
           "timestamp": 1789486401,
           "date": "2026-09-15",
           "time": "21:03:21",
-          "language": "java"
-        },
-        {
-          "id": "2127058272",
-          "title": "Missing Number",
-          "titleSlug": "missing-number",
-          "timestamp": 1788255683,
-          "date": "2026-09-01",
-          "time": "15:11:23",
-          "language": "java"
-        },
-        {
-          "id": "2127049244",
-          "title": "Contains Duplicate",
-          "titleSlug": "contains-duplicate",
-          "timestamp": 1788255125,
-          "date": "2026-09-01",
-          "time": "15:02:05",
           "language": "java"
         }
       ]
@@ -11247,7 +11952,7 @@
       "name": "A.Alin Brasen",
       "department": "III CSD A",
       "streak": 32,
-      "totalActiveDays": 113,
+      "totalActiveDays": 114,
       "calendarCounts": {
         "1769299200": 42,
         "1769385600": 27,
@@ -11361,9 +12066,19 @@
         "1793059200": 1,
         "1793145600": 1,
         "1793232000": 1,
-        "1793318400": 4
+        "1793318400": 4,
+        "1793491200": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186619008",
+          "title": "Minimum Moves to Equal Array Elements",
+          "titleSlug": "minimum-moves-to-equal-array-elements",
+          "timestamp": 1793502318,
+          "date": "2026-11-01",
+          "time": "08:35:18",
+          "language": "java"
+        },
         {
           "id": "2185206222",
           "title": "Basic Calculator",
@@ -11533,15 +12248,6 @@
           "timestamp": 1791707723,
           "date": "2026-10-11",
           "time": "14:05:23",
-          "language": "java"
-        },
-        {
-          "id": "2167826769",
-          "title": "Minimum Sum of Squared Difference",
-          "titleSlug": "minimum-sum-of-squared-difference",
-          "timestamp": 1791608399,
-          "date": "2026-10-10",
-          "time": "10:29:59",
           "language": "java"
         }
       ]
@@ -13666,7 +14372,7 @@
       "name": "Gautham B",
       "department": "III CSD A",
       "streak": 45,
-      "totalActiveDays": 107,
+      "totalActiveDays": 108,
       "calendarCounts": {
         "1769817600": 24,
         "1770595200": 40,
@@ -13774,9 +14480,46 @@
         "1792972800": 1,
         "1793145600": 2,
         "1793232000": 1,
-        "1793318400": 2
+        "1793318400": 2,
+        "1793491200": 4
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186573475",
+          "title": "Twisted Mirror Path Count",
+          "titleSlug": "twisted-mirror-path-count",
+          "timestamp": 1793500114,
+          "date": "2026-11-01",
+          "time": "07:58:34",
+          "language": "java"
+        },
+        {
+          "id": "2186573289",
+          "title": "Create Grid With Exactly One Path",
+          "titleSlug": "create-grid-with-exactly-one-path",
+          "timestamp": 1793500077,
+          "date": "2026-11-01",
+          "time": "07:57:57",
+          "language": "java"
+        },
+        {
+          "id": "2186573158",
+          "title": "Maximum K to Sort a Permutation",
+          "titleSlug": "maximum-k-to-sort-a-permutation",
+          "timestamp": 1793500049,
+          "date": "2026-11-01",
+          "time": "07:57:29",
+          "language": "java"
+        },
+        {
+          "id": "2186572915",
+          "title": "Minimum Moves to Equal Array Elements",
+          "titleSlug": "minimum-moves-to-equal-array-elements",
+          "timestamp": 1793500000,
+          "date": "2026-11-01",
+          "time": "07:56:40",
+          "language": "java"
+        },
         {
           "id": "2185122522",
           "title": "Shortest Path With At Most K Consecutive Identical Characters",
@@ -13919,42 +14662,6 @@
           "timestamp": 1792024619,
           "date": "2026-10-15",
           "time": "06:06:59",
-          "language": "java"
-        },
-        {
-          "id": "2172581378",
-          "title": "Subarrays Distinct Element Sum of Squares I",
-          "titleSlug": "subarrays-distinct-element-sum-of-squares-i",
-          "timestamp": 1792024073,
-          "date": "2026-10-15",
-          "time": "05:57:53",
-          "language": "java"
-        },
-        {
-          "id": "2171681272",
-          "title": "Maximize Sum of Squares of Digits",
-          "titleSlug": "maximize-sum-of-squares-of-digits",
-          "timestamp": 1791941605,
-          "date": "2026-10-14",
-          "time": "07:03:25",
-          "language": "java"
-        },
-        {
-          "id": "2170676661",
-          "title": "Maximum Alternating Sum of Squares",
-          "titleSlug": "maximum-alternating-sum-of-squares",
-          "timestamp": 1791852068,
-          "date": "2026-10-13",
-          "time": "06:11:08",
-          "language": "java"
-        },
-        {
-          "id": "2169822289",
-          "title": "Maximum Twin Sum of a Linked List",
-          "titleSlug": "maximum-twin-sum-of-a-linked-list",
-          "timestamp": 1791779326,
-          "date": "2026-10-12",
-          "time": "09:58:46",
           "language": "java"
         }
       ]
@@ -16143,7 +16850,7 @@
       "name": "S.Naveen kumar",
       "department": "III CSD A",
       "streak": 12,
-      "totalActiveDays": 95,
+      "totalActiveDays": 96,
       "calendarCounts": {
         "1769990400": 5,
         "1770163200": 29,
@@ -16239,9 +16946,37 @@
         "1792886400": 5,
         "1792972800": 6,
         "1793232000": 6,
-        "1793318400": 1
+        "1793318400": 1,
+        "1793491200": 3
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2187098967",
+          "title": "Binary Tree Maximum Path Sum",
+          "titleSlug": "binary-tree-maximum-path-sum",
+          "timestamp": 1793547894,
+          "date": "2026-11-01",
+          "time": "21:14:54",
+          "language": "java"
+        },
+        {
+          "id": "2187098291",
+          "title": "Best Time to Buy and Sell Stock III",
+          "titleSlug": "best-time-to-buy-and-sell-stock-iii",
+          "timestamp": 1793547838,
+          "date": "2026-11-01",
+          "time": "21:13:58",
+          "language": "java"
+        },
+        {
+          "id": "2187089580",
+          "title": "Minimum Moves to Equal Array Elements",
+          "titleSlug": "minimum-moves-to-equal-array-elements",
+          "timestamp": 1793547085,
+          "date": "2026-11-01",
+          "time": "21:01:25",
+          "language": "java"
+        },
         {
           "id": "2185303253",
           "title": "Shortest Path With At Most K Consecutive Identical Characters",
@@ -16393,33 +17128,6 @@
           "timestamp": 1792687783,
           "date": "2026-10-22",
           "time": "22:19:43",
-          "language": "java"
-        },
-        {
-          "id": "2178710342",
-          "title": "Minimum Operations to Sort a Permutation",
-          "titleSlug": "minimum-operations-to-sort-a-permutation",
-          "timestamp": 1792663566,
-          "date": "2026-10-22",
-          "time": "15:36:06",
-          "language": "java"
-        },
-        {
-          "id": "2178128054",
-          "title": "Network Recovery Pathways",
-          "titleSlug": "network-recovery-pathways",
-          "timestamp": 1792599898,
-          "date": "2026-10-21",
-          "time": "21:54:58",
-          "language": "java"
-        },
-        {
-          "id": "2178120803",
-          "title": "Count Subarrays With Majority Element II",
-          "titleSlug": "count-subarrays-with-majority-element-ii",
-          "timestamp": 1792599451,
-          "date": "2026-10-21",
-          "time": "21:47:31",
           "language": "java"
         }
       ]
@@ -16745,7 +17453,7 @@
       "name": "Pragati GP",
       "department": "III CSD A",
       "streak": 18,
-      "totalActiveDays": 82,
+      "totalActiveDays": 83,
       "calendarCounts": {
         "1780012800": 2,
         "1780099200": 2,
@@ -16828,7 +17536,8 @@
         "1790035200": 1,
         "1790208000": 3,
         "1792368000": 6,
-        "1792454400": 2
+        "1792454400": 2,
+        "1793491200": 2
       },
       "recentAcceptedSubmissions": []
     },
@@ -18809,7 +19518,7 @@
       "name": "Santhosh Kanna",
       "department": "III CSD A",
       "streak": 62,
-      "totalActiveDays": 123,
+      "totalActiveDays": 124,
       "calendarCounts": {
         "1769299200": 37,
         "1769472000": 1,
@@ -18933,9 +19642,19 @@
         "1793059200": 1,
         "1793145600": 1,
         "1793318400": 3,
-        "1793404800": 1
+        "1793404800": 1,
+        "1793491200": 1
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2187157081",
+          "title": "Minimum Moves to Equal Array Elements",
+          "titleSlug": "minimum-moves-to-equal-array-elements",
+          "timestamp": 1793552400,
+          "date": "2026-11-01",
+          "time": "22:30:00",
+          "language": "java"
+        },
         {
           "id": "2186325570",
           "title": "Twisted Mirror Path Count",
@@ -19105,15 +19824,6 @@
           "timestamp": 1792255211,
           "date": "2026-10-17",
           "time": "22:10:11",
-          "language": "java"
-        },
-        {
-          "id": "2173978520",
-          "title": "Subarrays Distinct Element Sum of Squares II",
-          "titleSlug": "subarrays-distinct-element-sum-of-squares-ii",
-          "timestamp": 1792167623,
-          "date": "2026-10-16",
-          "time": "21:50:23",
           "language": "java"
         }
       ]
@@ -21817,7 +22527,7 @@
       "name": "Thiruvengadam D",
       "department": "III CSD A",
       "streak": 18,
-      "totalActiveDays": 108,
+      "totalActiveDays": 109,
       "calendarCounts": {
         "1767744000": 5,
         "1768089600": 22,
@@ -21926,9 +22636,46 @@
         "1792972800": 1,
         "1793059200": 1,
         "1793232000": 2,
-        "1793318400": 1
+        "1793318400": 1,
+        "1793491200": 4
       },
       "recentAcceptedSubmissions": [
+        {
+          "id": "2186982091",
+          "title": "Minimum Number of Pushes to Type Word I",
+          "titleSlug": "minimum-number-of-pushes-to-type-word-i",
+          "timestamp": 1793537647,
+          "date": "2026-11-01",
+          "time": "18:24:07",
+          "language": "java"
+        },
+        {
+          "id": "2186981520",
+          "title": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
+          "titleSlug": "find-the-minimum-and-maximum-number-of-nodes-between-critical-points",
+          "timestamp": 1793537592,
+          "date": "2026-11-01",
+          "time": "18:23:12",
+          "language": "java"
+        },
+        {
+          "id": "2186980812",
+          "title": "Maximum K to Sort a Permutation",
+          "titleSlug": "maximum-k-to-sort-a-permutation",
+          "timestamp": 1793537524,
+          "date": "2026-11-01",
+          "time": "18:22:04",
+          "language": "java"
+        },
+        {
+          "id": "2186979902",
+          "title": "Minimum Moves to Equal Array Elements",
+          "titleSlug": "minimum-moves-to-equal-array-elements",
+          "timestamp": 1793537434,
+          "date": "2026-11-01",
+          "time": "18:20:34",
+          "language": "java"
+        },
         {
           "id": "2184887374",
           "title": "Find Target Indices After Sorting Array",
@@ -22071,42 +22818,6 @@
           "timestamp": 1792483545,
           "date": "2026-10-20",
           "time": "13:35:45",
-          "language": "java"
-        },
-        {
-          "id": "2176878104",
-          "title": "Gray Code",
-          "titleSlug": "gray-code",
-          "timestamp": 1792483308,
-          "date": "2026-10-20",
-          "time": "13:31:48",
-          "language": "java"
-        },
-        {
-          "id": "2175569697",
-          "title": "Number of Ways to Reorder Array to Get Same BST",
-          "titleSlug": "number-of-ways-to-reorder-array-to-get-same-bst",
-          "timestamp": 1792342454,
-          "date": "2026-10-18",
-          "time": "22:24:14",
-          "language": "java"
-        },
-        {
-          "id": "2174765188",
-          "title": "Minimum Swaps to Sort by Digit Sum",
-          "titleSlug": "minimum-swaps-to-sort-by-digit-sum",
-          "timestamp": 1792258405,
-          "date": "2026-10-17",
-          "time": "23:03:25",
-          "language": "java"
-        },
-        {
-          "id": "2173955411",
-          "title": "Subarrays Distinct Element Sum of Squares II",
-          "titleSlug": "subarrays-distinct-element-sum-of-squares-ii",
-          "timestamp": 1792165849,
-          "date": "2026-10-16",
-          "time": "21:20:49",
           "language": "java"
         }
       ]
