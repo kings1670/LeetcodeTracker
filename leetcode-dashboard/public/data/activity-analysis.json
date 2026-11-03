@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-03T05:29:09.842861+05:30",
+  "generatedAt": "2026-11-04T03:55:54.231261+05:30",
   "analysisVersion": "1.0",
   "disclaimer": "These indicators describe observable submission activity patterns only. They do not establish whether the work was independently completed or whether any academic-integrity violation occurred.",
   "summary": {
     "totalStudentsAnalyzed": 123,
-    "totalSubmissionEventsAnalyzed": 7107,
-    "normalActivityStudents": 53,
-    "studentsWithReviewFlags": 70,
+    "totalSubmissionEventsAnalyzed": 7270,
+    "normalActivityStudents": 48,
+    "studentsWithReviewFlags": 75,
     "indicatorBreakdown": {
-      "Sudden Activity Burst": 31,
-      "Repeated Same-Time Pattern": 269,
-      "Large Gap Followed by Burst": 8,
+      "Sudden Activity Burst": 36,
+      "Repeated Same-Time Pattern": 282,
+      "Large Gap Followed by Burst": 12,
       "Very High Daily Activity": 0,
       "Unusual Difficulty Jump": 0
     }
@@ -585,7 +585,8 @@
         "2026-10-25": 1,
         "2026-10-28": 1,
         "2026-10-29": 1,
-        "2026-11-02": 1
+        "2026-11-02": 1,
+        "2026-11-03": 1
       },
       "hourlyActivity": {
         "00:00–00:59": 2,
@@ -598,7 +599,7 @@
         "10:00–10:59": 7,
         "11:00–11:59": 6,
         "12:00–12:59": 9,
-        "13:00–13:59": 9,
+        "13:00–13:59": 10,
         "14:00–14:59": 3,
         "15:00–15:59": 1,
         "18:00–18:59": 12,
@@ -1304,7 +1305,8 @@
         "2026-08-19": 1,
         "2026-08-20": 2,
         "2026-08-24": 1,
-        "2026-10-09": 2
+        "2026-10-09": 2,
+        "2026-11-03": 1
       },
       "hourlyActivity": {
         "12:00–12:59": 1,
@@ -1312,7 +1314,7 @@
         "14:00–14:59": 1,
         "20:00–20:59": 12,
         "21:00–21:59": 13,
-        "22:00–22:59": 7
+        "22:00–22:59": 8
       }
     },
     "310624150021": {
@@ -1520,13 +1522,14 @@
         "2026-10-29": 1,
         "2026-10-30": 1,
         "2026-10-31": 1,
-        "2026-11-02": 1
+        "2026-11-02": 1,
+        "2026-11-03": 1
       },
       "hourlyActivity": {
         "08:00–08:59": 24,
         "09:00–09:59": 10,
         "10:00–10:59": 8,
-        "11:00–11:59": 6,
+        "11:00–11:59": 7,
         "12:00–12:59": 7,
         "13:00–13:59": 2,
         "14:00–14:59": 9,
@@ -1756,7 +1759,8 @@
         "2026-10-29": 6,
         "2026-10-30": 1,
         "2026-11-01": 3,
-        "2026-11-02": 4
+        "2026-11-02": 4,
+        "2026-11-03": 1
       },
       "hourlyActivity": {
         "08:00–08:59": 17,
@@ -1769,7 +1773,7 @@
         "15:00–15:59": 7,
         "16:00–16:59": 1,
         "18:00–18:59": 3,
-        "19:00–19:59": 23,
+        "19:00–19:59": 24,
         "20:00–20:59": 27,
         "21:00–21:59": 28,
         "22:00–22:59": 18,
@@ -2918,7 +2922,8 @@
         "2026-10-30": 2,
         "2026-10-31": 1,
         "2026-11-01": 1,
-        "2026-11-02": 1
+        "2026-11-02": 1,
+        "2026-11-03": 1
       },
       "hourlyActivity": {
         "01:00–01:59": 1,
@@ -2936,7 +2941,7 @@
         "18:00–18:59": 11,
         "19:00–19:59": 27,
         "20:00–20:59": 36,
-        "21:00–21:59": 27,
+        "21:00–21:59": 28,
         "22:00–22:59": 96,
         "23:00–23:59": 1
       }
@@ -3678,8 +3683,15 @@
       "rollNumber": "310624150050",
       "name": "Thiruvengadam D",
       "username": "thiru_1726",
-      "activitySummary": "Normal Activity",
-      "activityFlags": [],
+      "activitySummary": "Review Indicators Present",
+      "activityFlags": [
+        {
+          "indicator": "Repeated Same-Time Pattern",
+          "level": "yellow",
+          "description": "5 accepted problems recorded between 22:00–22:59 IST on 2026-11-03.",
+          "requiresReview": true
+        }
+      ],
       "dailyActivity": {
         "2026-07-21": 1,
         "2026-07-22": 1,
@@ -3763,7 +3775,8 @@
         "2026-10-27": 1,
         "2026-10-29": 2,
         "2026-11-01": 4,
-        "2026-11-02": 2
+        "2026-11-02": 2,
+        "2026-11-03": 6
       },
       "hourlyActivity": {
         "08:00–08:59": 2,
@@ -3779,8 +3792,8 @@
         "19:00–19:59": 6,
         "20:00–20:59": 6,
         "21:00–21:59": 25,
-        "22:00–22:59": 22,
-        "23:00–23:59": 13
+        "22:00–22:59": 27,
+        "23:00–23:59": 14
       }
     },
     "310624150051": {
@@ -4894,7 +4907,8 @@
         "2026-09-10": 1,
         "2026-09-16": 1,
         "2026-09-17": 2,
-        "2026-11-01": 20
+        "2026-11-01": 20,
+        "2026-11-03": 4
       },
       "hourlyActivity": {
         "08:00–08:59": 2,
@@ -4902,7 +4916,7 @@
         "11:00–11:59": 1,
         "19:00–19:59": 2,
         "22:00–22:59": 22,
-        "23:00–23:59": 1
+        "23:00–23:59": 5
       }
     },
     "310625150009": {
@@ -4942,18 +4956,38 @@
       "rollNumber": "310625150011",
       "name": "Hareesh Ram V R",
       "username": "VRHareshRam",
-      "activitySummary": "Normal Activity",
-      "activityFlags": [],
+      "activitySummary": "Review Indicators Present",
+      "activityFlags": [
+        {
+          "indicator": "Sudden Activity Burst",
+          "level": "yellow",
+          "description": "20 accepted problems recorded within one calendar day (2026-11-03).",
+          "requiresReview": true
+        },
+        {
+          "indicator": "Repeated Same-Time Pattern",
+          "level": "yellow",
+          "description": "20 accepted problems recorded between 11:00–11:59 IST on 2026-11-03.",
+          "requiresReview": true
+        },
+        {
+          "indicator": "Large Gap Followed by Burst",
+          "level": "orange",
+          "description": "52 consecutive inactive days followed by 20 accepted problems on 2026-11-03.",
+          "requiresReview": true
+        }
+      ],
       "dailyActivity": {
         "2026-07-20": 1,
         "2026-09-08": 1,
         "2026-09-09": 1,
-        "2026-09-11": 1
+        "2026-09-11": 1,
+        "2026-11-03": 20
       },
       "hourlyActivity": {
         "08:00–08:59": 1,
         "09:00–09:59": 1,
-        "11:00–11:59": 1,
+        "11:00–11:59": 21,
         "12:00–12:59": 1
       }
     },
@@ -5140,6 +5174,12 @@
           "requiresReview": true
         },
         {
+          "indicator": "Repeated Same-Time Pattern",
+          "level": "yellow",
+          "description": "11 accepted problems recorded between 23:00–23:59 IST on 2026-11-03.",
+          "requiresReview": true
+        },
+        {
           "indicator": "Large Gap Followed by Burst",
           "level": "orange",
           "description": "53 consecutive inactive days followed by 20 accepted problems on 2026-11-01.",
@@ -5151,14 +5191,16 @@
         "2026-07-21": 1,
         "2026-08-24": 1,
         "2026-09-08": 1,
-        "2026-11-01": 20
+        "2026-11-01": 20,
+        "2026-11-03": 11
       },
       "hourlyActivity": {
         "08:00–08:59": 1,
         "10:00–10:59": 1,
         "14:00–14:59": 1,
         "15:00–15:59": 1,
-        "21:00–21:59": 20
+        "21:00–21:59": 20,
+        "23:00–23:59": 11
       }
     },
     "310625150017": {
@@ -5624,9 +5666,27 @@
       "activitySummary": "Review Indicators Present",
       "activityFlags": [
         {
+          "indicator": "Sudden Activity Burst",
+          "level": "yellow",
+          "description": "20 accepted problems recorded within one calendar day (2026-11-03).",
+          "requiresReview": true
+        },
+        {
           "indicator": "Repeated Same-Time Pattern",
           "level": "yellow",
           "description": "9 accepted problems recorded between 13:00–13:59 IST on 2026-07-12.",
+          "requiresReview": true
+        },
+        {
+          "indicator": "Repeated Same-Time Pattern",
+          "level": "yellow",
+          "description": "20 accepted problems recorded between 23:00–23:59 IST on 2026-11-03.",
+          "requiresReview": true
+        },
+        {
+          "indicator": "Large Gap Followed by Burst",
+          "level": "orange",
+          "description": "52 consecutive inactive days followed by 20 accepted problems on 2026-11-03.",
           "requiresReview": true
         }
       ],
@@ -5639,7 +5699,8 @@
         "2026-09-08": 1,
         "2026-09-09": 5,
         "2026-09-10": 1,
-        "2026-09-11": 1
+        "2026-09-11": 1,
+        "2026-11-03": 20
       },
       "hourlyActivity": {
         "08:00–08:59": 4,
@@ -5649,7 +5710,8 @@
         "13:00–13:59": 9,
         "14:00–14:59": 2,
         "15:00–15:59": 2,
-        "22:00–22:59": 3
+        "22:00–22:59": 3,
+        "23:00–23:59": 20
       }
     },
     "310625150027": {
@@ -5679,8 +5741,27 @@
       "rollNumber": "310625150028",
       "name": "Mohamed Faizul K B",
       "username": "mohamed_faizul786",
-      "activitySummary": "Normal Activity",
-      "activityFlags": [],
+      "activitySummary": "Review Indicators Present",
+      "activityFlags": [
+        {
+          "indicator": "Sudden Activity Burst",
+          "level": "yellow",
+          "description": "20 accepted problems recorded within one calendar day (2026-11-03).",
+          "requiresReview": true
+        },
+        {
+          "indicator": "Repeated Same-Time Pattern",
+          "level": "yellow",
+          "description": "16 accepted problems recorded between 12:00–12:59 IST on 2026-11-03.",
+          "requiresReview": true
+        },
+        {
+          "indicator": "Large Gap Followed by Burst",
+          "level": "orange",
+          "description": "46 consecutive inactive days followed by 20 accepted problems on 2026-11-03.",
+          "requiresReview": true
+        }
+      ],
       "dailyActivity": {
         "2026-07-21": 1,
         "2026-07-23": 2,
@@ -5692,14 +5773,16 @@
         "2026-09-09": 3,
         "2026-09-10": 1,
         "2026-09-16": 1,
-        "2026-09-17": 1
+        "2026-09-17": 1,
+        "2026-11-03": 20
       },
       "hourlyActivity": {
         "07:00–07:59": 1,
         "08:00–08:59": 2,
         "09:00–09:59": 1,
         "10:00–10:59": 1,
-        "11:00–11:59": 1,
+        "11:00–11:59": 5,
+        "12:00–12:59": 16,
         "13:00–13:59": 2,
         "14:00–14:59": 4,
         "15:00–15:59": 1,
@@ -5832,6 +5915,12 @@
           "level": "yellow",
           "description": "5 accepted problems recorded between 19:00–19:59 IST on 2026-10-31.",
           "requiresReview": true
+        },
+        {
+          "indicator": "Repeated Same-Time Pattern",
+          "level": "yellow",
+          "description": "8 accepted problems recorded between 22:00–22:59 IST on 2026-11-03.",
+          "requiresReview": true
         }
       ],
       "dailyActivity": {
@@ -5846,7 +5935,8 @@
         "2026-09-09": 1,
         "2026-10-08": 1,
         "2026-10-31": 5,
-        "2026-11-01": 4
+        "2026-11-01": 4,
+        "2026-11-03": 8
       },
       "hourlyActivity": {
         "08:00–08:59": 3,
@@ -5858,7 +5948,7 @@
         "19:00–19:59": 5,
         "20:00–20:59": 10,
         "21:00–21:59": 7,
-        "22:00–22:59": 1
+        "22:00–22:59": 9
       }
     },
     "310625150033": {
@@ -5871,6 +5961,12 @@
           "indicator": "Sudden Activity Burst",
           "level": "yellow",
           "description": "17 accepted problems recorded within one calendar day (2026-07-12).",
+          "requiresReview": true
+        },
+        {
+          "indicator": "Sudden Activity Burst",
+          "level": "yellow",
+          "description": "20 accepted problems recorded within one calendar day (2026-11-03).",
           "requiresReview": true
         },
         {
@@ -5890,6 +5986,24 @@
           "level": "yellow",
           "description": "8 accepted problems recorded between 23:00–23:59 IST on 2026-11-02.",
           "requiresReview": true
+        },
+        {
+          "indicator": "Repeated Same-Time Pattern",
+          "level": "yellow",
+          "description": "8 accepted problems recorded between 11:00–11:59 IST on 2026-11-03.",
+          "requiresReview": true
+        },
+        {
+          "indicator": "Repeated Same-Time Pattern",
+          "level": "yellow",
+          "description": "7 accepted problems recorded between 22:00–22:59 IST on 2026-11-03.",
+          "requiresReview": true
+        },
+        {
+          "indicator": "Repeated Same-Time Pattern",
+          "level": "yellow",
+          "description": "5 accepted problems recorded between 23:00–23:59 IST on 2026-11-03.",
+          "requiresReview": true
         }
       ],
       "dailyActivity": {
@@ -5898,16 +6012,19 @@
         "2026-08-04": 1,
         "2026-08-09": 1,
         "2026-09-16": 1,
-        "2026-11-02": 8
+        "2026-11-02": 8,
+        "2026-11-03": 20
       },
       "hourlyActivity": {
         "09:00–09:59": 1,
+        "11:00–11:59": 8,
         "12:00–12:59": 1,
         "13:00–13:59": 1,
         "14:00–14:59": 1,
         "16:00–16:59": 11,
         "17:00–17:59": 6,
-        "23:00–23:59": 8
+        "22:00–22:59": 7,
+        "23:00–23:59": 13
       }
     },
     "310625150034": {
@@ -5917,9 +6034,27 @@
       "activitySummary": "Review Indicators Present",
       "activityFlags": [
         {
+          "indicator": "Sudden Activity Burst",
+          "level": "yellow",
+          "description": "20 accepted problems recorded within one calendar day (2026-11-03).",
+          "requiresReview": true
+        },
+        {
           "indicator": "Repeated Same-Time Pattern",
           "level": "yellow",
           "description": "8 accepted problems recorded between 22:00–22:59 IST on 2026-11-02.",
+          "requiresReview": true
+        },
+        {
+          "indicator": "Repeated Same-Time Pattern",
+          "level": "yellow",
+          "description": "10 accepted problems recorded between 12:00–12:59 IST on 2026-11-03.",
+          "requiresReview": true
+        },
+        {
+          "indicator": "Repeated Same-Time Pattern",
+          "level": "yellow",
+          "description": "8 accepted problems recorded between 21:00–21:59 IST on 2026-11-03.",
           "requiresReview": true
         }
       ],
@@ -5927,11 +6062,15 @@
         "2025-10-30": 2,
         "2026-07-16": 3,
         "2026-09-11": 1,
-        "2026-11-02": 9
+        "2026-11-02": 9,
+        "2026-11-03": 20
       },
       "hourlyActivity": {
         "10:00–10:59": 1,
         "11:00–11:59": 5,
+        "12:00–12:59": 10,
+        "20:00–20:59": 2,
+        "21:00–21:59": 8,
         "22:00–22:59": 8,
         "23:00–23:59": 1
       }
@@ -6197,7 +6336,8 @@
         "2026-09-30": 1,
         "2026-10-01": 1,
         "2026-10-20": 1,
-        "2026-11-02": 1
+        "2026-11-02": 1,
+        "2026-11-03": 1
       },
       "hourlyActivity": {
         "08:00–08:59": 2,
@@ -6209,7 +6349,7 @@
         "20:00–20:59": 7,
         "21:00–21:59": 13,
         "22:00–22:59": 13,
-        "23:00–23:59": 1
+        "23:00–23:59": 2
       }
     },
     "310625150042": {
@@ -6256,7 +6396,8 @@
         "2026-09-16": 1,
         "2026-10-01": 3,
         "2026-10-27": 1,
-        "2026-11-01": 20
+        "2026-11-01": 20,
+        "2026-11-03": 3
       },
       "hourlyActivity": {
         "06:00–06:59": 1,
@@ -6266,7 +6407,8 @@
         "18:00–18:59": 3,
         "19:00–19:59": 13,
         "20:00–20:59": 4,
-        "21:00–21:59": 24
+        "21:00–21:59": 24,
+        "22:00–22:59": 3
       }
     },
     "310625150043": {
@@ -6467,8 +6609,21 @@
       "rollNumber": "310625150047",
       "name": "Saravanakumar V",
       "username": "saravana_tanjiro",
-      "activitySummary": "Normal Activity",
-      "activityFlags": [],
+      "activitySummary": "Review Indicators Present",
+      "activityFlags": [
+        {
+          "indicator": "Repeated Same-Time Pattern",
+          "level": "yellow",
+          "description": "10 accepted problems recorded between 21:00–21:59 IST on 2026-11-03.",
+          "requiresReview": true
+        },
+        {
+          "indicator": "Large Gap Followed by Burst",
+          "level": "orange",
+          "description": "52 consecutive inactive days followed by 10 accepted problems on 2026-11-03.",
+          "requiresReview": true
+        }
+      ],
       "dailyActivity": {
         "2026-06-15": 1,
         "2026-06-16": 1,
@@ -6487,7 +6642,8 @@
         "2026-07-16": 4,
         "2026-07-23": 1,
         "2026-07-28": 1,
-        "2026-09-11": 1
+        "2026-09-11": 1,
+        "2026-11-03": 10
       },
       "hourlyActivity": {
         "09:00–09:59": 2,
@@ -6498,7 +6654,8 @@
         "17:00–17:59": 2,
         "18:00–18:59": 1,
         "19:00–19:59": 4,
-        "20:00–20:59": 1
+        "20:00–20:59": 1,
+        "21:00–21:59": 10
       }
     },
     "310625150048": {
@@ -6904,13 +7061,15 @@
         "2026-09-08": 1,
         "2026-09-09": 1,
         "2026-09-21": 3,
-        "2026-11-01": 20
+        "2026-11-01": 20,
+        "2026-11-03": 3
       },
       "hourlyActivity": {
         "08:00–08:59": 2,
         "09:00–09:59": 1,
         "10:00–10:59": 2,
         "11:00–11:59": 12,
+        "12:00–12:59": 3,
         "14:00–14:59": 4,
         "21:00–21:59": 20,
         "22:00–22:59": 2
@@ -7078,11 +7237,13 @@
       ],
       "dailyActivity": {
         "2026-11-01": 20,
-        "2026-11-02": 18
+        "2026-11-02": 18,
+        "2026-11-03": 7
       },
       "hourlyActivity": {
-        "10:00–10:59": 2,
+        "10:00–10:59": 6,
         "11:00–11:59": 8,
+        "18:00–18:59": 3,
         "20:00–20:59": 18,
         "23:00–23:59": 10
       }
@@ -7133,8 +7294,15 @@
       "rollNumber": "310625150060",
       "name": "Vishal Vedanth M P",
       "username": "orrBi7Z7jN",
-      "activitySummary": "Normal Activity",
-      "activityFlags": [],
+      "activitySummary": "Review Indicators Present",
+      "activityFlags": [
+        {
+          "indicator": "Repeated Same-Time Pattern",
+          "level": "yellow",
+          "description": "5 accepted problems recorded between 17:00–17:59 IST on 2026-11-03.",
+          "requiresReview": true
+        }
+      ],
       "dailyActivity": {
         "2026-07-21": 1,
         "2026-07-28": 2,
@@ -7157,7 +7325,8 @@
         "2026-10-13": 1,
         "2026-10-15": 1,
         "2026-10-18": 1,
-        "2026-10-20": 1
+        "2026-10-20": 1,
+        "2026-11-03": 5
       },
       "hourlyActivity": {
         "00:00–00:59": 2,
@@ -7168,7 +7337,7 @@
         "14:00–14:59": 1,
         "15:00–15:59": 2,
         "16:00–16:59": 1,
-        "17:00–17:59": 2,
+        "17:00–17:59": 7,
         "18:00–18:59": 1,
         "20:00–20:59": 5,
         "21:00–21:59": 3,
